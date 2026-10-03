@@ -62,7 +62,7 @@
           "content_width": "boxed",
           "boxed_width": {
             "unit": "px",
-            "size": 1340
+            "size": 1360
           },
           "width": {
             "unit": "%",
@@ -70,7 +70,7 @@
           },
           "max_width": {
             "unit": "px",
-            "size": 1340
+            "size": 1360
           },
           "flex_direction": "row",
           "justify_content": "space-between",
@@ -79,9 +79,9 @@
           "padding": {
             "unit": "px",
             "top": "0",
-            "right": "30",
+            "right": "10",
             "bottom": "0",
-            "left": "30",
+            "left": "10",
             "isLinked": false
           },
           "gap": {
@@ -90,7 +90,7 @@
             "row": "40",
             "isLinked": false
           },
-          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1340px !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n    }\n}"
+          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1360px !important;\n    margin: 0 auto !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n    }\n}"
         },
         "elements": [
           {
@@ -117,7 +117,7 @@
                 "id": "hero_badge_widget",
                 "elType": "widget",
                 "settings": {
-                  "html": "<div style=\"display:inline-flex; align-items:center; gap:8px; padding:5px 14px; border-radius:4px; background:rgba(22, 139, 141, 0.12); border:1px solid rgba(45, 212, 191, 0.3); font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#2DD4BF; font-family:'Plus Jakarta Sans', sans-serif;\"><span style=\"width:6px; height:6px; border-radius:50%; background:#2DD4BF; box-shadow:0 0 6px #2DD4BF; display:inline-block;\"></span> TRADING &bull; SUPPLY &bull; COMMERCIAL BROKERAGE &bull; INVESTMENT &amp; ADVISORY</div>"
+                  "html": "<div style=\"display:inline-flex; align-items:center; gap:8px; padding:5px 14px; border-radius:3px; background:rgba(22, 139, 141, 0.12); border:1px solid rgba(45, 212, 191, 0.3); font-size:10.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#2DD4BF; font-family:'Plus Jakarta Sans', sans-serif;\"><span style=\"width:6px; height:6px; border-radius:50%; background:#2DD4BF; box-shadow:0 0 6px #2DD4BF; display:inline-block;\"></span> TRADING &bull; SUPPLY &bull; COMMERCIAL BROKERAGE &bull; INVESTMENT &amp; ADVISORY</div>"
                 },
                 "elements": [],
                 "widgetType": "html"
@@ -133,20 +133,20 @@
                   "typography_font_family": "Cormorant Garamond",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 58
+                    "size": 62
                   },
                   "typography_font_size_tablet": {
                     "unit": "px",
-                    "size": 44
+                    "size": 46
                   },
                   "typography_font_size_mobile": {
                     "unit": "px",
-                    "size": 32
+                    "size": 34
                   },
-                  "typography_font_weight": "600",
+                  "typography_font_weight": "400",
                   "typography_line_height": {
                     "unit": "em",
-                    "size": 1.15
+                    "size": 1.14
                   },
                   "typography_letter_spacing": {
                     "unit": "px",
@@ -200,7 +200,7 @@
                 "id": "hero_buttons_html_widget",
                 "elType": "widget",
                 "settings": {
-                  "html": "<div class=\"axela-hero-btn-row\">\n  <a href=\"#enquiry\" class=\"axela-hero-btn axela-btn-teal\">\n    <span>Submit a Trade Enquiry</span>\n  </a>\n  <a href=\"#services\" class=\"axela-hero-btn axela-btn-glass\">\n    <span>Discuss a Supply Requirement</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n  <a href=\"#investment\" class=\"axela-hero-btn axela-btn-gold\">\n    <span>Explore Investment Opportunities</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n</div>\n\n<style>\n.axela-hero-btn-row {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin-top: 14px !important;\n  width: 100% !important;\n}\n.axela-hero-btn {\n  display: inline-flex !important;\n  align-items: center !important;\n  gap: 8px !important;\n  padding: 12px 20px !important;\n  border-radius: 4px !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 13px !important;\n  font-weight: 600 !important;\n  text-decoration: none !important;\n  white-space: nowrap !important;\n  flex-shrink: 0 !important;\n  transition: all 0.25s ease !important;\n  box-sizing: border-box !important;\n}\n.axela-btn-teal {\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.4) !important;\n}\n.axela-btn-teal:hover {\n  background: #1A9D9F !important;\n  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-glass {\n  background: rgba(255, 255, 255, 0.05) !important;\n  color: #E2E8F0 !important;\n  border: 1px solid rgba(255, 255, 255, 0.22) !important;\n  font-weight: 500 !important;\n}\n.axela-btn-glass:hover {\n  background: rgba(255, 255, 255, 0.12) !important;\n  border-color: rgba(255, 255, 255, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-gold {\n  background: rgba(229, 169, 60, 0.10) !important;\n  color: #E5A93C !important;\n  border: 1.5px solid #E5A93C !important;\n  font-weight: 600 !important;\n}\n.axela-btn-gold:hover {\n  background: rgba(229, 169, 60, 0.22) !important;\n  border-color: #F5BA42 !important;\n  color: #FFD269 !important;\n  box-shadow: 0 0 16px rgba(229, 169, 60, 0.35) !important;\n}\n.btn-arrow {\n  font-size: 14px !important;\n  transition: transform 0.2s ease !important;\n}\n.axela-hero-btn:hover .btn-arrow {\n  transform: translateX(3px) !important;\n}\n@media (max-width: 991px) {\n  .axela-hero-btn-row {\n    flex-wrap: wrap !important;\n  }\n}\n</style>"
+                  "html": "<div class=\"axela-hero-btn-row\">\n  <a href=\"#enquiry\" class=\"axela-hero-btn axela-btn-teal\">\n    <span>SUBMIT A TRADE ENQUIRY</span>\n  </a>\n  <a href=\"#services\" class=\"axela-hero-btn axela-btn-glass\">\n    <span>DISCUSS A SUPPLY REQUIREMENT</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n  <a href=\"#investment\" class=\"axela-hero-btn axela-btn-gold\">\n    <span>EXPLORE INVESTMENT OPPORTUNITIES</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n</div>\n\n<style>\n.axela-hero-btn-row {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin-top: 16px !important;\n  width: 100% !important;\n}\n.axela-hero-btn {\n  display: inline-flex !important;\n  align-items: center !important;\n  gap: 8px !important;\n  padding: 12px 20px !important;\n  border-radius: 3px !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 11.5px !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.10em !important;\n  text-transform: uppercase !important;\n  text-decoration: none !important;\n  white-space: nowrap !important;\n  flex-shrink: 0 !important;\n  transition: all 0.25s ease !important;\n  box-sizing: border-box !important;\n}\n.axela-btn-teal {\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.4) !important;\n}\n.axela-btn-teal:hover {\n  background: #1A9D9F !important;\n  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-glass {\n  background: rgba(255, 255, 255, 0.05) !important;\n  color: #E2E8F0 !important;\n  border: 1px solid rgba(255, 255, 255, 0.22) !important;\n  font-weight: 600 !important;\n}\n.axela-btn-glass:hover {\n  background: rgba(255, 255, 255, 0.12) !important;\n  border-color: rgba(255, 255, 255, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-gold {\n  background: rgba(229, 169, 60, 0.08) !important;\n  color: #E5A93C !important;\n  border: 1.5px solid #E5A93C !important;\n  font-weight: 700 !important;\n}\n.axela-btn-gold:hover {\n  background: rgba(229, 169, 60, 0.20) !important;\n  border-color: #F5BA42 !important;\n  color: #FFD269 !important;\n  box-shadow: 0 0 16px rgba(229, 169, 60, 0.35) !important;\n}\n.btn-arrow {\n  font-size: 13px !important;\n  transition: transform 0.2s ease !important;\n}\n.axela-hero-btn:hover .btn-arrow {\n  transform: translateX(3px) !important;\n}\n@media (max-width: 991px) {\n  .axela-hero-btn-row {\n    flex-wrap: wrap !important;\n  }\n}\n</style>"
                 },
                 "elements": [],
                 "widgetType": "html"
@@ -227,7 +227,7 @@
                 "id": "hero_stats_widget",
                 "elType": "widget",
                 "settings": {
-                  "html": "<div class=\"axela-hero-stats-wrap\">\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">20M</div>\n    <div class=\"stat-lbl\">MT MOVED IN 2025</div>\n  </div>\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">70+</div>\n    <div class=\"stat-lbl\">BANKING PARTNERS</div>\n  </div>\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">70+</div>\n    <div class=\"stat-lbl\">REGULATORY BODIES</div>\n  </div>\n</div>\n\n<style>\n.axela-hero-stats-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 38px !important;\n  align-items: flex-end !important;\n  justify-content: center !important;\n  width: 100% !important;\n}\n.axela-stat-box {\n  text-align: right !important;\n  padding-right: 22px !important;\n  border-right: 2px solid #E5A93C !important;\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: flex-end !important;\n  transition: transform 0.25s ease !important;\n}\n.axela-stat-box:hover {\n  transform: translateX(-4px) !important;\n}\n.axela-stat-box .stat-num {\n  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif !important;\n  font-size: 56px !important;\n  font-weight: 600 !important;\n  line-height: 1 !important;\n  color: #E5A93C !important;\n  letter-spacing: -0.01em !important;\n  margin-bottom: 6px !important;\n  text-shadow: 0 0 25px rgba(229, 169, 60, 0.25) !important;\n}\n.axela-stat-box .stat-lbl {\n  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;\n  font-size: 11px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.14em !important;\n  text-transform: uppercase !important;\n  color: #94A3B8 !important;\n  white-space: nowrap !important;\n}\n@media (max-width: 991px) {\n  .axela-hero-stats-wrap {\n    flex-direction: row !important;\n    justify-content: space-around !important;\n    align-items: center !important;\n    gap: 16px !important;\n  }\n  .axela-stat-box {\n    align-items: center !important;\n    text-align: center !important;\n    padding-right: 14px !important;\n  }\n  .axela-stat-box .stat-num {\n    font-size: 38px !important;\n  }\n}\n</style>"
+                  "html": "<div class=\"axela-hero-stats-wrapper\">\n  <!-- Metric 1 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">20M</div>\n      <div class=\"stat-label-val\">MT MOVED IN 2025</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n\n  <!-- Metric 2 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">70+</div>\n      <div class=\"stat-label-val\">BANKING PARTNERS</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n\n  <!-- Metric 3 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">70+</div>\n      <div class=\"stat-label-val\">REGULATORY BODIES</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n</div>\n\n<style>\n.axela-hero-stats-wrapper {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 34px !important;\n  align-items: flex-end !important;\n  justify-content: center !important;\n  width: 100% !important;\n}\n\n.axela-stat-row {\n  display: flex !important;\n  flex-direction: row !important;\n  align-items: center !important;\n  justify-content: flex-end !important;\n  gap: 20px !important;\n  transition: transform 0.25s ease !important;\n}\n\n.axela-stat-row:hover {\n  transform: translateX(-3px) !important;\n}\n\n.axela-stat-text-side {\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: flex-end !important;\n  text-align: right !important;\n}\n\n.stat-number-val {\n  font-family: 'Cormorant Garamond', Georgia, serif !important;\n  font-size: 52px !important;\n  font-weight: 500 !important;\n  line-height: 1 !important;\n  color: #E5A93C !important;\n  letter-spacing: -0.01em !important;\n  margin-bottom: 5px !important;\n  text-shadow: 0 0 20px rgba(229, 169, 60, 0.20) !important;\n}\n\n.stat-label-val {\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 10.5px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.16em !important;\n  text-transform: uppercase !important;\n  color: #94A3B8 !important;\n  white-space: nowrap !important;\n}\n\n.axela-stat-line-side {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.stat-golden-bar {\n  display: block !important;\n  width: 1.5px !important;\n  height: 52px !important;\n  background: #E5A93C !important;\n  border-radius: 1px !important;\n  box-shadow: 0 0 6px rgba(229, 169, 60, 0.3) !important;\n}\n\n@media (max-width: 991px) {\n  .axela-hero-stats-wrapper {\n    flex-direction: row !important;\n    justify-content: space-around !important;\n    align-items: center !important;\n    gap: 16px !important;\n  }\n  .axela-stat-row {\n    gap: 12px !important;\n  }\n  .stat-number-val {\n    font-size: 38px !important;\n  }\n  .stat-golden-bar {\n    height: 40px !important;\n  }\n}\n</style>"
                 },
                 "elements": [],
                 "widgetType": "html"
