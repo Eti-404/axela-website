@@ -552,7 +552,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
-#about, #services, .axela-about-section, .axela-services-section, .axela-about-wrap, .axela-services-wrap {
+#about, #services, #products, #approach, .axela-about-section, .axela-services-section, .axela-products-section, .axela-approach-section {
   scroll-margin-top: 85px !important;
 }
 
@@ -1110,3 +1110,487 @@ html {
     text-align: center !important;
   }
 }
+
+/* ==========================================================================
+   6. Products and Trading Categories Section (#products)
+   ========================================================================== */
+.axela-products-section {
+  width: 100% !important;
+  background-color: #0A0F18 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-sizing: border-box !important;
+}
+
+.axela-products-wrap {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+}
+
+.axela-products-header {
+  text-align: center !important;
+  max-width: 820px !important;
+  margin: 0 auto 56px auto !important;
+}
+
+.axela-products-title {
+  font-family: var(--axela-font-heading);
+  font-size: 46px !important;
+  font-weight: 400 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.axela-products-subtitle {
+  font-family: var(--axela-font-body);
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #94A3B8 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+
+.axela-products-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 24px !important;
+  width: 100% !important;
+}
+
+.axela-product-card {
+  background: #0C131F !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border-radius: 4px !important;
+  padding: 28px 24px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-product-card:hover {
+  transform: translateY(-5px) !important;
+  border-color: rgba(229, 169, 60, 0.4) !important;
+  background: #0E1726 !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;
+}
+
+.product-card-top-line {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 2px !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.product-card-top-line.gold {
+  background: linear-gradient(90deg, transparent, #E5A93C, transparent) !important;
+}
+
+.product-card-top-line.teal {
+  background: linear-gradient(90deg, transparent, #1ABC9C, transparent) !important;
+}
+
+.axela-product-card:hover .product-card-top-line {
+  opacity: 1 !important;
+}
+
+.product-card-head {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 16px !important;
+}
+
+.product-category-code {
+  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.15em !important;
+}
+
+.product-category-code.gold {
+  color: #E5A93C !important;
+}
+
+.product-category-code.teal {
+  color: #1ABC9C !important;
+}
+
+.product-icon-wrap {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 4px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.25s ease !important;
+}
+
+.product-icon-wrap.gold {
+  background: rgba(229, 169, 60, 0.10) !important;
+  color: #E5A93C !important;
+  border: 1px solid rgba(229, 169, 60, 0.22) !important;
+}
+
+.product-icon-wrap.teal {
+  background: rgba(22, 139, 141, 0.12) !important;
+  color: #2DD4BF !important;
+  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+}
+
+.axela-product-card:hover .product-icon-wrap {
+  transform: scale(1.08) !important;
+}
+
+.product-title {
+  font-family: var(--axela-font-heading);
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.product-desc {
+  font-family: var(--axela-font-body);
+  font-size: 12.5px !important;
+  color: #94A3B8 !important;
+  line-height: 1.6 !important;
+  margin: 0 0 18px 0 !important;
+  min-height: 56px !important;
+}
+
+.product-chips-wrap {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  margin-bottom: 22px !important;
+}
+
+.product-chip {
+  font-family: var(--axela-font-body);
+  font-size: 11px !important;
+  color: #CBD5E1 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 3px !important;
+  padding: 4px 8px !important;
+  line-height: 1.3 !important;
+}
+
+.product-card-footer {
+  margin-top: auto !important;
+  padding-top: 14px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.product-action-link {
+  font-family: var(--axela-font-body);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  transition: all 0.25s ease !important;
+}
+
+.product-action-link.gold {
+  color: #E5A93C !important;
+}
+
+.product-action-link.gold:hover {
+  color: #F5BA42 !important;
+}
+
+.product-action-link.teal {
+  color: #2DD4BF !important;
+}
+
+.product-action-link.teal:hover {
+  color: #5EEAD4 !important;
+}
+
+.product-action-link .arrow {
+  transition: transform 0.2s ease !important;
+}
+
+.product-action-link:hover .arrow {
+  transform: translateX(4px) !important;
+}
+
+/* Protocol Callout Box */
+.axela-protocol-box {
+  margin-top: 48px !important;
+  width: 100% !important;
+  background: rgba(229, 169, 60, 0.04) !important;
+  border: 1px solid rgba(229, 169, 60, 0.22) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.protocol-accent-bar {
+  width: 4px !important;
+  background: #E5A93C !important;
+  flex-shrink: 0 !important;
+}
+
+.protocol-content {
+  padding: 20px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.protocol-head {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.protocol-icon-wrap {
+  color: #E5A93C !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.protocol-title {
+  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.16em !important;
+  color: #E5A93C !important;
+  text-transform: uppercase !important;
+}
+
+.protocol-text {
+  font-family: var(--axela-font-body);
+  font-size: 13.5px !important;
+  color: #CBD5E1 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+
+/* ==========================================================================
+   7. Our Working Approach Section (#approach)
+   ========================================================================== */
+.axela-approach-section {
+  width: 100% !important;
+  background-color: #070B11 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-sizing: border-box !important;
+}
+
+.axela-approach-wrap {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+}
+
+.axela-approach-header {
+  text-align: center !important;
+  max-width: 820px !important;
+  margin: 0 auto 56px auto !important;
+}
+
+.axela-approach-title {
+  font-family: var(--axela-font-heading);
+  font-size: 46px !important;
+  font-weight: 400 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.axela-approach-subtitle {
+  font-family: var(--axela-font-body);
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #94A3B8 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+
+.axela-pipeline-container {
+  width: 100% !important;
+  position: relative !important;
+}
+
+.axela-pipeline-grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 18px !important;
+  width: 100% !important;
+}
+
+.axela-step-card {
+  background: #0E1726 !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border-radius: 4px !important;
+  padding: 24px 20px !important;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-step-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(45, 212, 191, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+.step-num-badge {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  color: #2DD4BF !important;
+  line-height: 1 !important;
+  margin-bottom: 12px !important;
+  text-shadow: 0 0 18px rgba(45, 212, 191, 0.25) !important;
+}
+
+.step-phase-tag {
+  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  font-size: 9.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #64748B !important;
+  text-transform: uppercase !important;
+  margin-bottom: 8px !important;
+}
+
+.step-title {
+  font-family: var(--axela-font-heading);
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  margin: 0 0 10px 0 !important;
+  min-height: 48px !important;
+}
+
+.step-desc {
+  font-family: var(--axela-font-body);
+  font-size: 12px !important;
+  color: #94A3B8 !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+/* Approach Bottom Action Callout */
+.axela-approach-cta {
+  margin-top: 56px !important;
+  background: linear-gradient(135deg, rgba(22, 139, 141, 0.12) 0%, rgba(14, 23, 38, 0.8) 100%) !important;
+  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  border-radius: 4px !important;
+  padding: 36px 32px !important;
+  box-sizing: border-box !important;
+}
+
+.cta-inner {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 24px !important;
+  flex-wrap: wrap !important;
+}
+
+.cta-text-wrap {
+  max-width: 650px !important;
+}
+
+.cta-title {
+  font-family: var(--axela-font-heading);
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  margin: 0 0 8px 0 !important;
+}
+
+.cta-desc {
+  font-family: var(--axela-font-body);
+  font-size: 13.5px !important;
+  color: #CBD5E1 !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+.cta-btn-wrap {
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+  flex-wrap: wrap !important;
+}
+
+/* Media Queries for Products & Approach */
+@media (max-width: 1200px) {
+  .axela-pipeline-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .axela-products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .axela-pipeline-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .axela-products-title,
+  .axela-approach-title {
+    font-size: 34px !important;
+  }
+  .cta-inner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .product-desc {
+    min-height: auto !important;
+  }
+  .step-title {
+    min-height: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .axela-products-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .axela-pipeline-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .axela-products-title,
+  .axela-approach-title {
+    font-size: 30px !important;
+  }
+  .cta-btn-wrap {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .cta-btn-wrap .axela-hero-btn {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+}
+
