@@ -1,0 +1,57 @@
+/*
+Theme Name: Astra Child - AXELA LTD.
+Theme URI: https://axelaglobal.com/
+Description: Custom high-performance dark theme for AXELA LTD., inspired by institutional commodity trading houses.
+Author: AXELA LTD.
+Author URI: https://axelaglobal.com/
+Template: astra
+Version: 1.0.0
+Text Domain: astra-child
+*/
+
+:root {
+  --axela-bg-dark: #070B11;
+  --axela-bg-card: #0E1726;
+  --axela-bg-card-hover: #131F33;
+  --axela-border: rgba(255, 255, 255, 0.08);
+  --axela-border-red: rgba(229, 46, 46, 0.3);
+  --axela-red: #E52E2E;
+  --axela-red-hover: #C81E1E;
+  --axela-text-primary: #FFFFFF;
+  --axela-text-muted: #94A3B8;
+  --axela-accent-gold: #F59E0B;
+  --axela-accent-teal: #0EA5E9;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-color: var(--axela-bg-dark) !important;
+  color: var(--axela-text-muted) !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Sticky Header */
+.axela-sticky-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  transition: all 0.3s ease;
+}
+
+/* Nav Menu Styles */
+.axela-sticky-header .elementor-nav-menu--main a {
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+  transition: color 0.25s ease !important;
+}
+
+.axela-sticky-header .elementor-nav-menu--main a:hover {
+  color: #FFFFFF !important;
+}
