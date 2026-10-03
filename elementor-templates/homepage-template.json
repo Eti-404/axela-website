@@ -62,7 +62,7 @@
           "content_width": "boxed",
           "boxed_width": {
             "unit": "px",
-            "size": 1280
+            "size": 1300
           },
           "width": {
             "unit": "%",
@@ -70,12 +70,12 @@
           },
           "max_width": {
             "unit": "px",
-            "size": 1280
+            "size": 1300
           },
           "flex_direction": "row",
           "justify_content": "space-between",
           "align_items": "center",
-          "flex_wrap": "wrap",
+          "flex_wrap": "nowrap",
           "padding": {
             "unit": "px",
             "top": "0",
@@ -89,16 +89,18 @@
             "column": "40",
             "row": "40",
             "isLinked": false
-          }
+          },
+          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1300px !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n    }\n}"
         },
         "elements": [
           {
             "id": "axela_hero_left",
             "elType": "container",
             "settings": {
+              "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 72
+                "size": 65
               },
               "flex_direction": "column",
               "align_items": "flex-start",
@@ -107,14 +109,15 @@
                 "column": "0",
                 "row": "20",
                 "isLinked": false
-              }
+              },
+              "custom_css": "selector {\n    width: 65% !important;\n    max-width: 65% !important;\n    flex: 0 0 65% !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n    }\n}"
             },
             "elements": [
               {
                 "id": "hero_badge_widget",
                 "elType": "widget",
                 "settings": {
-                  "html": "<div class=\"axela-hero-badge\"><span class=\"badge-dot\"></span> Trading &bull; Supply &bull; Commercial Brokerage &bull; Investment &amp; Advisory</div>"
+                  "html": "<div style=\"display:inline-flex; align-items:center; gap:8px; padding:5px 14px; border-radius:4px; background:rgba(22, 139, 141, 0.12); border:1px solid rgba(45, 212, 191, 0.3); font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#2DD4BF; font-family:'Plus Jakarta Sans', sans-serif;\"><span style=\"width:6px; height:6px; border-radius:50%; background:#2DD4BF; box-shadow:0 0 6px #2DD4BF; display:inline-block;\"></span> TRADING &bull; SUPPLY &bull; COMMERCIAL BROKERAGE &bull; INVESTMENT &amp; ADVISORY</div>"
                 },
                 "elements": [],
                 "widgetType": "html"
@@ -130,15 +133,15 @@
                   "typography_font_family": "Cormorant Garamond",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 60
+                    "size": 58
                   },
                   "typography_font_size_tablet": {
                     "unit": "px",
-                    "size": 46
+                    "size": 44
                   },
                   "typography_font_size_mobile": {
                     "unit": "px",
-                    "size": 34
+                    "size": 32
                   },
                   "typography_font_weight": "600",
                   "typography_line_height": {
@@ -157,13 +160,13 @@
                 "id": "hero_intro_widget",
                 "elType": "widget",
                 "settings": {
-                  "editor": "<p style=\"font-size:17px; line-height:1.75; color:#E2E8F0; margin:0; font-weight:400; max-width:820px;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
+                  "editor": "<p style=\"font-size:16.5px; line-height:1.75; color:#E2E8F0; margin:0; font-family:'Plus Jakarta Sans', sans-serif; font-weight:400; max-width:760px;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
                   "text_color": "#E2E8F0",
                   "typography_typography": "custom",
                   "typography_font_family": "Plus Jakarta Sans",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 17
+                    "size": 16.5
                   },
                   "typography_line_height": {
                     "unit": "em",
@@ -177,13 +180,13 @@
                 "id": "hero_support_widget",
                 "elType": "widget",
                 "settings": {
-                  "editor": "<p style=\"font-size:15px; line-height:1.65; color:#94A3B8; margin:0; border-left:3px solid #168B8D; padding-left:18px; max-width:820px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
+                  "editor": "<p style=\"font-size:14.5px; line-height:1.65; color:#94A3B8; margin:0; border-left:3px solid #168B8D; padding-left:16px; font-family:'Plus Jakarta Sans', sans-serif; max-width:760px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
                   "text_color": "#94A3B8",
                   "typography_typography": "custom",
                   "typography_font_family": "Plus Jakarta Sans",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 15
+                    "size": 14.5
                   },
                   "typography_line_height": {
                     "unit": "em",
@@ -201,8 +204,8 @@
                   "flex_wrap": "wrap",
                   "gap": {
                     "unit": "px",
-                    "column": "14",
-                    "row": "14",
+                    "column": "12",
+                    "row": "12",
                     "isLinked": false
                   },
                   "margin": {
@@ -250,14 +253,14 @@
                       "typography_font_weight": "600",
                       "typography_font_size": {
                         "unit": "px",
-                        "size": 14
+                        "size": 13.5
                       },
                       "padding": {
                         "unit": "px",
-                        "top": "13",
-                        "right": "26",
-                        "bottom": "13",
-                        "left": "26",
+                        "top": "12",
+                        "right": "24",
+                        "bottom": "12",
+                        "left": "24",
                         "isLinked": false
                       }
                     },
@@ -299,14 +302,14 @@
                       "typography_font_weight": "500",
                       "typography_font_size": {
                         "unit": "px",
-                        "size": 14
+                        "size": 13.5
                       },
                       "padding": {
                         "unit": "px",
-                        "top": "13",
-                        "right": "24",
-                        "bottom": "13",
-                        "left": "24",
+                        "top": "12",
+                        "right": "22",
+                        "bottom": "12",
+                        "left": "22",
                         "isLinked": false
                       }
                     },
@@ -324,8 +327,8 @@
                         "nofollow": false
                       },
                       "size": "md",
-                      "button_text_color": "#E5A830",
-                      "background_color": "rgba(229, 168, 48, 0.08)",
+                      "button_text_color": "#E5A93C",
+                      "background_color": "rgba(229, 169, 60, 0.08)",
                       "border_border": "solid",
                       "border_width": {
                         "unit": "px",
@@ -335,7 +338,7 @@
                         "left": "1",
                         "isLinked": true
                       },
-                      "border_color": "rgba(229, 168, 48, 0.55)",
+                      "border_color": "#E5A93C",
                       "border_radius": {
                         "unit": "px",
                         "top": "4",
@@ -348,14 +351,14 @@
                       "typography_font_weight": "500",
                       "typography_font_size": {
                         "unit": "px",
-                        "size": 14
+                        "size": 13.5
                       },
                       "padding": {
                         "unit": "px",
-                        "top": "13",
-                        "right": "24",
-                        "bottom": "13",
-                        "left": "24",
+                        "top": "12",
+                        "right": "22",
+                        "bottom": "12",
+                        "left": "22",
                         "isLinked": false
                       }
                     },
@@ -372,20 +375,22 @@
             "id": "axela_hero_right_stats",
             "elType": "container",
             "settings": {
+              "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 24
+                "size": 35
               },
               "flex_direction": "column",
               "align_items": "flex-end",
-              "justify_content": "center"
+              "justify_content": "center",
+              "custom_css": "selector {\n    width: 35% !important;\n    max-width: 35% !important;\n    flex: 0 0 35% !important;\n    display: flex !important;\n    justify-content: flex-end !important;\n    align-items: center !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n        justify-content: center !important;\n        margin-top: 30px !important;\n    }\n}"
             },
             "elements": [
               {
                 "id": "hero_stats_widget",
                 "elType": "widget",
                 "settings": {
-                  "html": "<div class=\"axela-hero-stats-column\">\n  <div class=\"axela-stat-item\">\n    <div class=\"stat-number\">20M</div>\n    <div class=\"stat-label\">MT MOVED IN 2025</div>\n  </div>\n  <div class=\"axela-stat-item\">\n    <div class=\"stat-number\">70+</div>\n    <div class=\"stat-label\">BANKING PARTNERS</div>\n  </div>\n  <div class=\"axela-stat-item\">\n    <div class=\"stat-number\">70+</div>\n    <div class=\"stat-label\">REGULATORY BODIES</div>\n  </div>\n</div>"
+                  "html": "<div class=\"axela-hero-stats-wrap\">\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">20M</div>\n    <div class=\"stat-lbl\">MT MOVED IN 2025</div>\n  </div>\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">70+</div>\n    <div class=\"stat-lbl\">BANKING PARTNERS</div>\n  </div>\n  <div class=\"axela-stat-box\">\n    <div class=\"stat-num\">70+</div>\n    <div class=\"stat-lbl\">REGULATORY BODIES</div>\n  </div>\n</div>\n\n<style>\n.axela-hero-stats-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 38px !important;\n  align-items: flex-end !important;\n  justify-content: center !important;\n  width: 100% !important;\n}\n.axela-stat-box {\n  text-align: right !important;\n  padding-right: 22px !important;\n  border-right: 2px solid #E5A93C !important;\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: flex-end !important;\n  transition: transform 0.25s ease !important;\n}\n.axela-stat-box:hover {\n  transform: translateX(-4px) !important;\n}\n.axela-stat-box .stat-num {\n  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif !important;\n  font-size: 56px !important;\n  font-weight: 600 !important;\n  line-height: 1 !important;\n  color: #E5A93C !important;\n  letter-spacing: -0.01em !important;\n  margin-bottom: 6px !important;\n  text-shadow: 0 0 25px rgba(229, 169, 60, 0.25) !important;\n}\n.axela-stat-box .stat-lbl {\n  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;\n  font-size: 11px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.14em !important;\n  text-transform: uppercase !important;\n  color: #94A3B8 !important;\n  white-space: nowrap !important;\n}\n@media (max-width: 991px) {\n  .axela-hero-stats-wrap {\n    flex-direction: row !important;\n    justify-content: space-around !important;\n    align-items: center !important;\n    gap: 16px !important;\n  }\n  .axela-stat-box {\n    align-items: center !important;\n    text-align: center !important;\n    padding-right: 14px !important;\n  }\n  .axela-stat-box .stat-num {\n    font-size: 38px !important;\n  }\n}\n</style>"
                 },
                 "elements": [],
                 "widgetType": "html"
