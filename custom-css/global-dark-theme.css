@@ -547,3 +547,566 @@ ul.elementor-nav-menu a.elementor-item {
     font-size: 38px !important;
   }
 }
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+#about, #services, .axela-about-section, .axela-services-section, .axela-about-wrap, .axela-services-wrap {
+  scroll-margin-top: 85px !important;
+}
+
+/* ==========================================================================
+   4. About AXELA LTD. Section (#about)
+   ========================================================================== */
+.axela-about-section {
+  width: 100% !important;
+  background-color: #0A0F18 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-sizing: border-box !important;
+}
+
+.axela-about-wrap {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+}
+
+.axela-about-grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 56px !important;
+  width: 100% !important;
+}
+
+.axela-about-col-left {
+  flex: 0 0 52% !important;
+  max-width: 52% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.axela-section-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-bottom: 18px !important;
+}
+
+.axela-section-badge.center {
+  justify-content: center !important;
+}
+
+.badge-line {
+  display: inline-block !important;
+  width: 28px !important;
+  height: 1.5px !important;
+}
+
+.badge-line.gold {
+  background: #E5A93C !important;
+}
+
+.badge-line.teal {
+  background: #1ABC9C !important;
+}
+
+.badge-text {
+  font-family: var(--axela-font-body);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+}
+
+.badge-text.gold {
+  color: #E5A93C !important;
+}
+
+.badge-text.teal {
+  color: #1ABC9C !important;
+}
+
+.axela-section-title {
+  font-family: var(--axela-font-heading);
+  font-size: 46px !important;
+  font-weight: 400 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 22px 0 !important;
+}
+
+.axela-about-narrative {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  margin-bottom: 26px !important;
+}
+
+.narrative-lead {
+  font-family: var(--axela-font-body);
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  color: #E2E8F0 !important;
+  margin: 0 !important;
+}
+
+.narrative-body {
+  font-family: var(--axela-font-body);
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.7 !important;
+  color: #94A3B8 !important;
+  margin: 0 !important;
+}
+
+.axela-about-quote-box {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  background: rgba(22, 139, 141, 0.06) !important;
+  border: 1px solid rgba(45, 212, 191, 0.15) !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+  margin-bottom: 30px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.quote-accent-bar {
+  width: 4px !important;
+  background: #168B8D !important;
+  flex-shrink: 0 !important;
+}
+
+.quote-content {
+  padding: 16px 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+}
+
+.quote-text {
+  font-family: var(--axela-font-heading);
+  font-size: 17px !important;
+  font-style: italic !important;
+  color: #CBD5E1 !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+.quote-author {
+  font-family: var(--axela-font-body);
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: #2DD4BF !important;
+}
+
+.axela-about-actions {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 20px !important;
+  flex-wrap: wrap !important;
+}
+
+.axela-action-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-family: var(--axela-font-body);
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.10em !important;
+  text-transform: uppercase !important;
+  color: #2DD4BF !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease !important;
+}
+
+.axela-action-link:hover {
+  color: #5EEAD4 !important;
+}
+
+.axela-action-link .link-arrow {
+  transition: transform 0.25s ease !important;
+}
+
+.axela-action-link:hover .link-arrow {
+  transform: translateX(4px) !important;
+}
+
+.axela-action-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 3px !important;
+  color: #E2E8F0 !important;
+  font-family: var(--axela-font-body);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.10em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  padding: 10px 18px !important;
+  transition: all 0.25s ease !important;
+}
+
+.axela-action-btn:hover {
+  background: #168B8D !important;
+  border-color: rgba(45, 212, 191, 0.4) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 14px rgba(22, 139, 141, 0.4) !important;
+}
+
+.axela-about-col-right {
+  flex: 0 0 45% !important;
+  max-width: 45% !important;
+}
+
+.axela-pillars-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 20px !important;
+  width: 100% !important;
+}
+
+.axela-pillar-card {
+  background: #0E1726 !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border-radius: 4px !important;
+  padding: 24px 20px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-pillar-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(229, 169, 60, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+.pillar-card-glow {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 2px !important;
+  background: linear-gradient(90deg, transparent, #E5A93C, transparent) !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.axela-pillar-card:hover .pillar-card-glow {
+  opacity: 1 !important;
+}
+
+.pillar-icon-wrap {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 4px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 14px !important;
+}
+
+.pillar-icon-wrap.gold {
+  background: rgba(229, 169, 60, 0.12) !important;
+  color: #E5A93C !important;
+  border: 1px solid rgba(229, 169, 60, 0.25) !important;
+}
+
+.pillar-icon-wrap.teal {
+  background: rgba(22, 139, 141, 0.15) !important;
+  color: #2DD4BF !important;
+  border: 1px solid rgba(45, 212, 191, 0.3) !important;
+}
+
+.pillar-tag {
+  display: block !important;
+  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  font-size: 9.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #64748B !important;
+  text-transform: uppercase !important;
+  margin-bottom: 8px !important;
+}
+
+.pillar-title {
+  font-family: var(--axela-font-heading);
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+.pillar-desc {
+  font-family: var(--axela-font-body);
+  font-size: 12.5px !important;
+  color: #94A3B8 !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+/* ==========================================================================
+   5. Our Services Section (#services)
+   ========================================================================== */
+.axela-services-section {
+  width: 100% !important;
+  background-color: #070B11 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-sizing: border-box !important;
+}
+
+.axela-services-wrap {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+}
+
+.axela-services-header {
+  text-align: center !important;
+  max-width: 820px !important;
+  margin: 0 auto 56px auto !important;
+}
+
+.axela-services-title {
+  font-family: var(--axela-font-heading);
+  font-size: 46px !important;
+  font-weight: 400 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.axela-services-subtitle {
+  font-family: var(--axela-font-body);
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #94A3B8 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+
+.axela-services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 22px !important;
+  width: 100% !important;
+}
+
+.axela-service-card {
+  background: #0C131F !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border-radius: 4px !important;
+  padding: 28px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-service-card:hover {
+  transform: translateY(-5px) !important;
+  border-color: rgba(45, 212, 191, 0.4) !important;
+  background: #0E1726 !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;
+}
+
+.service-card-top-line {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 2px !important;
+  background: linear-gradient(90deg, transparent, #1ABC9C, transparent) !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.axela-service-card:hover .service-card-top-line {
+  opacity: 1 !important;
+}
+
+.service-card-head {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 16px !important;
+}
+
+.service-number {
+  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.15em !important;
+  color: #1ABC9C !important;
+}
+
+.service-icon-box {
+  color: #64748B !important;
+  transition: color 0.25s ease, transform 0.25s ease !important;
+}
+
+.axela-service-card:hover .service-icon-box {
+  color: #2DD4BF !important;
+  transform: scale(1.1) !important;
+}
+
+.service-title {
+  font-family: var(--axela-font-heading);
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  line-height: 1.25 !important;
+  margin: 0 0 12px 0 !important;
+  min-height: 52px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+.service-desc {
+  font-family: var(--axela-font-body);
+  font-size: 12.5px !important;
+  color: #94A3B8 !important;
+  line-height: 1.6 !important;
+  margin: 0 0 16px 0 !important;
+  min-height: 60px !important;
+}
+
+.service-bullet-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 20px 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  padding-top: 14px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 7px !important;
+}
+
+.service-bullet-list li {
+  font-family: var(--axela-font-body);
+  font-size: 11.5px !important;
+  color: #CBD5E1 !important;
+  line-height: 1.4 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 6px !important;
+}
+
+.service-bullet-list li span {
+  color: #1ABC9C !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+}
+
+.service-card-footer {
+  margin-top: auto !important;
+  padding-top: 12px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.service-enquiry-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-family: var(--axela-font-body);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: #94A3B8 !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease !important;
+}
+
+.service-enquiry-link .arrow {
+  transition: transform 0.2s ease !important;
+}
+
+.service-enquiry-link:hover {
+  color: #2DD4BF !important;
+}
+
+.service-enquiry-link:hover .arrow {
+  transform: translateX(4px) !important;
+}
+
+@media (max-width: 1200px) {
+  .axela-services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .axela-about-grid {
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+  .axela-about-col-left,
+  .axela-about-col-right {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .axela-section-title {
+    font-size: 34px !important;
+  }
+  .axela-pillars-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .axela-services-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .axela-services-title {
+    font-size: 32px !important;
+  }
+  .service-title {
+    min-height: auto !important;
+  }
+  .service-desc {
+    min-height: auto !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .axela-pillars-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .axela-about-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100% !important;
+  }
+  .axela-action-btn {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
