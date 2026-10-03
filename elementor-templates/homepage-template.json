@@ -62,7 +62,7 @@
           "content_width": "boxed",
           "boxed_width": {
             "unit": "px",
-            "size": 1300
+            "size": 1340
           },
           "width": {
             "unit": "%",
@@ -70,7 +70,7 @@
           },
           "max_width": {
             "unit": "px",
-            "size": 1300
+            "size": 1340
           },
           "flex_direction": "row",
           "justify_content": "space-between",
@@ -90,7 +90,7 @@
             "row": "40",
             "isLinked": false
           },
-          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1300px !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n    }\n}"
+          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1340px !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n    }\n}"
         },
         "elements": [
           {
@@ -100,17 +100,17 @@
               "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 65
+                "size": 68
               },
               "flex_direction": "column",
               "align_items": "flex-start",
               "gap": {
                 "unit": "px",
                 "column": "0",
-                "row": "20",
+                "row": "18",
                 "isLinked": false
               },
-              "custom_css": "selector {\n    width: 65% !important;\n    max-width: 65% !important;\n    flex: 0 0 65% !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n    }\n}"
+              "custom_css": "selector {\n    width: 68% !important;\n    max-width: 68% !important;\n    flex: 0 0 68% !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n    }\n}"
             },
             "elements": [
               {
@@ -160,13 +160,13 @@
                 "id": "hero_intro_widget",
                 "elType": "widget",
                 "settings": {
-                  "editor": "<p style=\"font-size:16.5px; line-height:1.75; color:#E2E8F0; margin:0; font-family:'Plus Jakarta Sans', sans-serif; font-weight:400; max-width:760px;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
+                  "editor": "<p style=\"font-size:16px; line-height:1.75; color:#E2E8F0; margin:0; font-family:'Plus Jakarta Sans', sans-serif; font-weight:400; max-width:800px;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
                   "text_color": "#E2E8F0",
                   "typography_typography": "custom",
                   "typography_font_family": "Plus Jakarta Sans",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 16.5
+                    "size": 16
                   },
                   "typography_line_height": {
                     "unit": "em",
@@ -180,13 +180,13 @@
                 "id": "hero_support_widget",
                 "elType": "widget",
                 "settings": {
-                  "editor": "<p style=\"font-size:14.5px; line-height:1.65; color:#94A3B8; margin:0; border-left:3px solid #168B8D; padding-left:16px; font-family:'Plus Jakarta Sans', sans-serif; max-width:760px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
+                  "editor": "<p style=\"font-size:14px; line-height:1.65; color:#94A3B8; margin:0; border-left:3px solid #168B8D; padding-left:16px; font-family:'Plus Jakarta Sans', sans-serif; max-width:800px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
                   "text_color": "#94A3B8",
                   "typography_typography": "custom",
                   "typography_font_family": "Plus Jakarta Sans",
                   "typography_font_size": {
                     "unit": "px",
-                    "size": 14.5
+                    "size": 14
                   },
                   "typography_line_height": {
                     "unit": "em",
@@ -197,176 +197,13 @@
                 "widgetType": "text-editor"
               },
               {
-                "id": "hero_buttons_wrap",
-                "elType": "container",
+                "id": "hero_buttons_html_widget",
+                "elType": "widget",
                 "settings": {
-                  "flex_direction": "row",
-                  "flex_wrap": "wrap",
-                  "gap": {
-                    "unit": "px",
-                    "column": "12",
-                    "row": "12",
-                    "isLinked": false
-                  },
-                  "margin": {
-                    "unit": "px",
-                    "top": "12",
-                    "right": "0",
-                    "bottom": "0",
-                    "left": "0",
-                    "isLinked": false
-                  }
+                  "html": "<div class=\"axela-hero-btn-row\">\n  <a href=\"#enquiry\" class=\"axela-hero-btn axela-btn-teal\">\n    <span>Submit a Trade Enquiry</span>\n  </a>\n  <a href=\"#services\" class=\"axela-hero-btn axela-btn-glass\">\n    <span>Discuss a Supply Requirement</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n  <a href=\"#investment\" class=\"axela-hero-btn axela-btn-gold\">\n    <span>Explore Investment Opportunities</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n</div>\n\n<style>\n.axela-hero-btn-row {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin-top: 14px !important;\n  width: 100% !important;\n}\n.axela-hero-btn {\n  display: inline-flex !important;\n  align-items: center !important;\n  gap: 8px !important;\n  padding: 12px 20px !important;\n  border-radius: 4px !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 13px !important;\n  font-weight: 600 !important;\n  text-decoration: none !important;\n  white-space: nowrap !important;\n  flex-shrink: 0 !important;\n  transition: all 0.25s ease !important;\n  box-sizing: border-box !important;\n}\n.axela-btn-teal {\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.4) !important;\n}\n.axela-btn-teal:hover {\n  background: #1A9D9F !important;\n  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-glass {\n  background: rgba(255, 255, 255, 0.05) !important;\n  color: #E2E8F0 !important;\n  border: 1px solid rgba(255, 255, 255, 0.22) !important;\n  font-weight: 500 !important;\n}\n.axela-btn-glass:hover {\n  background: rgba(255, 255, 255, 0.12) !important;\n  border-color: rgba(255, 255, 255, 0.45) !important;\n  color: #FFFFFF !important;\n}\n.axela-btn-gold {\n  background: rgba(229, 169, 60, 0.10) !important;\n  color: #E5A93C !important;\n  border: 1.5px solid #E5A93C !important;\n  font-weight: 600 !important;\n}\n.axela-btn-gold:hover {\n  background: rgba(229, 169, 60, 0.22) !important;\n  border-color: #F5BA42 !important;\n  color: #FFD269 !important;\n  box-shadow: 0 0 16px rgba(229, 169, 60, 0.35) !important;\n}\n.btn-arrow {\n  font-size: 14px !important;\n  transition: transform 0.2s ease !important;\n}\n.axela-hero-btn:hover .btn-arrow {\n  transform: translateX(3px) !important;\n}\n@media (max-width: 991px) {\n  .axela-hero-btn-row {\n    flex-wrap: wrap !important;\n  }\n}\n</style>"
                 },
-                "elements": [
-                  {
-                    "id": "btn_trade_enquiry",
-                    "elType": "widget",
-                    "settings": {
-                      "text": "Submit a Trade Enquiry",
-                      "link": {
-                        "url": "#enquiry",
-                        "is_external": false,
-                        "nofollow": false
-                      },
-                      "size": "md",
-                      "button_text_color": "#FFFFFF",
-                      "background_color": "#168B8D",
-                      "border_border": "solid",
-                      "border_width": {
-                        "unit": "px",
-                        "top": "1",
-                        "right": "1",
-                        "bottom": "1",
-                        "left": "1",
-                        "isLinked": true
-                      },
-                      "border_color": "rgba(45, 212, 191, 0.4)",
-                      "border_radius": {
-                        "unit": "px",
-                        "top": "4",
-                        "right": "4",
-                        "bottom": "4",
-                        "left": "4",
-                        "isLinked": true
-                      },
-                      "typography_font_family": "Plus Jakarta Sans",
-                      "typography_font_weight": "600",
-                      "typography_font_size": {
-                        "unit": "px",
-                        "size": 13.5
-                      },
-                      "padding": {
-                        "unit": "px",
-                        "top": "12",
-                        "right": "24",
-                        "bottom": "12",
-                        "left": "24",
-                        "isLinked": false
-                      }
-                    },
-                    "elements": [],
-                    "widgetType": "button"
-                  },
-                  {
-                    "id": "btn_supply_req",
-                    "elType": "widget",
-                    "settings": {
-                      "text": "Discuss a Supply Requirement \u2192",
-                      "link": {
-                        "url": "#services",
-                        "is_external": false,
-                        "nofollow": false
-                      },
-                      "size": "md",
-                      "button_text_color": "#E2E8F0",
-                      "background_color": "rgba(255, 255, 255, 0.05)",
-                      "border_border": "solid",
-                      "border_width": {
-                        "unit": "px",
-                        "top": "1",
-                        "right": "1",
-                        "bottom": "1",
-                        "left": "1",
-                        "isLinked": true
-                      },
-                      "border_color": "rgba(255, 255, 255, 0.22)",
-                      "border_radius": {
-                        "unit": "px",
-                        "top": "4",
-                        "right": "4",
-                        "bottom": "4",
-                        "left": "4",
-                        "isLinked": true
-                      },
-                      "typography_font_family": "Plus Jakarta Sans",
-                      "typography_font_weight": "500",
-                      "typography_font_size": {
-                        "unit": "px",
-                        "size": 13.5
-                      },
-                      "padding": {
-                        "unit": "px",
-                        "top": "12",
-                        "right": "22",
-                        "bottom": "12",
-                        "left": "22",
-                        "isLinked": false
-                      }
-                    },
-                    "elements": [],
-                    "widgetType": "button"
-                  },
-                  {
-                    "id": "btn_invest_opp",
-                    "elType": "widget",
-                    "settings": {
-                      "text": "Explore Investment Opportunities \u2192",
-                      "link": {
-                        "url": "#investment",
-                        "is_external": false,
-                        "nofollow": false
-                      },
-                      "size": "md",
-                      "button_text_color": "#E5A93C",
-                      "background_color": "rgba(229, 169, 60, 0.08)",
-                      "border_border": "solid",
-                      "border_width": {
-                        "unit": "px",
-                        "top": "1",
-                        "right": "1",
-                        "bottom": "1",
-                        "left": "1",
-                        "isLinked": true
-                      },
-                      "border_color": "#E5A93C",
-                      "border_radius": {
-                        "unit": "px",
-                        "top": "4",
-                        "right": "4",
-                        "bottom": "4",
-                        "left": "4",
-                        "isLinked": true
-                      },
-                      "typography_font_family": "Plus Jakarta Sans",
-                      "typography_font_weight": "500",
-                      "typography_font_size": {
-                        "unit": "px",
-                        "size": 13.5
-                      },
-                      "padding": {
-                        "unit": "px",
-                        "top": "12",
-                        "right": "22",
-                        "bottom": "12",
-                        "left": "22",
-                        "isLinked": false
-                      }
-                    },
-                    "elements": [],
-                    "widgetType": "button"
-                  }
-                ],
-                "isInner": true
+                "elements": [],
+                "widgetType": "html"
               }
             ],
             "isInner": true
@@ -378,12 +215,12 @@
               "content_width": "full",
               "width": {
                 "unit": "%",
-                "size": 35
+                "size": 32
               },
               "flex_direction": "column",
               "align_items": "flex-end",
               "justify_content": "center",
-              "custom_css": "selector {\n    width: 35% !important;\n    max-width: 35% !important;\n    flex: 0 0 35% !important;\n    display: flex !important;\n    justify-content: flex-end !important;\n    align-items: center !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n        justify-content: center !important;\n        margin-top: 30px !important;\n    }\n}"
+              "custom_css": "selector {\n    width: 32% !important;\n    max-width: 32% !important;\n    flex: 0 0 32% !important;\n    display: flex !important;\n    justify-content: flex-end !important;\n    align-items: center !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n        justify-content: center !important;\n        margin-top: 30px !important;\n    }\n}"
             },
             "elements": [
               {
