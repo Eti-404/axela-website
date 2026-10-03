@@ -33,7 +33,7 @@
         "id": "hdr_ticker_html_widget",
         "elType": "widget",
         "settings": {
-          "html": "<div class=\"axela-ticker-outer\">\n  <div class=\"axela-ticker-bar\">\n    <div class=\"axela-ticker-badge\">\n      <span class=\"ticker-dot\"></span>\n      <span class=\"ticker-badge-text\">LIVE MARKETS</span>\n      <span class=\"ticker-badge-pipe\">|</span>\n    </div>\n    <div class=\"axela-ticker-marquee-wrap\">\n      <div class=\"axela-ticker-marquee-inner\">\n        <span class=\"tick-group\">\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">LNG JKM</span> <span class=\"t-val-dn\">13.188</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 2.32%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ICE</span> <span class=\"t-name\">TTF GAS</span> <span class=\"t-val-up\">11.383</span> <span class=\"t-unit\">\u20ac/MWh</span> <span class=\"t-chg-up\">\u25b2 1.46%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">NYMEX</span> <span class=\"t-name\">HENRY HUB</span> <span class=\"t-val-dn\">1.877</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 20.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ARGUS</span> <span class=\"t-name\">RB COAL (API 2)</span> <span class=\"t-val-dn\">98.94</span> <span class=\"t-unit\">$/MT</span> <span class=\"t-chg-dn\">\u25bc 5.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">IRON ORE 62% FE</span> <span class=\"t-val-up\">121.28</span> <span class=\"t-unit\">$/dmt</span> <span class=\"t-chg-up\">\u25b2 3.30%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DUBAI FATEH</span> <span class=\"t-val-dn\">77.83</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-dn\">\u25bc 4.87%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DATED BRENT</span> <span class=\"t-val-up\">82.50</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-up\">\u25b2 0.06%</span>\n          <span class=\"t-pipe\">|</span>\n        </span>\n        <span class=\"tick-group\">\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">LNG JKM</span> <span class=\"t-val-dn\">13.188</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 2.32%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ICE</span> <span class=\"t-name\">TTF GAS</span> <span class=\"t-val-up\">11.383</span> <span class=\"t-unit\">\u20ac/MWh</span> <span class=\"t-chg-up\">\u25b2 1.46%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">NYMEX</span> <span class=\"t-name\">HENRY HUB</span> <span class=\"t-val-dn\">1.877</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 20.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ARGUS</span> <span class=\"t-name\">RB COAL (API 2)</span> <span class=\"t-val-dn\">98.94</span> <span class=\"t-unit\">$/MT</span> <span class=\"t-chg-dn\">\u25bc 5.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">IRON ORE 62% FE</span> <span class=\"t-val-up\">121.28</span> <span class=\"t-unit\">$/dmt</span> <span class=\"t-chg-up\">\u25b2 3.30%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DUBAI FATEH</span> <span class=\"t-val-dn\">77.83</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-dn\">\u25bc 4.87%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DATED BRENT</span> <span class=\"t-val-up\">82.50</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-up\">\u25b2 0.06%</span>\n          <span class=\"t-pipe\">|</span>\n        </span>\n      </div>\n    </div>\n    <div class=\"axela-ticker-clock\">\n      <span class=\"clock-pipe\">|</span>\n      <span id=\"axela-live-clock\">01:36 AM GMT+6</span>\n    </div>\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');\n\n/* Ticker Outer & Centered Inner */\n.axela-ticker-outer {\n  width: 100% !important;\n  background: #04070C !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  display: flex !important;\n  justify-content: center !important;\n  align-items: center !important;\n}\n\n.axela-ticker-bar {\n  max-width: 1360px !important;\n  width: 100% !important;\n  height: 32px !important;\n  line-height: 32px !important;\n  margin: 0 auto !important;\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  padding: 0 10px !important;\n  box-sizing: border-box !important;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;\n  font-size: 11px !important;\n  overflow: hidden !important;\n  white-space: nowrap !important;\n}\n\n.axela-ticker-badge {\n  flex-shrink: 0 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  gap: 6px !important;\n  padding: 0 10px 0 0 !important;\n  height: 32px !important;\n  background: #04070C !important;\n  z-index: 5 !important;\n  white-space: nowrap !important;\n}\n\n.ticker-dot {\n  width: 6px !important;\n  height: 6px !important;\n  border-radius: 50% !important;\n  background: #1ABC9C !important;\n  box-shadow: 0 0 6px #1ABC9C !important;\n  display: inline-block !important;\n  animation: axelaPulseDot 2s infinite ease-in-out !important;\n}\n\n@keyframes axelaPulseDot {\n  0% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.35; transform: scale(0.85); }\n  100% { opacity: 1; transform: scale(1); }\n}\n\n.ticker-badge-text {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.08em !important;\n  font-size: 10.5px !important;\n}\n\n.ticker-badge-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin-left: 8px !important;\n}\n\n.axela-ticker-marquee-wrap {\n  flex: 1 1 auto !important;\n  overflow: hidden !important;\n  white-space: nowrap !important;\n  height: 32px !important;\n  display: flex !important;\n  align-items: center !important;\n  mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);\n  -webkit-mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);\n}\n\n.axela-ticker-marquee-inner {\n  display: inline-flex !important;\n  align-items: center !important;\n  white-space: nowrap !important;\n  animation: axelaMarqueeLoop 36s linear infinite !important;\n}\n\n.axela-ticker-marquee-inner:hover {\n  animation-play-state: paused !important;\n}\n\n@keyframes axelaMarqueeLoop {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n\n.tick-group {\n  display: inline-flex !important;\n  align-items: center !important;\n  white-space: nowrap !important;\n}\n\n.t-prov {\n  color: #5A7F87 !important;\n  font-size: 10.5px !important;\n  font-weight: 600 !important;\n  margin-right: 5px !important;\n}\n\n.t-name {\n  color: #FFFFFF !important;\n  font-weight: 700 !important;\n  font-size: 11px !important;\n  letter-spacing: 0.02em !important;\n  margin-right: 6px !important;\n}\n\n.t-val-dn {\n  color: #EF4444 !important;\n  font-weight: 700 !important;\n  margin-right: 4px !important;\n}\n\n.t-val-up {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  margin-right: 4px !important;\n}\n\n.t-unit {\n  color: #64748B !important;\n  font-size: 10px !important;\n  margin-right: 5px !important;\n}\n\n.t-chg-dn {\n  color: #EF4444 !important;\n  font-weight: 700 !important;\n  font-size: 10.5px !important;\n}\n\n.t-chg-up {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  font-size: 10.5px !important;\n}\n\n.t-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin: 0 14px !important;\n}\n\n.axela-ticker-clock {\n  flex-shrink: 0 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  padding: 0 0 0 10px !important;\n  height: 32px !important;\n  background: #04070C !important;\n  color: #CBD5E1 !important;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;\n  font-size: 11px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.04em !important;\n  z-index: 5 !important;\n  white-space: nowrap !important;\n}\n\n.clock-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin-right: 10px !important;\n}\n\n/* ==========================================================================\n   HEADER GRID BALANCE: 1360px Centered Grid Alignment\n   ========================================================================== */\n.axela-sticky-header,\n.elementor-element-hdr_container_main {\n  width: 100% !important;\n  display: flex !important;\n  justify-content: center !important;\n  align-items: center !important;\n  padding: 0 !important;\n  background-color: rgba(7, 11, 17, 0.95) !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  position: sticky !important;\n  top: 0 !important;\n  z-index: 99999 !important;\n  backdrop-filter: blur(16px) !important;\n  -webkit-backdrop-filter: blur(16px) !important;\n}\n\n.axela-sticky-header > .e-con-inner,\n.elementor-element-hdr_container_main > .e-con-inner {\n  max-width: 1360px !important;\n  width: 100% !important;\n  margin: 0 auto !important;\n  padding: 8px 10px !important;\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  justify-content: space-between !important;\n  align-items: center !important;\n  box-sizing: border-box !important;\n}\n\n.elementor-element-hdr_logo_wrap {\n  flex: 0 0 auto !important;\n  width: auto !important;\n}\n\n.elementor-element-hdr_nav_wrap,\n.elementor-element-hdr_nav_wrap > .e-con-inner {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  justify-content: center !important;\n  align-items: center !important;\n  flex: 1 1 auto !important;\n  width: auto !important;\n  max-width: none !important;\n}\n\n/* Navigation Typography & Tracking */\n.elementor-element-hdr_nav_menu,\n.elementor-nav-menu--main,\n.elementor-nav-menu--layout-horizontal,\nul.elementor-nav-menu {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  white-space: nowrap !important;\n  justify-content: center !important;\n  align-items: center !important;\n  width: auto !important;\n  max-width: none !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  list-style: none !important;\n}\n\n.elementor-nav-menu--main li,\nul.elementor-nav-menu li {\n  display: inline-flex !important;\n  flex-shrink: 0 !important;\n  white-space: nowrap !important;\n  list-style: none !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.elementor-nav-menu--main a.elementor-item,\nul.elementor-nav-menu a.elementor-item {\n  display: inline-block !important;\n  white-space: nowrap !important;\n  padding: 6px 9px !important;\n  font-size: 12.5px !important;\n  font-weight: 500 !important;\n  letter-spacing: 0.04em !important;\n  color: #CBD5E1 !important;\n  transition: color 0.2s ease !important;\n  text-decoration: none !important;\n}\n\n.elementor-nav-menu--main a.elementor-item:hover,\n.elementor-nav-menu--main a.elementor-item.elementor-item-active {\n  color: #FFFFFF !important;\n}\n\n.elementor-element-hdr_cta_wrap {\n  flex: 0 0 auto !important;\n  width: auto !important;\n}\n</style>\n\n<script>\n(function() {\n  function updateAxelaClock() {\n    var el = document.getElementById('axela-live-clock');\n    if (!el) return;\n    var now = new Date();\n    var utc = now.getTime() + (now.getTimezoneOffset() * 60000);\n    var bd = new Date(utc + (3600000 * 6));\n    var h = bd.getHours();\n    var m = String(bd.getMinutes()).padStart(2, '0');\n    var ampm = h >= 12 ? 'PM' : 'AM';\n    h = h % 12;\n    h = h ? String(h).padStart(2, '0') : '12';\n    el.textContent = h + ':' + m + ' ' + ampm + ' GMT+6';\n  }\n  updateAxelaClock();\n  setInterval(updateAxelaClock, 1000);\n})();\n</script>"
+          "html": "<div class=\"axela-ticker-outer\">\n  <div class=\"axela-ticker-inner\">\n    <div class=\"axela-ticker-badge\">\n      <span class=\"ticker-dot\"></span>\n      <span class=\"ticker-badge-text\">LIVE MARKETS</span>\n      <span class=\"ticker-badge-pipe\">|</span>\n    </div>\n    <div class=\"axela-ticker-marquee-wrap\">\n      <div class=\"axela-ticker-marquee-track\">\n        <span class=\"tick-group\">\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">LNG JKM</span> <span class=\"t-val-dn\">13.188</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 2.32%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ICE</span> <span class=\"t-name\">TTF GAS</span> <span class=\"t-val-up\">11.383</span> <span class=\"t-unit\">\u20ac/MWh</span> <span class=\"t-chg-up\">\u25b2 1.46%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">NYMEX</span> <span class=\"t-name\">HENRY HUB</span> <span class=\"t-val-dn\">1.877</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 20.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ARGUS</span> <span class=\"t-name\">RB COAL (API 2)</span> <span class=\"t-val-dn\">98.94</span> <span class=\"t-unit\">$/MT</span> <span class=\"t-chg-dn\">\u25bc 5.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">IRON ORE 62% FE</span> <span class=\"t-val-up\">121.28</span> <span class=\"t-unit\">$/dmt</span> <span class=\"t-chg-up\">\u25b2 3.30%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DUBAI FATEH</span> <span class=\"t-val-dn\">77.83</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-dn\">\u25bc 4.87%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DATED BRENT</span> <span class=\"t-val-up\">82.50</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-up\">\u25b2 0.06%</span>\n          <span class=\"t-pipe\">|</span>\n        </span>\n        <span class=\"tick-group\">\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">LNG JKM</span> <span class=\"t-val-dn\">13.188</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 2.32%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ICE</span> <span class=\"t-name\">TTF GAS</span> <span class=\"t-val-up\">11.383</span> <span class=\"t-unit\">\u20ac/MWh</span> <span class=\"t-chg-up\">\u25b2 1.46%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">NYMEX</span> <span class=\"t-name\">HENRY HUB</span> <span class=\"t-val-dn\">1.877</span> <span class=\"t-unit\">$/MMBtu</span> <span class=\"t-chg-dn\">\u25bc 20.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">ARGUS</span> <span class=\"t-name\">RB COAL (API 2)</span> <span class=\"t-val-dn\">98.94</span> <span class=\"t-unit\">$/MT</span> <span class=\"t-chg-dn\">\u25bc 5.47%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">IRON ORE 62% FE</span> <span class=\"t-val-up\">121.28</span> <span class=\"t-unit\">$/dmt</span> <span class=\"t-chg-up\">\u25b2 3.30%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DUBAI FATEH</span> <span class=\"t-val-dn\">77.83</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-dn\">\u25bc 4.87%</span>\n          <span class=\"t-pipe\">|</span>\n          <span class=\"t-prov\">PLATTS</span> <span class=\"t-name\">DATED BRENT</span> <span class=\"t-val-up\">82.50</span> <span class=\"t-unit\">$/bbl</span> <span class=\"t-chg-up\">\u25b2 0.06%</span>\n          <span class=\"t-pipe\">|</span>\n        </span>\n      </div>\n    </div>\n    <div class=\"axela-ticker-clock\">\n      <span class=\"clock-pipe\">|</span>\n      <span id=\"axela-live-clock\">01:36 AM GMT+6</span>\n    </div>\n  </div>\n</div>\n\n<style>\n/* Ticker Root Outer & Inner (1400px Max-Width Grid) */\n.axela-ticker-outer {\n  width: 100% !important;\n  background: #04070C !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  display: flex !important;\n  justify-content: center !important;\n  align-items: center !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  box-sizing: border-box !important;\n}\n\n.axela-ticker-inner {\n  max-width: 1400px !important;\n  width: 100% !important;\n  height: 32px !important;\n  line-height: 32px !important;\n  margin: 0 auto !important;\n  padding: 0 20px !important;\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  box-sizing: border-box !important;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;\n  font-size: 11px !important;\n  overflow: hidden !important;\n  white-space: nowrap !important;\n}\n\n.axela-ticker-badge {\n  flex-shrink: 0 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  gap: 6px !important;\n  padding: 0 10px 0 0 !important;\n  height: 32px !important;\n  background: #04070C !important;\n  z-index: 5 !important;\n  white-space: nowrap !important;\n}\n\n.ticker-dot {\n  width: 6px !important;\n  height: 6px !important;\n  border-radius: 50% !important;\n  background: #1ABC9C !important;\n  box-shadow: 0 0 6px #1ABC9C !important;\n  display: inline-block !important;\n  animation: axelaPulseDot 2s infinite ease-in-out !important;\n}\n\n@keyframes axelaPulseDot {\n  0% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.35; transform: scale(0.85); }\n  100% { opacity: 1; transform: scale(1); }\n}\n\n.ticker-badge-text {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.08em !important;\n  font-size: 10.5px !important;\n}\n\n.ticker-badge-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin-left: 8px !important;\n}\n\n.axela-ticker-marquee-wrap {\n  flex: 1 1 auto !important;\n  overflow: hidden !important;\n  white-space: nowrap !important;\n  height: 32px !important;\n  display: flex !important;\n  align-items: center !important;\n  mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);\n  -webkit-mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);\n}\n\n.axela-ticker-marquee-track {\n  display: inline-flex !important;\n  align-items: center !important;\n  white-space: nowrap !important;\n  animation: axelaMarqueeLoop 36s linear infinite !important;\n}\n\n.axela-ticker-marquee-track:hover {\n  animation-play-state: paused !important;\n}\n\n@keyframes axelaMarqueeLoop {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n\n.tick-group {\n  display: inline-flex !important;\n  align-items: center !important;\n  white-space: nowrap !important;\n}\n\n.t-prov {\n  color: #5A7F87 !important;\n  font-size: 10.5px !important;\n  font-weight: 600 !important;\n  margin-right: 5px !important;\n}\n\n.t-name {\n  color: #FFFFFF !important;\n  font-weight: 700 !important;\n  font-size: 11px !important;\n  letter-spacing: 0.02em !important;\n  margin-right: 6px !important;\n}\n\n.t-val-dn {\n  color: #EF4444 !important;\n  font-weight: 700 !important;\n  margin-right: 4px !important;\n}\n\n.t-val-up {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  margin-right: 4px !important;\n}\n\n.t-unit {\n  color: #64748B !important;\n  font-size: 10px !important;\n  margin-right: 5px !important;\n}\n\n.t-chg-dn {\n  color: #EF4444 !important;\n  font-weight: 700 !important;\n  font-size: 10.5px !important;\n}\n\n.t-chg-up {\n  color: #1ABC9C !important;\n  font-weight: 700 !important;\n  font-size: 10.5px !important;\n}\n\n.t-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin: 0 14px !important;\n}\n\n.axela-ticker-clock {\n  flex-shrink: 0 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  padding: 0 0 0 10px !important;\n  height: 32px !important;\n  background: #04070C !important;\n  color: #CBD5E1 !important;\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;\n  font-size: 11px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.04em !important;\n  z-index: 5 !important;\n  white-space: nowrap !important;\n}\n\n.clock-pipe {\n  color: rgba(255, 255, 255, 0.18) !important;\n  margin-right: 10px !important;\n}\n\n@media (max-width: 767px) {\n  .axela-ticker-inner {\n    padding: 0 10px !important;\n  }\n  .axela-ticker-clock {\n    font-size: 10px !important;\n    padding-left: 6px !important;\n  }\n  .clock-pipe {\n    margin-right: 6px !important;\n  }\n}\n</style>\n\n<script>\n(function() {\n  function updateAxelaClock() {\n    var el = document.getElementById('axela-live-clock');\n    if (!el) return;\n    var now = new Date();\n    var utc = now.getTime() + (now.getTimezoneOffset() * 60000);\n    var bd = new Date(utc + (3600000 * 6));\n    var h = bd.getHours();\n    var m = String(bd.getMinutes()).padStart(2, '0');\n    var ampm = h >= 12 ? 'PM' : 'AM';\n    h = h % 12;\n    h = h ? String(h).padStart(2, '0') : '12';\n    el.textContent = h + ':' + m + ' ' + ampm + ' GMT+6';\n  }\n  updateAxelaClock();\n  setInterval(updateAxelaClock, 1000);\n})();\n</script>"
         },
         "elements": [],
         "widgetType": "html"
@@ -45,15 +45,11 @@
     "id": "hdr_container_main",
     "elType": "container",
     "settings": {
-      "content_width": "boxed",
-      "boxed_width": {
-        "unit": "px",
-        "size": 1360
+      "content_width": "full",
+      "width": {
+        "unit": "%",
+        "size": 100
       },
-      "flex_direction": "row",
-      "justify_content": "space-between",
-      "align_items": "center",
-      "flex_wrap": "nowrap",
       "padding": {
         "unit": "px",
         "top": "0",
@@ -62,179 +58,27 @@
         "left": "0",
         "isLinked": true
       },
-      "background_background": "classic",
-      "background_color": "rgba(7, 11, 17, 0.95)",
-      "border_border": "solid",
-      "border_width": {
+      "margin": {
         "unit": "px",
         "top": "0",
         "right": "0",
-        "bottom": "1",
+        "bottom": "0",
         "left": "0",
-        "isLinked": false
+        "isLinked": true
       },
-      "border_color": "rgba(255, 255, 255, 0.08)",
+      "background_background": "classic",
+      "background_color": "#070B11",
       "_css_classes": "axela-sticky-header"
     },
     "elements": [
       {
-        "id": "hdr_logo_wrap",
-        "elType": "container",
+        "id": "hdr_full_nav_widget",
+        "elType": "widget",
         "settings": {
-          "content_width": "full",
-          "width": {
-            "unit": "px",
-            "size": 150
-          },
-          "align_items": "flex-start",
-          "flex_shrink": 0
+          "html": "<div class=\"axela-header-bar\">\n  <div class=\"axela-header-inner\">\n    <!-- Brand Logo -->\n    <a href=\"#home\" class=\"axela-brand-logo\">\n      <img src=\"https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp\" alt=\"AXELA LTD.\" class=\"axela-logo-img\">\n    </a>\n\n    <!-- Desktop Single-Line Navigation (min-width: 992px) -->\n    <nav class=\"axela-desktop-nav\">\n      <a href=\"#home\" class=\"nav-item\">Home</a>\n      <a href=\"#about\" class=\"nav-item\">About Us</a>\n      <a href=\"#services\" class=\"nav-item\">Services</a>\n      <a href=\"#products\" class=\"nav-item\">Products</a>\n      <a href=\"#approach\" class=\"nav-item\">Approach</a>\n      <a href=\"#investment\" class=\"nav-item\">Investment</a>\n      <a href=\"#ethics\" class=\"nav-item\">Ethics</a>\n      <a href=\"#contact\" class=\"nav-item\">Contact</a>\n    </nav>\n\n    <!-- Desktop CTA Button -->\n    <div class=\"axela-desktop-cta\">\n      <a href=\"#enquiry\" class=\"axela-header-btn\">TRADE ENQUIRY</a>\n    </div>\n\n    <!-- Mobile Hamburger Toggle Button (max-width: 991px) -->\n    <button type=\"button\" class=\"axela-hamburger-btn\" id=\"axelaHamburgerBtn\" aria-label=\"Open Navigation Menu\">\n      <span class=\"ham-line\"></span>\n      <span class=\"ham-line\"></span>\n      <span class=\"ham-line\"></span>\n    </button>\n  </div>\n</div>\n\n<!-- Mobile Off-Canvas Drawer & Overlay -->\n<div class=\"axela-drawer-overlay\" id=\"axelaDrawerOverlay\"></div>\n<div class=\"axela-drawer-panel\" id=\"axelaDrawerPanel\">\n  <div class=\"drawer-header\">\n    <img src=\"https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp\" alt=\"AXELA LTD.\" class=\"drawer-logo\">\n    <button type=\"button\" class=\"drawer-close-btn\" id=\"axelaDrawerCloseBtn\" aria-label=\"Close Navigation Menu\">&times;</button>\n  </div>\n  \n  <div class=\"drawer-nav-list\">\n    <a href=\"#home\" class=\"drawer-nav-item\">Home</a>\n    <a href=\"#about\" class=\"drawer-nav-item\">About Us</a>\n    <a href=\"#services\" class=\"drawer-nav-item\">Our Services</a>\n    <a href=\"#products\" class=\"drawer-nav-item\">Trading Categories</a>\n    <a href=\"#approach\" class=\"drawer-nav-item\">Working Approach</a>\n    <a href=\"#investment\" class=\"drawer-nav-item\">Investment Opportunities</a>\n    <a href=\"#ethics\" class=\"drawer-nav-item\">Ethics &amp; Compliance</a>\n    <a href=\"#contact\" class=\"drawer-nav-item\">Contact Us</a>\n  </div>\n\n  <div class=\"drawer-footer\">\n    <a href=\"#enquiry\" class=\"drawer-cta-btn\">SUBMIT A TRADE ENQUIRY</a>\n  </div>\n</div>\n\n<style>\n/* Header Bar Outer & 1400px Max-Width Inner */\n.axela-header-bar {\n  width: 100% !important;\n  background-color: rgba(7, 11, 17, 0.96) !important;\n  backdrop-filter: blur(16px) !important;\n  -webkit-backdrop-filter: blur(16px) !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  position: sticky !important;\n  top: 0 !important;\n  z-index: 99999 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  box-sizing: border-box !important;\n}\n\n.axela-header-inner {\n  max-width: 1400px !important;\n  width: 100% !important;\n  margin: 0 auto !important;\n  padding: 10px 24px !important;\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  justify-content: space-between !important;\n  align-items: center !important;\n  box-sizing: border-box !important;\n}\n\n/* Brand Logo */\n.axela-brand-logo {\n  display: inline-flex !important;\n  align-items: center !important;\n  text-decoration: none !important;\n  flex-shrink: 0 !important;\n}\n\n.axela-logo-img {\n  width: 135px !important;\n  height: auto !important;\n  display: block !important;\n}\n\n/* Desktop Single-Line Navigation */\n.axela-desktop-nav {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  white-space: nowrap !important;\n  align-items: center !important;\n  justify-content: center !important;\n  gap: 2px !important;\n  margin: 0 16px !important;\n  flex: 1 1 auto !important;\n}\n\n.axela-desktop-nav .nav-item {\n  color: #CBD5E1 !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 12.5px !important;\n  font-weight: 500 !important;\n  letter-spacing: 0.04em !important;\n  padding: 6px 9px !important;\n  text-decoration: none !important;\n  white-space: nowrap !important;\n  flex-shrink: 0 !important;\n  transition: all 0.2s ease !important;\n  position: relative !important;\n}\n\n.axela-desktop-nav .nav-item:hover {\n  color: #FFFFFF !important;\n}\n\n.axela-desktop-nav .nav-item:after {\n  content: '' !important;\n  position: absolute !important;\n  bottom: 0 !important;\n  left: 50% !important;\n  width: 0 !important;\n  height: 2px !important;\n  background: #168B8D !important;\n  transition: all 0.25s ease !important;\n  transform: translateX(-50%) !important;\n}\n\n.axela-desktop-nav .nav-item:hover:after {\n  width: 80% !important;\n}\n\n/* Desktop CTA */\n.axela-desktop-cta {\n  flex-shrink: 0 !important;\n  display: flex !important;\n  align-items: center !important;\n}\n\n.axela-header-btn {\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.45) !important;\n  border-radius: 3px !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 11.5px !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.08em !important;\n  text-transform: uppercase !important;\n  text-decoration: none !important;\n  padding: 8px 18px !important;\n  white-space: nowrap !important;\n  transition: all 0.25s ease !important;\n}\n\n.axela-header-btn:hover {\n  background: #1A9D9F !important;\n  box-shadow: 0 0 14px rgba(22, 139, 141, 0.45) !important;\n}\n\n/* Mobile Hamburger Button (Default hidden on desktop) */\n.axela-hamburger-btn {\n  display: none !important;\n  background: transparent !important;\n  border: none !important;\n  cursor: pointer !important;\n  padding: 8px !important;\n  flex-direction: column !important;\n  justify-content: center !important;\n  gap: 5px !important;\n  z-index: 100 !important;\n}\n\n.axela-hamburger-btn .ham-line {\n  display: block !important;\n  width: 24px !important;\n  height: 2px !important;\n  background-color: #CBD5E1 !important;\n  border-radius: 2px !important;\n  transition: all 0.25s ease !important;\n}\n\n/* Mobile Off-Canvas Drawer & Overlay */\n.axela-drawer-overlay {\n  display: none;\n  position: fixed !important;\n  top: 0 !important;\n  left: 0 !important;\n  width: 100vw !important;\n  height: 100vh !important;\n  background: rgba(0, 0, 0, 0.75) !important;\n  backdrop-filter: blur(4px) !important;\n  z-index: 999998 !important;\n  opacity: 0;\n  transition: opacity 0.3s ease !important;\n}\n\n.axela-drawer-overlay.active {\n  display: block !important;\n  opacity: 1 !important;\n}\n\n.axela-drawer-panel {\n  position: fixed !important;\n  top: 0 !important;\n  right: -320px !important;\n  width: 290px !important;\n  height: 100vh !important;\n  background: #070B11 !important;\n  border-left: 1px solid rgba(255, 255, 255, 0.1) !important;\n  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.8) !important;\n  z-index: 999999 !important;\n  transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  padding: 24px 20px !important;\n  display: flex !important;\n  flex-direction: column !important;\n  justify-content: space-between !important;\n  box-sizing: border-box !important;\n}\n\n.axela-drawer-panel.active {\n  right: 0 !important;\n}\n\n.drawer-header {\n  display: flex !important;\n  justify-content: space-between !important;\n  align-items: center !important;\n  padding-bottom: 18px !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n}\n\n.drawer-logo {\n  width: 110px !important;\n  height: auto !important;\n}\n\n.drawer-close-btn {\n  background: transparent !important;\n  border: none !important;\n  color: #94A3B8 !important;\n  font-size: 28px !important;\n  line-height: 1 !important;\n  cursor: pointer !important;\n  padding: 4px 8px !important;\n  transition: color 0.2s ease !important;\n}\n\n.drawer-close-btn:hover {\n  color: #FFFFFF !important;\n}\n\n.drawer-nav-list {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 0 !important;\n  margin: 20px 0 !important;\n  overflow-y: auto !important;\n  flex: 1 1 auto !important;\n}\n\n.drawer-nav-item {\n  color: #E2E8F0 !important;\n  font-family: 'Plus Jakarta Sans', sans-serif !important;\n  font-size: 14.5px !important;\n  font-weight: 500 !important;\n  padding: 13px 0 !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;\n  text-decoration: none !important;\n  transition: color 0.2s ease, padding-left 0.2s ease !important;\n}\n\n.drawer-nav-item:hover {\n  color: #2DD4BF !important;\n  padding-left: 6px !important;\n}\n\n.drawer-footer {\n  padding-top: 16px !important;\n  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;\n}\n\n.drawer-cta-btn {\n  display: block !important;\n  width: 100% !important;\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.45) !important;\n  border-radius: 4px !important;\n  font-family: 'Plus Jakarta Sans', sans-serif !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.08em !important;\n  text-transform: uppercase !important;\n  text-decoration: none !important;\n  padding: 13px 0 !important;\n  text-align: center !important;\n  box-sizing: border-box !important;\n  transition: background 0.25s ease !important;\n}\n\n.drawer-cta-btn:hover {\n  background: #1A9D9F !important;\n}\n\n/* ==========================================================================\n   RESPONSIVE BREAKPOINT: ISOLATED MOBILE RULES (max-width: 991px)\n   ========================================================================== */\n@media (max-width: 991px) {\n  .axela-desktop-nav,\n  .axela-desktop-cta {\n    display: none !important;\n  }\n  \n  .axela-hamburger-btn {\n    display: flex !important;\n  }\n  \n  .axela-header-inner {\n    padding: 10px 18px !important;\n  }\n  \n  .axela-logo-img {\n    width: 115px !important;\n  }\n}\n</style>\n\n<script>\n(function() {\n  var hamBtn = document.getElementById('axelaHamburgerBtn');\n  var closeBtn = document.getElementById('axelaDrawerCloseBtn');\n  var overlay = document.getElementById('axelaDrawerOverlay');\n  var panel = document.getElementById('axelaDrawerPanel');\n  \n  function openDrawer() {\n    if (panel) panel.classList.add('active');\n    if (overlay) overlay.classList.add('active');\n    document.body.style.overflow = 'hidden';\n  }\n  \n  function closeDrawer() {\n    if (panel) panel.classList.remove('active');\n    if (overlay) overlay.classList.remove('active');\n    document.body.style.overflow = '';\n  }\n  \n  if (hamBtn) hamBtn.addEventListener('click', openDrawer);\n  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);\n  if (overlay) overlay.addEventListener('click', closeDrawer);\n  \n  // Close drawer when any nav link inside is tapped\n  var drawerLinks = document.querySelectorAll('.drawer-nav-item, .drawer-cta-btn');\n  for (var i = 0; i < drawerLinks.length; i++) {\n    drawerLinks[i].addEventListener('click', closeDrawer);\n  }\n})();\n</script>"
         },
-        "elements": [
-          {
-            "id": "hdr_logo_img",
-            "elType": "widget",
-            "settings": {
-              "image": {
-                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp",
-                "id": 19
-              },
-              "image_size": "full",
-              "link_to": "custom",
-              "link": {
-                "url": "#home",
-                "is_external": false,
-                "nofollow": false
-              },
-              "width": {
-                "unit": "px",
-                "size": 130
-              }
-            },
-            "elements": [],
-            "widgetType": "image"
-          }
-        ],
-        "isInner": true
-      },
-      {
-        "id": "hdr_nav_wrap",
-        "elType": "container",
-        "settings": {
-          "content_width": "full",
-          "flex_direction": "row",
-          "justify_content": "center",
-          "align_items": "center",
-          "flex_grow": 1,
-          "flex_shrink": 0,
-          "margin": {
-            "unit": "px",
-            "top": "0",
-            "right": "16",
-            "bottom": "0",
-            "left": "16",
-            "isLinked": false
-          }
-        },
-        "elements": [
-          {
-            "id": "hdr_nav_menu",
-            "elType": "widget",
-            "settings": {
-              "menu": "11",
-              "layout": "horizontal",
-              "align_items": "center",
-              "pointer": "underline",
-              "animation_line": "grow",
-              "color_menu_item": "#CBD5E1",
-              "color_menu_item_hover": "#FFFFFF",
-              "color_menu_item_active": "#FFFFFF",
-              "pointer_color_menu_item_hover": "#168B8D",
-              "pointer_color_menu_item_active": "#168B8D",
-              "typography_typography": "custom",
-              "typography_font_family": "Plus Jakarta Sans",
-              "typography_font_size": {
-                "unit": "px",
-                "size": 12.5
-              },
-              "typography_font_weight": "500",
-              "padding_horizontal_menu_item": {
-                "unit": "px",
-                "size": 9
-              },
-              "toggle_color": "#FFFFFF",
-              "toggle_background_color": "transparent"
-            },
-            "elements": [],
-            "widgetType": "nav-menu"
-          }
-        ],
-        "isInner": true
-      },
-      {
-        "id": "hdr_cta_wrap",
-        "elType": "container",
-        "settings": {
-          "content_width": "full",
-          "width": {
-            "unit": "px",
-            "size": 140
-          },
-          "justify_content": "flex-end",
-          "align_items": "center",
-          "flex_shrink": 0
-        },
-        "elements": [
-          {
-            "id": "hdr_cta_btn",
-            "elType": "widget",
-            "settings": {
-              "text": "Trade Enquiry",
-              "link": {
-                "url": "#enquiry",
-                "is_external": false,
-                "nofollow": false
-              },
-              "size": "sm",
-              "button_text_color": "#FFFFFF",
-              "background_color": "#168B8D",
-              "border_border": "solid",
-              "border_width": {
-                "unit": "px",
-                "top": "1",
-                "right": "1",
-                "bottom": "1",
-                "left": "1",
-                "isLinked": true
-              },
-              "border_color": "rgba(45, 212, 191, 0.4)",
-              "border_radius": {
-                "unit": "px",
-                "top": "3",
-                "right": "3",
-                "bottom": "3",
-                "left": "3",
-                "isLinked": true
-              },
-              "typography_font_family": "Plus Jakarta Sans",
-              "typography_font_weight": "600",
-              "typography_font_size": {
-                "unit": "px",
-                "size": 12
-              },
-              "padding": {
-                "unit": "px",
-                "top": "8",
-                "right": "16",
-                "bottom": "8",
-                "left": "16",
-                "isLinked": false
-              }
-            },
-            "elements": [],
-            "widgetType": "button"
-          }
-        ],
-        "isInner": true
+        "elements": [],
+        "widgetType": "html"
       }
     ],
     "isInner": false
