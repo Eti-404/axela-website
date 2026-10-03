@@ -4,75 +4,546 @@
  */
 
 :root {
-  /* Brand Palette */
+  /* Brand Palette - Petroleum & Institutional Aesthetic */
   --axela-bg-dark: #070B11;
+  --axela-bg-ticker: #04070C;
   --axela-bg-card: #0E1726;
   --axela-bg-card-hover: #131F33;
   --axela-border: rgba(255, 255, 255, 0.08);
-  --axela-border-red: rgba(229, 46, 46, 0.35);
-  --axela-red: #E52E2E;
-  --axela-red-hover: #C81E1E;
+  --axela-border-light: rgba(255, 255, 255, 0.15);
+  
+  /* Soft Teal / Cyan Accent (Replaces Harsh Red) */
+  --axela-teal: #168B8D;
+  --axela-teal-hover: #1A9D9F;
+  --axela-teal-light: #2DD4BF;
+  --axela-teal-bg: rgba(22, 139, 141, 0.12);
+  --axela-teal-border: rgba(45, 212, 191, 0.35);
+
+  /* Soft Warm Gold / Amber Accent (Matching Petrotraders) */
+  --axela-gold: #E5A93C;
+  --axela-gold-hover: #F5BA42;
+  --axela-gold-bg: rgba(229, 169, 60, 0.08);
+  --axela-gold-border: rgba(229, 169, 60, 0.55);
+
+  /* Typography Colors */
   --axela-text-primary: #FFFFFF;
+  --axela-text-secondary: #E2E8F0;
   --axela-text-muted: #94A3B8;
   --axela-text-dim: #64748B;
-  --axela-accent-gold: #F59E0B;
-  --axela-accent-teal: #0EA5E9;
   
-  /* Typography */
-  --axela-font-heading: 'Cormorant Garamond', 'Plus Jakarta Sans', Georgia, serif;
+  /* Fonts */
+  --axela-font-heading: 'Cormorant Garamond', Georgia, serif;
   --axela-font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Smooth Scrolling & Sticky Offset */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 90px;
-}
-
-body {
+/* 100% Full Width Zero White Margins */
+html,
+body,
+#page,
+.site,
+.site-content,
+.ast-container,
+#primary,
+#main,
+.entry-content,
+.ast-plain-container,
+.elementor-section-wrap,
+.elementor {
   background-color: var(--axela-bg-dark) !important;
+  background: var(--axela-bg-dark) !important;
   color: var(--axela-text-muted) !important;
   font-family: var(--axela-font-body);
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
   overflow-x: hidden;
 }
 
-/* Glassmorphic Cards */
-.axela-card {
-  background: var(--axela-bg-card) !important;
-  border: 1px solid var(--axela-border) !important;
-  border-radius: 12px !important;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 86px;
 }
 
-.axela-card:hover {
-  background: var(--axela-bg-card-hover) !important;
-  border-color: var(--axela-border-red) !important;
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(229, 46, 46, 0.1);
+/* ==========================================================================
+   1. Live Market Ticker & Live Clock Bar
+   ========================================================================== */
+.axela-top-ticker-container,
+.elementor-element-hdr_top_ticker_con {
+  position: relative !important;
+  z-index: 100000 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 32px !important;
+  height: 32px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: var(--axela-bg-ticker) !important;
+  display: block !important;
+  box-sizing: border-box !important;
 }
 
-/* Sticky Glass Header */
-.axela-sticky-header {
+.axela-ticker-outer,
+.axela-ticker-bar {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  line-height: 32px !important;
+  background: #04070C !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  font-size: 11px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  position: relative !important;
+  z-index: 100000 !important;
+}
+
+.axela-ticker-badge {
+  flex-shrink: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 0 12px 0 16px !important;
+  height: 32px !important;
+  background: #04070C !important;
+  z-index: 5 !important;
+  white-space: nowrap !important;
+}
+
+.ticker-dot {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 50% !important;
+  background: #1ABC9C !important;
+  box-shadow: 0 0 6px #1ABC9C !important;
+  display: inline-block !important;
+  animation: axelaPulseDot 2s infinite ease-in-out !important;
+}
+
+@keyframes axelaPulseDot {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.ticker-badge-text {
+  color: #1ABC9C !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  font-size: 10.5px !important;
+}
+
+.ticker-badge-pipe {
+  color: rgba(255, 255, 255, 0.18) !important;
+  margin-left: 8px !important;
+}
+
+.axela-ticker-marquee-wrap {
+  flex: 1 1 auto !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent);
+}
+
+.axela-ticker-marquee-inner {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  animation: axelaMarqueeLoop 36s linear infinite !important;
+}
+
+.axela-ticker-marquee-inner:hover {
+  animation-play-state: paused !important;
+}
+
+@keyframes axelaMarqueeLoop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.tick-group {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+}
+
+.t-prov {
+  color: #5A7F87 !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  margin-right: 5px !important;
+}
+
+.t-name {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  letter-spacing: 0.02em !important;
+  margin-right: 6px !important;
+}
+
+.t-val-dn {
+  color: #EF4444 !important;
+  font-weight: 700 !important;
+  margin-right: 4px !important;
+}
+
+.t-val-up {
+  color: #1ABC9C !important;
+  font-weight: 700 !important;
+  margin-right: 4px !important;
+}
+
+.t-unit {
+  color: #64748B !important;
+  font-size: 10px !important;
+  margin-right: 5px !important;
+}
+
+.t-chg-dn {
+  color: #EF4444 !important;
+  font-weight: 700 !important;
+  font-size: 10.5px !important;
+}
+
+.t-chg-up {
+  color: #1ABC9C !important;
+  font-weight: 700 !important;
+  font-size: 10.5px !important;
+}
+
+.t-pipe {
+  color: rgba(255, 255, 255, 0.18) !important;
+  margin: 0 14px !important;
+}
+
+.axela-ticker-clock {
+  flex-shrink: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0 16px 0 10px !important;
+  height: 32px !important;
+  background: #04070C !important;
+  color: #CBD5E1 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  z-index: 5 !important;
+  white-space: nowrap !important;
+}
+
+.clock-pipe {
+  color: rgba(255, 255, 255, 0.18) !important;
+  margin-right: 12px !important;
+}
+
+/* ==========================================================================
+   2. Strict Single-Line Header Navigation & Spacing
+   ========================================================================== */
+.axela-sticky-header,
+.elementor-element-hdr_container_main {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
   position: sticky !important;
   top: 0 !important;
-  z-index: 9999 !important;
+  z-index: 99999 !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
-  transition: all 0.3s ease;
+  background-color: rgba(7, 11, 17, 0.95) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
-/* Accent Badges */
-.axela-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
-  border-radius: 100px;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--axela-red);
-  background: rgba(229, 46, 46, 0.12);
-  border: 1px solid rgba(229, 46, 46, 0.25);
+/* Sleek Slim Header & Compact Logo */
+.axela-header-inner {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 6px 24px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+
+.axela-brand-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+  height: 38px !important;
+}
+
+.axela-logo-img {
+  height: 38px !important;
+  width: auto !important;
+  max-height: 38px !important;
+  display: block !important;
+}
+
+.axela-desktop-nav .nav-item {
+  font-size: 12px !important;
+  padding: 5px 8px !important;
+}
+
+.axela-header-btn {
+  font-size: 11px !important;
+  padding: 6px 15px !important;
+  line-height: 1.2 !important;
+}
+
+@media (max-width: 991px) {
+  .axela-header-inner {
+    padding: 6px 16px !important;
+  }
+  .axela-brand-logo,
+  .axela-logo-img,
+  .drawer-logo {
+    height: 30px !important;
+    width: auto !important;
+    max-height: 30px !important;
+  }
+}
+
+.axela-sticky-header > .e-con-inner,
+.elementor-element-hdr_container_main > .e-con-inner {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  gap: 20px !important;
+}
+
+.elementor-element-hdr_logo_wrap {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+.elementor-element-hdr_nav_wrap,
+.elementor-element-hdr_nav_wrap > .e-con-inner {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.elementor-element-hdr_nav_menu,
+.elementor-nav-menu--main,
+.elementor-nav-menu--layout-horizontal,
+ul.elementor-nav-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.elementor-nav-menu--main li,
+ul.elementor-nav-menu li {
+  display: inline-flex !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.elementor-nav-menu--main a.elementor-item,
+ul.elementor-nav-menu a.elementor-item {
+  display: inline-block !important;
+  white-space: nowrap !important;
+  padding: 6px 8px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.01em !important;
+  color: #CBD5E1 !important;
+  transition: color 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.elementor-nav-menu--main a.elementor-item:hover,
+.elementor-nav-menu--main a.elementor-item.elementor-item-active {
+  color: #FFFFFF !important;
+}
+
+.elementor-element-hdr_cta_wrap {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+/* ==========================================================================
+   3. Edge-to-Edge Hero & Right-Side Stats Counter
+   ========================================================================== */
+.axela-hero-section {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+}
+
+.axela-hero-btn-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-top: 14px !important;
+  width: 100% !important;
+}
+
+.axela-hero-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 12px 20px !important;
+  border-radius: 4px !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  transition: all 0.25s ease !important;
+  box-sizing: border-box !important;
+}
+
+.axela-btn-teal {
+  background: #168B8D !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(45, 212, 191, 0.4) !important;
+}
+
+.axela-btn-teal:hover {
+  background: #1A9D9F !important;
+  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;
+  color: #FFFFFF !important;
+}
+
+.axela-btn-glass {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  font-weight: 500 !important;
+}
+
+.axela-btn-glass:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
+  color: #FFFFFF !important;
+}
+
+.axela-btn-gold {
+  background: rgba(229, 169, 60, 0.10) !important;
+  color: #E5A93C !important;
+  border: 1.5px solid #E5A93C !important;
+  font-weight: 600 !important;
+}
+
+.axela-btn-gold:hover {
+  background: rgba(229, 169, 60, 0.22) !important;
+  border-color: #F5BA42 !important;
+  color: #FFD269 !important;
+  box-shadow: 0 0 16px rgba(229, 169, 60, 0.35) !important;
+}
+
+.axela-hero-stats-wrap {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 38px !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.axela-stat-box {
+  text-align: right !important;
+  padding-right: 22px !important;
+  border-right: 2px solid #E5A93C !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  transition: transform 0.25s ease !important;
+}
+
+.axela-stat-box:hover {
+  transform: translateX(-4px) !important;
+}
+
+.axela-stat-box .stat-num {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif !important;
+  font-size: 56px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  color: #E5A93C !important;
+  letter-spacing: -0.01em !important;
+  margin-bottom: 6px !important;
+  text-shadow: 0 0 25px rgba(229, 169, 60, 0.25) !important;
+}
+
+.axela-stat-box .stat-lbl {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: #94A3B8 !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 991px) {
+  .axela-hero-btn-row {
+    flex-wrap: wrap !important;
+  }
+  .axela-hero-stats-wrap {
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+  .axela-stat-box {
+    align-items: center !important;
+    text-align: center !important;
+    padding-right: 14px !important;
+  }
+  .axela-stat-box .stat-num {
+    font-size: 38px !important;
+  }
 }
