@@ -68,18 +68,27 @@ html {
 /* ==========================================================================
    1. Live Market Ticker & Live Clock Bar
    ========================================================================== */
-.axela-top-ticker-container {
+.axela-top-ticker-container,
+.elementor-element-hdr_top_ticker_con {
+  position: relative !important;
+  z-index: 100000 !important;
   width: 100% !important;
   max-width: 100% !important;
+  min-height: 32px !important;
+  height: 32px !important;
   margin: 0 !important;
   padding: 0 !important;
   background: var(--axela-bg-ticker) !important;
+  display: block !important;
+  box-sizing: border-box !important;
 }
 
+.axela-ticker-outer,
 .axela-ticker-bar {
   width: 100% !important;
   max-width: 100% !important;
   height: 32px !important;
+  min-height: 32px !important;
   line-height: 32px !important;
   background: #04070C !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
