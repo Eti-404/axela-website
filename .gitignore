@@ -1,0 +1,82 @@
+# ==============================================================================
+# AXELA LTD. - Secure WordPress .gitignore
+# ==============================================================================
+
+# 1. WordPress Core (Never track core files)
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-config.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/.htaccess
+
+# 2. Sensitive Credentials & Secrets (Strict Security Protocol)
+*.env
+*.env.*
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.token
+credentials.json
+secrets.*
+
+# 3. Database Dumps & Backups
+*.sql
+*.sql.gz
+*.dump
+*.tar.gz
+*.zip
+*.bak
+/wp-content/backup-db/
+/wp-content/backups/
+
+# 4. Uploads, Cache & Temporary Files
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/debug.log
+/wp-content/languages/
+/wp-content/blogs.dir/
+debug.log
+*.log
+
+# 5. OS & IDE Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.agents/
+
+# 6. Default / Third-Party Plugins (Standard Repo Plugins)
+/wp-content/plugins/
+
+# 7. Themes: Ignore third-party themes, track custom child theme & assets
+/wp-content/themes/*
+!/wp-content/themes/astra-child/
+/wp-content/index.php
+
+# 8. Custom Project Assets & Elementor Exports
+!/assets/
+!/custom-css/
+!/elementor-templates/
