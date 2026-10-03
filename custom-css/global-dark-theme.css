@@ -62,7 +62,7 @@ body,
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 110px;
+  scroll-padding-top: 86px;
 }
 
 /* ==========================================================================
@@ -254,7 +254,8 @@ html {
   flex-wrap: nowrap !important;
   justify-content: space-between !important;
   align-items: center !important;
-  padding: 8px 32px !important;
+  padding: 0 !important;
+  margin: 0 !important;
   box-sizing: border-box !important;
   position: sticky !important;
   top: 0 !important;
@@ -263,6 +264,59 @@ html {
   -webkit-backdrop-filter: blur(16px) !important;
   background-color: rgba(7, 11, 17, 0.95) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Sleek Slim Header & Compact Logo */
+.axela-header-inner {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 6px 24px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+
+.axela-brand-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+  height: 38px !important;
+}
+
+.axela-logo-img {
+  height: 38px !important;
+  width: auto !important;
+  max-height: 38px !important;
+  display: block !important;
+}
+
+.axela-desktop-nav .nav-item {
+  font-size: 12px !important;
+  padding: 5px 8px !important;
+}
+
+.axela-header-btn {
+  font-size: 11px !important;
+  padding: 6px 15px !important;
+  line-height: 1.2 !important;
+}
+
+@media (max-width: 991px) {
+  .axela-header-inner {
+    padding: 6px 16px !important;
+  }
+  .axela-brand-logo,
+  .axela-logo-img,
+  .drawer-logo {
+    height: 30px !important;
+    width: auto !important;
+    max-height: 30px !important;
+  }
 }
 
 .axela-sticky-header > .e-con-inner,
