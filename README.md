@@ -10,7 +10,7 @@ This repository maintains the version-controlled assets, custom themes, template
 - **CMS:** WordPress
 - **Base Theme:** Astra
 - **Page Builder:** Elementor Pro (Modern Flexbox Containers)
-- **Design System:** Obsidian Dark Aesthetic inspired by institutional commodity trading houses (`petrotraders.com`)
+- **Design System:** Obsidian Dark Aesthetic 
 - **Typography & Brand:** Custom Ultra-HD Dark-mode adapted Axela Logo, Cormorant / Inter clean typography, Crimson Red Brand Accents (`#E52E2E`)
 
 ---
