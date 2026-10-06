@@ -88,7 +88,7 @@ header {
   padding: 0 10px !important;
   background: rgba(218, 66, 60, 0.15) !important;
   border-right: 1px solid rgba(218, 66, 60, 0.3) !important;
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 9px !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
@@ -139,7 +139,7 @@ header {
 }
 
 .ticker-src {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 9px !important;
   letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
@@ -148,7 +148,7 @@ header {
 }
 
 .ticker-name {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 10px !important;
   letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
@@ -158,7 +158,7 @@ header {
 }
 
 .ticker-val {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 10.5px !important;
   color: #F4F0EB !important;
   font-weight: 600 !important;
@@ -176,14 +176,14 @@ header {
 }
 
 .ticker-unit {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 8.5px !important;
   color: rgba(244, 240, 235, 0.35) !important;
   white-space: nowrap !important;
 }
 
 .ticker-chg {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 9px !important;
   font-weight: 600 !important;
   white-space: nowrap !important;
@@ -209,7 +209,7 @@ header {
   align-items: center !important;
   gap: 5px !important;
   height: 28px !important;
-  font-family: 'Barlow Condensed', sans-serif !important;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 10px !important;
   letter-spacing: 0.08em !important;
   color: rgba(244, 240, 235, 0.75) !important;
@@ -279,7 +279,7 @@ header {
 /* 4. Smaller Menu Font Size (Reference Site Standard: 10.5px Barlow Condensed) */
 .elementor-element-axela_hdr_nav .elementor-item,
 .axela-native-nav .elementor-item {
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif;
   font-size: 10.5px !important;
   font-weight: 600 !important;
   letter-spacing: 1.2px !important;
@@ -305,7 +305,7 @@ header {
 
 .elementor-element-axela_hdr_btn .elementor-button,
 .axela-native-hdr-btn .elementor-button {
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif;
   font-size: 10.5px !important;
   font-weight: 700 !important;
   letter-spacing: 1.2px !important;

@@ -11,7 +11,8 @@ css_rules = """
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-/* Universal Section Spacing (Eliminate Dead Margins & Whitespace) */
+/* Universal Section Spacing & Menu Scroll Margin Offset */
+#about, #services, #products, #approach, #network, #routes, #investment, #ethics, #contact,
 .axela-section,
 .axela-services-section,
 .axela-products-section,
@@ -21,11 +22,30 @@ css_rules = """
 .axela-ethics-section,
 .axela-contact-section,
 .axela-about-section {
-  padding: 50px 0 !important;
+  padding-top: 105px !important;
+  padding-bottom: 105px !important;
+  scroll-margin-top: 90px !important;
   position: relative !important;
   width: 100% !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
   box-sizing: border-box !important;
+}
+
+@media (max-width: 767px) {
+  #about, #services, #products, #approach, #network, #routes, #investment, #ethics, #contact,
+  .axela-section,
+  .axela-services-section,
+  .axela-products-section,
+  .axela-approach-section,
+  .axela-network-section,
+  .axela-invest-section,
+  .axela-ethics-section,
+  .axela-contact-section,
+  .axela-about-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    scroll-margin-top: 70px !important;
+  }
 }
 
 /* Background Themes - Deep Luxury Navy-Charcoal Gradients (#040911 to #081325) */
@@ -67,7 +87,7 @@ h1, h2,
 .axela-section-title .elementor-heading-title,
 .elementor-widget-heading h1,
 .elementor-widget-heading h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-weight: 300 !important;
   letter-spacing: -0.015em !important;
   line-height: 1.15 !important;
@@ -85,7 +105,7 @@ h1, h2,
 /* Eyebrows System - Barlow Condensed All-Caps Standard Gold (#D4AF37) */
 .axela-section-eyebrow,
 .axela-section-eyebrow .elementor-heading-title {
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
   font-size: 11.5px !important;
   font-weight: 700 !important;
   letter-spacing: 2.2px !important;
@@ -103,7 +123,7 @@ h1, h2,
 .axela-section-header p,
 .axela-section-header .elementor-widget-text-editor,
 .axela-section-subtitle p {
-  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', -apple-system, sans-serif ; */
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 1.65 !important;
@@ -156,7 +176,7 @@ h1, h2,
   padding: 0 10px !important;
   background: rgba(218, 66, 60, 0.15) !important;
   border-right: 1px solid rgba(218, 66, 60, 0.3) !important;
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 9px !important;
   font-weight: 700 !important;
   letter-spacing: 0.18em !important;
@@ -200,7 +220,7 @@ h1, h2,
 }
 
 .ticker-src {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 9px !important;
   letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
@@ -209,7 +229,7 @@ h1, h2,
 }
 
 .ticker-name {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 10px !important;
   letter-spacing: 0.06em !important;
   text-transform: uppercase !important;
@@ -219,7 +239,7 @@ h1, h2,
 }
 
 .ticker-val {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 10.5px !important;
   color: #F4F0EB !important;
   font-weight: 600 !important;
@@ -237,14 +257,14 @@ h1, h2,
 }
 
 .ticker-unit {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 8.5px !important;
   color: rgba(244, 240, 235, 0.35) !important;
   white-space: nowrap !important;
 }
 
 .ticker-chg {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 9px !important;
   font-weight: 600 !important;
   white-space: nowrap !important;
@@ -270,7 +290,7 @@ h1, h2,
   align-items: center !important;
   gap: 5px !important;
   height: 28px !important;
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 10px !important;
   letter-spacing: 0.08em !important;
   color: rgba(244, 240, 235, 0.75) !important;
@@ -409,7 +429,7 @@ header {
   }
   .axela-native-nav .elementor-nav-menu--dropdown a {
     color: #CBD5E1 !important;
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    /* font-family: 'Plus Jakarta Sans', sans-serif ; */
     font-size: 13.5px !important;
     letter-spacing: 0.5px !important;
     padding: 10px 20px !important;
@@ -423,7 +443,7 @@ header {
 
 .elementor-element-axela_hdr_nav .elementor-item,
 .axela-native-nav .elementor-item {
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
   font-size: 10.5px !important;
   font-weight: 600 !important;
   letter-spacing: 1.2px !important;
@@ -459,7 +479,7 @@ header {
   background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   color: #FFFFFF !important;
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.10em !important;
@@ -582,7 +602,7 @@ header {
   letter-spacing: 2.5px !important;
   text-transform: uppercase !important;
   color: #D4AF37 !important;
-  font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
   font-size: 11.5px !important;
   letter-spacing: 0.16em !important;
   font-weight: 600 !important;
@@ -593,7 +613,7 @@ header {
 .axela-hero-title,
 .axela-hero-title .elementor-heading-title,
 .elementor-element-hero_h1_hd .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 52px !important;
   font-weight: 400 !important;
   line-height: 1.12 !important;
@@ -605,7 +625,7 @@ header {
 .axela-hero-intro,
 .axela-hero-intro p,
 .elementor-element-hero_intro_txt p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 15.5px !important;
   font-weight: 400 !important;
   line-height: 1.7 !important;
@@ -618,7 +638,7 @@ header {
 .axela-hero-support p,
 .elementor-element-hero_support_txt,
 .elementor-element-hero_support_txt p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 1.65 !important;
@@ -658,7 +678,7 @@ header {
   gap: 8px !important;
   padding: 11px 20px !important;
   border-radius: 3px !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 12px !important;
   font-weight: 700 !important;
   letter-spacing: 0.10em !important;
@@ -743,7 +763,7 @@ header {
   outline: none !important;
   padding: 10px 14px 10px 0 !important;
   text-decoration: none !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 12px !important;
   font-weight: 700 !important;
   letter-spacing: 0.10em !important;
@@ -798,7 +818,7 @@ header {
    SECTION 1: ABOUT AXELA LTD. (NO STATS BOXES / NO BUTTONS / DOC PURITY)
    ============================================================================= */
 .axela-lead-text p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 16px !important;
   line-height: 1.75 !important;
   color: #E2E8F0 !important;
@@ -807,7 +827,7 @@ header {
 }
 
 .axela-sub-text p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 14.5px !important;
   line-height: 1.68 !important;
   color: #94A3B8 !important;
@@ -865,7 +885,7 @@ header {
 
 .service-card-num,
 .service-card-num .elementor-heading-title {
-  font-family: 'Barlow Condensed', monospace !important;
+  /* font-family: 'Barlow Condensed', monospace ; */
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
@@ -880,9 +900,9 @@ header {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: rgba(218, 66, 60, 0.12) !important;
-  border: 1px solid rgba(218, 66, 60, 0.30) !important;
-  color: #DA423C !important;
+  background: rgba(212, 175, 55, 0.12) !important;
+  border: 1px solid rgba(212, 175, 55, 0.30) !important;
+  color: #D4AF37 !important;
   font-size: 12px !important;
   transition: all 0.25s ease !important;
 }
@@ -898,7 +918,7 @@ header {
 
 .service-card-title,
 .service-card-title .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 19px !important;
   font-weight: 400 !important;
   color: #FFFFFF !important;
@@ -909,7 +929,7 @@ header {
 .service-card-desc,
 .service-card-desc p,
 .elementor-element-services_grid_con p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 12px !important;
   line-height: 1.55 !important;
   color: #94A3B8 !important;
@@ -919,31 +939,37 @@ header {
 /* =============================================================================
    SECTION 3: PRODUCTS & CATEGORIES (LUXURY VIGNETTE & COMPACT CARDS)
    ============================================================================= */
-/* Split Blend Warehouse Banner (Petrotraders / Screenshot 2026-10-05 154627.png) */
+/* Split Blend Warehouse Banner (Petrotraders / Screenshot 2026-10-06 142745.jpg Spec) */
 .axela-products-split-banner,
 .elementor-element-prod_split_banner {
   position: relative !important;
-  min-height: 380px !important;
-  border-radius: 4px !important;
+  min-height: 420px !important;
+  border-radius: 6px !important;
   overflow: hidden !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 24px !important;
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5) !important;
   box-sizing: border-box !important;
   display: flex !important;
   align-items: center !important;
-  background: url('https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp') no-repeat center center / cover !important;
+  background: url('https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp') no-repeat center right / cover !important;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%) !important;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%) !important;
 }
 
 .axela-products-split-banner::before,
 .elementor-element-prod_split_banner::before {
   content: '' !important;
   position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  background: linear-gradient(90deg, #040911 0%, rgba(4, 9, 17, 0.92) 32%, rgba(4, 9, 17, 0.65) 60%, transparent 100%) !important;
+  inset: 0 !important;
+  background: linear-gradient(
+    to right,
+    #040911 0%,
+    #040911 38%,
+    rgba(4, 9, 17, 0.85) 50%,
+    rgba(4, 9, 17, 0.45) 68%,
+    transparent 100%
+  ) !important;
   z-index: 1 !important;
   pointer-events: none !important;
 }
@@ -1046,7 +1072,7 @@ header {
 
 .category-icon-inline .elementor-icon {
   font-size: 14px !important;
-  color: #DA423C !important;
+  color: #D4AF37 !important;
   display: inline-flex !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -1060,7 +1086,7 @@ header {
 .category-card-title-sleek,
 .category-card-title-sleek .elementor-heading-title,
 [data-id^="cat_card_"] .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 19px !important;
   font-weight: 400 !important;
   color: #FFFFFF !important;
@@ -1071,7 +1097,7 @@ header {
 
 .axela-category-compact-card p,
 .elementor-element-categories_grid_con p {
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 12px !important;
   line-height: 1.55 !important;
   color: #94A3B8 !important;
@@ -1087,7 +1113,7 @@ header {
 
 .compliance-title,
 .compliance-title .elementor-heading-title {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 11.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
@@ -1137,7 +1163,7 @@ header {
 
 .stage-card-step,
 .stage-card-step .elementor-heading-title {
-  font-family: ui-monospace, SFMono-Regular, monospace !important;
+  /* font-family: ui-monospace, SFMono-Regular, monospace ; */
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.14em !important;
@@ -1169,7 +1195,7 @@ header {
 
 .stage-card-title,
 .stage-card-title .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 17px !important;
   font-weight: 400 !important;
   color: #FFFFFF !important;
@@ -1205,7 +1231,7 @@ header {
 
 .invest-box-title,
 .invest-box-title .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 24px !important;
   font-weight: 400 !important;
   color: #FFFFFF !important;
@@ -1216,7 +1242,7 @@ header {
 .invest-pillars-eyebrow .elementor-heading-title,
 .invest-notice-eyebrow,
 .invest-notice-eyebrow .elementor-heading-title {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 10.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
@@ -1274,7 +1300,7 @@ header {
 
 .ethics-card-tag,
 .ethics-card-tag .elementor-heading-title {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 10.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
@@ -1283,7 +1309,7 @@ header {
 
 .ethics-card-title,
 .ethics-card-title .elementor-heading-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  /* font-family: 'Cormorant Garamond', Georgia, serif ; */
   font-size: 18px !important;
   font-weight: 400 !important;
   color: #FFFFFF !important;
@@ -1293,7 +1319,7 @@ header {
 .ethics-icon-sleek,
 .ethics-icon-sleek .elementor-icon {
   font-size: 13px !important;
-  color: #DA423C !important;
+  color: #D4AF37 !important;
   width: 24px !important;
   height: 24px !important;
   display: inline-flex !important;
@@ -1338,7 +1364,7 @@ header {
 
 .contact-hub-tag,
 .contact-hub-tag .elementor-heading-title {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.18em !important;
@@ -1411,7 +1437,7 @@ header {
 
 .axela-native-pro-form .elementor-field-label,
 .axela-contact-form-right .elementor-field-label {
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 11.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.14em !important;
@@ -1433,7 +1459,7 @@ header {
   color: #F1F5F9 !important;
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
   border-radius: 4px !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 13px !important;
   padding: 10px 14px !important;
   box-sizing: border-box !important;
@@ -1471,7 +1497,7 @@ header {
 .axela-btn-red .elementor-button {
   background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
-  font-family: 'Barlow Condensed', sans-serif !important;
+  /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 13.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
@@ -1502,7 +1528,7 @@ header {
 /* Elementor Form Validation & Success / Danger Notices (Dark Theme) */
 .elementor-message {
   border-radius: 4px !important;
-  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 13px !important;
   font-weight: 500 !important;
   padding: 12px 18px !important;
@@ -1890,7 +1916,7 @@ header {
   border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
   padding: 56px 0 34px 0 !important;
   color: #94A3B8 !important;
-  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  /* font-family: 'Plus Jakarta Sans', -apple-system, sans-serif ; */
   width: 100% !important;
 }
 

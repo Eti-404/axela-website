@@ -36,13 +36,14 @@ def native_text(content, custom_css_class='', eid=None):
         "elements": []
     }
 
-def native_icon(icon_class="fas fa-arrow-right", custom_css_class='', eid=None):
+def native_icon(icon_class="fas fa-arrow-right", custom_css_class='', eid=None, color='#D4AF37'):
     settings = {
         "selected_icon": {
             "value": icon_class,
             "library": "fa-solid"
         },
-        "view": "default"
+        "view": "default",
+        "primary_color": color
     }
     if custom_css_class:
         settings["_css_classes"] = custom_css_class
@@ -98,7 +99,8 @@ def native_form(eid=None):
         "form_name": "AXELA Trade & Project Enquiry Form",
         "form_fields": [
             {
-                "_id": "full_name",
+                "_id": "name",
+                "custom_id": "name",
                 "field_type": "text",
                 "field_label": "Full Name",
                 "placeholder": "e.g. Johnathan Doe",
@@ -107,6 +109,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "company",
+                "custom_id": "company",
                 "field_type": "text",
                 "field_label": "Company / Organisation",
                 "placeholder": "e.g. PetroGlobal Trading LLC",
@@ -115,6 +118,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "email_phone",
+                "custom_id": "email_phone",
                 "field_type": "text",
                 "field_label": "Business Email & Phone / WhatsApp",
                 "placeholder": "e.g. desk@company.com / +88 017...",
@@ -123,6 +127,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "country",
+                "custom_id": "country",
                 "field_type": "text",
                 "field_label": "Country of Operation",
                 "placeholder": "e.g. Bangladesh / Singapore / UAE",
@@ -131,6 +136,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "enquiry_type",
+                "custom_id": "enquiry_type",
                 "field_type": "select",
                 "field_label": "Enquiry Type",
                 "field_options": "Product Supply\nTender\nBrokerage\nInvestment\nAdvisory\nOther",
@@ -139,6 +145,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "product_project",
+                "custom_id": "product_project",
                 "field_type": "text",
                 "field_label": "Product or Project of Interest",
                 "placeholder": "e.g. Gasoil 50ppm / Prilled Urea / Energy Project",
@@ -147,6 +154,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "quantity_size",
+                "custom_id": "quantity_size",
                 "field_type": "text",
                 "field_label": "Required Quantity or Estimated Project Size",
                 "placeholder": "e.g. 50,000 MT / USD 10M",
@@ -154,6 +162,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "destination",
+                "custom_id": "destination",
                 "field_type": "text",
                 "field_label": "Destination / Location",
                 "placeholder": "e.g. Chattogram Port / Matarbari / Mongla",
@@ -161,6 +170,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "incoterm",
+                "custom_id": "incoterm",
                 "field_type": "text",
                 "field_label": "Preferred Delivery Term (Incoterm)",
                 "placeholder": "e.g. CIF Chattogram / CFR / FOB",
@@ -168,6 +178,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "delivery_timeline",
+                "custom_id": "delivery_timeline",
                 "field_type": "text",
                 "field_label": "Target Delivery Date or Project Timeline",
                 "placeholder": "e.g. Q4 2026 / Prompt Delivery",
@@ -175,6 +186,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "specs_summary",
+                "custom_id": "specs_summary",
                 "field_type": "textarea",
                 "field_label": "Required Specifications or Project Summary",
                 "placeholder": "Detail specific grades, quality parameters, origin preferences, or scope summary...",
@@ -183,6 +195,7 @@ def native_form(eid=None):
             },
             {
                 "_id": "supporting_docs",
+                "custom_id": "supporting_docs",
                 "field_type": "upload",
                 "field_label": "Message & Supporting Documents (Upload Spec Sheet / LOI / RFQ)",
                 "file_types": "pdf,doc,docx,jpg,jpeg,png,webp",
@@ -193,8 +206,10 @@ def native_form(eid=None):
         "submit_actions": ["email"],
         "email_to": "anikaeti404@gmail.com",
         "email_subject": "New Trade & Project Enquiry - AXELA LTD.",
-        "email_from_name": "AXELA Global Trading Desk",
+        "email_from_name": "AXELA Limited",
         "email_from_email": "noreply@axelaglobal.com",
+        "email_reply_to": "[field id=\"email_phone\"]",
+        "email_reply_to_field": "email_phone",
         "email_content": "[all-fields]",
         "button_text": "SUBMIT TRADE ENQUIRY",
         "button_width": "100",
@@ -213,7 +228,7 @@ def native_form(eid=None):
         "elements": []
     }
 
-def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None):
+def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None, padding=None):
     settings = {
         "content_width": content_width,
         "flex_direction": direction,
@@ -221,6 +236,8 @@ def native_container(elements=None, direction='column', wrap='nowrap', justify='
         "justify_content": justify,
         "align_items": align
     }
+    if padding:
+        settings["padding"] = padding
     if custom_css_class:
         settings["_css_classes"] = custom_css_class
     if custom_id:
@@ -902,13 +919,23 @@ def build_homepage():
         eid="about_inner_wrap"
     )
 
+    SECTION_PADDING = {
+        "unit": "px",
+        "top": "105",
+        "bottom": "105",
+        "left": "0",
+        "right": "0",
+        "isLinked": False
+    }
+
     about_section = native_container(
         elements=[about_boxed_wrap],
         direction="column",
         content_width="full",
         custom_css_class="axela-section axela-about-section",
         custom_id="about",
-        eid="sec_about"
+        eid="sec_about",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1022,7 +1049,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-services-section",
         custom_id="services",
-        eid="sec_services"
+        eid="sec_services",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1032,7 +1060,7 @@ def build_homepage():
     # "reduce icon size and make them more closer to their headings , and add icons to every section/card here"
     # "Add any relevent better image" -> high res refinery banner
     # =========================================================================
-    # Split Blend Warehouse Banner (Petrotraders / Screenshot 2026-10-05 154627.png style)
+    # Split Blend Warehouse Banner (Petrotraders / Screenshot 2026-10-06 142745.jpg style)
     products_eyebrow = native_heading("03 / COMMODITY SCOPE", tag="span", custom_css_class="axela-section-eyebrow", eid="prod_eye")
     products_title = native_heading("Products and Trading Categories", tag="h2", custom_css_class="axela-section-title", eid="prod_h2")
     products_subtitle = native_text(
@@ -1054,18 +1082,19 @@ def build_homepage():
         "settings": {
             "content_width": "full",
             "width": {"unit": "%", "size": 100},
-            "min_height": {"unit": "px", "size": 380},
+            "min_height": {"unit": "px", "size": 420},
             "flex_direction": "row",
             "align_items": "center",
             "justify_content": "flex-start",
-            "padding": {"unit": "px", "top": "50", "right": "35", "bottom": "50", "left": "35", "isLinked": False},
+            "padding": {"unit": "px", "top": "60", "right": "40", "bottom": "60", "left": "50", "isLinked": False},
             "background_background": "classic",
             "background_image": {
                 "url": "https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp",
                 "id": 86
             },
-            "background_position": "center center",
+            "background_position": "center right",
             "background_size": "cover",
+            "background_repeat": "no-repeat",
             "background_overlay_background": "gradient",
             "background_overlay_color": "#040911",
             "background_overlay_color_b": "rgba(4, 9, 17, 0.0)",
@@ -1159,7 +1188,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-products-section",
         custom_id="products",
-        eid="sec_products"
+        eid="sec_products",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1254,7 +1284,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-approach-section",
         custom_id="approach",
-        eid="sec_approach"
+        eid="sec_approach",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1291,7 +1322,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-network-section",
         custom_id="network",
-        eid="sec_network"
+        eid="sec_network",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1371,7 +1403,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-invest-section",
         custom_id="investment",
-        eid="sec_investment"
+        eid="sec_investment",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1393,7 +1426,7 @@ def build_homepage():
 
     ethics_pillars = [
         {
-            "tag": "PROFESSIONAL INTEGRITY", "icon": "fas fa-scale-balanced",
+            "tag": "PROFESSIONAL INTEGRITY", "icon": "fas fa-balance-scale",
             "title": "Integrity & Contractual Discipline",
             "desc": "We value clear mandates, accurate commercial documentation and responsible engagement with suppliers, buyers, investors and institutional counterparties."
         },
@@ -1403,7 +1436,7 @@ def build_homepage():
             "desc": "Protecting counterparty proprietary intelligence, pricing structures, trade strategies and non-disclosure obligations throughout all transaction stages."
         },
         {
-            "tag": "STATUTORY ADHERENCE", "icon": "fas fa-shield-halved",
+            "tag": "STATUTORY ADHERENCE", "icon": "fas fa-shield-alt",
             "title": "Regulatory & Sanctions Compliance",
             "desc": "Product transactions and advisory assignments remain subject to relevant licensing, sanctions screening, customs, tax, and governance compliance requirements."
         }
@@ -1456,7 +1489,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-ethics-section",
         custom_id="ethics",
-        eid="sec_ethics"
+        eid="sec_ethics",
+        padding=SECTION_PADDING
     )
 
     # =========================================================================
@@ -1533,7 +1567,8 @@ def build_homepage():
         content_width="full",
         custom_css_class="axela-section axela-contact-section",
         custom_id="contact",
-        eid="sec_contact"
+        eid="sec_contact",
+        padding=SECTION_PADDING
     )
 
     # Assemble all 9 sections
