@@ -203,7 +203,7 @@ def native_form(eid=None):
                 "width": "100"
             }
         ],
-        "submit_actions": ["email"],
+        "submit_actions": ["email", "save-to-database", "collect-submissions", "submissions"],
         "email_to": "anikaeti404@gmail.com",
         "email_subject": "New Trade & Project Enquiry - AXELA LTD.",
         "email_from_name": "AXELA Limited",
@@ -228,7 +228,7 @@ def native_form(eid=None):
         "elements": []
     }
 
-def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None, padding=None):
+def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None, padding=None, bg_color="#040911"):
     settings = {
         "content_width": content_width,
         "flex_direction": direction,
@@ -236,12 +236,17 @@ def native_container(elements=None, direction='column', wrap='nowrap', justify='
         "justify_content": justify,
         "align_items": align
     }
+    if bg_color and (custom_id or "axela-section" in custom_css_class):
+        settings["background_background"] = "classic"
+        settings["background_color"] = bg_color
     if padding:
         settings["padding"] = padding
     if custom_css_class:
         settings["_css_classes"] = custom_css_class
+        settings["css_classes"] = custom_css_class
     if custom_id:
         settings["_element_id"] = custom_id
+        settings["css_id"] = custom_id
 
     return {
         "id": eid or uid('con'),

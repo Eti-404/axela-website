@@ -312,6 +312,80 @@ header {
   text-transform: uppercase !important;
   padding: 7px 16px !important;
 }
+
+@media (max-width: 767px) {
+  .axela-top-ticker-outer {
+    height: 28px !important;
+    min-height: 28px !important;
+    max-height: 28px !important;
+    overflow: hidden !important;
+  }
+  .axela-sticky-header,
+  .elementor-element-hdr_container_main {
+    min-height: 52px !important;
+    max-height: 52px !important;
+    height: 52px !important;
+    padding: 0 !important;
+  }
+  .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
+  .axela-navbar-inner {
+    padding: 0 16px !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .elementor-element-axela_hdr_logo img,
+  .axela-native-logo img {
+    height: 32px !important;
+    max-height: 32px !important;
+    width: auto !important;
+  }
+  .elementor-element-axela_hdr_btn,
+  .axela-native-hdr-btn {
+    display: none !important;
+  }
+  .elementor-element-hdr_nav_btn_group,
+  .axela-hdr-nav-btn-group {
+    gap: 0 !important;
+    flex-wrap: nowrap !important;
+    margin-left: auto !important;
+  }
+  .axela-native-nav .elementor-menu-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 6px !important;
+    margin: 0 !important;
+    color: #FFFFFF !important;
+    background: transparent !important;
+    border: none !important;
+    font-size: 24px !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown {
+    position: fixed !important;
+    top: 80px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    background: #060e1a !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 2px solid #DA423C !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.95) !important;
+    z-index: 9999999 !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown a {
+    color: #E2E8F0 !important;
+    font-size: 14px !important;
+    padding: 12px 24px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  }
+}
 </style>
 
 <div class="axela-top-ticker-outer" id="axela-top-ticker-outer">

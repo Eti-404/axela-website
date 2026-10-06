@@ -2860,6 +2860,32 @@ html body #contact a.elementor-button:hover {
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
+/* 100% Full Width Zero White Margins & Bulletproof Dark Luxury Foundation */
+html,
+body,
+#page,
+.site,
+.site-content,
+.ast-container,
+#primary,
+#main,
+.entry-content,
+.ast-plain-container,
+.elementor-section-wrap,
+.elementor,
+.elementor-page-28,
+.elementor-kit-7 {
+  background-color: #040911 !important;
+  background: #040911 !important;
+  color: #94A3B8 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
 /* Universal Section Spacing & Menu Scroll Margin Offset */
 #about, #services, #products, #approach, #network, #routes, #investment, #ethics, #contact,
 .axela-section,
@@ -2898,14 +2924,15 @@ html body #contact a.elementor-button:hover {
 }
 
 /* Background Themes - Deep Luxury Navy-Charcoal Gradients (#040911 to #081325) */
-.axela-about-section { background: linear-gradient(180deg, #040911 0%, #061122 100%) !important; }
-.axela-services-section { background: radial-gradient(ellipse at 50% 0%, #0c1c33 0%, #060e1d 55%, #040911 100%) !important; }
-.axela-products-section { background: linear-gradient(180deg, #040911 0%, #071326 50%, #050b16 100%) !important; }
-.axela-approach-section { background: radial-gradient(ellipse at 50% 30%, #0e203a 0%, #071020 60%, #040911 100%) !important; }
-.axela-network-section { background: linear-gradient(180deg, #040911 0%, #08162c 50%, #050b16 100%) !important; }
-.axela-invest-section { background: linear-gradient(180deg, #050b16 0%, #0a1830 50%, #060e1d 100%) !important; }
-.axela-ethics-section { background: linear-gradient(180deg, #060e1d 0%, #081427 100%) !important; }
-.axela-contact-section { background: radial-gradient(ellipse at 60% 20%, #0d1e38 0%, #050c18 60%, #03070d 100%) !important; }
+#hero, .elementor-element-hero_container { background: #040911 !important; }
+#about, .elementor-element-sec_about, .axela-about-section { background: linear-gradient(180deg, #040911 0%, #061122 100%) !important; }
+#services, .elementor-element-sec_services, .axela-services-section { background: radial-gradient(ellipse at 50% 0%, #0c1c33 0%, #060e1d 55%, #040911 100%) !important; }
+#products, .elementor-element-sec_products, .axela-products-section { background: linear-gradient(180deg, #040911 0%, #071326 50%, #050b16 100%) !important; }
+#approach, .elementor-element-sec_approach, .axela-approach-section { background: radial-gradient(ellipse at 50% 30%, #0e203a 0%, #071020 60%, #040911 100%) !important; }
+#network, #routes, .elementor-element-sec_network, .axela-network-section { background: linear-gradient(180deg, #040911 0%, #08162c 50%, #050b16 100%) !important; }
+#investment, .elementor-element-sec_invest, .axela-invest-section { background: linear-gradient(180deg, #050b16 0%, #0a1830 50%, #060e1d 100%) !important; }
+#ethics, .elementor-element-sec_ethics, .axela-ethics-section { background: linear-gradient(180deg, #060e1d 0%, #081427 100%) !important; }
+#contact, .elementor-element-sec_contact, .axela-contact-section { background: radial-gradient(ellipse at 60% 20%, #0d1e38 0%, #050c18 60%, #03070d 100%) !important; }
 
 /* Boxed Container 1400px Standard */
 .axela-container-boxed,
@@ -3267,26 +3294,104 @@ header {
   .axela-native-nav .elementor-menu-toggle svg {
     fill: #FFFFFF !important;
     color: #FFFFFF !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown {
-    background: #0B111A !important;
+    background: #060e1a !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 4px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.7) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.85) !important;
     padding: 12px 0 !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown a {
     color: #CBD5E1 !important;
-    /* font-family: 'Plus Jakarta Sans', sans-serif ; */
     font-size: 13.5px !important;
     letter-spacing: 0.5px !important;
     padding: 10px 20px !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown a:hover,
   .axela-native-nav .elementor-nav-menu--dropdown a.elementor-item-active {
-    background: rgba(139, 38, 53, 0.25) !important;
+    background: rgba(218, 66, 60, 0.25) !important;
     color: #FFFFFF !important;
+  }
+}
+
+/* Mobile Header Slim Optimization (< 768px) */
+@media (max-width: 767px) {
+  header.elementor-location-header,
+  header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999999 !important;
+    width: 100% !important;
+  }
+  .axela-top-ticker-outer {
+    height: 28px !important;
+    min-height: 28px !important;
+    max-height: 28px !important;
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+  .axela-sticky-header,
+  .elementor-element-hdr_container_main {
+    min-height: 52px !important;
+    max-height: 52px !important;
+    height: 52px !important;
+    padding: 0 !important;
+  }
+  .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
+  .axela-navbar-inner {
+    padding: 0 16px !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .elementor-element-axela_hdr_logo img,
+  .axela-native-logo img {
+    height: 32px !important;
+    max-height: 32px !important;
+    width: auto !important;
+  }
+  .elementor-element-axela_hdr_btn,
+  .axela-native-hdr-btn {
+    display: none !important;
+  }
+  .elementor-element-hdr_nav_btn_group,
+  .axela-hdr-nav-btn-group {
+    gap: 0 !important;
+    flex-wrap: nowrap !important;
+    margin-left: auto !important;
+  }
+  .axela-native-nav .elementor-menu-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 6px !important;
+    margin: 0 !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown {
+    position: fixed !important;
+    top: 80px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    background: #060e1a !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 2px solid #DA423C !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.95) !important;
+    z-index: 9999999 !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown a {
+    color: #E2E8F0 !important;
+    font-size: 14px !important;
+    padding: 12px 24px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
   }
 }
 

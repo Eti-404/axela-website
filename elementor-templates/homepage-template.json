@@ -58,7 +58,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "flex-start",
-          "_css_classes": "axela-hero-content-wrap"
+          "_css_classes": "axela-hero-content-wrap",
+          "css_classes": "axela-hero-content-wrap"
         },
         "elements": [
           {
@@ -70,7 +71,8 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "flex-start",
-              "_css_classes": "axela-hero-left-column"
+              "_css_classes": "axela-hero-left-column",
+              "css_classes": "axela-hero-left-column"
             },
             "elements": [
               {
@@ -126,7 +128,8 @@
                   "flex_wrap": "wrap",
                   "justify_content": "flex-start",
                   "align_items": "center",
-                  "_css_classes": "axela-hero-btn-row"
+                  "_css_classes": "axela-hero-btn-row",
+                  "css_classes": "axela-hero-btn-row"
                 },
                 "elements": [
                   {
@@ -206,6 +209,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -215,7 +220,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-about-section",
-      "_element_id": "about"
+      "css_classes": "axela-section axela-about-section",
+      "_element_id": "about",
+      "css_id": "about"
     },
     "elements": [
       {
@@ -227,7 +234,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -287,6 +295,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -296,7 +306,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-services-section",
-      "_element_id": "services"
+      "css_classes": "axela-section axela-services-section",
+      "_element_id": "services",
+      "css_id": "services"
     },
     "elements": [
       {
@@ -308,7 +320,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -320,7 +333,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -368,7 +384,8 @@
               "flex_wrap": "wrap",
               "justify_content": "space-between",
               "align_items": "stretch",
-              "_css_classes": "axela-services-compact-grid"
+              "_css_classes": "axela-services-compact-grid",
+              "css_classes": "axela-services-compact-grid"
             },
             "elements": [
               {
@@ -380,11 +397,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_b1f0bf58",
+                    "id": "con_fb305e9e",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -392,11 +410,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_9a98e111",
+                        "id": "hd_f0330e98",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -408,7 +427,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_703a592d",
+                        "id": "ico_a0714a4b",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -425,7 +444,7 @@
                     ]
                   },
                   {
-                    "id": "hd_16fe85c1",
+                    "id": "hd_94475f29",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -437,7 +456,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_ccd5b7a1",
+                    "id": "txt_aa3f1e3a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -457,11 +476,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_10207d64",
+                    "id": "con_0804a64c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -469,11 +489,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_36797a8d",
+                        "id": "hd_b7f0f163",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -485,7 +506,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_2f7cba64",
+                        "id": "ico_4d4a3a43",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -502,7 +523,7 @@
                     ]
                   },
                   {
-                    "id": "hd_9b75b133",
+                    "id": "hd_de3384c3",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -514,7 +535,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_053e4a99",
+                    "id": "txt_243189c3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -534,11 +555,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_4821bbda",
+                    "id": "con_1149621c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -546,11 +568,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_7278d854",
+                        "id": "hd_a47e4cad",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -562,7 +585,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_0f393891",
+                        "id": "ico_63642504",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -579,7 +602,7 @@
                     ]
                   },
                   {
-                    "id": "hd_4025db09",
+                    "id": "hd_fe563723",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -591,7 +614,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_4b94da00",
+                    "id": "txt_b6f1a1c9",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -611,11 +634,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_c0f8871d",
+                    "id": "con_507090df",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -623,11 +647,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_12cf469f",
+                        "id": "hd_4d8401f9",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -639,7 +664,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_72c9267d",
+                        "id": "ico_3c32c1d0",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -656,7 +681,7 @@
                     ]
                   },
                   {
-                    "id": "hd_a0441523",
+                    "id": "hd_07dccdde",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -668,7 +693,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_905fcb3c",
+                    "id": "txt_8c9877c4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -688,11 +713,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_04ccc9d0",
+                    "id": "con_d29f6f00",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -700,11 +726,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_0b2842e7",
+                        "id": "hd_020e7160",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -716,7 +743,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_8ecf67c7",
+                        "id": "ico_9f29001f",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -733,7 +760,7 @@
                     ]
                   },
                   {
-                    "id": "hd_aca42d20",
+                    "id": "hd_27f82777",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -745,7 +772,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_2eb31ca9",
+                    "id": "txt_3e977881",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -765,11 +792,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_897c3d66",
+                    "id": "con_207da3e5",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -777,11 +805,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_50018149",
+                        "id": "hd_537a96c8",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -793,7 +822,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_c3a43ef2",
+                        "id": "ico_0f628c5b",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -810,7 +839,7 @@
                     ]
                   },
                   {
-                    "id": "hd_96a45c16",
+                    "id": "hd_84fcb695",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -822,7 +851,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_4706d3d4",
+                    "id": "txt_9451fe6f",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -842,11 +871,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_453cde8b",
+                    "id": "con_9cf0c41d",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -854,11 +884,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_6f0dd0ff",
+                        "id": "hd_87fdffd8",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -870,7 +901,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_ed681321",
+                        "id": "ico_5c22e6aa",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -887,7 +918,7 @@
                     ]
                   },
                   {
-                    "id": "hd_164e622a",
+                    "id": "hd_2e75a3f9",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -899,7 +930,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_490ecda2",
+                    "id": "txt_38e5a9c3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -919,11 +950,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-service-compact-card"
+                  "_css_classes": "axela-service-compact-card",
+                  "css_classes": "axela-service-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_b49f1176",
+                    "id": "con_100a7d84",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -931,11 +963,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "service-card-head"
+                      "_css_classes": "service-card-head",
+                      "css_classes": "service-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_d6462c16",
+                        "id": "hd_1a03eba3",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -947,7 +980,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_6c5de60a",
+                        "id": "ico_87fb524f",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -964,7 +997,7 @@
                     ]
                   },
                   {
-                    "id": "hd_cd796125",
+                    "id": "hd_4b010411",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -976,7 +1009,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_9a770341",
+                    "id": "txt_95c8fee1",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1002,6 +1035,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -1011,7 +1046,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-products-section",
-      "_element_id": "products"
+      "css_classes": "axela-section axela-products-section",
+      "_element_id": "products",
+      "css_id": "products"
     },
     "elements": [
       {
@@ -1023,7 +1060,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -1082,7 +1120,8 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "flex-start",
-                  "_css_classes": "axela-prod-banner-text"
+                  "_css_classes": "axela-prod-banner-text",
+                  "css_classes": "axela-prod-banner-text"
                 },
                 "elements": [
                   {
@@ -1131,7 +1170,8 @@
               "flex_wrap": "wrap",
               "justify_content": "space-between",
               "align_items": "stretch",
-              "_css_classes": "axela-categories-compact-grid"
+              "_css_classes": "axela-categories-compact-grid",
+              "css_classes": "axela-categories-compact-grid"
             },
             "elements": [
               {
@@ -1143,11 +1183,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_ef224df1",
+                    "id": "con_db1e9c84",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1155,11 +1196,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_ae2613d2",
+                        "id": "ico_c52056ec",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1174,7 +1216,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_8a084d35",
+                        "id": "hd_ffe7c1a1",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1188,7 +1230,7 @@
                     ]
                   },
                   {
-                    "id": "txt_aec5781e",
+                    "id": "txt_f1681e68",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1207,11 +1249,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_e4c13e8e",
+                    "id": "con_c814a980",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1219,11 +1262,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_39cf5996",
+                        "id": "ico_5cd2e2ee",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1238,7 +1282,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_17b2286c",
+                        "id": "hd_e214602c",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1252,7 +1296,7 @@
                     ]
                   },
                   {
-                    "id": "txt_11ef6df8",
+                    "id": "txt_f9a59908",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1271,11 +1315,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_220978af",
+                    "id": "con_e683eada",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1283,11 +1328,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_4fb7ce78",
+                        "id": "ico_00663a6e",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1302,7 +1348,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_f9f912e0",
+                        "id": "hd_d271b46b",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1316,7 +1362,7 @@
                     ]
                   },
                   {
-                    "id": "txt_99affc37",
+                    "id": "txt_3b7281d1",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1335,11 +1381,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_0b0664f1",
+                    "id": "con_6959ddbd",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1347,11 +1394,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_2e942d27",
+                        "id": "ico_a032e5b3",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1366,7 +1414,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_3b211b3b",
+                        "id": "hd_c5525e28",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1380,7 +1428,7 @@
                     ]
                   },
                   {
-                    "id": "txt_7671597d",
+                    "id": "txt_2241fa04",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1399,11 +1447,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_5f1ba092",
+                    "id": "con_1bae893c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1411,11 +1460,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_e720b559",
+                        "id": "ico_13e746ea",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1430,7 +1480,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_c8d9dec6",
+                        "id": "hd_50fddbe6",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1444,7 +1494,7 @@
                     ]
                   },
                   {
-                    "id": "txt_f0516879",
+                    "id": "txt_71f1ffff",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1463,11 +1513,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-category-compact-card"
+                  "_css_classes": "axela-category-compact-card",
+                  "css_classes": "axela-category-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_37a39f88",
+                    "id": "con_297aecf6",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1475,11 +1526,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "flex-start",
                       "align_items": "center",
-                      "_css_classes": "category-title-icon-row"
+                      "_css_classes": "category-title-icon-row",
+                      "css_classes": "category-title-icon-row"
                     },
                     "elements": [
                       {
-                        "id": "ico_f3953e92",
+                        "id": "ico_6c882507",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1494,7 +1546,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_dceca868",
+                        "id": "hd_a141816c",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1508,7 +1560,7 @@
                     ]
                   },
                   {
-                    "id": "txt_4ebc0c42",
+                    "id": "txt_aea5df2d",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1533,6 +1585,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -1542,7 +1596,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-approach-section",
-      "_element_id": "approach"
+      "css_classes": "axela-section axela-approach-section",
+      "_element_id": "approach",
+      "css_id": "approach"
     },
     "elements": [
       {
@@ -1554,7 +1610,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -1566,7 +1623,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -1613,7 +1673,8 @@
               "flex_wrap": "nowrap",
               "justify_content": "space-between",
               "align_items": "stretch",
-              "_css_classes": "axela-approach-compact-grid"
+              "_css_classes": "axela-approach-compact-grid",
+              "css_classes": "axela-approach-compact-grid"
             },
             "elements": [
               {
@@ -1625,11 +1686,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-stage-compact-card"
+                  "_css_classes": "axela-stage-compact-card",
+                  "css_classes": "axela-stage-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_37f8488a",
+                    "id": "con_2dc4569d",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1637,11 +1699,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "stage-card-head"
+                      "_css_classes": "stage-card-head",
+                      "css_classes": "stage-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_0e07b7a4",
+                        "id": "hd_67c6b472",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1653,7 +1716,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_915573a9",
+                        "id": "ico_e0c3bbc8",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1670,7 +1733,7 @@
                     ]
                   },
                   {
-                    "id": "hd_51aa0c51",
+                    "id": "hd_10b58d52",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1682,7 +1745,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_dba37176",
+                    "id": "txt_91c53bf3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1701,11 +1764,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-stage-compact-card"
+                  "_css_classes": "axela-stage-compact-card",
+                  "css_classes": "axela-stage-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_6d6f5d7b",
+                    "id": "con_18546c44",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1713,11 +1777,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "stage-card-head"
+                      "_css_classes": "stage-card-head",
+                      "css_classes": "stage-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_beaeb177",
+                        "id": "hd_74ff5212",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1729,7 +1794,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_e0ad64a4",
+                        "id": "ico_646ca75d",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1746,7 +1811,7 @@
                     ]
                   },
                   {
-                    "id": "hd_7c190bbf",
+                    "id": "hd_f1880016",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1758,7 +1823,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_62fe0608",
+                    "id": "txt_4af2cdb6",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1777,11 +1842,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-stage-compact-card"
+                  "_css_classes": "axela-stage-compact-card",
+                  "css_classes": "axela-stage-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_78a24202",
+                    "id": "con_f7fd8c90",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1789,11 +1855,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "stage-card-head"
+                      "_css_classes": "stage-card-head",
+                      "css_classes": "stage-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_2be2d283",
+                        "id": "hd_c04b781c",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1805,7 +1872,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_4aff2808",
+                        "id": "ico_e94f1464",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1822,7 +1889,7 @@
                     ]
                   },
                   {
-                    "id": "hd_a522ae32",
+                    "id": "hd_1bc724f2",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1834,7 +1901,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_57aeecc1",
+                    "id": "txt_1ae61191",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1853,11 +1920,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-stage-compact-card"
+                  "_css_classes": "axela-stage-compact-card",
+                  "css_classes": "axela-stage-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_bb327ba3",
+                    "id": "con_76587da4",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1865,11 +1933,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "stage-card-head"
+                      "_css_classes": "stage-card-head",
+                      "css_classes": "stage-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_85828876",
+                        "id": "hd_5036d4c0",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1881,7 +1950,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_9e9992c4",
+                        "id": "ico_ee78e4fb",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1898,7 +1967,7 @@
                     ]
                   },
                   {
-                    "id": "hd_02275f70",
+                    "id": "hd_6d942f03",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1910,7 +1979,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_f238e555",
+                    "id": "txt_e125d674",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1929,11 +1998,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-stage-compact-card"
+                  "_css_classes": "axela-stage-compact-card",
+                  "css_classes": "axela-stage-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_0b035aaa",
+                    "id": "con_9b429073",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1941,11 +2011,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "stage-card-head"
+                      "_css_classes": "stage-card-head",
+                      "css_classes": "stage-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_f77ed1e7",
+                        "id": "hd_a164e606",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1957,7 +2028,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_59710f50",
+                        "id": "ico_f3c6759a",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1974,7 +2045,7 @@
                     ]
                   },
                   {
-                    "id": "hd_5f364d14",
+                    "id": "hd_f315092d",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1986,7 +2057,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_9dce781c",
+                    "id": "txt_f768ea2f",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2011,6 +2082,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -2020,7 +2093,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-network-section",
-      "_element_id": "network"
+      "css_classes": "axela-section axela-network-section",
+      "_element_id": "network",
+      "css_id": "network"
     },
     "elements": [
       {
@@ -2032,7 +2107,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -2044,7 +2120,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -2104,6 +2183,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -2113,7 +2194,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-invest-section",
-      "_element_id": "investment"
+      "css_classes": "axela-section axela-invest-section",
+      "_element_id": "investment",
+      "css_id": "investment"
     },
     "elements": [
       {
@@ -2125,7 +2208,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -2137,7 +2221,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -2184,7 +2271,8 @@
               "flex_wrap": "nowrap",
               "justify_content": "space-between",
               "align_items": "stretch",
-              "_css_classes": "axela-invest-split-grid"
+              "_css_classes": "axela-invest-split-grid",
+              "css_classes": "axela-invest-split-grid"
             },
             "elements": [
               {
@@ -2196,11 +2284,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-invest-col-left"
+                  "_css_classes": "axela-invest-col-left",
+                  "css_classes": "axela-invest-col-left"
                 },
                 "elements": [
                   {
-                    "id": "hd_4ac8c3c5",
+                    "id": "hd_3b3bdc67",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2212,7 +2301,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_fc6f76d0",
+                    "id": "txt_b0aac88e",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2221,7 +2310,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_38fe0d69",
+                    "id": "hd_623a6054",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2233,7 +2322,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_43e7a554",
+                    "id": "txt_3c5ff7ad",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2252,7 +2341,8 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-invest-col-right"
+                  "_css_classes": "axela-invest-col-right",
+                  "css_classes": "axela-invest-col-right"
                 },
                 "elements": [
                   {
@@ -2271,7 +2361,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_73bce6fb",
+                    "id": "hd_572d460a",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2283,7 +2373,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_a1c2832c",
+                    "id": "txt_a8f21234",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2308,6 +2398,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -2317,7 +2409,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-ethics-section",
-      "_element_id": "ethics"
+      "css_classes": "axela-section axela-ethics-section",
+      "_element_id": "ethics",
+      "css_id": "ethics"
     },
     "elements": [
       {
@@ -2329,7 +2423,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -2341,7 +2436,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -2388,7 +2486,8 @@
               "flex_wrap": "wrap",
               "justify_content": "space-between",
               "align_items": "stretch",
-              "_css_classes": "axela-ethics-compact-grid"
+              "_css_classes": "axela-ethics-compact-grid",
+              "css_classes": "axela-ethics-compact-grid"
             },
             "elements": [
               {
@@ -2400,11 +2499,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-ethics-compact-card"
+                  "_css_classes": "axela-ethics-compact-card",
+                  "css_classes": "axela-ethics-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_2cddc00f",
+                    "id": "con_2828c5fb",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2412,11 +2512,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "ethics-card-head"
+                      "_css_classes": "ethics-card-head",
+                      "css_classes": "ethics-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_8b432561",
+                        "id": "hd_53020bab",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2428,7 +2529,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_bf915beb",
+                        "id": "ico_d6453807",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2445,7 +2546,7 @@
                     ]
                   },
                   {
-                    "id": "hd_8ef4d74c",
+                    "id": "hd_212597b8",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2457,7 +2558,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_696f1aae",
+                    "id": "txt_f165bb1f",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2476,11 +2577,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-ethics-compact-card"
+                  "_css_classes": "axela-ethics-compact-card",
+                  "css_classes": "axela-ethics-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_8b02def0",
+                    "id": "con_7eb9c5db",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2488,11 +2590,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "ethics-card-head"
+                      "_css_classes": "ethics-card-head",
+                      "css_classes": "ethics-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_4fc187f8",
+                        "id": "hd_dd96d2dc",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2504,7 +2607,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_2a75067d",
+                        "id": "ico_f95c2418",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2521,7 +2624,7 @@
                     ]
                   },
                   {
-                    "id": "hd_77720f43",
+                    "id": "hd_5a3205b9",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2533,7 +2636,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_d64aa696",
+                    "id": "txt_c44d02b0",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2552,11 +2655,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-ethics-compact-card"
+                  "_css_classes": "axela-ethics-compact-card",
+                  "css_classes": "axela-ethics-compact-card"
                 },
                 "elements": [
                   {
-                    "id": "con_4f5a88fe",
+                    "id": "con_f6b46748",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2564,11 +2668,12 @@
                       "flex_wrap": "nowrap",
                       "justify_content": "space-between",
                       "align_items": "center",
-                      "_css_classes": "ethics-card-head"
+                      "_css_classes": "ethics-card-head",
+                      "css_classes": "ethics-card-head"
                     },
                     "elements": [
                       {
-                        "id": "hd_b31052c5",
+                        "id": "hd_563aed04",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2580,7 +2685,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_7e695632",
+                        "id": "ico_64f99076",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2597,7 +2702,7 @@
                     ]
                   },
                   {
-                    "id": "hd_5bdca119",
+                    "id": "hd_11185a0f",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2609,7 +2714,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_7bbbb4f0",
+                    "id": "txt_0066d9c4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2634,6 +2739,8 @@
       "flex_wrap": "nowrap",
       "justify_content": "flex-start",
       "align_items": "stretch",
+      "background_background": "classic",
+      "background_color": "#040911",
       "padding": {
         "unit": "px",
         "top": "105",
@@ -2643,7 +2750,9 @@
         "isLinked": false
       },
       "_css_classes": "axela-section axela-contact-section",
-      "_element_id": "contact"
+      "css_classes": "axela-section axela-contact-section",
+      "_element_id": "contact",
+      "css_id": "contact"
     },
     "elements": [
       {
@@ -2655,7 +2764,8 @@
           "flex_wrap": "nowrap",
           "justify_content": "flex-start",
           "align_items": "stretch",
-          "_css_classes": "axela-container-boxed"
+          "_css_classes": "axela-container-boxed",
+          "css_classes": "axela-container-boxed"
         },
         "elements": [
           {
@@ -2667,7 +2777,10 @@
               "flex_wrap": "nowrap",
               "justify_content": "flex-start",
               "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "background_background": "classic",
+              "background_color": "#040911",
+              "_css_classes": "axela-section-header",
+              "css_classes": "axela-section-header"
             },
             "elements": [
               {
@@ -2715,7 +2828,8 @@
               "flex_wrap": "nowrap",
               "justify_content": "space-between",
               "align_items": "flex-start",
-              "_css_classes": "axela-contact-split-grid"
+              "_css_classes": "axela-contact-split-grid",
+              "css_classes": "axela-contact-split-grid"
             },
             "elements": [
               {
@@ -2727,11 +2841,12 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-contact-hub-left"
+                  "_css_classes": "axela-contact-hub-left",
+                  "css_classes": "axela-contact-hub-left"
                 },
                 "elements": [
                   {
-                    "id": "hd_26d5578f",
+                    "id": "hd_2050a92e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2743,7 +2858,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_cfc71ebb",
+                    "id": "txt_7c6d4ff8",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2752,7 +2867,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_078dd25e",
+                    "id": "hd_85115ea9",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2764,7 +2879,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_41363a7a",
+                    "id": "txt_315ec52c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2773,7 +2888,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_7521cc7e",
+                    "id": "hd_401c75d7",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2785,7 +2900,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_a5be76f4",
+                    "id": "txt_c4b127d4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2794,7 +2909,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_94e93e89",
+                    "id": "hd_b2d8e4ae",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2806,7 +2921,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_99bd28e9",
+                    "id": "txt_d4c347e2",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2825,7 +2940,8 @@
                   "flex_wrap": "nowrap",
                   "justify_content": "flex-start",
                   "align_items": "stretch",
-                  "_css_classes": "axela-contact-form-right"
+                  "_css_classes": "axela-contact-form-right",
+                  "css_classes": "axela-contact-form-right"
                 },
                 "elements": [
                   {
@@ -2941,7 +3057,10 @@
                         }
                       ],
                       "submit_actions": [
-                        "email"
+                        "email",
+                        "save-to-database",
+                        "collect-submissions",
+                        "submissions"
                       ],
                       "email_to": "anikaeti404@gmail.com",
                       "email_subject": "New Trade & Project Enquiry - AXELA LTD.",
