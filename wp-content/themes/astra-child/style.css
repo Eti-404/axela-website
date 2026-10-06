@@ -1,13 +1,7 @@
-/*
-Theme Name: Astra Child
-Theme URI: https://axelaglobal.com/
-Description: Custom child theme for AXELA LTD. Institutional dark commodity trading styling.
-Author: AXELA LTD.
-Author URI: https://axelaglobal.com/
-Template: astra
-Version: 1.0.0
-Text Domain: astra-child
-*/
+/**
+ * AXELA LTD. - Global Dark Theme Design Tokens & Utilities
+ * Inspired by institutional commodity trading houses (petrotraders.com)
+ */
 
 :root {
   /* Brand Palette - Petroleum & Institutional Aesthetic */
@@ -19,11 +13,11 @@ Text Domain: astra-child
   --axela-border-light: rgba(255, 255, 255, 0.15);
   
   /* Soft Teal / Cyan Accent (Replaces Harsh Red) */
-  --axela-teal: #168B8D;
-  --axela-teal-hover: #1A9D9F;
-  --axela-teal-light: #2DD4BF;
-  --axela-teal-bg: rgba(22, 139, 141, 0.12);
-  --axela-teal-border: rgba(45, 212, 191, 0.35);
+  --axela-red: #DA423C;
+  --axela-red-hover: #E8504A;
+  --axela-gold: #D4AF37;
+  --axela-red-bg: rgba(218, 66, 60, 0.12);
+  --axela-red-border: rgba(218, 66, 60, 0.35);
 
   /* Soft Warm Gold / Amber Accent (Matching Petrotraders) */
   --axela-gold: #E5A93C;
@@ -40,11 +34,6 @@ Text Domain: astra-child
   /* Fonts */
   --axela-font-heading: 'Cormorant Garamond', Georgia, serif;
   --axela-font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 86px;
 }
 
 /* 100% Full Width Zero White Margins */
@@ -71,10 +60,9 @@ body,
   overflow-x: hidden;
 }
 
-/* Force elementor root full width */
-.elementor-28 {
-  width: 100% !important;
-  max-width: 100% !important;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 86px;
 }
 
 /* ==========================================================================
@@ -136,8 +124,8 @@ body,
   width: 6px !important;
   height: 6px !important;
   border-radius: 50% !important;
-  background: #1ABC9C !important;
-  box-shadow: 0 0 6px #1ABC9C !important;
+  background: #DA423C !important;
+  box-shadow: 0 0 6px #DA423C !important;
   display: inline-block !important;
   animation: axelaPulseDot 2s infinite ease-in-out !important;
 }
@@ -149,7 +137,7 @@ body,
 }
 
 .ticker-badge-text {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   font-weight: 700 !important;
   letter-spacing: 0.08em !important;
   font-size: 10.5px !important;
@@ -215,7 +203,7 @@ body,
 }
 
 .t-val-up {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   font-weight: 700 !important;
   margin-right: 4px !important;
 }
@@ -233,7 +221,7 @@ body,
 }
 
 .t-chg-up {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   font-weight: 700 !important;
   font-size: 10.5px !important;
 }
@@ -458,14 +446,14 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .axela-btn-teal {
-  background: #168B8D !important;
+  background: #DA423C !important;
   color: #FFFFFF !important;
-  border: 1px solid rgba(45, 212, 191, 0.4) !important;
+  border: 1px solid rgba(218, 66, 60, 0.4) !important;
 }
 
 .axela-btn-teal:hover {
-  background: #1A9D9F !important;
-  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;
+  background: #E8504A !important;
+  box-shadow: 0 0 16px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
@@ -561,6 +549,10 @@ ul.elementor-nav-menu a.elementor-item {
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 #about, #services, #products, #approach, .axela-about-section, .axela-services-section, .axela-products-section, .axela-approach-section {
   scroll-margin-top: 85px !important;
 }
@@ -623,7 +615,7 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .badge-line.teal {
-  background: #1ABC9C !important;
+  background: #DA423C !important;
 }
 
 .badge-text {
@@ -639,7 +631,7 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .badge-text.teal {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
 }
 
 .axela-section-title {
@@ -681,8 +673,8 @@ ul.elementor-nav-menu a.elementor-item {
   display: flex !important;
   flex-direction: row !important;
   align-items: stretch !important;
-  background: rgba(22, 139, 141, 0.06) !important;
-  border: 1px solid rgba(45, 212, 191, 0.15) !important;
+  background: rgba(218, 66, 60, 0.06) !important;
+  border: 1px solid rgba(218, 66, 60, 0.15) !important;
   border-radius: 4px !important;
   overflow: hidden !important;
   margin-bottom: 30px !important;
@@ -692,7 +684,7 @@ ul.elementor-nav-menu a.elementor-item {
 
 .quote-accent-bar {
   width: 4px !important;
-  background: #168B8D !important;
+  background: #DA423C !important;
   flex-shrink: 0 !important;
 }
 
@@ -718,7 +710,7 @@ ul.elementor-nav-menu a.elementor-item {
   font-weight: 600 !important;
   letter-spacing: 0.14em !important;
   text-transform: uppercase !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .axela-about-actions {
@@ -738,13 +730,13 @@ ul.elementor-nav-menu a.elementor-item {
   font-weight: 700 !important;
   letter-spacing: 0.10em !important;
   text-transform: uppercase !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   text-decoration: none !important;
   transition: all 0.25s ease !important;
 }
 
 .axela-action-link:hover {
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
 }
 
 .axela-action-link .link-arrow {
@@ -774,10 +766,10 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .axela-action-btn:hover {
-  background: #168B8D !important;
-  border-color: rgba(45, 212, 191, 0.4) !important;
+  background: #DA423C !important;
+  border-color: rgba(218, 66, 60, 0.4) !important;
   color: #FFFFFF !important;
-  box-shadow: 0 0 14px rgba(22, 139, 141, 0.4) !important;
+  box-shadow: 0 0 14px rgba(218, 66, 60, 0.4) !important;
 }
 
 .axela-about-col-right {
@@ -841,9 +833,9 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .pillar-icon-wrap.teal {
-  background: rgba(22, 139, 141, 0.15) !important;
-  color: #2DD4BF !important;
-  border: 1px solid rgba(45, 212, 191, 0.3) !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  color: #D4AF37 !important;
+  border: 1px solid rgba(218, 66, 60, 0.3) !important;
 }
 
 .pillar-tag {
@@ -951,7 +943,7 @@ ul.elementor-nav-menu a.elementor-item {
 [data-id^="svc_native_card_"]:hover,
 .axela-service-card:hover {
   transform: translateY(-5px) !important;
-  border-color: rgba(45, 212, 191, 0.4) !important;
+  border-color: rgba(218, 66, 60, 0.4) !important;
   background: #0E1726 !important;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;
 }
@@ -967,7 +959,7 @@ ul.elementor-nav-menu a.elementor-item {
   left: 0 !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(90deg, transparent, #1ABC9C, transparent) !important;
+  background: linear-gradient(90deg, transparent, #DA423C, transparent) !important;
   opacity: 0 !important;
   transition: opacity 0.3s ease !important;
 }
@@ -992,7 +984,7 @@ ul.elementor-nav-menu a.elementor-item {
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.15em !important;
-  color: #1ABC9C !important;
+  color: #DA423C !important;
 }
 
 .service-icon-box .elementor-icon,
@@ -1004,7 +996,7 @@ ul.elementor-nav-menu a.elementor-item {
 .elementor-element-services_grid_con > .e-con:hover .service-icon-box .elementor-icon,
 [data-id^="svc_native_card_"]:hover .service-icon-box .elementor-icon,
 .axela-service-card:hover .service-icon-box {
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   transform: scale(1.1) !important;
 }
 
@@ -1056,7 +1048,7 @@ ul.elementor-nav-menu a.elementor-item {
 
 .service-bullet-list li span,
 .service-bullet-list .elementor-icon-list-icon {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   font-size: 11px !important;
   line-height: 1 !important;
   padding-top: 2px !important;
@@ -1112,7 +1104,7 @@ ul.elementor-nav-menu a.elementor-item {
 .elementor-element-services_grid_con > .e-con:hover .service-enquiry-native-btn a.elementor-button,
 [data-id^="svc_native_card_"]:hover .service-enquiry-native-btn a.elementor-button,
 .axela-service-card:hover .service-enquiry-link {
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .service-enquiry-link:hover .arrow,
@@ -1277,7 +1269,7 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .product-card-top-line.teal {
-  background: linear-gradient(90deg, transparent, #1ABC9C, transparent) !important;
+  background: linear-gradient(90deg, transparent, #DA423C, transparent) !important;
 }
 
 .axela-product-card:hover .product-card-top-line {
@@ -1303,7 +1295,7 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .product-category-code.teal {
-  color: #1ABC9C !important;
+  color: #DA423C !important;
 }
 
 .product-icon-wrap {
@@ -1323,9 +1315,9 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .product-icon-wrap.teal {
-  background: rgba(22, 139, 141, 0.12) !important;
-  color: #2DD4BF !important;
-  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  background: rgba(218, 66, 60, 0.12) !important;
+  color: #D4AF37 !important;
+  border: 1px solid rgba(218, 66, 60, 0.25) !important;
 }
 
 .axela-product-card:hover .product-icon-wrap {
@@ -1396,11 +1388,11 @@ ul.elementor-nav-menu a.elementor-item {
 }
 
 .product-action-link.teal {
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .product-action-link.teal:hover {
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
 }
 
 .product-action-link .arrow {
@@ -1534,7 +1526,7 @@ ul.elementor-nav-menu a.elementor-item {
 
 .axela-step-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(45, 212, 191, 0.4) !important;
+  border-color: rgba(218, 66, 60, 0.4) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -1542,10 +1534,10 @@ ul.elementor-nav-menu a.elementor-item {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
   font-size: 32px !important;
   font-weight: 600 !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   line-height: 1 !important;
   margin-bottom: 12px !important;
-  text-shadow: 0 0 18px rgba(45, 212, 191, 0.25) !important;
+  text-shadow: 0 0 18px rgba(218, 66, 60, 0.25) !important;
 }
 
 .step-phase-tag {
@@ -1579,8 +1571,8 @@ ul.elementor-nav-menu a.elementor-item {
 /* Approach Bottom Action Callout */
 .axela-approach-cta {
   margin-top: 56px !important;
-  background: linear-gradient(135deg, rgba(22, 139, 141, 0.12) 0%, rgba(14, 23, 38, 0.8) 100%) !important;
-  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  background: linear-gradient(135deg, rgba(218, 66, 60, 0.12) 0%, rgba(14, 23, 38, 0.8) 100%) !important;
+  border: 1px solid rgba(218, 66, 60, 0.25) !important;
   border-radius: 4px !important;
   padding: 36px 32px !important;
   box-sizing: border-box !important;
@@ -1739,7 +1731,7 @@ ul.elementor-nav-menu a.elementor-item {
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   text-transform: uppercase !important;
   display: inline-block !important;
   margin-bottom: 12px !important;
@@ -1789,7 +1781,7 @@ ul.elementor-nav-menu a.elementor-item {
 .axela-gateway-compact-card:hover,
 .axela-ethics-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(45, 212, 191, 0.35) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45) !important;
 }
 
@@ -1805,7 +1797,7 @@ ul.elementor-nav-menu a.elementor-item {
   left: 0 !important;
   right: 0 !important;
   height: 2px !important;
-  background: linear-gradient(90deg, #1ABC9C, #F59E0B) !important;
+  background: linear-gradient(90deg, #DA423C, #F59E0B) !important;
   opacity: 0 !important;
   transition: opacity 0.3s ease !important;
 }
@@ -1840,7 +1832,7 @@ ul.elementor-nav-menu a.elementor-item {
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.12em !important;
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   text-transform: uppercase !important;
   margin: 0 !important;
 }
@@ -1861,7 +1853,7 @@ ul.elementor-nav-menu a.elementor-item {
 .axela-stage-compact-card:hover .elementor-icon,
 .axela-gateway-compact-card:hover .elementor-icon,
 .axela-ethics-compact-card:hover .elementor-icon {
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   transform: scale(1.1) !important;
 }
 
@@ -1933,7 +1925,7 @@ ul.elementor-nav-menu a.elementor-item {
 
 .axela-service-compact-card:hover a.elementor-button,
 .axela-category-compact-card:hover a.elementor-button {
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .axela-service-compact-card a.elementor-button .elementor-button-icon,
@@ -2061,7 +2053,7 @@ ul.elementor-nav-menu a.elementor-item {
   margin-bottom: 28px !important;
   border-radius: 6px !important;
   overflow: hidden !important;
-  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  border: 1px solid rgba(218, 66, 60, 0.25) !important;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55) !important;
   background: #070B12 !important;
   width: 100% !important;
@@ -2126,7 +2118,7 @@ ul.elementor-nav-menu a.elementor-item {
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.12em !important;
-  color: #1ABC9C !important;
+  color: #DA423C !important;
   margin: 16px 0 8px 0 !important;
   text-transform: uppercase !important;
 }
@@ -2165,7 +2157,7 @@ ul.elementor-nav-menu a.elementor-item {
 /* Primary CTA Buttons */
 #inv_cta_btn a.elementor-button,
 #form_submit_btn a.elementor-button {
-  background: linear-gradient(135deg, #1ABC9C 0%, #16A085 100%) !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #070B12 !important;
   font-family: var(--axela-font-body) !important;
   font-size: 12px !important;
@@ -2175,7 +2167,7 @@ ul.elementor-nav-menu a.elementor-item {
   padding: 14px 28px !important;
   border-radius: 3px !important;
   border: none !important;
-  box-shadow: 0 6px 20px rgba(26, 188, 156, 0.25) !important;
+  box-shadow: 0 6px 20px rgba(218, 66, 60, 0.25) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -2185,9 +2177,9 @@ ul.elementor-nav-menu a.elementor-item {
 
 #inv_cta_btn a.elementor-button:hover,
 #form_submit_btn a.elementor-button:hover {
-  background: #2DD4BF !important;
+  background: #D4AF37 !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 24px rgba(45, 212, 191, 0.35) !important;
+  box-shadow: 0 8px 24px rgba(218, 66, 60, 0.35) !important;
 }
 
 /* =============================================================================
@@ -2230,10 +2222,10 @@ ul.elementor-nav-menu a.elementor-item {
   display: inline-block !important;
   margin-top: 24px !important;
   padding: 7px 14px !important;
-  background: rgba(26, 188, 156, 0.1) !important;
-  border: 1px solid rgba(26, 188, 156, 0.3) !important;
+  background: rgba(218, 66, 60, 0.1) !important;
+  border: 1px solid rgba(218, 66, 60, 0.3) !important;
   border-radius: 3px !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   font-family: ui-monospace, monospace !important;
   font-size: 10.5px !important;
   font-weight: 700 !important;
@@ -2559,7 +2551,7 @@ ul.elementor-nav-menu a.elementor-item {
 [data-id="net_map_con"] {
   border-radius: 4px !important;
   overflow: hidden !important;
-  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  border: 1px solid rgba(218, 66, 60, 0.25) !important;
   background: #070B12 !important;
   margin-bottom: 24px !important;
 }
@@ -2678,7 +2670,7 @@ ul.elementor-nav-menu a.elementor-item {
 [data-id^="svc_card_"] a.elementor-button:hover {
   background: transparent !important;
   background-color: transparent !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   box-shadow: none !important;
 }
 
@@ -2688,8 +2680,8 @@ ul.elementor-nav-menu a.elementor-item {
 #form_submit_btn a.elementor-button,
 [data-id="form_submit_btn"] a.elementor-button,
 .axela-trade-form-box a.elementor-button {
-  background: linear-gradient(135deg, #1ABC9C 0%, #16A085 100%) !important;
-  background-color: #1ABC9C !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background-color: #DA423C !important;
   color: #070B12 !important;
   font-family: var(--axela-font-body) !important;
   font-size: 12px !important;
@@ -2699,7 +2691,7 @@ ul.elementor-nav-menu a.elementor-item {
   padding: 13px 26px !important;
   border-radius: 3px !important;
   border: none !important;
-  box-shadow: 0 4px 18px rgba(26, 188, 156, 0.3) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.3) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -2712,11 +2704,11 @@ ul.elementor-nav-menu a.elementor-item {
 #form_submit_btn a.elementor-button:hover,
 [data-id="form_submit_btn"] a.elementor-button:hover,
 .axela-trade-form-box a.elementor-button:hover {
-  background: #2DD4BF !important;
-  background-color: #2DD4BF !important;
+  background: #D4AF37 !important;
+  background-color: #D4AF37 !important;
   color: #070B12 !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 24px rgba(45, 212, 191, 0.45) !important;
+  box-shadow: 0 8px 24px rgba(218, 66, 60, 0.45) !important;
 }
 
 
@@ -2755,7 +2747,7 @@ ul.elementor-nav-menu a.elementor-item {
 [data-id^="svc_card_"]:hover .elementor-button {
   background: transparent !important;
   background-color: transparent !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   box-shadow: none !important;
 }
 
@@ -2763,8 +2755,8 @@ ul.elementor-nav-menu a.elementor-item {
 #investment a.elementor-button,
 #contact .elementor-widget-button .elementor-button,
 #contact a.elementor-button {
-  background: linear-gradient(135deg, #1ABC9C 0%, #16A085 100%) !important;
-  background-color: #1ABC9C !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background-color: #DA423C !important;
   color: #070B12 !important;
   font-family: var(--axela-font-body) !important;
   font-size: 12px !important;
@@ -2774,7 +2766,7 @@ ul.elementor-nav-menu a.elementor-item {
   padding: 13px 26px !important;
   border-radius: 3px !important;
   border: none !important;
-  box-shadow: 0 4px 18px rgba(26, 188, 156, 0.3) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.3) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -2786,11 +2778,11 @@ ul.elementor-nav-menu a.elementor-item {
 #investment a.elementor-button:hover,
 #contact .elementor-widget-button .elementor-button:hover,
 #contact a.elementor-button:hover {
-  background: #2DD4BF !important;
-  background-color: #2DD4BF !important;
+  background: #D4AF37 !important;
+  background-color: #D4AF37 !important;
   color: #070B12 !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 24px rgba(45, 212, 191, 0.45) !important;
+  box-shadow: 0 8px 24px rgba(218, 66, 60, 0.45) !important;
 }
 
 
@@ -2823,7 +2815,7 @@ html body #services .elementor-widget-button a.elementor-button:hover,
 html body #services a.elementor-button:hover {
   background: transparent !important;
   background-color: transparent !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
   box-shadow: none !important;
 }
 
@@ -2831,8 +2823,8 @@ html body #investment .elementor-widget-button a.elementor-button,
 html body #investment a.elementor-button,
 html body #contact .elementor-widget-button a.elementor-button,
 html body #contact a.elementor-button {
-  background: linear-gradient(135deg, #1ABC9C 0%, #16A085 100%) !important;
-  background-color: #1ABC9C !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background-color: #DA423C !important;
   color: #070B12 !important;
   font-family: var(--axela-font-body) !important;
   font-size: 12px !important;
@@ -2842,7 +2834,7 @@ html body #contact a.elementor-button {
   padding: 13px 26px !important;
   border-radius: 3px !important;
   border: none !important;
-  box-shadow: 0 4px 18px rgba(26, 188, 156, 0.3) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.3) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -2854,11 +2846,11 @@ html body #investment .elementor-widget-button a.elementor-button:hover,
 html body #investment a.elementor-button:hover,
 html body #contact .elementor-widget-button a.elementor-button:hover,
 html body #contact a.elementor-button:hover {
-  background: #2DD4BF !important;
-  background-color: #2DD4BF !important;
+  background: #D4AF37 !important;
+  background-color: #D4AF37 !important;
   color: #070B12 !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 24px rgba(45, 212, 191, 0.45) !important;
+  box-shadow: 0 8px 24px rgba(218, 66, 60, 0.45) !important;
 }
 
 /* =============================================================================
@@ -2939,7 +2931,7 @@ h1, h2,
   margin: 0 0 6px 0 !important;
 }
 
-/* Eyebrows System - Inter All-Caps Soft Cyan (#5EEAD4) */
+/* Eyebrows System - Barlow Condensed All-Caps Standard Gold (#D4AF37) */
 .axela-section-eyebrow,
 .axela-section-eyebrow .elementor-heading-title {
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
@@ -2947,7 +2939,7 @@ h1, h2,
   font-weight: 700 !important;
   letter-spacing: 2.2px !important;
   text-transform: uppercase !important;
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
   margin-bottom: 4px !important;
   display: inline-block !important;
 }
@@ -2974,7 +2966,7 @@ h1, h2,
    ============================================================================= */
 .axela-top-ticker-outer {
   background: rgba(6, 14, 22, 0.98) !important;
-  border-bottom: 1px solid rgba(26, 107, 107, 0.25) !important;
+  border-bottom: 1px solid rgba(218, 66, 60, 0.25) !important;
   width: 100% !important;
   height: 28px !important;
   min-height: 28px !important;
@@ -3011,14 +3003,14 @@ h1, h2,
   gap: 6px !important;
   height: 28px !important;
   padding: 0 10px !important;
-  background: rgba(26, 107, 107, 0.18) !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.3) !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  border-right: 1px solid rgba(218, 66, 60, 0.3) !important;
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 9px !important;
   font-weight: 700 !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
-  color: #22A8A8 !important;
+  color: #DA423C !important;
   white-space: nowrap !important;
   flex-shrink: 0 !important;
 }
@@ -3027,8 +3019,8 @@ h1, h2,
   width: 5px !important;
   height: 5px !important;
   border-radius: 50% !important;
-  background: #22A8A8 !important;
-  box-shadow: 0 0 8px #22A8A8 !important;
+  background: #DA423C !important;
+  box-shadow: 0 0 8px #DA423C !important;
   display: inline-block !important;
 }
 
@@ -3053,7 +3045,7 @@ h1, h2,
   gap: 5px !important;
   padding: 0 14px !important;
   height: 28px !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.14) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 .ticker-src {
@@ -3298,7 +3290,7 @@ header {
 }
 
 .axela-native-nav .elementor-nav-menu--main .elementor-item::after {
-  background-color: #14B8A6 !important;
+  background-color: #DA423C !important;
   height: 2px !important;
 }
 
@@ -3306,14 +3298,15 @@ header {
   flex-shrink: 0 !important;
 }
 
-/* Header Trade Enquiry CTA Button - Elegant Deep Teal Accent (#0F766E) */
-.axela-native-hdr-btn .elementor-button {
+/* Header Trade Enquiry CTA Button - Signature Reddish Accent (#DA423C) */
+.axela-native-hdr-btn .elementor-button,
+.axela-btn-red .elementor-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 8px !important;
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
   color: #FFFFFF !important;
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
   font-size: 11px !important;
@@ -3322,20 +3315,23 @@ header {
   text-transform: uppercase !important;
   padding: 8px 18px !important;
   border-radius: 3px !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.axela-native-hdr-btn .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
+.axela-native-hdr-btn .elementor-button:hover,
+.axela-btn-red .elementor-button:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
   color: #FFFFFF !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
 .axela-native-hdr-btn .elementor-button svg,
-.axela-native-hdr-btn .elementor-button i {
+.axela-native-hdr-btn .elementor-button i,
+.axela-btn-red .elementor-button svg,
+.axela-btn-red .elementor-button i {
   fill: #FFFFFF !important;
   color: #FFFFFF !important;
 }
@@ -3434,7 +3430,7 @@ header {
   font-weight: 600 !important;
   letter-spacing: 2.5px !important;
   text-transform: uppercase !important;
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
   font-size: 11.5px !important;
   letter-spacing: 0.16em !important;
@@ -3521,41 +3517,45 @@ header {
   white-space: nowrap !important;
 }
 
-/* 1. Elegant Deep Teal Accent (#0F766E / #115E59) */
+/* 1. Signature Reddish Accent (#DA423C) */
 .elementor-element-hero_btn_trade .elementor-button,
-.axela-btn-teal .elementor-button,
+.axela-btn-red .elementor-button,
+.axela-btn-primary .elementor-button,
 .axela-btn-burgundy .elementor-button {
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
 }
 
 .elementor-element-hero_btn_trade .elementor-button:hover,
-.axela-btn-teal .elementor-button:hover,
+.axela-btn-red .elementor-button:hover,
+.axela-btn-primary .elementor-button:hover,
 .axela-btn-burgundy .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
 .elementor-element-hero_btn_trade .elementor-button svg,
 .elementor-element-hero_btn_trade .elementor-button i,
-.axela-btn-teal .elementor-button svg,
-.axela-btn-teal .elementor-button i,
+.axela-btn-red .elementor-button svg,
+.axela-btn-red .elementor-button i,
+.axela-btn-primary .elementor-button svg,
+.axela-btn-primary .elementor-button i,
 .axela-btn-burgundy .elementor-button svg,
 .axela-btn-burgundy .elementor-button i {
   fill: #FFFFFF !important;
   color: #FFFFFF !important;
 }
 
-/* 2. Glassmorphic Secondary Outline Button */
+/* 2. Glassmorphic Secondary Outline Button with Gold Border */
 .elementor-element-hero_btn_supply .elementor-button,
 .axela-btn-ghost .elementor-button {
   background: rgba(255, 255, 255, 0.04) !important;
   color: #E2E8F0 !important;
-  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
@@ -3563,10 +3563,10 @@ header {
 
 .elementor-element-hero_btn_supply .elementor-button:hover,
 .axela-btn-ghost .elementor-button:hover {
-  background: rgba(255, 255, 255, 0.09) !important;
-  border-color: rgba(255, 255, 255, 0.35) !important;
+  background: rgba(218, 66, 60, 0.12) !important;
+  border-color: #DA423C !important;
   color: #FFFFFF !important;
-  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 16px rgba(218, 66, 60, 0.25) !important;
 }
 
 /* 3. Subtle Premium Gold Accent - Borderless Clean Text Link (Annotation 6B) */
@@ -3700,8 +3700,8 @@ header {
 [class*="elementor-element-svc_card_"]:hover,
 .axela-service-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .service-card-head {
@@ -3718,7 +3718,7 @@ header {
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
-  color: #64748B !important;
+  color: #D4AF37 !important;
 }
 
 .service-card-icon-sleek,
@@ -3729,17 +3729,19 @@ header {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: rgba(26, 188, 156, 0.1) !important;
-  border: 1px solid rgba(26, 188, 156, 0.25) !important;
-  color: #2DD4BF !important;
+  background: rgba(218, 66, 60, 0.12) !important;
+  border: 1px solid rgba(218, 66, 60, 0.30) !important;
+  color: #DA423C !important;
   font-size: 12px !important;
   transition: all 0.25s ease !important;
 }
 
 .elementor-element-services_grid_con > .e-con:hover .service-card-icon-sleek .elementor-icon,
 .axela-service-compact-card:hover .service-card-icon-sleek .elementor-icon {
-  background: #1ABC9C !important;
+  background: #DA423C !important;
   color: #FFFFFF !important;
+  border-color: #DA423C !important;
+  box-shadow: 0 0 12px rgba(218, 66, 60, 0.5) !important;
   transform: scale(1.05) !important;
 }
 
@@ -3854,8 +3856,8 @@ header {
 [class*="elementor-element-cat_card_"]:hover,
 .axela-category-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 /* Product Category Cards: Left align icon and title with tight gap (Annotation 4) */
@@ -3893,10 +3895,15 @@ header {
 
 .category-icon-inline .elementor-icon {
   font-size: 14px !important;
-  color: #2DD4BF !important;
+  color: #DA423C !important;
   display: inline-flex !important;
   margin: 0 !important;
   padding: 0 !important;
+  transition: color 0.25s ease !important;
+}
+
+.axela-category-compact-card:hover .category-icon-inline .elementor-icon {
+  color: #D4AF37 !important;
 }
 
 .category-card-title-sleek,
@@ -3973,8 +3980,8 @@ header {
 .elementor-element-stages_grid_con > .e-con:hover,
 .axela-stage-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .stage-card-step,
@@ -3983,7 +3990,7 @@ header {
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.14em !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 /* Stage icons: ALL GOLD (Annotation 3) */
@@ -4069,11 +4076,22 @@ header {
 }
 
 .axela-invest-banner-img img {
-  border-radius: 3px !important;
-  max-height: 240px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+  max-height: 250px !important;
+  aspect-ratio: 16 / 10 !important;
   object-fit: cover !important;
   width: 100% !important;
   display: block !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-invest-banner-img:hover img,
+.axela-invest-col-right:hover .axela-invest-banner-img img {
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .axela-ethics-compact-grid,
@@ -4099,8 +4117,8 @@ header {
 .elementor-element-ethics_grid_con > .e-con:hover,
 .axela-ethics-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .ethics-card-tag,
@@ -4109,7 +4127,7 @@ header {
   font-size: 10.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .ethics-card-title,
@@ -4124,7 +4142,7 @@ header {
 .ethics-icon-sleek,
 .ethics-icon-sleek .elementor-icon {
   font-size: 13px !important;
-  color: #2DD4BF !important;
+  color: #DA423C !important;
   width: 24px !important;
   height: 24px !important;
   display: inline-flex !important;
@@ -4280,8 +4298,8 @@ header {
 .axela-contact-form-right select:focus,
 .axela-contact-form-right textarea:focus {
   background: rgba(10, 16, 26, 0.95) !important;
-  border-color: rgba(220, 100, 115, 0.45) !important;
-  box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.2) !important;
+  border-color: rgba(218, 66, 60, 0.60) !important;
+  box-shadow: 0 0 0 2px rgba(218, 66, 60, 0.25) !important;
   outline: none !important;
 }
 
@@ -4298,8 +4316,9 @@ header {
 }
 
 .axela-native-pro-form .elementor-button,
-.axela-contact-form-right .elementor-button {
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
+.axela-contact-form-right .elementor-button,
+.axela-btn-red .elementor-button {
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 13.5px !important;
@@ -4308,7 +4327,7 @@ header {
   text-transform: uppercase !important;
   padding: 13px 26px !important;
   border-radius: 4px !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
   cursor: pointer !important;
   width: 100% !important;
   display: inline-flex !important;
@@ -4316,15 +4335,16 @@ header {
   justify-content: center !important;
   gap: 10px !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
 }
 
 .axela-native-pro-form .elementor-button:hover,
-.axela-contact-form-right .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
+.axela-contact-form-right .elementor-button:hover,
+.axela-btn-red .elementor-button:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
@@ -4340,9 +4360,49 @@ header {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
 }
 .elementor-message.elementor-message-success {
-  background: rgba(15, 118, 110, 0.25) !important;
-  border: 1px solid #14B8A6 !important;
-  color: #5EEAD4 !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  border: 1px solid #D4AF37 !important;
+  color: #FFFFFF !important;
+}
+.elementor-message.elementor-message-danger,
+.elementor-message.elementor-message-error {
+  background: rgba(225, 29, 72, 0.22) !important;
+  border: 1px solid #F43F5E !important;
+  color: #FDA4AF !important;
+}
+
+/* =============================================================================
+   BOTTOM-TO-TOP SCROLL BUTTON: SIGNATURE REDDISH #DA423C & HOVER GLOW
+   ============================================================================= */
+#ast-scroll-top,
+.ast-scroll-top,
+.ast-scroll-to-top,
+#scroll-to-top,
+.back-to-top {
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
+  box-shadow: 0 4px 14px rgba(218, 66, 60, 0.35) !important;
+  border-radius: 4px !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+#ast-scroll-top:hover,
+.ast-scroll-top:hover,
+.ast-scroll-to-top:hover,
+#scroll-to-top:hover,
+.back-to-top:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  box-shadow: 0 0 18px rgba(218, 66, 60, 0.65) !important;
+  transform: translateY(-2px) !important;
+}
+
+#ast-scroll-top .ast-icon,
+.ast-scroll-top .ast-icon,
+.ast-scroll-top i,
+.ast-scroll-top svg {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
 }
 .elementor-message.elementor-message-danger,
 .elementor-message.elementor-message-error {

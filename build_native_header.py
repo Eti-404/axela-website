@@ -46,7 +46,7 @@ header {
 /* 2. Top Ticker: 28px Slim Height matching petrotraders.com */
 .axela-top-ticker-outer {
   background: rgba(6, 14, 22, 0.98) !important;
-  border-bottom: 1px solid rgba(26, 107, 107, 0.25) !important;
+  border-bottom: 1px solid rgba(218, 66, 60, 0.25) !important;
   width: 100% !important;
   height: 28px !important;
   min-height: 28px !important;
@@ -86,13 +86,13 @@ header {
   gap: 6px !important;
   height: 28px !important;
   padding: 0 10px !important;
-  background: rgba(26, 107, 107, 0.18) !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.3) !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  border-right: 1px solid rgba(218, 66, 60, 0.3) !important;
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 9px !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
-  color: #22A8A8 !important;
+  color: #DA423C !important;
   font-weight: 700 !important;
   white-space: nowrap !important;
   flex-shrink: 0 !important;
@@ -103,8 +103,8 @@ header {
   width: 5px !important;
   height: 5px !important;
   border-radius: 50% !important;
-  background: #22A8A8 !important;
-  box-shadow: 0 0 8px #22A8A8 !important;
+  background: #DA423C !important;
+  box-shadow: 0 0 8px #DA423C !important;
   animation: pulseDot 1.8s infinite ease-in-out !important;
 }
 
@@ -135,7 +135,7 @@ header {
   gap: 5px !important;
   padding: 0 14px !important;
   height: 28px !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.14) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 .ticker-src {
@@ -522,15 +522,15 @@ header {
 """
     ticker_container['elements'][0]['settings']['html'] = ticker_html
 
-    # Native Logo Image Widget (Bigger Height: 42px)
+    # Native Logo Image Widget (Restored Original Official AXELA Limited Logo)
     logo_widget = {
         "id": "axela_hdr_logo",
         "elType": "widget",
         "widgetType": "image",
         "settings": {
             "image": {
-                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp",
-                "id": 19
+                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png",
+                "id": 183
             },
             "image_size": "full",
             "link_to": "custom",
@@ -583,7 +583,7 @@ header {
                 "library": "fa-solid"
             },
             "icon_align": "right",
-            "_css_classes": "axela-native-hdr-btn axela-btn-teal"
+            "_css_classes": "axela-native-hdr-btn axela-btn-red"
         },
         "elements": []
     }
