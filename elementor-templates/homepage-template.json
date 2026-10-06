@@ -215,6 +215,7 @@
       },
       "_css_classes": "axela-section axela-about-section",
       "css_classes": "axela-section axela-about-section",
+      "_css_id": "about",
       "_element_id": "about",
       "css_id": "about"
     },
@@ -301,6 +302,7 @@
       },
       "_css_classes": "axela-section axela-services-section",
       "css_classes": "axela-section axela-services-section",
+      "_css_id": "services",
       "_element_id": "services",
       "css_id": "services"
     },
@@ -396,7 +398,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_f337504b",
+                    "id": "con_7943fc29",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -409,7 +411,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_013bb653",
+                        "id": "hd_199d068d",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -421,7 +423,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_cc9ff4b8",
+                        "id": "ico_8917f0da",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -438,7 +440,7 @@
                     ]
                   },
                   {
-                    "id": "hd_9c46e754",
+                    "id": "hd_425a3bba",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -450,7 +452,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_50cc2854",
+                    "id": "txt_7f15665b",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -475,7 +477,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_1c050df0",
+                    "id": "con_8e7445b3",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -488,7 +490,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_642298f3",
+                        "id": "hd_15543580",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -500,7 +502,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_db99ff6d",
+                        "id": "ico_edb6e515",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -517,7 +519,7 @@
                     ]
                   },
                   {
-                    "id": "hd_1c9a2ac0",
+                    "id": "hd_4f7ce475",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -529,7 +531,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_f17dd012",
+                    "id": "txt_31d1e8ff",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -554,7 +556,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_8f445e57",
+                    "id": "con_491e78a5",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -567,7 +569,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_80f8e631",
+                        "id": "hd_9421f231",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -579,7 +581,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_e788bc23",
+                        "id": "ico_3654a063",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -596,7 +598,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e3eafa72",
+                    "id": "hd_83f56913",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -608,7 +610,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_839d2135",
+                    "id": "txt_733761e3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -633,7 +635,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_1ac2a503",
+                    "id": "con_7339a986",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -646,7 +648,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_c0763eb0",
+                        "id": "hd_3b9d2a15",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -658,7 +660,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_984a718b",
+                        "id": "ico_2008ae9e",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -675,7 +677,7 @@
                     ]
                   },
                   {
-                    "id": "hd_949d6471",
+                    "id": "hd_8fde2cbc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -687,7 +689,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_a750b120",
+                    "id": "txt_5ce8e2ed",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -712,7 +714,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_682c796d",
+                    "id": "con_55c6f135",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -725,7 +727,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_1da81937",
+                        "id": "hd_ea720ef0",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -737,7 +739,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_7ac0bc67",
+                        "id": "ico_8932df56",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -754,7 +756,7 @@
                     ]
                   },
                   {
-                    "id": "hd_bde28dbc",
+                    "id": "hd_1c45eac2",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -766,7 +768,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_d8d77062",
+                    "id": "txt_113d4e20",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -791,7 +793,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_823aa0b9",
+                    "id": "con_3e02f559",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -804,7 +806,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_c603c204",
+                        "id": "hd_f5b7ff70",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -816,7 +818,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_7ba2d204",
+                        "id": "ico_014acbb6",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -833,7 +835,7 @@
                     ]
                   },
                   {
-                    "id": "hd_80ffbd64",
+                    "id": "hd_567e8edd",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -845,7 +847,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_0fa2f114",
+                    "id": "txt_74628835",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -870,7 +872,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_b427a6b6",
+                    "id": "con_6830cdbe",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -883,7 +885,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_5a77fa4c",
+                        "id": "hd_cc5726d9",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -895,7 +897,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_5d2c7da1",
+                        "id": "ico_4ea5b2cb",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -912,7 +914,7 @@
                     ]
                   },
                   {
-                    "id": "hd_4fb77cb4",
+                    "id": "hd_44a0ee9c",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -924,7 +926,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_6ce6029e",
+                    "id": "txt_35de9909",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -949,7 +951,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_39d82331",
+                    "id": "con_f0d04db4",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -962,7 +964,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_80037936",
+                        "id": "hd_663c9f9f",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -974,7 +976,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_7242e876",
+                        "id": "ico_6045129f",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -991,7 +993,7 @@
                     ]
                   },
                   {
-                    "id": "hd_007ca42b",
+                    "id": "hd_5b50cfad",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1003,7 +1005,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_40d36bfb",
+                    "id": "txt_f98d3b1c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1041,6 +1043,7 @@
       },
       "_css_classes": "axela-section axela-products-section",
       "css_classes": "axela-section axela-products-section",
+      "_css_id": "products",
       "_element_id": "products",
       "css_id": "products"
     },
@@ -1091,8 +1094,8 @@
               "background_size": "cover",
               "background_repeat": "no-repeat",
               "background_overlay_background": "gradient",
-              "background_overlay_color": "#040911",
-              "background_overlay_color_b": "rgba(4, 9, 17, 0.0)",
+              "background_overlay_color": "rgba(6, 11, 19, 0.78)",
+              "background_overlay_color_b": "rgba(6, 11, 19, 0.0)",
               "background_overlay_gradient_type": "linear",
               "background_overlay_gradient_angle": {
                 "unit": "deg",
@@ -1100,9 +1103,10 @@
               },
               "background_overlay_opacity": {
                 "unit": "px",
-                "size": 1
+                "size": 0.85
               },
-              "_css_classes": "axela-products-split-banner"
+              "_css_classes": "axela-products-split-banner",
+              "css_classes": "axela-products-split-banner"
             },
             "elements": [
               {
@@ -1182,7 +1186,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_2af26f40",
+                    "id": "con_9067a23f",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1195,7 +1199,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_b15af7c4",
+                        "id": "ico_56696873",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1210,7 +1214,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_fdcb469e",
+                        "id": "hd_aef041ca",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1224,7 +1228,7 @@
                     ]
                   },
                   {
-                    "id": "txt_7309746a",
+                    "id": "txt_f8f4a599",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1248,7 +1252,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_0487d5f0",
+                    "id": "con_341e0763",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1261,7 +1265,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_3555b7dd",
+                        "id": "ico_05a76183",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1276,7 +1280,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_0eb7fcd2",
+                        "id": "hd_e4f7bf12",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1290,7 +1294,7 @@
                     ]
                   },
                   {
-                    "id": "txt_755a9d53",
+                    "id": "txt_e3eb0e74",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1314,7 +1318,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_06ae81cd",
+                    "id": "con_00d2f604",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1327,7 +1331,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_f81b8582",
+                        "id": "ico_32ce89b5",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1342,7 +1346,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_6843f024",
+                        "id": "hd_1bb1e33e",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1356,7 +1360,7 @@
                     ]
                   },
                   {
-                    "id": "txt_ff32a3a7",
+                    "id": "txt_6c274c90",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1380,7 +1384,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_8590187e",
+                    "id": "con_6249d38f",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1393,7 +1397,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_871f710f",
+                        "id": "ico_ad5226d4",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1408,7 +1412,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_7a31210b",
+                        "id": "hd_90fad236",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1422,7 +1426,7 @@
                     ]
                   },
                   {
-                    "id": "txt_03d586a4",
+                    "id": "txt_b04f086d",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1446,7 +1450,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_321194a2",
+                    "id": "con_a17692bc",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1459,7 +1463,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_f58b2237",
+                        "id": "ico_ec1dfe93",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1474,7 +1478,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_bcc556a3",
+                        "id": "hd_13d830ec",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1488,7 +1492,7 @@
                     ]
                   },
                   {
-                    "id": "txt_f0886a68",
+                    "id": "txt_8e0bab49",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1512,7 +1516,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_587d0261",
+                    "id": "con_6b6221a0",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1525,7 +1529,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_0e5295a0",
+                        "id": "ico_bd92e8cf",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1540,7 +1544,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_008020fc",
+                        "id": "hd_b334de15",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1554,7 +1558,7 @@
                     ]
                   },
                   {
-                    "id": "txt_ac7da382",
+                    "id": "txt_a5050ab4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1591,6 +1595,7 @@
       },
       "_css_classes": "axela-section axela-approach-section",
       "css_classes": "axela-section axela-approach-section",
+      "_css_id": "approach",
       "_element_id": "approach",
       "css_id": "approach"
     },
@@ -1685,7 +1690,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_e0f92f77",
+                    "id": "con_f7746f01",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1698,7 +1703,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_1469ef27",
+                        "id": "hd_f3421925",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1710,7 +1715,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_c39303fe",
+                        "id": "ico_325c5e94",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1727,7 +1732,7 @@
                     ]
                   },
                   {
-                    "id": "hd_44789dca",
+                    "id": "hd_8eaf569b",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1739,7 +1744,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_79d4919d",
+                    "id": "txt_dacd11e6",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1763,7 +1768,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_051486b2",
+                    "id": "con_03ee9094",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1776,7 +1781,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_74fd46e7",
+                        "id": "hd_8a696431",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1788,7 +1793,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_79343576",
+                        "id": "ico_3b179c66",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1805,7 +1810,7 @@
                     ]
                   },
                   {
-                    "id": "hd_f2257cf6",
+                    "id": "hd_9856a1bc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1817,7 +1822,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_12e58ab1",
+                    "id": "txt_cd5eb8e5",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1841,7 +1846,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_65b44590",
+                    "id": "con_70134ac8",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1854,7 +1859,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_873b842c",
+                        "id": "hd_35c16434",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1866,7 +1871,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_c19128ba",
+                        "id": "ico_8ec39e90",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1883,7 +1888,7 @@
                     ]
                   },
                   {
-                    "id": "hd_a81e96e8",
+                    "id": "hd_99fdfbc1",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1895,7 +1900,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_c77a399d",
+                    "id": "txt_0ae2458c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1919,7 +1924,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_7fa214e8",
+                    "id": "con_a9b19d1b",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1932,7 +1937,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_fb61999a",
+                        "id": "hd_fd2d06a8",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1944,7 +1949,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_548e700e",
+                        "id": "ico_b02c3876",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1961,7 +1966,7 @@
                     ]
                   },
                   {
-                    "id": "hd_5479a874",
+                    "id": "hd_13099a31",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1973,7 +1978,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_9f01e00d",
+                    "id": "txt_d28bb45c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1997,7 +2002,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_6bd32de1",
+                    "id": "con_53e57ed6",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2010,7 +2015,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_4433813a",
+                        "id": "hd_2fee5998",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2022,7 +2027,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_f1236f16",
+                        "id": "ico_4abe39c6",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2039,7 +2044,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e820b000",
+                    "id": "hd_bfda19dc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2051,7 +2056,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_1ed95bd3",
+                    "id": "txt_fa146158",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2088,6 +2093,7 @@
       },
       "_css_classes": "axela-section axela-network-section",
       "css_classes": "axela-section axela-network-section",
+      "_css_id": "network",
       "_element_id": "network",
       "css_id": "network"
     },
@@ -2189,6 +2195,7 @@
       },
       "_css_classes": "axela-section axela-invest-section",
       "css_classes": "axela-section axela-invest-section",
+      "_css_id": "investment",
       "_element_id": "investment",
       "css_id": "investment"
     },
@@ -2283,7 +2290,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_af2f733d",
+                    "id": "hd_f70ccfea",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2295,7 +2302,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_4f013659",
+                    "id": "txt_017c8757",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2304,7 +2311,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_030936e1",
+                    "id": "hd_0cc560fc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2316,7 +2323,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_5064066a",
+                    "id": "txt_d2ce6372",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2355,7 +2362,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_401222ff",
+                    "id": "hd_18996e90",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2367,7 +2374,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_de92399e",
+                    "id": "txt_bbf3414a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2404,6 +2411,7 @@
       },
       "_css_classes": "axela-section axela-ethics-section",
       "css_classes": "axela-section axela-ethics-section",
+      "_css_id": "ethics",
       "_element_id": "ethics",
       "css_id": "ethics"
     },
@@ -2498,7 +2506,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_a7675997",
+                    "id": "con_3900f397",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2511,7 +2519,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_3517759a",
+                        "id": "hd_f66528ad",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2523,7 +2531,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_4edef009",
+                        "id": "ico_4de5eabd",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2540,7 +2548,7 @@
                     ]
                   },
                   {
-                    "id": "hd_f452cd54",
+                    "id": "hd_5e9c1d42",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2552,7 +2560,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_3ecb032a",
+                    "id": "txt_9397fe35",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2576,7 +2584,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_1e80246e",
+                    "id": "con_2fa1641c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2589,7 +2597,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_50afa973",
+                        "id": "hd_1dd1f3a8",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2601,7 +2609,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_d259e4fc",
+                        "id": "ico_beb65731",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2618,7 +2626,7 @@
                     ]
                   },
                   {
-                    "id": "hd_24c1c659",
+                    "id": "hd_3d61a776",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2630,7 +2638,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_02802dd1",
+                    "id": "txt_cfde43f9",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2654,7 +2662,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_ecb29427",
+                    "id": "con_d8da3529",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2667,7 +2675,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_ad46b35a",
+                        "id": "hd_6c5c2962",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2679,7 +2687,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_cdba20d8",
+                        "id": "ico_601c13e8",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2696,7 +2704,7 @@
                     ]
                   },
                   {
-                    "id": "hd_bb3a68cd",
+                    "id": "hd_08ad6699",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2708,7 +2716,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_3c449f91",
+                    "id": "txt_4bc9370d",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2745,6 +2753,7 @@
       },
       "_css_classes": "axela-section axela-contact-section",
       "css_classes": "axela-section axela-contact-section",
+      "_css_id": "contact",
       "_element_id": "contact",
       "css_id": "contact"
     },
@@ -2840,7 +2849,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_8ccc2f24",
+                    "id": "hd_acd4ae26",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2852,7 +2861,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_e682127b",
+                    "id": "txt_1440e5ec",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2861,7 +2870,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_469c7c70",
+                    "id": "hd_df5e7f32",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2873,7 +2882,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_cfb5bbd2",
+                    "id": "txt_d5a37c9a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2882,7 +2891,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_6417dee4",
+                    "id": "hd_f459a930",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2894,7 +2903,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_a2ebd35b",
+                    "id": "txt_86899f2c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2903,7 +2912,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_390e170a",
+                    "id": "hd_58441e43",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2915,7 +2924,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_66bd5d70",
+                    "id": "txt_a2021a61",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {

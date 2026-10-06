@@ -245,6 +245,7 @@ def native_container(elements=None, direction='column', wrap='nowrap', justify='
         settings["_css_classes"] = custom_css_class
         settings["css_classes"] = custom_css_class
     if custom_id:
+        settings["_css_id"] = custom_id
         settings["_element_id"] = custom_id
         settings["css_id"] = custom_id
 
@@ -1098,12 +1099,13 @@ def build_homepage():
             "background_size": "cover",
             "background_repeat": "no-repeat",
             "background_overlay_background": "gradient",
-            "background_overlay_color": "#040911",
-            "background_overlay_color_b": "rgba(4, 9, 17, 0.0)",
+            "background_overlay_color": "rgba(6, 11, 19, 0.78)",
+            "background_overlay_color_b": "rgba(6, 11, 19, 0.0)",
             "background_overlay_gradient_type": "linear",
             "background_overlay_gradient_angle": {"unit": "deg", "size": 90},
-            "background_overlay_opacity": {"unit": "px", "size": 1},
-            "_css_classes": "axela-products-split-banner"
+            "background_overlay_opacity": {"unit": "px", "size": 0.85},
+            "_css_classes": "axela-products-split-banner",
+            "css_classes": "axela-products-split-banner"
         },
         "elements": [products_intro_con]
     }

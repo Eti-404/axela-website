@@ -38,19 +38,22 @@ def update_footer():
     .axela-footer-top {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       flex-wrap: wrap;
-      gap: 28px;
-      margin-bottom: 28px;
+      gap: 40px;
+      margin-bottom: 34px;
     }
     .axela-footer-brand {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 14px;
+      max-width: 380px;
     }
     .axela-footer-logo {
-      height: 32px;
-      width: auto;
+      height: 40px;
+      max-height: 42px !important;
+      width: auto !important;
+      max-width: 220px !important;
       display: block;
     }
     .axela-footer-services-text {
@@ -60,7 +63,10 @@ def update_footer():
       text-transform: uppercase;
       color: #94A3B8;
       font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
-      line-height: 1.5;
+      line-height: 1.6;
+      max-width: 360px;
+      margin: 0;
+      text-align: left;
     }
     .axela-footer-tagline {
       font-size: 11px;
@@ -71,12 +77,13 @@ def update_footer():
       font-weight: 600;
     }
     .axela-footer-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 28px;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 12px 36px;
       list-style: none;
       margin: 0;
       padding: 0;
+      justify-content: end;
     }
     .axela-footer-nav a {
       color: #94A3B8;
@@ -121,10 +128,22 @@ def update_footer():
       .axela-footer-top {
         flex-direction: column;
         align-items: flex-start;
-        gap: 18px;
+        gap: 24px;
+      }
+      .axela-footer-brand {
+        max-width: 100%;
+        gap: 12px;
+      }
+      .axela-footer-services-text {
+        max-width: 100%;
+        font-size: 11px;
+        line-height: 1.6;
       }
       .axela-footer-nav {
-        gap: 14px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px 24px;
+        width: 100%;
+        justify-content: start;
       }
       .axela-footer-bottom {
         flex-direction: column;
@@ -138,7 +157,7 @@ def update_footer():
     <div class="axela-footer-top">
       <div class="axela-footer-brand">
         <a href="#home" style="display:inline-block;">
-          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png" alt="AXELA Limited" class="axela-footer-logo" style="max-height: 34px !important; width: auto !important; max-width: 170px !important; display: block;" />
+          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png" alt="AXELA Limited" class="axela-footer-logo" />
         </a>
         <div class="axela-footer-services-text">ENERGY • COMMODITIES • TRADING • SUPPLY • PROJECT DEVELOPMENT • INVESTMENT ADVISORY</div>
       </div>
@@ -160,7 +179,7 @@ def update_footer():
 
     <div class="axela-footer-bottom">
       <div>
-        <p class="axela-footer-copy" style="margin:0; font-size: 12px; color: #94A3B8;">© 2026 AXELA LTD. All rights reserved.</p>
+        <p class="axela-footer-copy" style="margin:0; font-size: 12px; color: #94A3B8;">© 2026 AXELA LTD. All rights reserved | Digital Growth Partner: E-GUIDER</p>
       </div>
       <div class="axela-footer-bottom-links">
         <a href="#ethics">Privacy &amp; Compliance</a>

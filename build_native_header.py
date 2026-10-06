@@ -218,13 +218,16 @@ header {
 
 /* 3. Sticky Navbar Container & Inner Layout */
 .axela-sticky-header {
-  position: sticky !important;
+  position: fixed !important;
   top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
   z-index: 999999 !important;
-  background: rgba(7, 11, 17, 0.96) !important;
+  background: #060B13 !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
   width: 100% !important;
 }
 
@@ -321,10 +324,15 @@ header {
   }
   .axela-sticky-header,
   .elementor-element-hdr_container_main {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
     min-height: 52px !important;
     max-height: 52px !important;
     height: 52px !important;
     padding: 0 !important;
+    z-index: 999999 !important;
   }
   .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
   .axela-navbar-inner {
@@ -711,8 +719,9 @@ header {
             "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True},
             "background_background": "classic",
             "background_color": "#060B13",
-            "position": "sticky",
-            "z_index": 99999,
+            "position": "fixed",
+            "custom_position": "fixed",
+            "z_index": 999999,
             "_css_classes": "axela-sticky-header"
         },
         "elements": [
