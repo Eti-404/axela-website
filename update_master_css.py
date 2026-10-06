@@ -2344,15 +2344,19 @@ header {
 }
 
 /* =============================================================================
-   SECTION 8: SLIM MODERN FOOTER (BREATHING ROOM & LIGHT GREY DIVIDER - Annotation 2)
+   SECTION 8: SLIM MODERN FOOTER — 100% NATIVE ELEMENTOR ARCHITECTURE
    ============================================================================= */
-.axela-slim-footer {
+.axela-footer-slim-root {
   background: #04070D !important;
   border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
   padding: 56px 0 34px 0 !important;
-  color: #94A3B8 !important;
-  /* font-family: 'Plus Jakarta Sans', -apple-system, sans-serif ; */
   width: 100% !important;
+}
+
+.axela-footer-inner {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
 }
 
 .axela-footer-top {
@@ -2371,15 +2375,19 @@ header {
   max-width: 380px !important;
 }
 
+.axela-footer-logo-wrap img,
 .axela-footer-logo {
   height: 40px !important;
   max-height: 42px !important;
   width: auto !important;
+  min-width: 90px !important;
+  aspect-ratio: 1156 / 499 !important;
   max-width: 220px !important;
   display: block !important;
 }
 
-.axela-footer-services-text {
+.axela-footer-services-text,
+.axela-footer-services-text .elementor-heading-title {
   font-size: 11px !important;
   font-weight: 500 !important;
   letter-spacing: 0.08em !important;
@@ -2392,21 +2400,114 @@ header {
   text-align: left !important;
 }
 
-.axela-footer-nav {
-  display: grid !important;
-  grid-template-columns: repeat(3, auto) !important;
-  gap: 12px 36px !important;
-  list-style: none !important;
-  margin: 0 !important;
+.axela-footer-nav-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 36px !important;
+  justify-content: flex-end !important;
+}
+
+.axela-footer-nav-wrap .elementor-icon-list-icon,
+.axela-footer-bottom-links .elementor-icon-list-icon {
+  display: none !important;
+}
+
+.axela-footer-nav-wrap .elementor-icon-list-item,
+.axela-footer-nav-wrap .elementor-icon-list-item a {
   padding: 0 !important;
-  justify-content: end !important;
+  margin: 0 !important;
+}
+
+.axela-footer-nav-wrap .elementor-icon-list-text {
+  color: #94A3B8 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  transition: color 0.2s ease !important;
+}
+
+.axela-footer-nav-wrap .elementor-icon-list-item:hover .elementor-icon-list-text,
+.axela-footer-nav-wrap .elementor-icon-list-item a:hover .elementor-icon-list-text {
+  color: #DA423C !important;
 }
 
 .axela-footer-divider {
-  border: 0 !important;
-  height: 1px !important;
-  background: rgba(255, 255, 255, 0.18) !important;
   margin: 0 0 22px 0 !important;
+}
+
+.axela-footer-divider .elementor-divider {
+  padding: 0 !important;
+}
+
+.axela-footer-divider .elementor-divider-separator {
+  border-top: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.axela-footer-bottom {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+}
+
+.axela-footer-copy,
+.axela-footer-copy .elementor-heading-title {
+  margin: 0 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #94A3B8 !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+}
+
+.axela-footer-bottom-links .elementor-icon-list-items {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.axela-footer-bottom-links .elementor-icon-list-text {
+  color: #64748B !important;
+  font-size: 12px !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  transition: color 0.2s ease !important;
+}
+
+.axela-footer-bottom-links .elementor-icon-list-item:hover .elementor-icon-list-text,
+.axela-footer-bottom-links .elementor-icon-list-item a:hover .elementor-icon-list-text {
+  color: #D4AF37 !important;
+}
+
+@media (max-width: 768px) {
+  .axela-footer-top {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 24px !important;
+  }
+  .axela-footer-brand {
+    max-width: 100% !important;
+    gap: 12px !important;
+  }
+  .axela-footer-services-text,
+  .axela-footer-services-text .elementor-heading-title {
+    max-width: 100% !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+  }
+  .axela-footer-nav-wrap {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 16px 28px !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+  }
+  .axela-footer-bottom {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
 }
 """
 
