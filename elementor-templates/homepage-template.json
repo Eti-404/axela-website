@@ -10,32 +10,26 @@
       },
       "min_height": {
         "unit": "vh",
-        "size": 94
+        "size": 82
       },
       "flex_direction": "column",
       "justify_content": "center",
       "align_items": "center",
       "padding": {
         "unit": "px",
-        "top": "110",
+        "top": "90",
         "right": "0",
-        "bottom": "80",
+        "bottom": "60",
         "left": "0",
         "isLinked": false
       },
-      "margin": {
-        "unit": "px",
-        "top": "0",
-        "right": "0",
-        "bottom": "0",
-        "left": "0",
-        "isLinked": true
-      },
       "background_background": "video",
-      "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-video.mp4",
+      "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-hero.mp4",
+      "background_play_on_mobile": "yes",
+      "background_play_once": "",
       "background_video_fallback": {
-        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-poster.webp",
-        "id": 31
+        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-poster.webp",
+        "id": 142
       },
       "background_overlay_background": "gradient",
       "background_overlay_color": "rgba(7, 11, 17, 0.90)",
@@ -52,8 +46,7 @@
       "html_tag": "section",
       "_css_id": "home",
       "_element_id": "home",
-      "_css_classes": "axela-hero-section",
-      "custom_css": "selector {\n    width: 100vw !important;\n    max-width: 100vw !important;\n    position: relative !important;\n    left: 50% !important;\n    right: 50% !important;\n    margin-left: -50vw !important;\n    margin-right: -50vw !important;\n}"
+      "_css_classes": "axela-hero-section"
     },
     "elements": [
       {
@@ -61,37 +54,11 @@
         "elType": "container",
         "settings": {
           "content_width": "boxed",
-          "boxed_width": {
-            "unit": "px",
-            "size": 1400
-          },
-          "width": {
-            "unit": "%",
-            "size": 100
-          },
-          "max_width": {
-            "unit": "px",
-            "size": 1400
-          },
-          "flex_direction": "row",
-          "justify_content": "space-between",
-          "align_items": "center",
+          "flex_direction": "column",
           "flex_wrap": "nowrap",
-          "padding": {
-            "unit": "px",
-            "top": "0",
-            "right": "24",
-            "bottom": "0",
-            "left": "24",
-            "isLinked": false
-          },
-          "gap": {
-            "unit": "px",
-            "column": "40",
-            "row": "40",
-            "isLinked": false
-          },
-          "custom_css": "selector {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n    max-width: 1400px !important;\n    margin: 0 auto !important;\n}\nselector > .e-con-inner {\n    display: flex !important;\n    flex-direction: row !important;\n    align-items: center !important;\n    justify-content: space-between !important;\n    width: 100% !important;\n}\n@media (max-width: 991px) {\n    selector, selector > .e-con-inner {\n        flex-direction: column !important;\n        align-items: flex-start !important;\n    }\n}"
+          "justify_content": "flex-start",
+          "align_items": "flex-start",
+          "_css_classes": "axela-hero-content-wrap"
         },
         "elements": [
           {
@@ -99,148 +66,136 @@
             "elType": "container",
             "settings": {
               "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": 68
-              },
               "flex_direction": "column",
+              "flex_wrap": "nowrap",
+              "justify_content": "flex-start",
               "align_items": "flex-start",
-              "gap": {
-                "unit": "px",
-                "column": "0",
-                "row": "18",
-                "isLinked": false
-              },
-              "custom_css": "selector {\n    width: 68% !important;\n    max-width: 68% !important;\n    flex: 0 0 68% !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n    }\n}"
+              "_css_classes": "axela-hero-left-column"
             },
             "elements": [
               {
-                "id": "hero_badge_widget",
+                "id": "hero_badge_hd",
                 "elType": "widget",
+                "widgetType": "heading",
                 "settings": {
-                  "html": "<div style=\"display:inline-flex; align-items:center; gap:8px; padding:5px 14px; border-radius:3px; background:rgba(22, 139, 141, 0.12); border:1px solid rgba(45, 212, 191, 0.3); font-size:10.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#2DD4BF; font-family:'Plus Jakarta Sans', sans-serif;\"><span style=\"width:6px; height:6px; border-radius:50%; background:#2DD4BF; box-shadow:0 0 6px #2DD4BF; display:inline-block;\"></span> TRADING &bull; SUPPLY &bull; COMMERCIAL BROKERAGE &bull; INVESTMENT &amp; ADVISORY</div>"
+                  "title": "ENERGY &bull; COMMODITIES TRADING &bull; SUPPLY &bull; PROJECT DEVELOPMENT &bull; INVESTMENT ADVISORY",
+                  "header_size": "span",
+                  "align": "left",
+                  "_css_classes": "axela-hero-badge"
                 },
-                "elements": [],
-                "widgetType": "html"
+                "elements": []
               },
               {
-                "id": "hero_h1_widget",
+                "id": "hero_h1_hd",
                 "elType": "widget",
+                "widgetType": "heading",
                 "settings": {
                   "title": "Connecting Trade, Supply and Investment Opportunities",
                   "header_size": "h1",
-                  "title_color": "#FFFFFF",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Cormorant Garamond",
-                  "typography_font_size": {
-                    "unit": "px",
-                    "size": 62
-                  },
-                  "typography_font_size_tablet": {
-                    "unit": "px",
-                    "size": 42
-                  },
-                  "typography_font_size_mobile": {
-                    "unit": "px",
-                    "size": 30
-                  },
-                  "typography_font_weight": "400",
-                  "typography_line_height": {
-                    "unit": "em",
-                    "size": 1.14
-                  },
-                  "typography_letter_spacing": {
-                    "unit": "px",
-                    "size": -0.5
-                  }
+                  "align": "left",
+                  "_css_classes": "axela-hero-title"
                 },
-                "elements": [],
-                "widgetType": "heading"
+                "elements": []
               },
               {
-                "id": "hero_intro_widget",
+                "id": "hero_intro_txt",
                 "elType": "widget",
+                "widgetType": "text-editor",
                 "settings": {
-                  "editor": "<p style=\"font-size:16px; line-height:1.75; color:#E2E8F0; margin:0; font-family:'Plus Jakarta Sans', sans-serif; font-weight:400; max-width:820px;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
-                  "text_color": "#E2E8F0",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Plus Jakarta Sans",
-                  "typography_font_size": {
-                    "unit": "px",
-                    "size": 16
-                  },
-                  "typography_line_height": {
-                    "unit": "em",
-                    "size": 1.75
-                  }
+                  "editor": "<p>AXELA Limited is a Dhaka based trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
+                  "_css_classes": "axela-hero-intro"
                 },
-                "elements": [],
-                "widgetType": "text-editor"
+                "elements": []
               },
               {
-                "id": "hero_support_widget",
+                "id": "hero_support_txt",
                 "elType": "widget",
+                "widgetType": "text-editor",
                 "settings": {
-                  "editor": "<p style=\"font-size:14px; line-height:1.65; color:#94A3B8; margin:0; border-left:3px solid #168B8D; padding-left:16px; font-family:'Plus Jakarta Sans', sans-serif; max-width:820px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
-                  "text_color": "#94A3B8",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Plus Jakarta Sans",
-                  "typography_font_size": {
-                    "unit": "px",
-                    "size": 14
-                  },
-                  "typography_line_height": {
-                    "unit": "em",
-                    "size": 1.65
-                  }
+                  "editor": "<p>From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
+                  "_css_classes": "axela-hero-support"
                 },
-                "elements": [],
-                "widgetType": "text-editor"
+                "elements": []
               },
               {
-                "id": "hero_buttons_html_widget",
-                "elType": "widget",
+                "id": "hero_btn_con",
+                "elType": "container",
                 "settings": {
-                  "html": "<div class=\"axela-hero-btn-row\">\n  <a href=\"#enquiry\" class=\"axela-hero-btn axela-btn-teal\">\n    <span>SUBMIT A TRADE ENQUIRY</span>\n  </a>\n  <a href=\"#services\" class=\"axela-hero-btn axela-btn-glass\">\n    <span>DISCUSS A SUPPLY REQUIREMENT</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n  <a href=\"#investment\" class=\"axela-hero-btn axela-btn-gold\">\n    <span>EXPLORE INVESTMENT OPPORTUNITIES</span>\n    <span class=\"btn-arrow\">&rarr;</span>\n  </a>\n</div>\n\n<style>\n.axela-hero-btn-row {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin-top: 16px !important;\n  width: 100% !important;\n}\n\n.axela-hero-btn {\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  gap: 8px !important;\n  padding: 12px 20px !important;\n  border-radius: 3px !important;\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 11.5px !important;\n  font-weight: 700 !important;\n  letter-spacing: 0.10em !important;\n  text-transform: uppercase !important;\n  text-decoration: none !important;\n  white-space: nowrap !important;\n  flex-shrink: 0 !important;\n  transition: all 0.25s ease !important;\n  box-sizing: border-box !important;\n}\n\n.axela-btn-teal {\n  background: #168B8D !important;\n  color: #FFFFFF !important;\n  border: 1px solid rgba(45, 212, 191, 0.45) !important;\n}\n\n.axela-btn-teal:hover {\n  background: #1A9D9F !important;\n  box-shadow: 0 0 16px rgba(22, 139, 141, 0.45) !important;\n  color: #FFFFFF !important;\n}\n\n.axela-btn-glass {\n  background: rgba(255, 255, 255, 0.05) !important;\n  color: #E2E8F0 !important;\n  border: 1px solid rgba(255, 255, 255, 0.22) !important;\n  font-weight: 600 !important;\n}\n\n.axela-btn-glass:hover {\n  background: rgba(255, 255, 255, 0.12) !important;\n  border-color: rgba(255, 255, 255, 0.45) !important;\n  color: #FFFFFF !important;\n}\n\n.axela-btn-gold {\n  background: rgba(229, 169, 60, 0.08) !important;\n  color: #E5A93C !important;\n  border: 1.5px solid #E5A93C !important;\n  font-weight: 700 !important;\n}\n\n.axela-btn-gold:hover {\n  background: rgba(229, 169, 60, 0.20) !important;\n  border-color: #F5BA42 !important;\n  color: #FFD269 !important;\n  box-shadow: 0 0 16px rgba(229, 169, 60, 0.35) !important;\n}\n\n.btn-arrow {\n  font-size: 13px !important;\n  transition: transform 0.2s ease !important;\n}\n\n.axela-hero-btn:hover .btn-arrow {\n  transform: translateX(3px) !important;\n}\n\n/* Mobile Stacking: Full Width Buttons for Touch */\n@media (max-width: 991px) {\n  .axela-hero-btn-row {\n    flex-direction: column !important;\n    width: 100% !important;\n    gap: 10px !important;\n  }\n  \n  .axela-hero-btn {\n    width: 100% !important;\n    padding: 13px 16px !important;\n    font-size: 12px !important;\n    text-align: center !important;\n  }\n}\n</style>"
+                  "content_width": "full",
+                  "flex_direction": "row",
+                  "flex_wrap": "wrap",
+                  "justify_content": "flex-start",
+                  "align_items": "center",
+                  "_css_classes": "axela-hero-btn-row"
                 },
-                "elements": [],
-                "widgetType": "html"
+                "elements": [
+                  {
+                    "id": "hero_btn_trade",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                      "text": "Submit a Trade Enquiry",
+                      "link": {
+                        "url": "#contact",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "selected_icon": {
+                        "value": "fas fa-arrow-right",
+                        "library": "fa-solid"
+                      },
+                      "icon_align": "right",
+                      "_css_classes": "axela-hero-btn axela-btn-teal"
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "hero_btn_supply",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                      "text": "Discuss a Supply Requirement",
+                      "link": {
+                        "url": "#services",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "selected_icon": {
+                        "value": "fas fa-arrow-right",
+                        "library": "fa-solid"
+                      },
+                      "icon_align": "right",
+                      "_css_classes": "axela-hero-btn axela-btn-ghost"
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "hero_btn_invest",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                      "text": "Explore Investment Opportunities",
+                      "link": {
+                        "url": "#investment",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "selected_icon": {
+                        "value": "fas fa-arrow-right",
+                        "library": "fa-solid"
+                      },
+                      "icon_align": "right",
+                      "_css_classes": "axela-hero-btn axela-btn-gold-link"
+                    },
+                    "elements": []
+                  }
+                ]
               }
-            ],
-            "isInner": true
-          },
-          {
-            "id": "axela_hero_right_stats",
-            "elType": "container",
-            "settings": {
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": 32
-              },
-              "flex_direction": "column",
-              "align_items": "flex-end",
-              "justify_content": "center",
-              "custom_css": "selector {\n    width: 32% !important;\n    max-width: 32% !important;\n    flex: 0 0 32% !important;\n    display: flex !important;\n    justify-content: flex-end !important;\n    align-items: center !important;\n}\n@media (max-width: 991px) {\n    selector {\n        width: 100% !important;\n        max-width: 100% !important;\n        flex: 0 0 100% !important;\n        justify-content: center !important;\n        margin-top: 24px !important;\n    }\n}"
-            },
-            "elements": [
-              {
-                "id": "hero_stats_widget",
-                "elType": "widget",
-                "settings": {
-                  "html": "<div class=\"axela-hero-stats-wrapper\">\n  <!-- Metric 1 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">20M</div>\n      <div class=\"stat-label-val\">MT MOVED IN 2025</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n\n  <!-- Metric 2 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">70+</div>\n      <div class=\"stat-label-val\">BANKING PARTNERS</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n\n  <!-- Metric 3 -->\n  <div class=\"axela-stat-row\">\n    <div class=\"axela-stat-text-side\">\n      <div class=\"stat-number-val\">70+</div>\n      <div class=\"stat-label-val\">REGULATORY BODIES</div>\n    </div>\n    <div class=\"axela-stat-line-side\">\n      <span class=\"stat-golden-bar\"></span>\n    </div>\n  </div>\n</div>\n\n<style>\n.axela-hero-stats-wrapper {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 34px !important;\n  align-items: flex-end !important;\n  justify-content: center !important;\n  width: 100% !important;\n}\n\n.axela-stat-row {\n  display: flex !important;\n  flex-direction: row !important;\n  align-items: center !important;\n  justify-content: flex-end !important;\n  gap: 20px !important;\n  transition: transform 0.25s ease !important;\n}\n\n.axela-stat-row:hover {\n  transform: translateX(-3px) !important;\n}\n\n.axela-stat-text-side {\n  display: flex !important;\n  flex-direction: column !important;\n  align-items: flex-end !important;\n  text-align: right !important;\n}\n\n.stat-number-val {\n  font-family: 'Cormorant Garamond', Georgia, serif !important;\n  font-size: 52px !important;\n  font-weight: 500 !important;\n  line-height: 1 !important;\n  color: #E5A93C !important;\n  letter-spacing: -0.01em !important;\n  margin-bottom: 5px !important;\n  text-shadow: 0 0 20px rgba(229, 169, 60, 0.20) !important;\n}\n\n.stat-label-val {\n  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;\n  font-size: 10.5px !important;\n  font-weight: 600 !important;\n  letter-spacing: 0.16em !important;\n  text-transform: uppercase !important;\n  color: #94A3B8 !important;\n  white-space: nowrap !important;\n}\n\n.axela-stat-line-side {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.stat-golden-bar {\n  display: block !important;\n  width: 1.5px !important;\n  height: 52px !important;\n  background: #E5A93C !important;\n  border-radius: 1px !important;\n  box-shadow: 0 0 6px rgba(229, 169, 60, 0.3) !important;\n}\n\n/* Mobile Stacking for Stats: Clean 3-Item Row or Centered Cards */\n@media (max-width: 991px) {\n  .axela-hero-stats-wrapper {\n    flex-direction: row !important;\n    justify-content: space-between !important;\n    align-items: center !important;\n    width: 100% !important;\n    gap: 10px !important;\n    padding: 16px 0 !important;\n    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;\n    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  }\n  \n  .axela-stat-row {\n    flex: 1 1 33.33% !important;\n    justify-content: center !important;\n    gap: 10px !important;\n  }\n  \n  .axela-stat-text-side {\n    align-items: center !important;\n    text-align: center !important;\n  }\n  \n  .stat-number-val {\n    font-size: 28px !important;\n    margin-bottom: 3px !important;\n  }\n  \n  .stat-label-val {\n    font-size: 9px !important;\n    letter-spacing: 0.10em !important;\n    white-space: normal !important;\n    line-height: 1.25 !important;\n  }\n  \n  .stat-golden-bar {\n    height: 36px !important;\n    width: 1px !important;\n  }\n}\n</style>"
-                },
-                "elements": [],
-                "widgetType": "html"
-              }
-            ],
-            "isInner": true
+            ]
           }
-        ],
-        "isInner": true
+        ]
       }
-    ],
-    "isInner": false
+    ]
   },
   {
     "id": "sec_about",
@@ -272,7 +227,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "01 / ABOUT AXELA GLOBAL",
+              "title": "01 / ABOUT US",
               "header_size": "span",
               "align": "left",
               "_css_classes": "axela-section-eyebrow"
@@ -284,7 +239,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "Connecting Trade, Product Supply and Commercial Advisory",
+              "title": "About AXELA LTD.",
               "header_size": "h2",
               "align": "left",
               "_css_classes": "axela-section-title"
@@ -296,7 +251,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>AXELA LTD. works at the intersection of international trade, product supply and commercial advisory. Our role is to help identify opportunities, connect relevant counterparties, and coordinate the commercial steps required to move complex physical transactions forward.</p>",
+              "editor": "<p>AXELA Limited works at the intersection of international trade, product supply and commercial advisory. Our role is to help identify opportunities, connect relevant parties and coordinate the commercial steps required to move a transaction forward.</p>",
               "_css_classes": "axela-lead-text"
             },
             "elements": []
@@ -306,221 +261,10 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>We aim to build enduring business relationships founded on transparent communication, professional conduct, strict confidentiality, and a practical, on-the-ground understanding of buyer and supplier requirements across Bangladesh and international markets.</p>"
+              "editor": "<p>We aim to build business relationships through clear communication, professional conduct, confidentiality and a practical understanding of buyer and supplier requirements.</p>",
+              "_css_classes": "axela-sub-text"
             },
             "elements": []
-          },
-          {
-            "id": "scale_grid_con",
-            "elType": "container",
-            "settings": {
-              "content_width": "full",
-              "flex_direction": "row",
-              "flex_wrap": "nowrap",
-              "justify_content": "space-between",
-              "align_items": "stretch",
-              "_css_classes": "axela-scale-metrics-grid"
-            },
-            "elements": [
-              {
-                "id": "scale_card_1",
-                "elType": "container",
-                "settings": {
-                  "content_width": "full",
-                  "flex_direction": "column",
-                  "flex_wrap": "nowrap",
-                  "justify_content": "flex-start",
-                  "align_items": "stretch",
-                  "_css_classes": "axela-scale-metric-card"
-                },
-                "elements": [
-                  {
-                    "id": "hd_753e13e2",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                      "title": "20M+",
-                      "header_size": "h3",
-                      "align": "left",
-                      "_css_classes": "axela-stat-val"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "txt_019bc902",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                      "editor": "<p>MT Moved / Sourced Annually Across Global Energy & Commodity Corridors</p>",
-                      "_css_classes": "axela-stat-lbl"
-                    },
-                    "elements": []
-                  }
-                ]
-              },
-              {
-                "id": "scale_card_2",
-                "elType": "container",
-                "settings": {
-                  "content_width": "full",
-                  "flex_direction": "column",
-                  "flex_wrap": "nowrap",
-                  "justify_content": "flex-start",
-                  "align_items": "stretch",
-                  "_css_classes": "axela-scale-metric-card"
-                },
-                "elements": [
-                  {
-                    "id": "hd_ad14d82c",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                      "title": "70+",
-                      "header_size": "h3",
-                      "align": "left",
-                      "_css_classes": "axela-stat-val"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "txt_dd5b31c5",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                      "editor": "<p>Tier-1 International Financial, Banking & Trade Finance Institutions</p>",
-                      "_css_classes": "axela-stat-lbl"
-                    },
-                    "elements": []
-                  }
-                ]
-              },
-              {
-                "id": "scale_card_3",
-                "elType": "container",
-                "settings": {
-                  "content_width": "full",
-                  "flex_direction": "column",
-                  "flex_wrap": "nowrap",
-                  "justify_content": "flex-start",
-                  "align_items": "stretch",
-                  "_css_classes": "axela-scale-metric-card"
-                },
-                "elements": [
-                  {
-                    "id": "hd_92db1d3f",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                      "title": "25+",
-                      "header_size": "h3",
-                      "align": "left",
-                      "_css_classes": "axela-stat-val"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "txt_d4cecf55",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                      "editor": "<p>Years Collective Physical Trading & Cross-Border Supply Execution</p>",
-                      "_css_classes": "axela-stat-lbl"
-                    },
-                    "elements": []
-                  }
-                ]
-              },
-              {
-                "id": "scale_card_4",
-                "elType": "container",
-                "settings": {
-                  "content_width": "full",
-                  "flex_direction": "column",
-                  "flex_wrap": "nowrap",
-                  "justify_content": "flex-start",
-                  "align_items": "stretch",
-                  "_css_classes": "axela-scale-metric-card"
-                },
-                "elements": [
-                  {
-                    "id": "hd_d0744a1b",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                      "title": "4",
-                      "header_size": "h3",
-                      "align": "left",
-                      "_css_classes": "axela-stat-val"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "txt_fd4b9745",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                      "editor": "<p>Continents with Active Strategic Operations & Origin Desks</p>",
-                      "_css_classes": "axela-stat-lbl"
-                    },
-                    "elements": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "abt_act_row",
-            "elType": "container",
-            "settings": {
-              "content_width": "full",
-              "flex_direction": "row",
-              "flex_wrap": "wrap",
-              "justify_content": "flex-start",
-              "align_items": "center",
-              "_css_classes": "axela-about-actions-row"
-            },
-            "elements": [
-              {
-                "id": "abt_btn_consult",
-                "elType": "widget",
-                "widgetType": "button",
-                "settings": {
-                  "text": "Request a Trading Consultation",
-                  "link": {
-                    "url": "#contact",
-                    "is_external": "",
-                    "nofollow": ""
-                  },
-                  "selected_icon": {
-                    "value": "fas fa-arrow-right",
-                    "library": "fa-solid"
-                  },
-                  "icon_align": "right",
-                  "_css_classes": "axela-btn-teal"
-                },
-                "elements": []
-              },
-              {
-                "id": "abt_btn_cat",
-                "elType": "widget",
-                "widgetType": "button",
-                "settings": {
-                  "text": "Explore Trading Categories",
-                  "link": {
-                    "url": "#products",
-                    "is_external": "",
-                    "nofollow": ""
-                  },
-                  "selected_icon": {
-                    "value": "fas fa-arrow-right",
-                    "library": "fa-solid"
-                  },
-                  "icon_align": "right",
-                  "_css_classes": "axela-btn-ghost"
-                },
-                "elements": []
-              }
-            ]
           }
         ]
       }
@@ -592,7 +336,8 @@
                 "elType": "widget",
                 "widgetType": "text-editor",
                 "settings": {
-                  "editor": "<p>Sourcing and coordinating supply of petroleum products, commercial brokerage, tender support and advisory services.</p>"
+                  "editor": "<p>Sourcing and coordinating supply of petroleum products, commercial brokerage, tender support and advisory services.</p>",
+                  "_css_classes": "axela-section-subtitle"
                 },
                 "elements": []
               }
@@ -623,7 +368,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_97eeae23",
+                    "id": "con_b4dd1a51",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -635,11 +380,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_fabd3f46",
+                        "id": "hd_41a1e7fa",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "01 / SERVICE",
+                          "title": "01",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -647,7 +392,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_1206b45a",
+                        "id": "ico_0c1f3d63",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -663,7 +408,7 @@
                     ]
                   },
                   {
-                    "id": "hd_80cb9178",
+                    "id": "hd_2cf1f8d8",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -675,31 +420,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_2f41417c",
+                    "id": "txt_8b3662e8",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Sourcing and coordinating supply of petroleum products, petrochemicals, fertilizers, industrial chemicals and other agreed commodities, subject to product availability and contract terms.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_1",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Sourcing and coordinating supply of petroleum products, petrochemicals, fertilizers, industrial chemicals and other agreed commodities or commercial products, subject to product availability, applicable approvals and agreed contract terms.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -718,7 +444,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_2d82a03f",
+                    "id": "con_fd628287",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -730,11 +456,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_c0e3c873",
+                        "id": "hd_42596bdf",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "02 / SERVICE",
+                          "title": "02",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -742,7 +468,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_6f3d513e",
+                        "id": "ico_72dd5bfd",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -758,7 +484,7 @@
                     ]
                   },
                   {
-                    "id": "hd_68eb6498",
+                    "id": "hd_9067dd94",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -770,31 +496,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_3b317bf5",
+                    "id": "txt_4952ded0",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Introducing buyers and suppliers, facilitating commercial discussions, coordinating offers and supporting transactions under agreed mandates and commission arrangements.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_2",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Introducing buyers and suppliers, facilitating commercial discussions, coordinating offers and supporting transactions under agreed mandates and commission arrangements.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -813,7 +520,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_36838e23",
+                    "id": "con_3c77ba17",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -825,11 +532,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_247ccbcd",
+                        "id": "hd_da1f9947",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "03 / SERVICE",
+                          "title": "03",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -837,7 +544,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_d32a7a7d",
+                        "id": "ico_00ca7a75",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -853,7 +560,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e2b54a15",
+                    "id": "hd_b0d938ee",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -865,31 +572,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_cef33755",
+                    "id": "txt_1b45d7b3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Identifying relevant supply tenders and assisting with supplier coordination, quotations, product specifications, commercial documentation and bid or contract coordination where authorised.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_3",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Identifying relevant supply tenders and assisting with supplier coordination, quotations, product specifications, commercial documentation and bid or contract coordination where authorised.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -908,7 +596,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_121fd1c2",
+                    "id": "con_fd07776c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -920,11 +608,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_21a2c68a",
+                        "id": "hd_7b3ca3db",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "04 / SERVICE",
+                          "title": "04",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -932,7 +620,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_770ba6c7",
+                        "id": "ico_4e45ecc2",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -948,7 +636,7 @@
                     ]
                   },
                   {
-                    "id": "hd_294b99c7",
+                    "id": "hd_8f8ebac8",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -960,31 +648,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_c918861e",
+                    "id": "txt_0b3383a8",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Helping clarify product requirements, quantity, quality specifications, origin, delivery schedule and trade terms; coordinating enquiries with potential suppliers and service providers.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_4",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Helping clarify product requirements, quantity, quality specifications, origin, delivery schedule and trade terms; coordinating enquiries with potential suppliers and service providers.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -1003,7 +672,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_4036d766",
+                    "id": "con_f0c9d8e0",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1015,11 +684,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_5b5daa35",
+                        "id": "hd_491888ea",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "05 / SERVICE",
+                          "title": "05",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -1027,7 +696,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_bab099ea",
+                        "id": "ico_3b08fee2",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1043,7 +712,7 @@
                     ]
                   },
                   {
-                    "id": "hd_2221807f",
+                    "id": "hd_4f3fb9bf",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1055,31 +724,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_4c4591d9",
+                    "id": "txt_3fbaad60",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Identifying and developing business proposals, project concepts, strategic partnerships and investment opportunities for review by potential local and international investors.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_5",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Identifying and developing business proposals, project concepts, strategic partnerships and investment opportunities for review by potential local and international investors.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -1098,7 +748,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_6d388d44",
+                    "id": "con_3a347867",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1110,11 +760,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_4350ffad",
+                        "id": "hd_0915d54b",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "06 / SERVICE",
+                          "title": "06",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -1122,7 +772,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_e3c94d86",
+                        "id": "ico_da5a2383",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1138,7 +788,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e4afa951",
+                    "id": "hd_4a66b010",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1150,31 +800,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_85134155",
+                    "id": "txt_40ff2776",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Supporting international investors with local introductions, opportunity screening, business coordination and communication with relevant counterparties.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_6",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Supporting international investors with local introductions, opportunity screening, business coordination and communication with relevant counterparties. Legal, tax, licensing and regulated services should be provided by appropriately qualified professionals.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -1193,7 +824,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_ca34d0e8",
+                    "id": "con_2f58c657",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1205,11 +836,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_e5fdabbb",
+                        "id": "hd_4281a224",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "07 / SERVICE",
+                          "title": "07",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -1217,7 +848,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_992fada6",
+                        "id": "ico_a3dc2e0c",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1233,7 +864,7 @@
                     ]
                   },
                   {
-                    "id": "hd_98ad036e",
+                    "id": "hd_984812c6",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1245,31 +876,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_35ed9c16",
+                    "id": "txt_e41f7811",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Commercial support for business plans, transaction structures, strategic partnerships, capital proposals and financing discussions with professional advisers.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_7",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Commercial support for business plans, transaction structures, strategic partnerships, capital proposals and financing discussions, working with relevant professional advisers where required.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -1288,7 +900,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_c747ef3d",
+                    "id": "con_b853b6dd",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1300,11 +912,11 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_8ae106c5",
+                        "id": "hd_554caf88",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
-                          "title": "08 / SERVICE",
+                          "title": "08",
                           "header_size": "span",
                           "align": "left",
                           "_css_classes": "service-card-num"
@@ -1312,7 +924,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_82ee1f55",
+                        "id": "ico_5e992242",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1328,7 +940,7 @@
                     ]
                   },
                   {
-                    "id": "hd_bd02c057",
+                    "id": "hd_597a603c",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1340,31 +952,12 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_e85606dd",
+                    "id": "txt_53da2742",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Coordinating commercial documentation, delivery requirements, shipment-related communication and counterparty follow-up as agreed for each transaction.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "svc_btn_8",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "DISCUSS SUPPLY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-ash"
+                      "editor": "<p>Coordinating commercial documentation, delivery requirements, shipment-related communication and counterparty follow-up as agreed for each transaction. AXELA does not represent itself as a carrier, insurer or logistics operator unless separately authorised to provide those services.</p>",
+                      "_css_classes": "service-card-desc"
                     },
                     "elements": []
                   }
@@ -1402,78 +995,97 @@
         },
         "elements": [
           {
-            "id": "prod_head_con",
+            "id": "prod_split_banner",
             "elType": "container",
             "settings": {
               "content_width": "full",
-              "flex_direction": "column",
-              "flex_wrap": "nowrap",
+              "width": {
+                "unit": "%",
+                "size": 100
+              },
+              "min_height": {
+                "unit": "px",
+                "size": 380
+              },
+              "flex_direction": "row",
+              "align_items": "center",
               "justify_content": "flex-start",
-              "align_items": "stretch",
-              "_css_classes": "axela-section-header"
+              "padding": {
+                "unit": "px",
+                "top": "50",
+                "right": "35",
+                "bottom": "50",
+                "left": "35",
+                "isLinked": false
+              },
+              "background_background": "classic",
+              "background_image": {
+                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp",
+                "id": 86
+              },
+              "background_position": "center center",
+              "background_size": "cover",
+              "background_overlay_background": "gradient",
+              "background_overlay_color": "#040911",
+              "background_overlay_color_b": "rgba(4, 9, 17, 0.0)",
+              "background_overlay_gradient_type": "linear",
+              "background_overlay_gradient_angle": {
+                "unit": "deg",
+                "size": 90
+              },
+              "background_overlay_opacity": {
+                "unit": "px",
+                "size": 1
+              },
+              "_css_classes": "axela-products-split-banner"
             },
             "elements": [
               {
-                "id": "prod_eye",
-                "elType": "widget",
-                "widgetType": "heading",
+                "id": "prod_banner_text",
+                "elType": "container",
                 "settings": {
-                  "title": "03 / COMMODITY SCOPE",
-                  "header_size": "span",
-                  "align": "left",
-                  "_css_classes": "axela-section-eyebrow"
+                  "content_width": "full",
+                  "flex_direction": "column",
+                  "flex_wrap": "nowrap",
+                  "justify_content": "flex-start",
+                  "align_items": "flex-start",
+                  "_css_classes": "axela-prod-banner-text"
                 },
-                "elements": []
-              },
-              {
-                "id": "prod_h2",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Products and Trading Categories",
-                  "header_size": "h2",
-                  "align": "left",
-                  "_css_classes": "axela-section-title"
-                },
-                "elements": []
-              },
-              {
-                "id": "prod_sub",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>AXELA LTD. may consider sourcing and supply enquiries across the following categories, depending on the specific requirement, supplier availability, applicable permissions and transaction terms.</p>"
-                },
-                "elements": []
-              }
-            ]
-          },
-          {
-            "id": "prod_banner_con",
-            "elType": "container",
-            "settings": {
-              "content_width": "full",
-              "flex_direction": "column",
-              "flex_wrap": "nowrap",
-              "justify_content": "flex-start",
-              "align_items": "stretch",
-              "_css_classes": "axela-banner-container"
-            },
-            "elements": [
-              {
-                "id": "prod_banner_img",
-                "elType": "widget",
-                "widgetType": "image",
-                "settings": {
-                  "image": {
-                    "url": "https://axelaglobal.com/wp-content/uploads/2026/10/axela-petroleum-refinery-banner.webp",
-                    "id": 95
+                "elements": [
+                  {
+                    "id": "prod_eye",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                      "title": "03 / COMMODITY SCOPE",
+                      "header_size": "span",
+                      "align": "left",
+                      "_css_classes": "axela-section-eyebrow"
+                    },
+                    "elements": []
                   },
-                  "image_size": "full",
-                  "caption_source": "none",
-                  "_css_classes": "axela-banner-img-styled"
-                },
-                "elements": []
+                  {
+                    "id": "prod_h2",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                      "title": "Products and Trading Categories",
+                      "header_size": "h2",
+                      "align": "left",
+                      "_css_classes": "axela-section-title"
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "prod_sub",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<p>AXELA LTD. may consider sourcing and supply enquiries across the following categories, depending on the specific requirement, supplier availability, applicable permissions and transaction terms.</p>"
+                    },
+                    "elements": []
+                  }
+                ]
               }
             ]
           },
@@ -1502,7 +1114,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_3a0c85f9",
+                    "id": "con_919ed36f",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1514,7 +1126,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_a2ad925a",
+                        "id": "ico_754d424e",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1528,7 +1140,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_dd1889f2",
+                        "id": "hd_f5900dc6",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1542,31 +1154,11 @@
                     ]
                   },
                   {
-                    "id": "txt_a655e29b",
+                    "id": "txt_d0eb7a3c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Diesel, gasoil, fuel oil, jet fuel, LNG, bitumen and other petroleum products where permitted and available.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "btn_c5c69626",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
                     },
                     "elements": []
                   }
@@ -1585,7 +1177,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_47bdcb37",
+                    "id": "con_17f2b3b1",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1597,7 +1189,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_760e71cb",
+                        "id": "ico_a199402d",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1611,7 +1203,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_d07ac2d9",
+                        "id": "hd_99ba7dd3",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1625,31 +1217,11 @@
                     ]
                   },
                   {
-                    "id": "txt_08d58d69",
+                    "id": "txt_12b23b5a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Selected petrochemical feedstocks, aromatics, olefins, and industrial raw materials for processing facilities.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "btn_fbed968a",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
                     },
                     "elements": []
                   }
@@ -1668,7 +1240,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_04c535d9",
+                    "id": "con_38759b14",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1680,7 +1252,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_38054943",
+                        "id": "ico_8395f45a",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1694,7 +1266,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_0062cc43",
+                        "id": "hd_5b83b698",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1708,31 +1280,11 @@
                     ]
                   },
                   {
-                    "id": "txt_47d648b9",
+                    "id": "txt_4ef0fcd7",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Granular and prilled Urea, DAP, NPK compounds, potash (MOP), and key agricultural soil enrichment inputs.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "btn_6001e7de",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
                     },
                     "elements": []
                   }
@@ -1751,7 +1303,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_c025243d",
+                    "id": "con_37a6c56d",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1763,7 +1315,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_cca0c29e",
+                        "id": "ico_713131ba",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1777,7 +1329,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_8fe8ea56",
+                        "id": "hd_d828f1d4",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1791,31 +1343,11 @@
                     ]
                   },
                   {
-                    "id": "txt_adf89ca1",
+                    "id": "txt_4e5ecd0c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Essential industrial process chemicals, solvents, caustics, and water treatment reagents under strict quality control.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "btn_5ff16723",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
                     },
                     "elements": []
                   }
@@ -1834,7 +1366,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_53fca697",
+                    "id": "con_494eb72d",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1846,7 +1378,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_977e0860",
+                        "id": "ico_87e5c9e3",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1860,7 +1392,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_0e22517b",
+                        "id": "hd_d05398c0",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1874,31 +1406,11 @@
                     ]
                   },
                   {
-                    "id": "txt_ef193947",
+                    "id": "txt_fc109c98",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Rice, milling wheat, feed grains, pulses, refined sugar, and edible oils tailored to institutional and national requirements.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "btn_3c271dae",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
                     },
                     "elements": []
                   }
@@ -1917,7 +1429,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_752bac30",
+                    "id": "con_5afef814",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1929,7 +1441,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_c34c5d2e",
+                        "id": "ico_07eb9b1d",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1943,7 +1455,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_94cd7a33",
+                        "id": "hd_f0fea196",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1957,84 +1469,15 @@
                     ]
                   },
                   {
-                    "id": "txt_7d09a9fd",
+                    "id": "txt_c8243def",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>Industrial raw materials, steel scrap, iron ore, clinker, capital equipment, and commercial goods based on verified tenders.</p>"
                     },
                     "elements": []
-                  },
-                  {
-                    "id": "btn_24b589d8",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "ENQUIRE CATEGORY",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-link-ash"
-                    },
-                    "elements": []
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "id": "prod_compliance_box",
-            "elType": "container",
-            "settings": {
-              "content_width": "full",
-              "flex_direction": "column",
-              "flex_wrap": "nowrap",
-              "justify_content": "flex-start",
-              "align_items": "stretch",
-              "_css_classes": "axela-compliance-note-box"
-            },
-            "elements": [
-              {
-                "id": "ico_8ee7c749",
-                "elType": "widget",
-                "widgetType": "icon",
-                "settings": {
-                  "selected_icon": {
-                    "value": "fas fa-shield-halved",
-                    "library": "fa-solid"
-                  },
-                  "view": "default",
-                  "_css_classes": "compliance-icon-sleek"
-                },
-                "elements": []
-              },
-              {
-                "id": "hd_744713e0",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Commercial Sourcing Assessment Standard",
-                  "header_size": "h4",
-                  "align": "left",
-                  "_css_classes": "compliance-title"
-                },
-                "elements": []
-              },
-              {
-                "id": "txt_790a3fb0",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>Each enquiry should be assessed individually. Product name, grade, specifications, origin, quantity, packing, delivery schedule, Incoterm, inspection requirements and payment terms must be confirmed before any offer is treated as firm.</p>"
-                },
-                "elements": []
               }
             ]
           }
@@ -2139,7 +1582,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_a46a3249",
+                    "id": "con_5486a0ac",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2151,7 +1594,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_1cbf7ec7",
+                        "id": "hd_a358aab6",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2163,7 +1606,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_8c2d7ecc",
+                        "id": "ico_114bb06c",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2179,7 +1622,7 @@
                     ]
                   },
                   {
-                    "id": "hd_2d71e83c",
+                    "id": "hd_ed72f6bb",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2191,7 +1634,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_f0915ed2",
+                    "id": "txt_ccc9b314",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2214,7 +1657,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_184179b4",
+                    "id": "con_d5268e9c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2226,7 +1669,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_92c8e4b1",
+                        "id": "hd_953914f4",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2238,12 +1681,12 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_311f2562",
+                        "id": "ico_57a7c835",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
                           "selected_icon": {
-                            "value": "fas fa-users-gear",
+                            "value": "fas fa-users",
                             "library": "fa-solid"
                           },
                           "view": "default",
@@ -2254,7 +1697,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e19a238f",
+                    "id": "hd_a24e1c72",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2266,7 +1709,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_0ce89884",
+                    "id": "txt_ea6604dc",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2289,7 +1732,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_401e3c0e",
+                    "id": "con_0ac66f6c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2301,7 +1744,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_35763b92",
+                        "id": "hd_eb840760",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2313,7 +1756,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_3524260b",
+                        "id": "ico_94966580",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2329,7 +1772,7 @@
                     ]
                   },
                   {
-                    "id": "hd_86cc6ca0",
+                    "id": "hd_f050cb8e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2341,7 +1784,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_62f8f780",
+                    "id": "txt_cdb2f56b",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2364,7 +1807,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_b5a8f355",
+                    "id": "con_6e05a6f3",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2376,7 +1819,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_42d8cc23",
+                        "id": "hd_6d856664",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2388,7 +1831,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_2afa2d9a",
+                        "id": "ico_8d0fb4d7",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2404,7 +1847,7 @@
                     ]
                   },
                   {
-                    "id": "hd_e0a955b1",
+                    "id": "hd_595c9296",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2416,7 +1859,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_836de175",
+                    "id": "txt_70490a29",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2439,7 +1882,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_5851f789",
+                    "id": "con_d205c7f0",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2451,7 +1894,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_90328adf",
+                        "id": "hd_2e98f48b",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2463,7 +1906,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_6082a075",
+                        "id": "ico_015361cc",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2479,7 +1922,7 @@
                     ]
                   },
                   {
-                    "id": "hd_7320cd48",
+                    "id": "hd_b2b17116",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2491,7 +1934,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_241babf7",
+                    "id": "txt_e1b89c36",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2549,7 +1992,7 @@
                 "elType": "widget",
                 "widgetType": "heading",
                 "settings": {
-                  "title": "05 / GLOBAL PRESENCE & LOGISTICS",
+                  "title": "05 / GLOBAL TRADE ROUTES & MARITIME CORRIDORS",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow"
@@ -2573,7 +2016,7 @@
                 "elType": "widget",
                 "widgetType": "text-editor",
                 "settings": {
-                  "editor": "<p>Tracking high-volume physical crude, refined products, LNG and strategic defense cargo movements across key international maritime corridors.</p>"
+                  "editor": "<p>Tracking physical crude, refined products, LNG, fertilizers and commercial commodities across key international maritime trade corridors.</p>"
                 },
                 "elements": []
               }
@@ -2584,7 +2027,7 @@
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "\n<div class=\"axela-routes-interactive-wrapper\">\n  <style>\n    @keyframes pulse-ring {\n      0%   { r: 4;  opacity: 0.8; }\n      100% { r: 24; opacity: 0; }\n    }\n    @keyframes vessel-blink {\n      0%, 100% { opacity: 1; }\n      50%      { opacity: 0.35; }\n    }\n    .axela-routes-interactive-wrapper {\n      position: relative;\n      width: 100%;\n      margin: 0 auto;\n    }\n    .axela-routes-bar {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n      flex-wrap: wrap;\n      gap: 16px;\n    }\n    .axela-routes-tabs {\n      display: flex;\n      gap: 8px;\n      flex-wrap: wrap;\n    }\n    .axela-route-tab-btn {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      padding: 8px 18px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 13px;\n      font-weight: 600;\n      letter-spacing: 0.10em;\n      text-transform: uppercase;\n      background: rgba(255, 255, 255, 0.03);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      color: #94A3B8;\n      cursor: pointer;\n      border-radius: 2px;\n      transition: all 0.25s ease;\n    }\n    .axela-route-tab-btn:hover {\n      border-color: rgba(255, 255, 255, 0.3);\n      color: #FFFFFF;\n      background: rgba(255, 255, 255, 0.06);\n    }\n    .axela-route-tab-btn.active {\n      background: rgba(26, 188, 156, 0.12);\n      border-color: #1ABC9C;\n      color: #FFFFFF;\n      box-shadow: 0 0 16px rgba(26, 188, 156, 0.25);\n    }\n    .axela-map-canvas-box {\n      position: relative;\n      width: 100%;\n      aspect-ratio: 2 / 1;\n      background: #09131E;\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      border-radius: 4px;\n      overflow: hidden;\n      box-shadow: 0 20px 50px rgba(0,0,0,0.5);\n    }\n    .axela-map-svg {\n      width: 100%;\n      height: 100%;\n      display: block;\n    }\n    .axela-map-badge {\n      position: absolute;\n      top: 14px;\n      left: 14px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(26, 188, 156, 0.25);\n      padding: 6px 12px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      letter-spacing: 0.16em;\n      text-transform: uppercase;\n      color: #5EEAD4;\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-badge-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background: #10B981;\n      box-shadow: 0 0 8px #10B981;\n    }\n    .axela-map-legend {\n      position: absolute;\n      bottom: 14px;\n      left: 14px;\n      display: flex;\n      flex-wrap: wrap;\n      gap: 12px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      padding: 8px 14px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-legend-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 11px;\n      letter-spacing: 0.12em;\n      text-transform: uppercase;\n      color: #94A3B8;\n    }\n    .axela-legend-dot {\n      width: 7px;\n      height: 7px;\n      border-radius: 50%;\n      flex-shrink: 0;\n    }\n    .axela-hub-card {\n      position: absolute;\n      top: 16px;\n      right: 16px;\n      width: 320px;\n      max-width: calc(100% - 32px);\n      background: rgba(11, 20, 32, 0.95);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      padding: 18px 20px;\n      backdrop-filter: blur(14px);\n      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);\n      border-radius: 4px;\n      z-index: 10;\n      transition: opacity 0.25s ease, transform 0.25s ease;\n    }\n    .axela-hub-card.hidden {\n      opacity: 0;\n      pointer-events: none;\n      transform: translateY(-8px);\n    }\n    .axela-hub-type-row {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      margin-bottom: 6px;\n    }\n    .axela-hub-type-dot {\n      width: 8px;\n      height: 8px;\n      border-radius: 50%;\n      flex-shrink: 0;\n    }\n    .axela-hub-type-text {\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      font-weight: 700;\n      letter-spacing: 0.18em;\n      text-transform: uppercase;\n    }\n    .axela-hub-title {\n      font-family: 'Cormorant Garamond', Georgia, serif;\n      font-size: 22px;\n      color: #FFFFFF;\n      font-weight: 600;\n      line-height: 1.2;\n      margin-bottom: 8px;\n    }\n    .axela-hub-desc {\n      font-family: 'Plus Jakarta Sans', sans-serif;\n      font-size: 12.5px;\n      color: #94A3B8;\n      line-height: 1.6;\n      margin-bottom: 12px;\n    }\n    .axela-hub-meta {\n      border-top: 1px solid rgba(255, 255, 255, 0.08);\n      padding-top: 8px;\n      display: flex;\n      justify-content: space-between;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10px;\n      letter-spacing: 0.12em;\n      color: #64748B;\n      text-transform: uppercase;\n    }\n    .axela-hub-close {\n      cursor: pointer;\n      color: #2DD4BF;\n      transition: color 0.2s;\n    }\n    .axela-hub-close:hover {\n      color: #5EEAD4;\n    }\n    .interactive-node {\n      cursor: pointer;\n      pointer-events: all;\n    }\n    @media (max-width: 768px) {\n      .axela-map-canvas-box {\n        aspect-ratio: 16 / 10;\n      }\n      .axela-hub-card {\n        top: auto;\n        bottom: 8px;\n        right: 8px;\n        left: 8px;\n        width: auto;\n        padding: 12px 14px;\n      }\n      .axela-hub-title { font-size: 18px; }\n      .axela-hub-desc { font-size: 11px; margin-bottom: 6px; }\n      .axela-map-legend { display: none; }\n    }\n  </style>\n\n  <div class=\"axela-routes-bar\">\n    <div class=\"axela-routes-tabs\" id=\"axela-routes-tabs\">\n      <button class=\"axela-route-tab-btn active\" data-tab=\"crude\">\n        <i class=\"fas fa-oil-can\" style=\"font-size: 12px;\"></i> Crude Oil Routes\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"lng\">\n        <i class=\"fas fa-fire-flame-simple\" style=\"font-size: 12px;\"></i> LNG &amp; Gas\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"defense\">\n        <i class=\"fas fa-shield-halved\" style=\"font-size: 12px;\"></i> Defense Logistics\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"offices\">\n        <i class=\"fas fa-building\" style=\"font-size: 12px;\"></i> Global Trade Desks\n      </button>\n    </div>\n  </div>\n\n  <div class=\"axela-map-canvas-box\" id=\"axela-map-box\">\n    <div class=\"axela-map-badge\">\n      <span class=\"axela-badge-dot\"></span>\n      Live Vessel &amp; Trade Routing Simulation\n    </div>\n\n    <!-- Active Hub Detail Floating Card -->\n    <div class=\"axela-hub-card\" id=\"axela-hub-card\">\n      <div class=\"axela-hub-type-row\">\n        <span class=\"axela-hub-type-dot\" id=\"axela-card-dot\" style=\"background: #1ABC9C;\"></span>\n        <span class=\"axela-hub-type-text\" id=\"axela-card-type\" style=\"color: #1ABC9C;\">PRIMARY STRATEGIC HUB</span>\n      </div>\n      <h3 class=\"axela-hub-title\" id=\"axela-card-title\">Chattogram &amp; Matarbari Deep Sea Port</h3>\n      <p class=\"axela-hub-desc\" id=\"axela-card-desc\">Axela's primary South Asian commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.</p>\n      <div class=\"axela-hub-meta\">\n        <span>STATUS: ACTIVE DISCHARGE</span>\n        <span class=\"axela-hub-close\" onclick=\"closeAxelaCard()\">CLICK TO CLOSE \u2715</span>\n      </div>\n    </div>\n\n    <svg class=\"axela-map-svg\" viewBox=\"0 0 1000 500\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <filter id=\"ax-node-glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\">\n          <feGaussianBlur stdDeviation=\"2.5\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <filter id=\"ax-route-glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n          <feGaussianBlur stdDeviation=\"1.8\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <radialGradient id=\"ax-ocean-grad\" cx=\"50%\" cy=\"50%\" r=\"70%\">\n          <stop offset=\"0%\" stop-color=\"#0e2235\" />\n          <stop offset=\"100%\" stop-color=\"#070D16\" />\n        </radialGradient>\n        <pattern id=\"ax-lat-lon-grid\" width=\"55.5\" height=\"55.5\" patternUnits=\"userSpaceOnUse\">\n          <path d=\"M 55.5 0 L 0 0 0 55.5\" fill=\"none\" stroke=\"rgba(34,168,168,0.06)\" stroke-width=\"0.5\" />\n        </pattern>\n      </defs>\n\n      <!-- Ocean Background & Lat-Lon Grid -->\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-ocean-grad)\" />\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-lat-lon-grid)\" />\n\n      <!-- World Landmasses (Stylized Vector Continents) -->\n      <!-- North America -->\n      <path d=\"M 78,90 Q 105,72 148,78 Q 170,82 185,92 Q 205,80 235,80 Q 258,80 268,90 Q 282,102 278,118 Q 274,132 262,143 Q 278,142 285,152 Q 290,162 282,172 Q 272,182 258,185 Q 248,192 240,202 Q 230,212 222,208 Q 210,215 200,225 Q 190,238 178,246 Q 164,252 158,242 Q 148,230 150,210 Q 152,192 140,178 Q 122,162 105,148 Q 85,132 78,115 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Greenland -->\n      <path d=\"M 300,60 Q 330,50 355,58 Q 370,65 365,80 Q 355,92 335,96 Q 310,95 298,83 Q 292,74 300,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <!-- South America -->\n      <path d=\"M 232,255 Q 255,248 285,252 Q 312,258 330,278 Q 345,300 352,330 Q 360,365 352,398 Q 340,428 318,440 Q 295,448 272,440 Q 250,428 240,400 Q 228,368 232,335 Q 236,305 228,278 Q 226,265 232,255 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Europe -->\n      <path d=\"M 435,92 Q 458,82 482,84 Q 502,86 518,94 Q 532,86 548,90 Q 558,96 553,108 Q 545,118 532,122 Q 518,128 508,138 Q 495,142 478,143 Q 460,142 448,134 Q 435,125 432,112 Q 430,102 435,92 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Scandinavia / UK -->\n      <path d=\"M 482,60 Q 495,52 508,56 Q 518,62 514,74 Q 508,84 496,88 Q 485,87 480,78 Q 476,68 482,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <path d=\"M 442,100 Q 450,95 458,100 Q 462,108 456,114 Q 448,116 442,110 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Africa -->\n      <path d=\"M 455,152 Q 482,144 515,150 Q 545,158 562,175 Q 582,195 585,220 Q 592,252 580,292 Q 565,332 548,362 Q 528,390 505,395 Q 480,393 460,368 Q 442,340 440,305 Q 438,268 445,238 Q 452,208 450,182 Q 448,164 455,152 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Middle East -->\n      <path d=\"M 568,178 Q 592,172 620,180 Q 648,192 658,215 Q 650,230 635,232 Q 615,228 595,222 Q 578,215 568,200 Q 562,190 568,178 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- South Asia / India / Bay of Bengal -->\n      <path d=\"M 665,162 Q 690,155 708,162 Q 722,170 725,188 Q 720,210 708,228 Q 695,245 680,248 Q 668,242 660,228 Q 652,210 654,190 Q 656,172 665,162 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Northern Asia / Russia / China -->\n      <path d=\"M 560,98 Q 635,85 720,88 Q 800,90 870,100 Q 920,110 940,128 Q 918,138 880,140 Q 830,135 780,128 Q 730,122 680,118 Q 635,115 590,120 Q 568,122 560,112 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.75\" />\n      <!-- East & Southeast Asia -->\n      <path d=\"M 745,128 Q 800,120 848,132 Q 880,145 895,168 Q 900,188 892,202 Q 875,215 852,220 Q 825,222 802,218 Q 778,212 760,202 Q 742,190 738,172 Q 735,152 745,128 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Southeast Asia Islands -->\n      <path d=\"M 775,225 Q 785,235 782,252 Q 778,265 768,268 Q 758,262 755,248 Q 753,235 760,228 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.75\" />\n      <path d=\"M 870,118 Q 880,112 890,116 Q 896,122 892,130 Q 886,136 876,132 Q 868,126 870,118 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Australia -->\n      <path d=\"M 800,328 Q 835,315 868,322 Q 895,335 900,358 Q 898,385 878,398 Q 852,405 825,398 Q 800,385 792,360 Q 787,338 800,328 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.8\" />\n\n      <!-- Strategic Maritime Chokepoint Labels -->\n      <g fill=\"rgba(244,240,235,0.22)\" font-size=\"7.5\" font-family=\"'Barlow Condensed', sans-serif\" letter-spacing=\"1.5\" text-anchor=\"middle\">\n        <text x=\"564\" y=\"218\">SUEZ</text>\n        <text x=\"644\" y=\"248\">HORMUZ</text>\n        <text x=\"768\" y=\"296\">MALACCA</text>\n        <text x=\"455\" y=\"168\">GIBRALTAR</text>\n        <text x=\"268\" y=\"220\">PANAMA</text>\n        <text x=\"725\" y=\"245\">BAY OF BENGAL</text>\n      </g>\n\n      <!-- Dynamic Route Corridors Layer -->\n      <g id=\"axela-routes-layer\"></g>\n\n      <!-- Interactive Global Hub Nodes Layer -->\n      <g id=\"axela-nodes-layer\"></g>\n    </svg>\n\n    <!-- Legend -->\n    <div class=\"axela-map-legend\">\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #E5A93C;\"></span> Crude / Sourcing</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #1ABC9C;\"></span> Refined &amp; Distribution</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #38BDF8;\"></span> LNG &amp; Gas</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #F43F5E;\"></span> Defense Logistics</div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function() {\n  const HUB_DATA = {\n    chattogram: {\n      id: \"chattogram\", cx: 728, cy: 222, color: \"#1ABC9C\",\n      type: \"Primary South Asian Gateway \u00b7 Bangladesh\",\n      name: \"Chattogram & Matarbari Deep Sea Port\",\n      desc: \"Axela Global's commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.\"\n    },\n    fujairah: {\n      id: \"fujairah\", cx: 640, cy: 230, color: \"#E5A93C\",\n      type: \"Crude Export & Bunkering Hub \u00b7 Middle East\",\n      name: \"Ras Tanura & Fujairah Terminal\",\n      desc: \"Core Arabian Gulf procurement and offshore blending terminal handling heavy sour, Arab Light, and marine fuel bunkering directly feeding Asian and European demand.\"\n    },\n    rotterdam: {\n      id: \"rotterdam\", cx: 477, cy: 140, color: \"#1ABC9C\",\n      type: \"European Refining & Distribution \u00b7 Netherlands\",\n      name: \"Rotterdam ARA Hub\",\n      desc: \"Europe's largest refining and inland waterway distribution node. Central discharge point for Atlantic Basin arbitrage cargoes, ultra-low sulfur diesel, and chemical feedstocks.\"\n    },\n    us_gulf: {\n      id: \"us_gulf\", cx: 220, cy: 205, color: \"#1ABC9C\",\n      type: \"North American Liquidity Desk \u00b7 Houston / New Orleans\",\n      name: \"US Gulf Coast Energy Corridor\",\n      desc: \"Primary origination hub for WTI crude, LNG export terminals (Sabine Pass / Corpus Christi), and strategic refined products bound for transatlantic corridors.\"\n    },\n    singapore: {\n      id: \"singapore\", cx: 788, cy: 278, color: \"#E5A93C\",\n      type: \"Asian Pricing & Bunkering Node \u00b7 Straits\",\n      name: \"Singapore Straits Trading Hub\",\n      desc: \"The nerve center of Asian physical cargo arbitrage, fuel oil price discovery, and regional transshipment across Southeast and East Asia.\"\n    },\n    west_africa: {\n      id: \"west_africa\", cx: 472, cy: 302, color: \"#1ABC9C\",\n      type: \"Atlantic Sweet Crude Basin \u00b7 Nigeria / Angola\",\n      name: \"West Africa Marine Terminals\",\n      desc: \"Major offshore lifting origin for high-yield sweet grades (Bonny Light, Qua Iboe) feeding European refinery grids and Asian spot tenders.\"\n    },\n    suez: {\n      id: \"suez\", cx: 565, cy: 203, color: \"#E5A93C\",\n      type: \"Strategic Chokepoint & Regional Desk \u00b7 Egypt\",\n      name: \"Suez Maritime Control & Cairo Desk\",\n      desc: \"Critical transit coordination desk ensuring scheduled passage, canal bunkering, and real-time risk hedging through the Suez-Red Sea maritime corridor.\"\n    },\n    qatar: {\n      id: \"qatar\", cx: 635, cy: 222, color: \"#38BDF8\",\n      type: \"LNG Export Superhub \u00b7 Arabian Gulf\",\n      name: \"Ras Laffan LNG Terminal\",\n      desc: \"Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe.\"\n    },\n    defense_hq: {\n      id: \"defense_hq\", cx: 230, cy: 193, color: \"#F43F5E\",\n      type: \"Defense & Strategic Procurement Command\",\n      name: \"US / NATO Procurement Liaison Desk\",\n      desc: \"Dedicated operations unit managing Mil-Spec fuel procurement (F-76, JP-8), secure supply chains, and rapid-response logistical contracts.\"\n    },\n    black_sea: {\n      id: \"black_sea\", cx: 543, cy: 157, color: \"#F43F5E\",\n      type: \"Forward Defense Logistics Node \u00b7 Eastern Europe\",\n      name: \"Constanta Operations & Logistics Depot\",\n      desc: \"Secure tactical supply base managing forward fuel stockpiles, pipeline interconnection, and high-priority logistics under defense contracts.\"\n    }\n  };\n\n  const ROUTES_BY_TAB = {\n    crude: [\n      { id: \"c1\", d: \"M 640 230 Q 720 310 788 278\", color: \"#E5A93C\", dur: 14 },\n      { id: \"c2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#E5A93C\", dur: 12 },\n      { id: \"c3\", d: \"M 640 230 Q 600 280 565 203 Q 525 170 477 140\", color: \"#1ABC9C\", dur: 18 },\n      { id: \"c4\", d: \"M 472 302 Q 380 255 220 205\", color: \"#E5A93C\", dur: 16 },\n      { id: \"c5\", d: \"M 220 205 Q 348 148 477 140\", color: \"#1ABC9C\", dur: 15 },\n      { id: \"c6\", d: \"M 640 230 Q 565 290 472 302\", color: \"#E5A93C\", dur: 14 }\n    ],\n    lng: [\n      { id: \"l1\", d: \"M 635 222 Q 560 270 467 138\", color: \"#38BDF8\", dur: 17 },\n      { id: \"l2\", d: \"M 220 205 Q 342 162 477 140\", color: \"#38BDF8\", dur: 14 },\n      { id: \"l3\", d: \"M 635 222 Q 680 230 728 222\", color: \"#38BDF8\", dur: 10 },\n      { id: \"l4\", d: \"M 635 222 Q 720 255 788 278\", color: \"#38BDF8\", dur: 13 }\n    ],\n    defense: [\n      { id: \"d1\", d: \"M 230 193 Q 390 148 543 157\", color: \"#F43F5E\", dur: 14 },\n      { id: \"d2\", d: \"M 230 193 Q 395 260 565 203\", color: \"#F43F5E\", dur: 15 },\n      { id: \"d3\", d: \"M 565 203 Q 640 215 728 222\", color: \"#F43F5E\", dur: 12 },\n      { id: \"d4\", d: \"M 565 203 Q 530 240 472 302\", color: \"#F43F5E\", dur: 11 }\n    ],\n    offices: [\n      { id: \"o1\", d: \"M 728 222 Q 685 226 640 230\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o2\", d: \"M 640 230 Q 560 180 477 140\", color: \"#1ABC9C\", dur: 12 },\n      { id: \"o3\", d: \"M 728 222 Q 755 250 788 278\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o4\", d: \"M 477 140 Q 348 160 220 205\", color: \"#1ABC9C\", dur: 14 }\n    ]\n  };\n\n  const HUBS_BY_TAB = {\n    crude: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\", \"west_africa\", \"suez\"],\n    lng: [\"chattogram\", \"qatar\", \"rotterdam\", \"us_gulf\", \"singapore\"],\n    defense: [\"defense_hq\", \"black_sea\", \"suez\", \"chattogram\", \"west_africa\"],\n    offices: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\"]\n  };\n\n  let currentTab = 'crude';\n\n  window.showAxelaHub = function(hubId) {\n    const hub = HUB_DATA[hubId];\n    if (!hub) return;\n    const card = document.getElementById('axela-hub-card');\n    const dot = document.getElementById('axela-card-dot');\n    const type = document.getElementById('axela-card-type');\n    const title = document.getElementById('axela-card-title');\n    const desc = document.getElementById('axela-card-desc');\n    if (!card) return;\n\n    dot.style.background = hub.color;\n    type.style.color = hub.color;\n    type.textContent = hub.type;\n    title.textContent = hub.name;\n    desc.textContent = hub.desc;\n    card.classList.remove('hidden');\n  };\n\n  window.closeAxelaCard = function() {\n    const card = document.getElementById('axela-hub-card');\n    if (card) card.classList.add('hidden');\n  };\n\n  function renderAxelaMap() {\n    const routesLayer = document.getElementById('axela-routes-layer');\n    const nodesLayer = document.getElementById('axela-nodes-layer');\n    if (!routesLayer || !nodesLayer) return;\n\n    routesLayer.innerHTML = '';\n    nodesLayer.innerHTML = '';\n\n    const routes = ROUTES_BY_TAB[currentTab] || [];\n    const hubIds = HUBS_BY_TAB[currentTab] || [];\n\n    // Draw Routes\n    routes.forEach(r => {\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"filter\", \"url(#ax-route-glow)\");\n\n      // Background track\n      const pathBg = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathBg.setAttribute(\"d\", r.d);\n      pathBg.setAttribute(\"fill\", \"none\");\n      pathBg.setAttribute(\"stroke\", r.color);\n      pathBg.setAttribute(\"stroke-width\", \"1\");\n      pathBg.setAttribute(\"opacity\", \"0.2\");\n\n      // Glow line\n      const pathMain = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathMain.setAttribute(\"d\", r.d);\n      pathMain.setAttribute(\"fill\", \"none\");\n      pathMain.setAttribute(\"stroke\", r.color);\n      pathMain.setAttribute(\"stroke-width\", \"2\");\n      pathMain.setAttribute(\"stroke-linecap\", \"round\");\n      pathMain.setAttribute(\"opacity\", \"0.85\");\n\n      // Dashed overlay\n      const pathDash = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathDash.setAttribute(\"d\", r.d);\n      pathDash.setAttribute(\"fill\", \"none\");\n      pathDash.setAttribute(\"stroke\", r.color);\n      pathDash.setAttribute(\"stroke-width\", \"1\");\n      pathDash.setAttribute(\"stroke-dasharray\", \"3 9\");\n      pathDash.setAttribute(\"opacity\", \"0.35\");\n\n      // Animated vessel dot\n      const vessel = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      vessel.setAttribute(\"r\", \"3.5\");\n      vessel.setAttribute(\"fill\", r.color);\n      vessel.setAttribute(\"style\", \"filter: drop-shadow(0 0 4px \" + r.color + \"); animation: vessel-blink 2s ease-in-out infinite;\");\n\n      const anim = document.createElementNS(\"http://www.w3.org/2000/svg\", \"animateMotion\");\n      anim.setAttribute(\"dur\", r.dur + \"s\");\n      anim.setAttribute(\"repeatCount\", \"indefinite\");\n      anim.setAttribute(\"path\", r.d);\n      vessel.appendChild(anim);\n\n      g.appendChild(pathBg);\n      g.appendChild(pathMain);\n      g.appendChild(pathDash);\n      g.appendChild(vessel);\n      routesLayer.appendChild(g);\n    });\n\n    // Draw Nodes\n    hubIds.forEach(id => {\n      const hub = HUB_DATA[id];\n      if (!hub) return;\n\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"class\", \"interactive-node\");\n      g.setAttribute(\"data-hub\", id);\n\n      // Pulse Ring 1\n      const p1 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p1.setAttribute(\"cx\", hub.cx);\n      p1.setAttribute(\"cy\", hub.cy);\n      p1.setAttribute(\"r\", \"10\");\n      p1.setAttribute(\"fill\", \"none\");\n      p1.setAttribute(\"stroke\", hub.color);\n      p1.setAttribute(\"stroke-width\", \"0.9\");\n      p1.setAttribute(\"opacity\", \"0\");\n      p1.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Pulse Ring 2\n      const p2 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p2.setAttribute(\"cx\", hub.cx);\n      p2.setAttribute(\"cy\", hub.cy);\n      p2.setAttribute(\"r\", \"10\");\n      p2.setAttribute(\"fill\", \"none\");\n      p2.setAttribute(\"stroke\", hub.color);\n      p2.setAttribute(\"stroke-width\", \"0.9\");\n      p2.setAttribute(\"opacity\", \"0\");\n      p2.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out 0.8s infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Outer halo\n      const halo = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      halo.setAttribute(\"cx\", hub.cx);\n      halo.setAttribute(\"cy\", hub.cy);\n      halo.setAttribute(\"r\", \"6\");\n      halo.setAttribute(\"fill\", hub.color);\n      halo.setAttribute(\"opacity\", \"0.2\");\n\n      // Center glowing circle\n      const center = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      center.setAttribute(\"cx\", hub.cx);\n      center.setAttribute(\"cy\", hub.cy);\n      center.setAttribute(\"r\", \"3.8\");\n      center.setAttribute(\"fill\", hub.color);\n      center.setAttribute(\"filter\", \"url(#ax-node-glow)\");\n\n      // Micro core\n      const core = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      core.setAttribute(\"cx\", hub.cx);\n      core.setAttribute(\"cy\", hub.cy);\n      core.setAttribute(\"r\", \"1.6\");\n      core.setAttribute(\"fill\", \"#FFFFFF\");\n\n      // Transparent click hit target\n      const hit = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      hit.setAttribute(\"cx\", hub.cx);\n      hit.setAttribute(\"cy\", hub.cy);\n      hit.setAttribute(\"r\", \"16\");\n      hit.setAttribute(\"fill\", \"transparent\");\n\n      g.appendChild(p1);\n      g.appendChild(p2);\n      g.appendChild(halo);\n      g.appendChild(center);\n      g.appendChild(core);\n      g.appendChild(hit);\n\n      g.addEventListener(\"mouseenter\", function() { window.showAxelaHub(id); });\n      g.addEventListener(\"click\", function() { window.showAxelaHub(id); });\n\n      nodesLayer.appendChild(g);\n    });\n  }\n\n  function initMap() {\n    const tabs = document.querySelectorAll('.axela-route-tab-btn');\n    tabs.forEach(btn => {\n      btn.addEventListener('click', function() {\n        tabs.forEach(b => b.classList.remove('active'));\n        btn.classList.add('active');\n        currentTab = btn.getAttribute('data-tab');\n        renderAxelaMap();\n      });\n    });\n    renderAxelaMap();\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', initMap);\n  } else {\n    initMap();\n  }\n})();\n</script>\n"
+              "html": "\n<div class=\"axela-routes-interactive-wrapper\">\n  <style>\n    @keyframes pulse-ring {\n      0%   { r: 4;  opacity: 0.8; }\n      100% { r: 24; opacity: 0; }\n    }\n    @keyframes vessel-blink {\n      0%, 100% { opacity: 1; }\n      50%      { opacity: 0.35; }\n    }\n    .axela-routes-interactive-wrapper {\n      position: relative;\n      width: 100%;\n      margin: 0 auto;\n    }\n    .axela-routes-bar {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n      flex-wrap: wrap;\n      gap: 16px;\n    }\n    .axela-routes-tabs {\n      display: flex;\n      gap: 8px;\n      flex-wrap: wrap;\n    }\n    .axela-route-tab-btn {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      padding: 8px 18px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 13px;\n      font-weight: 600;\n      letter-spacing: 0.10em;\n      text-transform: uppercase;\n      background: rgba(255, 255, 255, 0.03);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      color: #94A3B8;\n      cursor: pointer;\n      border-radius: 2px;\n      transition: all 0.25s ease;\n    }\n    .axela-route-tab-btn:hover {\n      border-color: rgba(255, 255, 255, 0.3);\n      color: #FFFFFF;\n      background: rgba(255, 255, 255, 0.06);\n    }\n    .axela-route-tab-btn.active {\n      background: rgba(139, 38, 53, 0.22);\n      border-color: #8B2635;\n      color: #FFFFFF;\n      box-shadow: 0 2px 14px rgba(139, 38, 53, 0.35);\n    }\n    .axela-map-canvas-box {\n      position: relative;\n      width: 100%;\n      aspect-ratio: 2 / 1;\n      background: #09131E;\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      border-radius: 4px;\n      overflow: hidden;\n      box-shadow: 0 20px 50px rgba(0,0,0,0.5);\n    }\n    .axela-map-svg {\n      width: 100%;\n      height: 100%;\n      display: block;\n    }\n    .axela-map-badge {\n      position: absolute;\n      top: 14px;\n      left: 14px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(229, 169, 60, 0.35);\n      padding: 6px 12px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      letter-spacing: 0.16em;\n      text-transform: uppercase;\n      color: #E5A93C;\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-badge-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background: #E5A93C;\n      box-shadow: 0 0 8px #E5A93C;\n    }\n    .axela-map-legend {\n      position: absolute;\n      bottom: 14px;\n      left: 14px;\n      display: flex;\n      flex-wrap: wrap;\n      gap: 12px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      padding: 8px 14px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-legend-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 11px;\n      letter-spacing: 0.12em;\n      text-transform: uppercase;\n      color: #94A3B8;\n    }\n    .axela-legend-dot {\n      width: 7px;\n      height: 7px;\n      border-radius: 50%;\n      flex-shrink: 0;\n    }\n    .interactive-node {\n      cursor: pointer;\n      pointer-events: all;\n    }\n    @media (max-width: 768px) {\n      .axela-map-canvas-box {\n        aspect-ratio: 16 / 10;\n      }\n      .axela-map-legend { display: none; }\n    }\n  </style>\n\n  <div class=\"axela-routes-bar\">\n    <div class=\"axela-routes-tabs\" id=\"axela-routes-tabs\">\n      <button class=\"axela-route-tab-btn active\" data-tab=\"crude\">\n        <i class=\"fas fa-oil-can\" style=\"font-size: 12px;\"></i> Crude &amp; Petroleum Corridors\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"lng\">\n        <i class=\"fas fa-fire-flame-simple\" style=\"font-size: 12px;\"></i> LNG &amp; Gas\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"bulk\">\n        <i class=\"fas fa-wheat-awn\" style=\"font-size: 12px;\"></i> Bulk Fertilizers &amp; Agri\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"offices\">\n        <i class=\"fas fa-building\" style=\"font-size: 12px;\"></i> Global Trade Desks\n      </button>\n    </div>\n  </div>\n\n  <div class=\"axela-map-canvas-box\" id=\"axela-map-box\">\n    <div class=\"axela-map-badge\">\n      <span class=\"axela-badge-dot\"></span>\n      Live Vessel &amp; Trade Routing Simulation\n    </div>\n\n\n\n    <svg class=\"axela-map-svg\" viewBox=\"0 0 1000 500\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <filter id=\"ax-node-glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\">\n          <feGaussianBlur stdDeviation=\"2.5\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <filter id=\"ax-route-glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n          <feGaussianBlur stdDeviation=\"1.8\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <radialGradient id=\"ax-ocean-grad\" cx=\"50%\" cy=\"50%\" r=\"70%\">\n          <stop offset=\"0%\" stop-color=\"#0e2235\" />\n          <stop offset=\"100%\" stop-color=\"#070D16\" />\n        </radialGradient>\n        <pattern id=\"ax-lat-lon-grid\" width=\"55.5\" height=\"55.5\" patternUnits=\"userSpaceOnUse\">\n          <path d=\"M 55.5 0 L 0 0 0 55.5\" fill=\"none\" stroke=\"rgba(34,168,168,0.06)\" stroke-width=\"0.5\" />\n        </pattern>\n      </defs>\n\n      <!-- Ocean Background & Lat-Lon Grid -->\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-ocean-grad)\" />\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-lat-lon-grid)\" />\n\n      <!-- World Landmasses (Stylized Vector Continents) -->\n      <!-- North America -->\n      <path d=\"M 78,90 Q 105,72 148,78 Q 170,82 185,92 Q 205,80 235,80 Q 258,80 268,90 Q 282,102 278,118 Q 274,132 262,143 Q 278,142 285,152 Q 290,162 282,172 Q 272,182 258,185 Q 248,192 240,202 Q 230,212 222,208 Q 210,215 200,225 Q 190,238 178,246 Q 164,252 158,242 Q 148,230 150,210 Q 152,192 140,178 Q 122,162 105,148 Q 85,132 78,115 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Greenland -->\n      <path d=\"M 300,60 Q 330,50 355,58 Q 370,65 365,80 Q 355,92 335,96 Q 310,95 298,83 Q 292,74 300,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <!-- South America -->\n      <path d=\"M 232,255 Q 255,248 285,252 Q 312,258 330,278 Q 345,300 352,330 Q 360,365 352,398 Q 340,428 318,440 Q 295,448 272,440 Q 250,428 240,400 Q 228,368 232,335 Q 236,305 228,278 Q 226,265 232,255 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Europe -->\n      <path d=\"M 435,92 Q 458,82 482,84 Q 502,86 518,94 Q 532,86 548,90 Q 558,96 553,108 Q 545,118 532,122 Q 518,128 508,138 Q 495,142 478,143 Q 460,142 448,134 Q 435,125 432,112 Q 430,102 435,92 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Scandinavia / UK -->\n      <path d=\"M 482,60 Q 495,52 508,56 Q 518,62 514,74 Q 508,84 496,88 Q 485,87 480,78 Q 476,68 482,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <path d=\"M 442,100 Q 450,95 458,100 Q 462,108 456,114 Q 448,116 442,110 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Africa -->\n      <path d=\"M 455,152 Q 482,144 515,150 Q 545,158 562,175 Q 582,195 585,220 Q 592,252 580,292 Q 565,332 548,362 Q 528,390 505,395 Q 480,393 460,368 Q 442,340 440,305 Q 438,268 445,238 Q 452,208 450,182 Q 448,164 455,152 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Middle East -->\n      <path d=\"M 568,178 Q 592,172 620,180 Q 648,192 658,215 Q 650,230 635,232 Q 615,228 595,222 Q 578,215 568,200 Q 562,190 568,178 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- South Asia / India / Bay of Bengal -->\n      <path d=\"M 665,162 Q 690,155 708,162 Q 722,170 725,188 Q 720,210 708,228 Q 695,245 680,248 Q 668,242 660,228 Q 652,210 654,190 Q 656,172 665,162 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Northern Asia / Russia / China -->\n      <path d=\"M 560,98 Q 635,85 720,88 Q 800,90 870,100 Q 920,110 940,128 Q 918,138 880,140 Q 830,135 780,128 Q 730,122 680,118 Q 635,115 590,120 Q 568,122 560,112 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.75\" />\n      <!-- East & Southeast Asia -->\n      <path d=\"M 745,128 Q 800,120 848,132 Q 880,145 895,168 Q 900,188 892,202 Q 875,215 852,220 Q 825,222 802,218 Q 778,212 760,202 Q 742,190 738,172 Q 735,152 745,128 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Southeast Asia Islands -->\n      <path d=\"M 775,225 Q 785,235 782,252 Q 778,265 768,268 Q 758,262 755,248 Q 753,235 760,228 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.75\" />\n      <path d=\"M 870,118 Q 880,112 890,116 Q 896,122 892,130 Q 886,136 876,132 Q 868,126 870,118 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Australia -->\n      <path d=\"M 800,328 Q 835,315 868,322 Q 895,335 900,358 Q 898,385 878,398 Q 852,405 825,398 Q 800,385 792,360 Q 787,338 800,328 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.8\" />\n\n      <!-- Strategic Maritime Chokepoint Labels -->\n      <g fill=\"rgba(244,240,235,0.22)\" font-size=\"7.5\" font-family=\"'Barlow Condensed', sans-serif\" letter-spacing=\"1.5\" text-anchor=\"middle\">\n        <text x=\"564\" y=\"218\">SUEZ</text>\n        <text x=\"644\" y=\"248\">HORMUZ</text>\n        <text x=\"768\" y=\"296\">MALACCA</text>\n        <text x=\"455\" y=\"168\">GIBRALTAR</text>\n        <text x=\"268\" y=\"220\">PANAMA</text>\n        <text x=\"725\" y=\"245\">BAY OF BENGAL</text>\n      </g>\n\n      <!-- Dynamic Route Corridors Layer -->\n      <g id=\"axela-routes-layer\"></g>\n\n      <!-- Interactive Global Hub Nodes Layer -->\n      <g id=\"axela-nodes-layer\"></g>\n    </svg>\n\n    <!-- Legend -->\n    <div class=\"axela-map-legend\">\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #E5A93C;\"></span> Crude &amp; Sourcing</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #1ABC9C;\"></span> Refined &amp; Distribution</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #38BDF8;\"></span> LNG &amp; Gas</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #1ABC9C;\"></span> Bulk Commodities</div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function() {\n  const HUB_DATA = {\n    chattogram: {\n      id: \"chattogram\", cx: 728, cy: 222, color: \"#1ABC9C\",\n      type: \"Primary South Asian Gateway \u00b7 Bangladesh\",\n      name: \"Chattogram & Matarbari Deep Sea Port\",\n      desc: \"Axela Global's commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.\"\n    },\n    fujairah: {\n      id: \"fujairah\", cx: 640, cy: 230, color: \"#E5A93C\",\n      type: \"Crude Export & Bunkering Hub \u00b7 Middle East\",\n      name: \"Ras Tanura & Fujairah Terminal\",\n      desc: \"Core Arabian Gulf procurement and offshore blending terminal handling heavy sour, Arab Light, and marine fuel bunkering directly feeding Asian and European demand.\"\n    },\n    rotterdam: {\n      id: \"rotterdam\", cx: 477, cy: 140, color: \"#1ABC9C\",\n      type: \"European Refining & Distribution \u00b7 Netherlands\",\n      name: \"Rotterdam ARA Hub\",\n      desc: \"Europe's largest refining and inland waterway distribution node. Central discharge point for Atlantic Basin arbitrage cargoes, ultra-low sulfur diesel, and chemical feedstocks.\"\n    },\n    us_gulf: {\n      id: \"us_gulf\", cx: 220, cy: 205, color: \"#1ABC9C\",\n      type: \"North American Liquidity Desk \u00b7 Houston / New Orleans\",\n      name: \"US Gulf Coast Energy Corridor\",\n      desc: \"Primary origination hub for WTI crude, LNG export terminals (Sabine Pass / Corpus Christi), and strategic refined products bound for transatlantic corridors.\"\n    },\n    singapore: {\n      id: \"singapore\", cx: 788, cy: 278, color: \"#E5A93C\",\n      type: \"Asian Pricing & Bunkering Node \u00b7 Straits\",\n      name: \"Singapore Straits Trading Hub\",\n      desc: \"The nerve center of Asian physical cargo arbitrage, fuel oil price discovery, and regional transshipment across Southeast and East Asia.\"\n    },\n    west_africa: {\n      id: \"west_africa\", cx: 472, cy: 302, color: \"#1ABC9C\",\n      type: \"Atlantic Sweet Crude Basin \u00b7 Nigeria / Angola\",\n      name: \"West Africa Marine Terminals\",\n      desc: \"Major offshore lifting origin for high-yield sweet grades (Bonny Light, Qua Iboe) feeding European refinery grids and Asian spot tenders.\"\n    },\n    suez: {\n      id: \"suez\", cx: 565, cy: 203, color: \"#E5A93C\",\n      type: \"Strategic Chokepoint & Regional Desk \u00b7 Egypt\",\n      name: \"Suez Maritime Control & Cairo Desk\",\n      desc: \"Critical transit coordination desk ensuring scheduled passage, canal bunkering, and real-time risk hedging through the Suez-Red Sea maritime corridor.\"\n    },\n    qatar: {\n      id: \"qatar\", cx: 635, cy: 222, color: \"#38BDF8\",\n      type: \"LNG Export Superhub \u00b7 Arabian Gulf\",\n      name: \"Ras Laffan LNG Terminal\",\n      desc: \"Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe.\"\n    },\n    tokyo: {\n      id: \"tokyo\", cx: 880, cy: 155, color: \"#1ABC9C\",\n      type: \"Far East Energy & Industrial Terminal \u00b7 Japan\",\n      name: \"Tokyo Bay Commercial Gateway\",\n      desc: \"Key East Asian destination terminal receiving clean distillates, LNG imports, and specialty chemical shipments.\"\n    },\n    melbourne: {\n      id: \"melbourne\", cx: 855, cy: 370, color: \"#E5A93C\",\n      type: \"Asia-Pacific Minerals & Bulk Hub \u00b7 Australia\",\n      name: \"Port Hedland & Pacific Sourcing Desk\",\n      desc: \"Strategic origination point for bulk industrial minerals, iron ore, clinker, and agricultural grain flows supporting Asian infrastructure.\"\n    }\n  };\n\n  const ROUTES_BY_TAB = {\n    crude: [\n      { id: \"c1\", d: \"M 640 230 Q 720 310 788 278\", color: \"#E5A93C\", dur: 14 },\n      { id: \"c2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#E5A93C\", dur: 12 },\n      { id: \"c3\", d: \"M 640 230 Q 600 280 565 203 Q 525 170 477 140\", color: \"#1ABC9C\", dur: 18 },\n      { id: \"c4\", d: \"M 472 302 Q 380 255 220 205\", color: \"#E5A93C\", dur: 16 },\n      { id: \"c5\", d: \"M 220 205 Q 348 148 477 140\", color: \"#1ABC9C\", dur: 15 },\n      { id: \"c6\", d: \"M 640 230 Q 565 290 472 302\", color: \"#E5A93C\", dur: 14 }\n    ],\n    lng: [\n      { id: \"l1\", d: \"M 635 222 Q 560 270 467 138\", color: \"#38BDF8\", dur: 17 },\n      { id: \"l2\", d: \"M 220 205 Q 342 162 477 140\", color: \"#38BDF8\", dur: 14 },\n      { id: \"l3\", d: \"M 635 222 Q 680 230 728 222\", color: \"#38BDF8\", dur: 10 },\n      { id: \"l4\", d: \"M 635 222 Q 720 255 788 278\", color: \"#38BDF8\", dur: 13 },\n      { id: \"l5\", d: \"M 788 278 Q 840 210 880 155\", color: \"#38BDF8\", dur: 12 }\n    ],\n    bulk: [\n      { id: \"b1\", d: \"M 855 370 Q 800 300 728 222\", color: \"#E5A93C\", dur: 15 },\n      { id: \"b2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#1ABC9C\", dur: 12 },\n      { id: \"b3\", d: \"M 477 140 Q 560 220 728 222\", color: \"#E5A93C\", dur: 16 },\n      { id: \"b4\", d: \"M 855 370 Q 820 310 788 278\", color: \"#E5A93C\", dur: 13 }\n    ],\n    offices: [\n      { id: \"o1\", d: \"M 728 222 Q 685 226 640 230\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o2\", d: \"M 640 230 Q 560 180 477 140\", color: \"#1ABC9C\", dur: 12 },\n      { id: \"o3\", d: \"M 728 222 Q 755 250 788 278\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o4\", d: \"M 477 140 Q 348 160 220 205\", color: \"#1ABC9C\", dur: 14 }\n    ]\n  };\n\n  const HUBS_BY_TAB = {\n    crude: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\", \"west_africa\", \"suez\"],\n    lng: [\"chattogram\", \"qatar\", \"rotterdam\", \"us_gulf\", \"singapore\", \"tokyo\"],\n    bulk: [\"chattogram\", \"fujairah\", \"rotterdam\", \"melbourne\", \"singapore\"],\n    offices: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\"]\n  };\n\n  let currentTab = 'crude';\n\n  function renderAxelaMap() {\n    const routesLayer = document.getElementById('axela-routes-layer');\n    const nodesLayer = document.getElementById('axela-nodes-layer');\n    if (!routesLayer || !nodesLayer) return;\n\n    routesLayer.innerHTML = '';\n    nodesLayer.innerHTML = '';\n\n    const routes = ROUTES_BY_TAB[currentTab] || [];\n    const hubIds = HUBS_BY_TAB[currentTab] || [];\n\n    // Draw Routes\n    routes.forEach(r => {\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"filter\", \"url(#ax-route-glow)\");\n\n      // Background track\n      const pathBg = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathBg.setAttribute(\"d\", r.d);\n      pathBg.setAttribute(\"fill\", \"none\");\n      pathBg.setAttribute(\"stroke\", r.color);\n      pathBg.setAttribute(\"stroke-width\", \"1\");\n      pathBg.setAttribute(\"opacity\", \"0.2\");\n\n      // Glow line\n      const pathMain = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathMain.setAttribute(\"d\", r.d);\n      pathMain.setAttribute(\"fill\", \"none\");\n      pathMain.setAttribute(\"stroke\", r.color);\n      pathMain.setAttribute(\"stroke-width\", \"2\");\n      pathMain.setAttribute(\"stroke-linecap\", \"round\");\n      pathMain.setAttribute(\"opacity\", \"0.85\");\n\n      // Dashed overlay\n      const pathDash = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathDash.setAttribute(\"d\", r.d);\n      pathDash.setAttribute(\"fill\", \"none\");\n      pathDash.setAttribute(\"stroke\", r.color);\n      pathDash.setAttribute(\"stroke-width\", \"1\");\n      pathDash.setAttribute(\"stroke-dasharray\", \"3 9\");\n      pathDash.setAttribute(\"opacity\", \"0.35\");\n\n      // Animated vessel dot\n      const vessel = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      vessel.setAttribute(\"r\", \"3.5\");\n      vessel.setAttribute(\"fill\", r.color);\n      vessel.setAttribute(\"style\", \"filter: drop-shadow(0 0 4px \" + r.color + \"); animation: vessel-blink 2s ease-in-out infinite;\");\n\n      const anim = document.createElementNS(\"http://www.w3.org/2000/svg\", \"animateMotion\");\n      anim.setAttribute(\"dur\", r.dur + \"s\");\n      anim.setAttribute(\"repeatCount\", \"indefinite\");\n      anim.setAttribute(\"path\", r.d);\n      vessel.appendChild(anim);\n\n      g.appendChild(pathBg);\n      g.appendChild(pathMain);\n      g.appendChild(pathDash);\n      g.appendChild(vessel);\n      routesLayer.appendChild(g);\n    });\n\n    // Draw Nodes\n    hubIds.forEach(id => {\n      const hub = HUB_DATA[id];\n      if (!hub) return;\n\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"class\", \"interactive-node\");\n      g.setAttribute(\"data-hub\", id);\n\n      // Pulse Ring 1\n      const p1 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p1.setAttribute(\"cx\", hub.cx);\n      p1.setAttribute(\"cy\", hub.cy);\n      p1.setAttribute(\"r\", \"10\");\n      p1.setAttribute(\"fill\", \"none\");\n      p1.setAttribute(\"stroke\", hub.color);\n      p1.setAttribute(\"stroke-width\", \"0.9\");\n      p1.setAttribute(\"opacity\", \"0\");\n      p1.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Pulse Ring 2\n      const p2 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p2.setAttribute(\"cx\", hub.cx);\n      p2.setAttribute(\"cy\", hub.cy);\n      p2.setAttribute(\"r\", \"10\");\n      p2.setAttribute(\"fill\", \"none\");\n      p2.setAttribute(\"stroke\", hub.color);\n      p2.setAttribute(\"stroke-width\", \"0.9\");\n      p2.setAttribute(\"opacity\", \"0\");\n      p2.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out 0.8s infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Outer halo\n      const halo = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      halo.setAttribute(\"cx\", hub.cx);\n      halo.setAttribute(\"cy\", hub.cy);\n      halo.setAttribute(\"r\", \"6\");\n      halo.setAttribute(\"fill\", hub.color);\n      halo.setAttribute(\"opacity\", \"0.2\");\n\n      // Center glowing circle\n      const center = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      center.setAttribute(\"cx\", hub.cx);\n      center.setAttribute(\"cy\", hub.cy);\n      center.setAttribute(\"r\", \"3.8\");\n      center.setAttribute(\"fill\", hub.color);\n      center.setAttribute(\"filter\", \"url(#ax-node-glow)\");\n\n      // Micro core\n      const core = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      core.setAttribute(\"cx\", hub.cx);\n      core.setAttribute(\"cy\", hub.cy);\n      core.setAttribute(\"r\", \"1.6\");\n      core.setAttribute(\"fill\", \"#FFFFFF\");\n\n      // Transparent click hit target\n      const hit = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      hit.setAttribute(\"cx\", hub.cx);\n      hit.setAttribute(\"cy\", hub.cy);\n      hit.setAttribute(\"r\", \"16\");\n      hit.setAttribute(\"fill\", \"transparent\");\n\n      g.appendChild(p1);\n      g.appendChild(p2);\n      g.appendChild(halo);\n      g.appendChild(center);\n      g.appendChild(core);\n      g.appendChild(hit);\n\n      nodesLayer.appendChild(g);\n    });\n  }\n\n  function initMap() {\n    const tabs = document.querySelectorAll('.axela-route-tab-btn');\n    tabs.forEach(btn => {\n      btn.addEventListener('click', function() {\n        tabs.forEach(b => b.classList.remove('active'));\n        btn.classList.add('active');\n        currentTab = btn.getAttribute('data-tab');\n        renderAxelaMap();\n      });\n    });\n    renderAxelaMap();\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', initMap);\n  } else {\n    initMap();\n  }\n})();\n</script>\n"
             },
             "elements": []
           }
@@ -2689,7 +2132,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_99b4e4d7",
+                    "id": "hd_cf7e3808",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2701,7 +2144,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_b02b2595",
+                    "id": "txt_6581195f",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2710,7 +2153,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_c4ae5ede",
+                    "id": "hd_5e85a189",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2722,7 +2165,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_bb0756cb",
+                    "id": "txt_827406b7",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2760,7 +2203,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_5fcf2519",
+                    "id": "hd_f2fa3be7",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2772,31 +2215,11 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_bf687f19",
+                    "id": "txt_1d9df7d6",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
                       "editor": "<p>All investment opportunities are subject to independent due diligence, applicable regulatory requirements, definitive documentation and agreement between the relevant parties. Website information is not an offer to sell securities or a guarantee of investment performance.</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "inv_cta_btn",
-                    "elType": "widget",
-                    "widgetType": "button",
-                    "settings": {
-                      "text": "EXPLORE INVESTMENT OPPORTUNITIES",
-                      "link": {
-                        "url": "#contact",
-                        "is_external": "",
-                        "nofollow": ""
-                      },
-                      "selected_icon": {
-                        "value": "fas fa-arrow-right",
-                        "library": "fa-solid"
-                      },
-                      "icon_align": "right",
-                      "_css_classes": "axela-btn-teal"
                     },
                     "elements": []
                   }
@@ -2905,7 +2328,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_cffb311d",
+                    "id": "con_2764f9cb",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2917,7 +2340,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_5d4af4b6",
+                        "id": "hd_73920353",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2929,7 +2352,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_c728a8d7",
+                        "id": "ico_0f2384a0",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2945,7 +2368,7 @@
                     ]
                   },
                   {
-                    "id": "hd_2d96706f",
+                    "id": "hd_7ffb3326",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2957,7 +2380,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_f88425a2",
+                    "id": "txt_eae48098",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2980,7 +2403,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_be8bec37",
+                    "id": "con_c58a38cb",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2992,7 +2415,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_b05d89dd",
+                        "id": "hd_31b815c5",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -3004,7 +2427,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_e2df9bed",
+                        "id": "ico_e1bca2e9",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -3020,7 +2443,7 @@
                     ]
                   },
                   {
-                    "id": "hd_f835064e",
+                    "id": "hd_c95e104e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -3032,7 +2455,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_97f12a65",
+                    "id": "txt_eb7ae0f3",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -3055,7 +2478,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_11dc19bf",
+                    "id": "con_4ebea9b9",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -3067,7 +2490,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_de88f57a",
+                        "id": "hd_c215ab1a",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -3079,7 +2502,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_f9eace87",
+                        "id": "ico_52f5c5aa",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -3095,7 +2518,7 @@
                     ]
                   },
                   {
-                    "id": "hd_3d41528f",
+                    "id": "hd_0fc78b9e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -3107,11 +2530,11 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_49e81229",
+                    "id": "txt_c69ead5a",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Product transactions and advisory assignments remain subject to relevant licensing, sanctions screening, customs, tax, and anti-bribery compliance requirements.</p>"
+                      "editor": "<p>Product transactions and advisory assignments remain subject to relevant licensing, sanctions screening, customs, tax, and governance compliance requirements.</p>"
                     },
                     "elements": []
                   }
@@ -3177,7 +2600,7 @@
                 "elType": "widget",
                 "widgetType": "heading",
                 "settings": {
-                  "title": "Ready to trade with us?",
+                  "title": "Contact Us",
                   "header_size": "h2",
                   "align": "left",
                   "_css_classes": "axela-section-title"
@@ -3189,7 +2612,8 @@
                 "elType": "widget",
                 "widgetType": "text-editor",
                 "settings": {
-                  "editor": "<p>For product supply enquiries, tender opportunities, commercial mandates, investment proposals or advisory requirements, connect directly with our trading principals.</p>"
+                  "editor": "<p>For product supply enquiries, tender opportunities, commercial mandates, investment proposals or advisory requirements, contact AXELA LTD. to discuss the scope and potential next steps.</p>",
+                  "_css_classes": "axela-section-subtitle"
                 },
                 "elements": []
               }
@@ -3220,7 +2644,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_8fb07090",
+                    "id": "hd_172cc73d",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -3232,20 +2656,20 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_bb233b26",
+                    "id": "txt_386583bb",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>House 12, Road 4, Banani / Gulshan Commercial Zone<br>Dhaka 1213, Bangladesh<br><a href='tel:+8801711000000' style='color:#94A3B8;'>+880 1711-000000</a> \u00b7 <a href='tel:+88029876543' style='color:#94A3B8;'>+880 2 9876543</a></p>"
+                      "editor": "<p>Plot- 19, Road- 17, Priyo Prangon Tower<br>Kemal Ataturk Avenue, Banani<br>Dhaka-1213, Bangladesh</p>"
                     },
                     "elements": []
                   },
                   {
-                    "id": "hd_1fd05032",
+                    "id": "hd_075476d2",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
-                      "title": "MIDDLE EAST TRADING DESK",
+                      "title": "DIRECT PHONE",
                       "header_size": "h4",
                       "align": "left",
                       "_css_classes": "contact-hub-tag"
@@ -3253,37 +2677,16 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_31730b79",
+                    "id": "txt_10ca1a0e",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p>Dubai & Fujairah Offshore Operations, UAE<br><a href='tel:+97140000000' style='color:#94A3B8;'>+971 4 000 0000</a></p>"
+                      "editor": "<p><a href='tel:+8809658511309' style='color:#E2E8F0; text-decoration:none;'>+88 096585 11309</a></p>"
                     },
                     "elements": []
                   },
                   {
-                    "id": "hd_809afb8a",
-                    "elType": "widget",
-                    "widgetType": "heading",
-                    "settings": {
-                      "title": "ASIA-PACIFIC & EUROPEAN GATEWAYS",
-                      "header_size": "h4",
-                      "align": "left",
-                      "_css_classes": "contact-hub-tag"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "txt_89ae1c12",
-                    "elType": "widget",
-                    "widgetType": "text-editor",
-                    "settings": {
-                      "editor": "<p>Singapore Straits \u00b7 Rotterdam ARA Hub \u00b7 Chattogram Port</p>"
-                    },
-                    "elements": []
-                  },
-                  {
-                    "id": "hd_c0d389bf",
+                    "id": "hd_c7c46361",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -3295,11 +2698,32 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_0e12f52f",
+                    "id": "txt_028d2d66",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p><a href='mailto:trade@axelaglobal.com' style='color:#FFFFFF; font-weight:600;'>trade@axelaglobal.com</a> \u00b7 <a href='mailto:info@axelaglobal.com' style='color:#94A3B8;'>info@axelaglobal.com</a></p>"
+                      "editor": "<p><a href='mailto:info@axelaglobal.com' style='color:#2DD4BF; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a></p>"
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "hd_63145ffa",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                      "title": "OFFICIAL WEBSITE",
+                      "header_size": "h4",
+                      "align": "left",
+                      "_css_classes": "contact-hub-tag"
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "txt_a4c64171",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<p><a href='https://axelaglobal.com' style='color:#94A3B8; text-decoration:none;'>axelaglobal.com</a></p>"
                     },
                     "elements": []
                   }
@@ -3318,11 +2742,121 @@
                 },
                 "elements": [
                   {
-                    "id": "contact_form_widget",
+                    "id": "axela_contact_form",
                     "elType": "widget",
-                    "widgetType": "html",
+                    "widgetType": "form",
                     "settings": {
-                      "html": "\n<div class=\"axela-contact-form-wrapper\">\n  <style>\n    .axela-contact-form-wrapper {\n      background: #0B1320;\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      padding: 36px 32px;\n      border-radius: 4px;\n      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);\n    }\n    .axela-form-row {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 16px;\n      margin-bottom: 16px;\n    }\n    .axela-form-group {\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n      margin-bottom: 16px;\n    }\n    .axela-form-label {\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      letter-spacing: 0.18em;\n      text-transform: uppercase;\n      color: #2DD4BF;\n      font-weight: 700;\n    }\n    .axela-form-input,\n    .axela-form-select,\n    .axela-form-textarea {\n      width: 100%;\n      background: rgba(255, 255, 255, 0.04);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      color: #FFFFFF;\n      font-family: 'Plus Jakarta Sans', sans-serif;\n      font-size: 13.5px;\n      padding: 11px 14px;\n      border-radius: 2px;\n      outline: none;\n      transition: all 0.25s ease;\n      box-sizing: border-box;\n    }\n    .axela-form-select option {\n      background: #0B1320;\n      color: #FFFFFF;\n    }\n    .axela-form-input:focus,\n    .axela-form-select:focus,\n    .axela-form-textarea:focus {\n      border-color: #2DD4BF;\n      background: rgba(255, 255, 255, 0.07);\n      box-shadow: 0 0 12px rgba(45, 212, 191, 0.2);\n    }\n    .axela-form-textarea {\n      min-height: 90px;\n      resize: vertical;\n    }\n    .axela-form-submit-btn {\n      width: 100%;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      gap: 10px;\n      background: #168B8D;\n      border: 1px solid rgba(45, 212, 191, 0.4);\n      color: #FFFFFF;\n      font-family: 'Plus Jakarta Sans', sans-serif;\n      font-size: 13px;\n      font-weight: 700;\n      letter-spacing: 0.12em;\n      text-transform: uppercase;\n      padding: 13px 24px;\n      border-radius: 2px;\n      cursor: pointer;\n      transition: all 0.25s ease;\n      box-shadow: 0 4px 18px rgba(22, 139, 141, 0.35);\n    }\n    .axela-form-submit-btn:hover {\n      background: #1ABC9C;\n      color: #FFFFFF;\n      box-shadow: 0 6px 24px rgba(26, 188, 156, 0.5);\n      transform: translateY(-1px);\n    }\n    @media (max-width: 600px) {\n      .axela-form-row {\n        grid-template-columns: 1fr;\n        gap: 0;\n      }\n      .axela-contact-form-wrapper {\n        padding: 24px 18px;\n      }\n    }\n  </style>\n\n  <form id=\"axela-trade-enquiry-form\" onsubmit=\"event.preventDefault(); alert('Trade enquiry submitted. Our trading desk will contact you within 24 business hours.');\">\n    <div class=\"axela-form-row\">\n      <div class=\"axela-form-group\">\n        <label class=\"axela-form-label\">Full Name &amp; Title</label>\n        <input type=\"text\" class=\"axela-form-input\" placeholder=\"e.g. Johnathan Doe, Principal\" required />\n      </div>\n      <div class=\"axela-form-group\">\n        <label class=\"axela-form-label\">Corporate Email</label>\n        <input type=\"email\" class=\"axela-form-input\" placeholder=\"desk@company.com\" required />\n      </div>\n    </div>\n\n    <div class=\"axela-form-row\">\n      <div class=\"axela-form-group\">\n        <label class=\"axela-form-label\">Commodity / Trading Division</label>\n        <select class=\"axela-form-select\" required>\n          <option value=\"\" disabled selected>Select Sourcing Division</option>\n          <option value=\"energy\">Energy &amp; Petroleum Products</option>\n          <option value=\"petrochem\">Petrochemical Feedstocks</option>\n          <option value=\"fertilizer\">Fertilizers &amp; Agrochemicals</option>\n          <option value=\"metals\">Industrial Metals &amp; Minerals</option>\n          <option value=\"defense\">Defense &amp; Strategic Logistics</option>\n          <option value=\"advisory\">Corporate Advisory &amp; Inbound Capital</option>\n        </select>\n      </div>\n      <div class=\"axela-form-group\">\n        <label class=\"axela-form-label\">Target Volume / Delivery Incoterm</label>\n        <input type=\"text\" class=\"axela-form-input\" placeholder=\"e.g. 50,000 MT / CIF Chattogram\" />\n      </div>\n    </div>\n\n    <div class=\"axela-form-group\">\n      <label class=\"axela-form-label\">Commercial Specifications &amp; Inquiry Scope</label>\n      <textarea class=\"axela-form-textarea\" placeholder=\"Detail specific grade specifications, required delivery timeline, and counterpart terms...\"></textarea>\n    </div>\n\n    <button type=\"submit\" class=\"axela-form-submit-btn\">\n      <span>Submit Trade Enquiry</span>\n      <i class=\"fas fa-arrow-right\"></i>\n    </button>\n  </form>\n</div>\n"
+                      "form_name": "AXELA Trade & Project Enquiry Form",
+                      "form_fields": [
+                        {
+                          "_id": "full_name",
+                          "field_type": "text",
+                          "field_label": "Full Name",
+                          "placeholder": "e.g. Johnathan Doe",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "company",
+                          "field_type": "text",
+                          "field_label": "Company / Organisation",
+                          "placeholder": "e.g. PetroGlobal Trading LLC",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "email_phone",
+                          "field_type": "text",
+                          "field_label": "Business Email & Phone / WhatsApp",
+                          "placeholder": "e.g. desk@company.com / +88 017...",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "country",
+                          "field_type": "text",
+                          "field_label": "Country of Operation",
+                          "placeholder": "e.g. Bangladesh / Singapore / UAE",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "enquiry_type",
+                          "field_type": "select",
+                          "field_label": "Enquiry Type",
+                          "field_options": "Product Supply\nTender\nBrokerage\nInvestment\nAdvisory\nOther",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "product_project",
+                          "field_type": "text",
+                          "field_label": "Product or Project of Interest",
+                          "placeholder": "e.g. Gasoil 50ppm / Prilled Urea / Energy Project",
+                          "required": "true",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "quantity_size",
+                          "field_type": "text",
+                          "field_label": "Required Quantity or Estimated Project Size",
+                          "placeholder": "e.g. 50,000 MT / USD 10M",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "destination",
+                          "field_type": "text",
+                          "field_label": "Destination / Location",
+                          "placeholder": "e.g. Chattogram Port / Matarbari / Mongla",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "incoterm",
+                          "field_type": "text",
+                          "field_label": "Preferred Delivery Term (Incoterm)",
+                          "placeholder": "e.g. CIF Chattogram / CFR / FOB",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "delivery_timeline",
+                          "field_type": "text",
+                          "field_label": "Target Delivery Date or Project Timeline",
+                          "placeholder": "e.g. Q4 2026 / Prompt Delivery",
+                          "width": "50"
+                        },
+                        {
+                          "_id": "specs_summary",
+                          "field_type": "textarea",
+                          "field_label": "Required Specifications or Project Summary",
+                          "placeholder": "Detail specific grades, quality parameters, origin preferences, or scope summary...",
+                          "rows": 3,
+                          "width": "100"
+                        },
+                        {
+                          "_id": "supporting_docs",
+                          "field_type": "upload",
+                          "field_label": "Message & Supporting Documents (Upload Spec Sheet / LOI / RFQ)",
+                          "file_types": "pdf,doc,docx,jpg,jpeg,png,webp",
+                          "max_file_size": "15",
+                          "width": "100"
+                        }
+                      ],
+                      "submit_actions": [
+                        "email"
+                      ],
+                      "email_to": "anikaeti404@gmail.com",
+                      "email_subject": "New Trade & Project Enquiry - AXELA LTD.",
+                      "email_from_name": "AXELA Global Trading Desk",
+                      "email_from_email": "noreply@axelaglobal.com",
+                      "email_content": "[all-fields]",
+                      "button_text": "SUBMIT TRADE ENQUIRY",
+                      "button_width": "100",
+                      "selected_button_icon": {
+                        "value": "fas fa-arrow-right",
+                        "library": "fa-solid"
+                      },
+                      "button_icon_align": "right",
+                      "_css_classes": "axela-native-pro-form axela-btn-teal"
                     },
                     "elements": []
                   }

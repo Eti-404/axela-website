@@ -23,9 +23,9 @@ def update_footer():
 <footer class="axela-slim-footer">
   <style>
     .axela-slim-footer {
-      background: #05080E;
+      background: #04070D;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 36px 0 24px 0;
+      padding: 56px 0 34px 0;
       color: #94A3B8;
       font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
       width: 100%;
@@ -40,8 +40,8 @@ def update_footer():
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 20px;
-      margin-bottom: 24px;
+      gap: 28px;
+      margin-bottom: 28px;
     }
     .axela-footer-brand {
       display: flex;
@@ -64,7 +64,7 @@ def update_footer():
     .axela-footer-nav {
       display: flex;
       flex-wrap: wrap;
-      gap: 24px;
+      gap: 28px;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -77,13 +77,13 @@ def update_footer():
       transition: color 0.2s ease;
     }
     .axela-footer-nav a:hover {
-      color: #2DD4BF;
+      color: #5EEAD4;
     }
     .axela-footer-divider {
       border: 0;
       height: 1px;
-      background: rgba(255, 255, 255, 0.06);
-      margin: 0 0 20px 0;
+      background: rgba(255, 255, 255, 0.18);
+      margin: 0 0 22px 0;
     }
     .axela-footer-bottom {
       display: flex;
@@ -108,19 +108,6 @@ def update_footer():
     .axela-footer-bottom-links a:hover {
       color: #E2E8F0;
     }
-    .axela-footer-portal-link {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 11px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: #2DD4BF !important;
-      border-left: 1px solid rgba(255, 255, 255, 0.12);
-      padding-left: 16px;
-      font-weight: 700;
-    }
-    .axela-footer-portal-link:hover {
-      color: #5EEAD4 !important;
-    }
     @media (max-width: 768px) {
       .axela-footer-top {
         flex-direction: column;
@@ -142,19 +129,19 @@ def update_footer():
     <div class="axela-footer-top">
       <div class="axela-footer-brand">
         <a href="#home" style="display:inline-block;">
-          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp" alt="AXELA GLOBAL" class="axela-footer-logo" style="max-height: 28px !important; width: auto !important; max-width: 140px !important; display: block;" />
+          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp" alt="AXELA LTD." class="axela-footer-logo" style="max-height: 32px !important; width: auto !important; max-width: 160px !important; display: block;" />
         </a>
-        <span class="axela-footer-tagline">Physical Trading · Sourcing · Commercial Advisory</span>
       </div>
 
       <ul class="axela-footer-nav">
-        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#products">Trading Categories</a></li>
-        <li><a href="#network">Global Routes</a></li>
-        <li><a href="#approach">Our Approach</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#network">Routes</a></li>
         <li><a href="#investment">Investment</a></li>
-        <li><a href="#ethics">Governance</a></li>
+        <li><a href="#ethics">Ethics</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -162,12 +149,12 @@ def update_footer():
     <hr class="axela-footer-divider" />
 
     <div class="axela-footer-bottom">
-      <p class="axela-footer-copy">© 2026 AXELA LTD. All rights reserved.</p>
+      <div>
+        <p class="axela-footer-copy" style="margin:0; font-size: 12px; color: #94A3B8;">© 2026 AXELA LTD. All rights reserved.</p>
+      </div>
       <div class="axela-footer-bottom-links">
         <a href="#ethics">Privacy &amp; Compliance</a>
         <a href="#approach">Terms of Trade</a>
-        <a href="#ethics">Anti-Bribery Policy</a>
-        <a href="#contact" class="axela-footer-portal-link">Trading Desk Access →</a>
       </div>
     </div>
   </div>

@@ -93,6 +93,126 @@ def native_image(url, img_id=0, alt="", custom_css_class='', eid=None):
         "elements": []
     }
 
+def native_form(eid=None):
+    settings = {
+        "form_name": "AXELA Trade & Project Enquiry Form",
+        "form_fields": [
+            {
+                "_id": "full_name",
+                "field_type": "text",
+                "field_label": "Full Name",
+                "placeholder": "e.g. Johnathan Doe",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "company",
+                "field_type": "text",
+                "field_label": "Company / Organisation",
+                "placeholder": "e.g. PetroGlobal Trading LLC",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "email_phone",
+                "field_type": "text",
+                "field_label": "Business Email & Phone / WhatsApp",
+                "placeholder": "e.g. desk@company.com / +88 017...",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "country",
+                "field_type": "text",
+                "field_label": "Country of Operation",
+                "placeholder": "e.g. Bangladesh / Singapore / UAE",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "enquiry_type",
+                "field_type": "select",
+                "field_label": "Enquiry Type",
+                "field_options": "Product Supply\nTender\nBrokerage\nInvestment\nAdvisory\nOther",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "product_project",
+                "field_type": "text",
+                "field_label": "Product or Project of Interest",
+                "placeholder": "e.g. Gasoil 50ppm / Prilled Urea / Energy Project",
+                "required": "true",
+                "width": "50"
+            },
+            {
+                "_id": "quantity_size",
+                "field_type": "text",
+                "field_label": "Required Quantity or Estimated Project Size",
+                "placeholder": "e.g. 50,000 MT / USD 10M",
+                "width": "50"
+            },
+            {
+                "_id": "destination",
+                "field_type": "text",
+                "field_label": "Destination / Location",
+                "placeholder": "e.g. Chattogram Port / Matarbari / Mongla",
+                "width": "50"
+            },
+            {
+                "_id": "incoterm",
+                "field_type": "text",
+                "field_label": "Preferred Delivery Term (Incoterm)",
+                "placeholder": "e.g. CIF Chattogram / CFR / FOB",
+                "width": "50"
+            },
+            {
+                "_id": "delivery_timeline",
+                "field_type": "text",
+                "field_label": "Target Delivery Date or Project Timeline",
+                "placeholder": "e.g. Q4 2026 / Prompt Delivery",
+                "width": "50"
+            },
+            {
+                "_id": "specs_summary",
+                "field_type": "textarea",
+                "field_label": "Required Specifications or Project Summary",
+                "placeholder": "Detail specific grades, quality parameters, origin preferences, or scope summary...",
+                "rows": 3,
+                "width": "100"
+            },
+            {
+                "_id": "supporting_docs",
+                "field_type": "upload",
+                "field_label": "Message & Supporting Documents (Upload Spec Sheet / LOI / RFQ)",
+                "file_types": "pdf,doc,docx,jpg,jpeg,png,webp",
+                "max_file_size": "15",
+                "width": "100"
+            }
+        ],
+        "submit_actions": ["email"],
+        "email_to": "anikaeti404@gmail.com",
+        "email_subject": "New Trade & Project Enquiry - AXELA LTD.",
+        "email_from_name": "AXELA Global Trading Desk",
+        "email_from_email": "noreply@axelaglobal.com",
+        "email_content": "[all-fields]",
+        "button_text": "SUBMIT TRADE ENQUIRY",
+        "button_width": "100",
+        "selected_button_icon": {
+            "value": "fas fa-arrow-right",
+            "library": "fa-solid"
+        },
+        "button_icon_align": "right",
+        "_css_classes": "axela-native-pro-form axela-btn-teal"
+    }
+    return {
+        "id": eid or uid('form'),
+        "elType": "widget",
+        "widgetType": "form",
+        "settings": settings,
+        "elements": []
+    }
+
 def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None):
     settings = {
         "content_width": content_width,
@@ -177,10 +297,10 @@ def generate_interactive_routes_html():
       background: rgba(255, 255, 255, 0.06);
     }
     .axela-route-tab-btn.active {
-      background: rgba(26, 188, 156, 0.12);
-      border-color: #1ABC9C;
+      background: rgba(139, 38, 53, 0.22);
+      border-color: #8B2635;
       color: #FFFFFF;
-      box-shadow: 0 0 16px rgba(26, 188, 156, 0.25);
+      box-shadow: 0 2px 14px rgba(139, 38, 53, 0.35);
     }
     .axela-map-canvas-box {
       position: relative;
@@ -202,13 +322,13 @@ def generate_interactive_routes_html():
       top: 14px;
       left: 14px;
       background: rgba(9, 19, 30, 0.88);
-      border: 1px solid rgba(26, 188, 156, 0.25);
+      border: 1px solid rgba(229, 169, 60, 0.35);
       padding: 6px 12px;
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 10.5px;
       letter-spacing: 0.16em;
       text-transform: uppercase;
-      color: #5EEAD4;
+      color: #E5A93C;
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -220,8 +340,8 @@ def generate_interactive_routes_html():
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: #10B981;
-      box-shadow: 0 0 8px #10B981;
+      background: #E5A93C;
+      box-shadow: 0 0 8px #E5A93C;
     }
     .axela-map-legend {
       position: absolute;
@@ -253,79 +373,6 @@ def generate_interactive_routes_html():
       border-radius: 50%;
       flex-shrink: 0;
     }
-    .axela-hub-card {
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      width: 320px;
-      max-width: calc(100% - 32px);
-      background: rgba(11, 20, 32, 0.95);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      padding: 18px 20px;
-      backdrop-filter: blur(14px);
-      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
-      border-radius: 4px;
-      z-index: 10;
-      transition: opacity 0.25s ease, transform 0.25s ease;
-    }
-    .axela-hub-card.hidden {
-      opacity: 0;
-      pointer-events: none;
-      transform: translateY(-8px);
-    }
-    .axela-hub-type-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 6px;
-    }
-    .axela-hub-type-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-    .axela-hub-type-text {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 10.5px;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-    }
-    .axela-hub-title {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 22px;
-      color: #FFFFFF;
-      font-weight: 600;
-      line-height: 1.2;
-      margin-bottom: 8px;
-    }
-    .axela-hub-desc {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-size: 12.5px;
-      color: #94A3B8;
-      line-height: 1.6;
-      margin-bottom: 12px;
-    }
-    .axela-hub-meta {
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      padding-top: 8px;
-      display: flex;
-      justify-content: space-between;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 10px;
-      letter-spacing: 0.12em;
-      color: #64748B;
-      text-transform: uppercase;
-    }
-    .axela-hub-close {
-      cursor: pointer;
-      color: #2DD4BF;
-      transition: color 0.2s;
-    }
-    .axela-hub-close:hover {
-      color: #5EEAD4;
-    }
     .interactive-node {
       cursor: pointer;
       pointer-events: all;
@@ -334,16 +381,6 @@ def generate_interactive_routes_html():
       .axela-map-canvas-box {
         aspect-ratio: 16 / 10;
       }
-      .axela-hub-card {
-        top: auto;
-        bottom: 8px;
-        right: 8px;
-        left: 8px;
-        width: auto;
-        padding: 12px 14px;
-      }
-      .axela-hub-title { font-size: 18px; }
-      .axela-hub-desc { font-size: 11px; margin-bottom: 6px; }
       .axela-map-legend { display: none; }
     }
   </style>
@@ -351,13 +388,13 @@ def generate_interactive_routes_html():
   <div class="axela-routes-bar">
     <div class="axela-routes-tabs" id="axela-routes-tabs">
       <button class="axela-route-tab-btn active" data-tab="crude">
-        <i class="fas fa-oil-can" style="font-size: 12px;"></i> Crude Oil Routes
+        <i class="fas fa-oil-can" style="font-size: 12px;"></i> Crude &amp; Petroleum Corridors
       </button>
       <button class="axela-route-tab-btn" data-tab="lng">
         <i class="fas fa-fire-flame-simple" style="font-size: 12px;"></i> LNG &amp; Gas
       </button>
-      <button class="axela-route-tab-btn" data-tab="defense">
-        <i class="fas fa-shield-halved" style="font-size: 12px;"></i> Defense Logistics
+      <button class="axela-route-tab-btn" data-tab="bulk">
+        <i class="fas fa-wheat-awn" style="font-size: 12px;"></i> Bulk Fertilizers &amp; Agri
       </button>
       <button class="axela-route-tab-btn" data-tab="offices">
         <i class="fas fa-building" style="font-size: 12px;"></i> Global Trade Desks
@@ -371,19 +408,7 @@ def generate_interactive_routes_html():
       Live Vessel &amp; Trade Routing Simulation
     </div>
 
-    <!-- Active Hub Detail Floating Card -->
-    <div class="axela-hub-card" id="axela-hub-card">
-      <div class="axela-hub-type-row">
-        <span class="axela-hub-type-dot" id="axela-card-dot" style="background: #1ABC9C;"></span>
-        <span class="axela-hub-type-text" id="axela-card-type" style="color: #1ABC9C;">PRIMARY STRATEGIC HUB</span>
-      </div>
-      <h3 class="axela-hub-title" id="axela-card-title">Chattogram &amp; Matarbari Deep Sea Port</h3>
-      <p class="axela-hub-desc" id="axela-card-desc">Axela's primary South Asian commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.</p>
-      <div class="axela-hub-meta">
-        <span>STATUS: ACTIVE DISCHARGE</span>
-        <span class="axela-hub-close" onclick="closeAxelaCard()">CLICK TO CLOSE ✕</span>
-      </div>
-    </div>
+
 
     <svg class="axela-map-svg" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -461,10 +486,10 @@ def generate_interactive_routes_html():
 
     <!-- Legend -->
     <div class="axela-map-legend">
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #E5A93C;"></span> Crude / Sourcing</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #E5A93C;"></span> Crude &amp; Sourcing</div>
       <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #1ABC9C;"></span> Refined &amp; Distribution</div>
       <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #38BDF8;"></span> LNG &amp; Gas</div>
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #F43F5E;"></span> Defense Logistics</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #1ABC9C;"></span> Bulk Commodities</div>
     </div>
   </div>
 </div>
@@ -520,17 +545,17 @@ def generate_interactive_routes_html():
       name: "Ras Laffan LNG Terminal",
       desc: "Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe."
     },
-    defense_hq: {
-      id: "defense_hq", cx: 230, cy: 193, color: "#F43F5E",
-      type: "Defense & Strategic Procurement Command",
-      name: "US / NATO Procurement Liaison Desk",
-      desc: "Dedicated operations unit managing Mil-Spec fuel procurement (F-76, JP-8), secure supply chains, and rapid-response logistical contracts."
+    tokyo: {
+      id: "tokyo", cx: 880, cy: 155, color: "#1ABC9C",
+      type: "Far East Energy & Industrial Terminal · Japan",
+      name: "Tokyo Bay Commercial Gateway",
+      desc: "Key East Asian destination terminal receiving clean distillates, LNG imports, and specialty chemical shipments."
     },
-    black_sea: {
-      id: "black_sea", cx: 543, cy: 157, color: "#F43F5E",
-      type: "Forward Defense Logistics Node · Eastern Europe",
-      name: "Constanta Operations & Logistics Depot",
-      desc: "Secure tactical supply base managing forward fuel stockpiles, pipeline interconnection, and high-priority logistics under defense contracts."
+    melbourne: {
+      id: "melbourne", cx: 855, cy: 370, color: "#E5A93C",
+      type: "Asia-Pacific Minerals & Bulk Hub · Australia",
+      name: "Port Hedland & Pacific Sourcing Desk",
+      desc: "Strategic origination point for bulk industrial minerals, iron ore, clinker, and agricultural grain flows supporting Asian infrastructure."
     }
   };
 
@@ -547,13 +572,14 @@ def generate_interactive_routes_html():
       { id: "l1", d: "M 635 222 Q 560 270 467 138", color: "#38BDF8", dur: 17 },
       { id: "l2", d: "M 220 205 Q 342 162 477 140", color: "#38BDF8", dur: 14 },
       { id: "l3", d: "M 635 222 Q 680 230 728 222", color: "#38BDF8", dur: 10 },
-      { id: "l4", d: "M 635 222 Q 720 255 788 278", color: "#38BDF8", dur: 13 }
+      { id: "l4", d: "M 635 222 Q 720 255 788 278", color: "#38BDF8", dur: 13 },
+      { id: "l5", d: "M 788 278 Q 840 210 880 155", color: "#38BDF8", dur: 12 }
     ],
-    defense: [
-      { id: "d1", d: "M 230 193 Q 390 148 543 157", color: "#F43F5E", dur: 14 },
-      { id: "d2", d: "M 230 193 Q 395 260 565 203", color: "#F43F5E", dur: 15 },
-      { id: "d3", d: "M 565 203 Q 640 215 728 222", color: "#F43F5E", dur: 12 },
-      { id: "d4", d: "M 565 203 Q 530 240 472 302", color: "#F43F5E", dur: 11 }
+    bulk: [
+      { id: "b1", d: "M 855 370 Q 800 300 728 222", color: "#E5A93C", dur: 15 },
+      { id: "b2", d: "M 640 230 Q 685 240 728 222", color: "#1ABC9C", dur: 12 },
+      { id: "b3", d: "M 477 140 Q 560 220 728 222", color: "#E5A93C", dur: 16 },
+      { id: "b4", d: "M 855 370 Q 820 310 788 278", color: "#E5A93C", dur: 13 }
     ],
     offices: [
       { id: "o1", d: "M 728 222 Q 685 226 640 230", color: "#1ABC9C", dur: 10 },
@@ -565,35 +591,12 @@ def generate_interactive_routes_html():
 
   const HUBS_BY_TAB = {
     crude: ["chattogram", "fujairah", "rotterdam", "us_gulf", "singapore", "west_africa", "suez"],
-    lng: ["chattogram", "qatar", "rotterdam", "us_gulf", "singapore"],
-    defense: ["defense_hq", "black_sea", "suez", "chattogram", "west_africa"],
+    lng: ["chattogram", "qatar", "rotterdam", "us_gulf", "singapore", "tokyo"],
+    bulk: ["chattogram", "fujairah", "rotterdam", "melbourne", "singapore"],
     offices: ["chattogram", "fujairah", "rotterdam", "us_gulf", "singapore"]
   };
 
   let currentTab = 'crude';
-
-  window.showAxelaHub = function(hubId) {
-    const hub = HUB_DATA[hubId];
-    if (!hub) return;
-    const card = document.getElementById('axela-hub-card');
-    const dot = document.getElementById('axela-card-dot');
-    const type = document.getElementById('axela-card-type');
-    const title = document.getElementById('axela-card-title');
-    const desc = document.getElementById('axela-card-desc');
-    if (!card) return;
-
-    dot.style.background = hub.color;
-    type.style.color = hub.color;
-    type.textContent = hub.type;
-    title.textContent = hub.name;
-    desc.textContent = hub.desc;
-    card.classList.remove('hidden');
-  };
-
-  window.closeAxelaCard = function() {
-    const card = document.getElementById('axela-hub-card');
-    if (card) card.classList.add('hidden');
-  };
 
   function renderAxelaMap() {
     const routesLayer = document.getElementById('axela-routes-layer');
@@ -723,9 +726,6 @@ def generate_interactive_routes_html():
       g.appendChild(center);
       g.appendChild(core);
       g.appendChild(hit);
-
-      g.addEventListener("mouseenter", function() { window.showAxelaHub(id); });
-      g.addEventListener("click", function() { window.showAxelaHub(id); });
 
       nodesLayer.appendChild(g);
     });
@@ -871,9 +871,10 @@ def generate_contact_form_html():
           <option value="energy">Energy &amp; Petroleum Products</option>
           <option value="petrochem">Petrochemical Feedstocks</option>
           <option value="fertilizer">Fertilizers &amp; Agrochemicals</option>
-          <option value="metals">Industrial Metals &amp; Minerals</option>
-          <option value="defense">Defense &amp; Strategic Logistics</option>
-          <option value="advisory">Corporate Advisory &amp; Inbound Capital</option>
+          <option value="chemicals">Industrial &amp; Specialty Chemicals</option>
+          <option value="agri">Agricultural Commodities</option>
+          <option value="metals">Metals, Minerals &amp; Industrial Products</option>
+          <option value="advisory">Corporate Advisory &amp; Investment</option>
         </select>
       </div>
       <div class="axela-form-group">
@@ -905,72 +906,137 @@ def build_homepage():
     else:
         elements = data.get('content', [])
 
-    # Keep Hero section (element 0)
-    hero_section = elements[0]
+    # =========================================================================
+    # SECTION 0: HERO SECTION (#home) - 100% NATIVE ELEMENTOR, EDITORIAL SERIF
+    # Strict doc alignment: Section 1 of Word Doc (NO fake stats on right)
+    # =========================================================================
+    hero_badge = native_heading(
+        "ENERGY &bull; COMMODITIES TRADING &bull; SUPPLY &bull; PROJECT DEVELOPMENT &bull; INVESTMENT ADVISORY",
+        tag="span",
+        custom_css_class="axela-hero-badge",
+        eid="hero_badge_hd"
+    )
+    hero_h1 = native_heading(
+        "Connecting Trade, Supply and Investment Opportunities",
+        tag="h1",
+        custom_css_class="axela-hero-title",
+        eid="hero_h1_hd"
+    )
+    hero_intro = native_text(
+        "AXELA Limited is a Dhaka based trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.",
+        custom_css_class="axela-hero-intro",
+        eid="hero_intro_txt"
+    )
+    hero_support = native_text(
+        "From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.",
+        custom_css_class="axela-hero-support",
+        eid="hero_support_txt"
+    )
+    btn_trade = native_button(
+        "Submit a Trade Enquiry",
+        link="#contact",
+        icon_class="fas fa-arrow-right",
+        custom_css_class="axela-hero-btn axela-btn-teal",
+        eid="hero_btn_trade"
+    )
+    btn_supply = native_button(
+        "Discuss a Supply Requirement",
+        link="#services",
+        icon_class="fas fa-arrow-right",
+        custom_css_class="axela-hero-btn axela-btn-ghost",
+        eid="hero_btn_supply"
+    )
+    btn_invest = native_button(
+        "Explore Investment Opportunities",
+        link="#investment",
+        icon_class="fas fa-arrow-right",
+        custom_css_class="axela-hero-btn axela-btn-gold-link",
+        eid="hero_btn_invest"
+    )
+    hero_btn_row = native_container(
+        elements=[btn_trade, btn_supply, btn_invest],
+        direction="row",
+        wrap="wrap",
+        justify="flex-start",
+        align="center",
+        content_width="full",
+        custom_css_class="axela-hero-btn-row",
+        eid="hero_btn_con"
+    )
+
+    hero_left_con = native_container(
+        elements=[hero_badge, hero_h1, hero_intro, hero_support, hero_btn_row],
+        direction="column",
+        align="flex-start",
+        content_width="full",
+        custom_css_class="axela-hero-left-column",
+        eid="axela_hero_left"
+    )
+
+    hero_content = native_container(
+        elements=[hero_left_con],
+        direction="column",
+        align="flex-start",
+        content_width="boxed",
+        custom_css_class="axela-hero-content-wrap",
+        eid="axela_hero_content"
+    )
+
+    hero_section = {
+        "id": "axela_hero_root",
+        "elType": "container",
+        "settings": {
+            "content_width": "full",
+            "width": {"unit": "%", "size": 100},
+            "min_height": {"unit": "vh", "size": 82},
+            "flex_direction": "column",
+            "justify_content": "center",
+            "align_items": "center",
+            "padding": {"unit": "px", "top": "90", "right": "0", "bottom": "60", "left": "0", "isLinked": False},
+            "background_background": "video",
+            "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-hero.mp4",
+            "background_play_on_mobile": "yes",
+            "background_play_once": "",
+            "background_video_fallback": {
+                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-poster.webp",
+                "id": 142
+            },
+            "background_overlay_background": "gradient",
+            "background_overlay_color": "rgba(7, 11, 17, 0.90)",
+            "background_overlay_color_b": "rgba(7, 11, 17, 0.65)",
+            "background_overlay_gradient_type": "linear",
+            "background_overlay_gradient_angle": {"unit": "deg", "size": 135},
+            "background_overlay_opacity": {"unit": "px", "size": 1},
+            "html_tag": "section",
+            "_css_id": "home",
+            "_element_id": "home",
+            "_css_classes": "axela-hero-section"
+        },
+        "elements": [hero_content]
+    }
 
     # =========================================================================
     # SECTION 1: ABOUT US (#about) - 100% NATIVE ELEMENTOR, CLEAN & SIMPLE
-    # Fulfills user annotation: "Dont need to add this section, keep it simple"
+    # Heading: "About AXELA LTD."
+    # Body copy strictly from Section 2 of Word Document
+    # NO STATS BOXES / NO INVENTED NUMBERS
     # =========================================================================
-    about_eyebrow = native_heading("01 / ABOUT AXELA GLOBAL", tag="span", custom_css_class="axela-section-eyebrow", eid="abt_eye")
-    about_title = native_heading("Connecting Trade, Product Supply and Commercial Advisory", tag="h2", custom_css_class="axela-section-title", eid="abt_h2")
+    about_eyebrow = native_heading("01 / ABOUT US", tag="span", custom_css_class="axela-section-eyebrow", eid="abt_eye")
+    about_title = native_heading("About AXELA LTD.", tag="h2", custom_css_class="axela-section-title", eid="abt_h2")
     
     about_narrative_1 = native_text(
-        "AXELA LTD. works at the intersection of international trade, product supply and commercial advisory. Our role is to help identify opportunities, connect relevant counterparties, and coordinate the commercial steps required to move complex physical transactions forward.",
+        "AXELA Limited works at the intersection of international trade, product supply and commercial advisory. Our role is to help identify opportunities, connect relevant parties and coordinate the commercial steps required to move a transaction forward.",
         custom_css_class="axela-lead-text",
         eid="abt_p1"
     )
     about_narrative_2 = native_text(
-        "We aim to build enduring business relationships founded on transparent communication, professional conduct, strict confidentiality, and a practical, on-the-ground understanding of buyer and supplier requirements across Bangladesh and international markets.",
+        "We aim to build business relationships through clear communication, professional conduct, confidentiality and a practical understanding of buyer and supplier requirements.",
+        custom_css_class="axela-sub-text",
         eid="abt_p2"
     )
 
-    # 4 Scale metrics (Just like petrotraders scale row)
-    metrics_data = [
-        {"val": "20M+", "lbl": "MT Moved / Sourced Annually Across Global Energy & Commodity Corridors"},
-        {"val": "70+", "lbl": "Tier-1 International Financial, Banking & Trade Finance Institutions"},
-        {"val": "25+", "lbl": "Years Collective Physical Trading & Cross-Border Supply Execution"},
-        {"val": "4", "lbl": "Continents with Active Strategic Operations & Origin Desks"}
-    ]
-
-    metric_cols = []
-    for idx, m in enumerate(metrics_data):
-        m_val = native_heading(m["val"], tag="h3", custom_css_class="axela-stat-val")
-        m_lbl = native_text(m["lbl"], custom_css_class="axela-stat-lbl")
-        card = native_container(
-            elements=[m_val, m_lbl],
-            direction="column",
-            content_width="full",
-            custom_css_class="axela-scale-metric-card",
-            eid=f"scale_card_{idx+1}"
-        )
-        metric_cols.append(card)
-
-    scale_grid_con = native_container(
-        elements=metric_cols,
-        direction="row",
-        wrap="nowrap",
-        justify="space-between",
-        content_width="full",
-        custom_css_class="axela-scale-metrics-grid",
-        eid="scale_grid_con"
-    )
-
-    # Action buttons row
-    btn_consult = native_button("Request a Trading Consultation", link="#contact", icon_class="fas fa-arrow-right", custom_css_class="axela-btn-teal", eid="abt_btn_consult")
-    btn_categories = native_button("Explore Trading Categories", link="#products", icon_class="fas fa-arrow-right", custom_css_class="axela-btn-ghost", eid="abt_btn_cat")
-    
-    actions_row = native_container(
-        elements=[btn_consult, btn_categories],
-        direction="row",
-        wrap="wrap",
-        align="center",
-        custom_css_class="axela-about-actions-row",
-        eid="abt_act_row"
-    )
-
     about_boxed_wrap = native_container(
-        elements=[about_eyebrow, about_title, about_narrative_1, about_narrative_2, scale_grid_con, actions_row],
+        elements=[about_eyebrow, about_title, about_narrative_1, about_narrative_2],
         direction="column",
         content_width="boxed",
         custom_css_class="axela-container-boxed",
@@ -988,12 +1054,14 @@ def build_homepage():
 
     # =========================================================================
     # SECTION 2: OUR SERVICES (#services)
-    # Fulfills user annotations: "Reduce the icon's size & little more gap between the cards & action button in blue/ash type colour"
+    # 8 Compact cards strictly from doc
+    # Sleek padding, small icons, NO "DISCUSS SUPPLY" buttons
     # =========================================================================
     services_eyebrow = native_heading("02 / CORE CAPABILITIES", tag="span", custom_css_class="axela-section-eyebrow", eid="svc_eye")
     services_title = native_heading("Our Services", tag="h2", custom_css_class="axela-section-title", eid="svc_h2")
     services_subtitle = native_text(
         "Sourcing and coordinating supply of petroleum products, commercial brokerage, tender support and advisory services.",
+        custom_css_class="axela-section-subtitle",
         eid="svc_sub"
     )
     services_header_con = native_container(
@@ -1007,7 +1075,7 @@ def build_homepage():
         {
             "num": "01", "icon": "fas fa-gas-pump",
             "title": "Trading and Product Supply",
-            "desc": "Sourcing and coordinating supply of petroleum products, petrochemicals, fertilizers, industrial chemicals and other agreed commodities, subject to product availability and contract terms."
+            "desc": "Sourcing and coordinating supply of petroleum products, petrochemicals, fertilizers, industrial chemicals and other agreed commodities or commercial products, subject to product availability, applicable approvals and agreed contract terms."
         },
         {
             "num": "02", "icon": "fas fa-handshake",
@@ -1032,24 +1100,24 @@ def build_homepage():
         {
             "num": "06", "icon": "fas fa-globe-asia",
             "title": "Foreign Investor Facilitation in Bangladesh",
-            "desc": "Supporting international investors with local introductions, opportunity screening, business coordination and communication with relevant counterparties."
+            "desc": "Supporting international investors with local introductions, opportunity screening, business coordination and communication with relevant counterparties. Legal, tax, licensing and regulated services should be provided by appropriately qualified professionals."
         },
         {
             "num": "07", "icon": "fas fa-balance-scale",
             "title": "Corporate Advisory and Financial Structuring",
-            "desc": "Commercial support for business plans, transaction structures, strategic partnerships, capital proposals and financing discussions with professional advisers."
+            "desc": "Commercial support for business plans, transaction structures, strategic partnerships, capital proposals and financing discussions, working with relevant professional advisers where required."
         },
         {
             "num": "08", "icon": "fas fa-truck-moving",
             "title": "Transaction and Logistics Coordination",
-            "desc": "Coordinating commercial documentation, delivery requirements, shipment-related communication and counterparty follow-up as agreed for each transaction."
+            "desc": "Coordinating commercial documentation, delivery requirements, shipment-related communication and counterparty follow-up as agreed for each transaction. AXELA does not represent itself as a carrier, insurer or logistics operator unless separately authorised to provide those services."
         }
     ]
 
     service_cards = []
     for idx, s in enumerate(services_data):
         card_id = f"svc_card_{idx+1}"
-        head_num = native_heading(f"{s['num']} / SERVICE", tag="span", custom_css_class="service-card-num")
+        head_num = native_heading(f"{s['num']}", tag="span", custom_css_class="service-card-num")
         head_icon = native_icon(s['icon'], custom_css_class="service-card-icon-sleek")
         head_row = native_container(
             elements=[head_num, head_icon],
@@ -1059,12 +1127,11 @@ def build_homepage():
             custom_css_class="service-card-head"
         )
         c_title = native_heading(s['title'], tag="h3", custom_css_class="service-card-title")
-        c_desc = native_text(s['desc'])
-        # Blue/ash type button per user instruction
-        c_btn = native_button("DISCUSS SUPPLY", link="#contact", icon_class="fas fa-arrow-right", custom_css_class="axela-btn-ash", eid=f"svc_btn_{idx+1}")
+        c_desc = native_text(s['desc'], custom_css_class="service-card-desc")
 
+        # Sleek, compact card: Head row (num + icon), Title, Description. No extra buttons!
         card = native_container(
-            elements=[head_row, c_title, c_desc, c_btn],
+            elements=[head_row, c_title, c_desc],
             direction="column",
             content_width="full",
             custom_css_class="axela-service-compact-card",
@@ -1106,34 +1173,50 @@ def build_homepage():
     # "reduce icon size and make them more closer to their headings , and add icons to every section/card here"
     # "Add any relevent better image" -> high res refinery banner
     # =========================================================================
+    # Split Blend Warehouse Banner (Petrotraders / Screenshot 2026-10-05 154627.png style)
     products_eyebrow = native_heading("03 / COMMODITY SCOPE", tag="span", custom_css_class="axela-section-eyebrow", eid="prod_eye")
     products_title = native_heading("Products and Trading Categories", tag="h2", custom_css_class="axela-section-title", eid="prod_h2")
     products_subtitle = native_text(
         "AXELA LTD. may consider sourcing and supply enquiries across the following categories, depending on the specific requirement, supplier availability, applicable permissions and transaction terms.",
         eid="prod_sub"
     )
-    products_header_con = native_container(
+    products_intro_con = native_container(
         elements=[products_eyebrow, products_title, products_subtitle],
         direction="column",
-        custom_css_class="axela-section-header",
-        eid="prod_head_con"
+        align="flex-start",
+        content_width="full",
+        custom_css_class="axela-prod-banner-text",
+        eid="prod_banner_text"
     )
 
-    # High-res refinery banner
-    products_banner = native_image(
-        url="https://axelaglobal.com/wp-content/uploads/2026/10/axela-petroleum-refinery-banner.webp",
-        img_id=95,
-        alt="Industrial Petroleum Refinery and Energy Sourcing Operations",
-        custom_css_class="axela-banner-img-styled",
-        eid="prod_banner_img"
-    )
-    products_banner_con = native_container(
-        elements=[products_banner],
-        direction="column",
-        content_width="full",
-        custom_css_class="axela-banner-container",
-        eid="prod_banner_con"
-    )
+    products_split_banner = {
+        "id": "prod_split_banner",
+        "elType": "container",
+        "settings": {
+            "content_width": "full",
+            "width": {"unit": "%", "size": 100},
+            "min_height": {"unit": "px", "size": 380},
+            "flex_direction": "row",
+            "align_items": "center",
+            "justify_content": "flex-start",
+            "padding": {"unit": "px", "top": "50", "right": "35", "bottom": "50", "left": "35", "isLinked": False},
+            "background_background": "classic",
+            "background_image": {
+                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp",
+                "id": 86
+            },
+            "background_position": "center center",
+            "background_size": "cover",
+            "background_overlay_background": "gradient",
+            "background_overlay_color": "#040911",
+            "background_overlay_color_b": "rgba(4, 9, 17, 0.0)",
+            "background_overlay_gradient_type": "linear",
+            "background_overlay_gradient_angle": {"unit": "deg", "size": 90},
+            "background_overlay_opacity": {"unit": "px", "size": 1},
+            "_css_classes": "axela-products-split-banner"
+        },
+        "elements": [products_intro_con]
+    }
 
     # Categories strictly without "CAT 01" / "CAT 02", with small icons close to headings!
     categories_data = [
@@ -1183,10 +1266,9 @@ def build_homepage():
         )
         
         c_desc = native_text(c['desc'])
-        c_btn = native_button("ENQUIRE CATEGORY", link="#contact", icon_class="fas fa-arrow-right", custom_css_class="axela-btn-link-ash")
 
         card = native_container(
-            elements=[c_title_row, c_desc, c_btn],
+            elements=[c_title_row, c_desc],
             direction="column",
             content_width="full",
             custom_css_class="axela-category-compact-card",
@@ -1204,22 +1286,8 @@ def build_homepage():
         eid="categories_grid_con"
     )
 
-    # Compliance Note
-    comp_icon = native_icon("fas fa-shield-halved", custom_css_class="compliance-icon-sleek")
-    comp_title = native_heading("Commercial Sourcing Assessment Standard", tag="h4", custom_css_class="compliance-title")
-    comp_text = native_text(
-        "Each enquiry should be assessed individually. Product name, grade, specifications, origin, quantity, packing, delivery schedule, Incoterm, inspection requirements and payment terms must be confirmed before any offer is treated as firm."
-    )
-    compliance_box = native_container(
-        elements=[comp_icon, comp_title, comp_text],
-        direction="column",
-        content_width="full",
-        custom_css_class="axela-compliance-note-box",
-        eid="prod_compliance_box"
-    )
-
     products_boxed_wrap = native_container(
-        elements=[products_header_con, products_banner_con, categories_grid_con, compliance_box],
+        elements=[products_split_banner, categories_grid_con],
         direction="column",
         content_width="boxed",
         custom_css_class="axela-container-boxed",
@@ -1259,7 +1327,7 @@ def build_homepage():
             "desc": "Confirm product or project scope, specifications, volume, destination, timing and commercial terms."
         },
         {
-            "step": "02", "icon": "fas fa-users-gear",
+            "step": "02", "icon": "fas fa-users",
             "title": "Identify potential counterparties",
             "desc": "Coordinate with suitable suppliers, buyers, project owners, advisers or investors."
         },
@@ -1334,10 +1402,10 @@ def build_homepage():
     # SECTION 5: INTERACTIVE GLOBAL TRADE ROUTES MAP (#network / #routes)
     # Fulfills user annotations: "do it like the screen recording of the reference attached here"
     # =========================================================================
-    routes_eyebrow = native_heading("05 / GLOBAL PRESENCE & LOGISTICS", tag="span", custom_css_class="axela-section-eyebrow", eid="net_eye")
+    routes_eyebrow = native_heading("05 / GLOBAL TRADE ROUTES & MARITIME CORRIDORS", tag="span", custom_css_class="axela-section-eyebrow", eid="net_eye")
     routes_title = native_heading("Interactive Global Trade Routes", tag="h2", custom_css_class="axela-section-title", eid="net_h2")
     routes_subtitle = native_text(
-        "Tracking high-volume physical crude, refined products, LNG and strategic defense cargo movements across key international maritime corridors.",
+        "Tracking physical crude, refined products, LNG, fertilizers and commercial commodities across key international maritime trade corridors.",
         eid="net_sub"
     )
     routes_header_con = native_container(
@@ -1413,10 +1481,8 @@ def build_homepage():
     invest_notice_text = native_text(
         "All investment opportunities are subject to independent due diligence, applicable regulatory requirements, definitive documentation and agreement between the relevant parties. Website information is not an offer to sell securities or a guarantee of investment performance."
     )
-    invest_cta_btn = native_button("EXPLORE INVESTMENT OPPORTUNITIES", link="#contact", icon_class="fas fa-arrow-right", custom_css_class="axela-btn-teal", eid="inv_cta_btn")
-    
     invest_right_con = native_container(
-        elements=[invest_banner, invest_notice_title, invest_notice_text, invest_cta_btn],
+        elements=[invest_banner, invest_notice_title, invest_notice_text],
         direction="column",
         content_width="full",
         custom_css_class="axela-invest-col-right",
@@ -1480,7 +1546,7 @@ def build_homepage():
         {
             "tag": "STATUTORY ADHERENCE", "icon": "fas fa-shield-halved",
             "title": "Regulatory & Sanctions Compliance",
-            "desc": "Product transactions and advisory assignments remain subject to relevant licensing, sanctions screening, customs, tax, and anti-bribery compliance requirements."
+            "desc": "Product transactions and advisory assignments remain subject to relevant licensing, sanctions screening, customs, tax, and governance compliance requirements."
         }
     ]
 
@@ -1539,9 +1605,10 @@ def build_homepage():
     # Fulfills user annotations: "make this contact section like the reference site's contact us section , keep our site's informations .."
     # =========================================================================
     contact_eyebrow = native_heading("08 / GLOBAL TRADING DESK & CONTACT", tag="span", custom_css_class="axela-section-eyebrow", eid="cnt_eye")
-    contact_title = native_heading("Ready to trade with us?", tag="h2", custom_css_class="axela-section-title", eid="cnt_h2")
+    contact_title = native_heading("Contact Us", tag="h2", custom_css_class="axela-section-title", eid="cnt_h2")
     contact_subtitle = native_text(
-        "For product supply enquiries, tender opportunities, commercial mandates, investment proposals or advisory requirements, connect directly with our trading principals.",
+        "For product supply enquiries, tender opportunities, commercial mandates, investment proposals or advisory requirements, contact AXELA LTD. to discuss the scope and potential next steps.",
+        custom_css_class="axela-section-subtitle",
         eid="cnt_sub"
     )
     contact_header_con = native_container(
@@ -1553,16 +1620,16 @@ def build_homepage():
 
     # Left Desk Info
     desk_h4_1 = native_heading("BANGLADESH HEADQUARTERS", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_1 = native_text("House 12, Road 4, Banani / Gulshan Commercial Zone<br>Dhaka 1213, Bangladesh<br><a href='tel:+8801711000000' style='color:#94A3B8;'>+880 1711-000000</a> · <a href='tel:+88029876543' style='color:#94A3B8;'>+880 2 9876543</a>")
+    desk_p_1 = native_text("Plot- 19, Road- 17, Priyo Prangon Tower<br>Kemal Ataturk Avenue, Banani<br>Dhaka-1213, Bangladesh")
 
-    desk_h4_2 = native_heading("MIDDLE EAST TRADING DESK", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_2 = native_text("Dubai & Fujairah Offshore Operations, UAE<br><a href='tel:+97140000000' style='color:#94A3B8;'>+971 4 000 0000</a>")
+    desk_h4_2 = native_heading("DIRECT PHONE", tag="h4", custom_css_class="contact-hub-tag")
+    desk_p_2 = native_text("<a href='tel:+8809658511309' style='color:#E2E8F0; text-decoration:none;'>+88 096585 11309</a>")
 
-    desk_h4_3 = native_heading("ASIA-PACIFIC & EUROPEAN GATEWAYS", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_3 = native_text("Singapore Straits · Rotterdam ARA Hub · Chattogram Port")
+    desk_h4_3 = native_heading("GENERAL TRADE INQUIRIES", tag="h4", custom_css_class="contact-hub-tag")
+    desk_p_3 = native_text("<a href='mailto:info@axelaglobal.com' style='color:#2DD4BF; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a>")
 
-    desk_h4_4 = native_heading("GENERAL TRADE INQUIRIES", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_4 = native_text("<a href='mailto:trade@axelaglobal.com' style='color:#FFFFFF; font-weight:600;'>trade@axelaglobal.com</a> · <a href='mailto:info@axelaglobal.com' style='color:#94A3B8;'>info@axelaglobal.com</a>")
+    desk_h4_4 = native_heading("OFFICIAL WEBSITE", tag="h4", custom_css_class="contact-hub-tag")
+    desk_p_4 = native_text("<a href='https://axelaglobal.com' style='color:#94A3B8; text-decoration:none;'>axelaglobal.com</a>")
 
     contact_desk_con = native_container(
         elements=[desk_h4_1, desk_p_1, desk_h4_2, desk_p_2, desk_h4_3, desk_p_3, desk_h4_4, desk_p_4],
@@ -1572,8 +1639,8 @@ def build_homepage():
         eid="contact_hub_left"
     )
 
-    # Right interactive trade enquiry form widget
-    contact_form_widget = native_html(generate_contact_form_html(), eid="contact_form_widget")
+    # Right Elementor Pro Native Form Widget (Direct Email to info@axelaglobal.com)
+    contact_form_widget = native_form(eid="axela_contact_form")
 
     contact_form_con = native_container(
         elements=[contact_form_widget],

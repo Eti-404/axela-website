@@ -80,3 +80,27 @@ desktop.ini
 !/assets/
 !/custom-css/
 !/elementor-templates/
+
+# 9. Python Artifacts & Temporary Test Dumps
+__pycache__/
+*.pyc
+scratch_*.py
+test_*.py
+snap_*.py
+inspect_*.py
+extract_*.py
+fetch_*.py
+check_nav.py
+upload_hero_media.py
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.mp4
+/*.txt
+/*.html
+/*_raw.json
+/live_post*.json
+/header_dom_tree.json
+
+
