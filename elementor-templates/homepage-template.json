@@ -145,7 +145,7 @@
                         "library": "fa-solid"
                       },
                       "icon_align": "right",
-                      "_css_classes": "axela-hero-btn axela-btn-teal"
+                      "_css_classes": "axela-hero-btn axela-btn-red"
                     },
                     "elements": []
                   },
@@ -368,7 +368,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_b4dd1a51",
+                    "id": "con_b9db4ed8",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -380,7 +380,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_41a1e7fa",
+                        "id": "hd_5aa70995",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -392,7 +392,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_0c1f3d63",
+                        "id": "ico_86ca0d74",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -408,7 +408,7 @@
                     ]
                   },
                   {
-                    "id": "hd_2cf1f8d8",
+                    "id": "hd_ea93065c",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -420,7 +420,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_8b3662e8",
+                    "id": "txt_696fbc22",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -444,7 +444,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_fd628287",
+                    "id": "con_18b6afd1",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -456,7 +456,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_42596bdf",
+                        "id": "hd_8e6b83ae",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -468,7 +468,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_72dd5bfd",
+                        "id": "ico_166e363a",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -484,7 +484,7 @@
                     ]
                   },
                   {
-                    "id": "hd_9067dd94",
+                    "id": "hd_9ca7fb96",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -496,7 +496,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_4952ded0",
+                    "id": "txt_df4414ec",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -520,7 +520,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_3c77ba17",
+                    "id": "con_60255b61",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -532,7 +532,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_da1f9947",
+                        "id": "hd_6918f56c",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -544,7 +544,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_00ca7a75",
+                        "id": "ico_bdc7c7cc",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -560,7 +560,7 @@
                     ]
                   },
                   {
-                    "id": "hd_b0d938ee",
+                    "id": "hd_6f128f22",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -572,7 +572,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_1b45d7b3",
+                    "id": "txt_2ecc6c7d",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -596,7 +596,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_fd07776c",
+                    "id": "con_8a76c178",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -608,7 +608,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_7b3ca3db",
+                        "id": "hd_627d79fc",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -620,7 +620,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_4e45ecc2",
+                        "id": "ico_58cf8d48",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -636,7 +636,7 @@
                     ]
                   },
                   {
-                    "id": "hd_8f8ebac8",
+                    "id": "hd_a2bf5ebf",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -648,7 +648,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_0b3383a8",
+                    "id": "txt_31d59742",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -672,7 +672,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_f0c9d8e0",
+                    "id": "con_014abdef",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -684,7 +684,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_491888ea",
+                        "id": "hd_25857481",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -696,7 +696,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_3b08fee2",
+                        "id": "ico_87faa03d",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -712,7 +712,7 @@
                     ]
                   },
                   {
-                    "id": "hd_4f3fb9bf",
+                    "id": "hd_20b6b5ad",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -724,7 +724,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_3fbaad60",
+                    "id": "txt_67796e84",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -748,7 +748,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_3a347867",
+                    "id": "con_a5297fb8",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -760,7 +760,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_0915d54b",
+                        "id": "hd_21d8bed7",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -772,7 +772,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_da5a2383",
+                        "id": "ico_6cee8d22",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -788,7 +788,7 @@
                     ]
                   },
                   {
-                    "id": "hd_4a66b010",
+                    "id": "hd_8def3e2b",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -800,7 +800,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_40ff2776",
+                    "id": "txt_6afe40d7",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -824,7 +824,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_2f58c657",
+                    "id": "con_bedbdb6b",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -836,7 +836,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_4281a224",
+                        "id": "hd_566c4a24",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -848,7 +848,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_a3dc2e0c",
+                        "id": "ico_afc04145",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -864,7 +864,7 @@
                     ]
                   },
                   {
-                    "id": "hd_984812c6",
+                    "id": "hd_590a55f6",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -876,7 +876,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_e41f7811",
+                    "id": "txt_9cc7a7ec",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -900,7 +900,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_b853b6dd",
+                    "id": "con_92f4be4c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -912,7 +912,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_554caf88",
+                        "id": "hd_7a8c6aba",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -924,7 +924,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_5e992242",
+                        "id": "ico_8c47aaf2",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -940,7 +940,7 @@
                     ]
                   },
                   {
-                    "id": "hd_597a603c",
+                    "id": "hd_ef4aeabc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -952,7 +952,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_53da2742",
+                    "id": "txt_135b2fe4",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1114,7 +1114,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_919ed36f",
+                    "id": "con_d5502742",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1126,7 +1126,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_754d424e",
+                        "id": "ico_99d0b468",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1140,7 +1140,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_f5900dc6",
+                        "id": "hd_222becba",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1154,7 +1154,7 @@
                     ]
                   },
                   {
-                    "id": "txt_d0eb7a3c",
+                    "id": "txt_f8e9e870",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1177,7 +1177,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_17f2b3b1",
+                    "id": "con_c445c42c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1189,7 +1189,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_a199402d",
+                        "id": "ico_c89b625b",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1203,7 +1203,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_99ba7dd3",
+                        "id": "hd_4d38596e",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1217,7 +1217,7 @@
                     ]
                   },
                   {
-                    "id": "txt_12b23b5a",
+                    "id": "txt_95e2f303",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1240,7 +1240,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_38759b14",
+                    "id": "con_9ef1e4ea",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1252,7 +1252,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_8395f45a",
+                        "id": "ico_8ba84af9",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1266,7 +1266,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_5b83b698",
+                        "id": "hd_5f7a2816",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1280,7 +1280,7 @@
                     ]
                   },
                   {
-                    "id": "txt_4ef0fcd7",
+                    "id": "txt_045d5960",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1303,7 +1303,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_37a6c56d",
+                    "id": "con_f38f14fa",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1315,7 +1315,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_713131ba",
+                        "id": "ico_a9bd0e64",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1329,7 +1329,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_d828f1d4",
+                        "id": "hd_f2a0deba",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1343,7 +1343,7 @@
                     ]
                   },
                   {
-                    "id": "txt_4e5ecd0c",
+                    "id": "txt_468a5668",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1366,7 +1366,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_494eb72d",
+                    "id": "con_327bc6d7",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1378,7 +1378,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_87e5c9e3",
+                        "id": "ico_857e2d55",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1392,7 +1392,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_d05398c0",
+                        "id": "hd_8079a295",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1406,7 +1406,7 @@
                     ]
                   },
                   {
-                    "id": "txt_fc109c98",
+                    "id": "txt_6820de63",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1429,7 +1429,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_5afef814",
+                    "id": "con_9e4208e7",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1441,7 +1441,7 @@
                     },
                     "elements": [
                       {
-                        "id": "ico_07eb9b1d",
+                        "id": "ico_dc557d66",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1455,7 +1455,7 @@
                         "elements": []
                       },
                       {
-                        "id": "hd_f0fea196",
+                        "id": "hd_42d71d1d",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1469,7 +1469,7 @@
                     ]
                   },
                   {
-                    "id": "txt_c8243def",
+                    "id": "txt_83b5a215",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1582,7 +1582,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_5486a0ac",
+                    "id": "con_77feae35",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1594,7 +1594,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_a358aab6",
+                        "id": "hd_12d56863",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1606,7 +1606,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_114bb06c",
+                        "id": "ico_5a2ca57c",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1622,7 +1622,7 @@
                     ]
                   },
                   {
-                    "id": "hd_ed72f6bb",
+                    "id": "hd_cf42606f",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1634,7 +1634,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_ccc9b314",
+                    "id": "txt_e10d2c92",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1657,7 +1657,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_d5268e9c",
+                    "id": "con_b3693afd",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1669,7 +1669,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_953914f4",
+                        "id": "hd_9ef6fe77",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1681,7 +1681,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_57a7c835",
+                        "id": "ico_c14110d8",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1697,7 +1697,7 @@
                     ]
                   },
                   {
-                    "id": "hd_a24e1c72",
+                    "id": "hd_6eefc4dc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1709,7 +1709,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_ea6604dc",
+                    "id": "txt_849a21da",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1732,7 +1732,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_0ac66f6c",
+                    "id": "con_82aaf22c",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1744,7 +1744,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_eb840760",
+                        "id": "hd_dcc41fde",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1756,7 +1756,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_94966580",
+                        "id": "ico_a03accc0",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1772,7 +1772,7 @@
                     ]
                   },
                   {
-                    "id": "hd_f050cb8e",
+                    "id": "hd_32a5a3e1",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1784,7 +1784,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_cdb2f56b",
+                    "id": "txt_4dd38f19",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1807,7 +1807,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_6e05a6f3",
+                    "id": "con_4fb38445",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1819,7 +1819,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_6d856664",
+                        "id": "hd_b6a57779",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1831,7 +1831,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_8d0fb4d7",
+                        "id": "ico_98da480e",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1847,7 +1847,7 @@
                     ]
                   },
                   {
-                    "id": "hd_595c9296",
+                    "id": "hd_9b3f891e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1859,7 +1859,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_70490a29",
+                    "id": "txt_160604ce",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -1882,7 +1882,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_d205c7f0",
+                    "id": "con_ca9ef2e7",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -1894,7 +1894,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_2e98f48b",
+                        "id": "hd_f98c57b5",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -1906,7 +1906,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_015361cc",
+                        "id": "ico_87b291b8",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -1922,7 +1922,7 @@
                     ]
                   },
                   {
-                    "id": "hd_b2b17116",
+                    "id": "hd_4f13e645",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -1934,7 +1934,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_e1b89c36",
+                    "id": "txt_c7cc52e1",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2027,7 +2027,7 @@
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "\n<div class=\"axela-routes-interactive-wrapper\">\n  <style>\n    @keyframes pulse-ring {\n      0%   { r: 4;  opacity: 0.8; }\n      100% { r: 24; opacity: 0; }\n    }\n    @keyframes vessel-blink {\n      0%, 100% { opacity: 1; }\n      50%      { opacity: 0.35; }\n    }\n    .axela-routes-interactive-wrapper {\n      position: relative;\n      width: 100%;\n      margin: 0 auto;\n    }\n    .axela-routes-bar {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n      flex-wrap: wrap;\n      gap: 16px;\n    }\n    .axela-routes-tabs {\n      display: flex;\n      gap: 8px;\n      flex-wrap: wrap;\n    }\n    .axela-route-tab-btn {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      padding: 8px 18px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 13px;\n      font-weight: 600;\n      letter-spacing: 0.10em;\n      text-transform: uppercase;\n      background: rgba(255, 255, 255, 0.03);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      color: #94A3B8;\n      cursor: pointer;\n      border-radius: 2px;\n      transition: all 0.25s ease;\n    }\n    .axela-route-tab-btn:hover {\n      border-color: rgba(255, 255, 255, 0.3);\n      color: #FFFFFF;\n      background: rgba(255, 255, 255, 0.06);\n    }\n    .axela-route-tab-btn.active {\n      background: rgba(139, 38, 53, 0.22);\n      border-color: #8B2635;\n      color: #FFFFFF;\n      box-shadow: 0 2px 14px rgba(139, 38, 53, 0.35);\n    }\n    .axela-map-canvas-box {\n      position: relative;\n      width: 100%;\n      aspect-ratio: 2 / 1;\n      background: #09131E;\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      border-radius: 4px;\n      overflow: hidden;\n      box-shadow: 0 20px 50px rgba(0,0,0,0.5);\n    }\n    .axela-map-svg {\n      width: 100%;\n      height: 100%;\n      display: block;\n    }\n    .axela-map-badge {\n      position: absolute;\n      top: 14px;\n      left: 14px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(229, 169, 60, 0.35);\n      padding: 6px 12px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      letter-spacing: 0.16em;\n      text-transform: uppercase;\n      color: #E5A93C;\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-badge-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background: #E5A93C;\n      box-shadow: 0 0 8px #E5A93C;\n    }\n    .axela-map-legend {\n      position: absolute;\n      bottom: 14px;\n      left: 14px;\n      display: flex;\n      flex-wrap: wrap;\n      gap: 12px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      padding: 8px 14px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-legend-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 11px;\n      letter-spacing: 0.12em;\n      text-transform: uppercase;\n      color: #94A3B8;\n    }\n    .axela-legend-dot {\n      width: 7px;\n      height: 7px;\n      border-radius: 50%;\n      flex-shrink: 0;\n    }\n    .interactive-node {\n      cursor: pointer;\n      pointer-events: all;\n    }\n    @media (max-width: 768px) {\n      .axela-map-canvas-box {\n        aspect-ratio: 16 / 10;\n      }\n      .axela-map-legend { display: none; }\n    }\n  </style>\n\n  <div class=\"axela-routes-bar\">\n    <div class=\"axela-routes-tabs\" id=\"axela-routes-tabs\">\n      <button class=\"axela-route-tab-btn active\" data-tab=\"crude\">\n        <i class=\"fas fa-oil-can\" style=\"font-size: 12px;\"></i> Crude &amp; Petroleum Corridors\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"lng\">\n        <i class=\"fas fa-fire-flame-simple\" style=\"font-size: 12px;\"></i> LNG &amp; Gas\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"bulk\">\n        <i class=\"fas fa-wheat-awn\" style=\"font-size: 12px;\"></i> Bulk Fertilizers &amp; Agri\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"offices\">\n        <i class=\"fas fa-building\" style=\"font-size: 12px;\"></i> Global Trade Desks\n      </button>\n    </div>\n  </div>\n\n  <div class=\"axela-map-canvas-box\" id=\"axela-map-box\">\n    <div class=\"axela-map-badge\">\n      <span class=\"axela-badge-dot\"></span>\n      Live Vessel &amp; Trade Routing Simulation\n    </div>\n\n\n\n    <svg class=\"axela-map-svg\" viewBox=\"0 0 1000 500\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <filter id=\"ax-node-glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\">\n          <feGaussianBlur stdDeviation=\"2.5\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <filter id=\"ax-route-glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n          <feGaussianBlur stdDeviation=\"1.8\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <radialGradient id=\"ax-ocean-grad\" cx=\"50%\" cy=\"50%\" r=\"70%\">\n          <stop offset=\"0%\" stop-color=\"#0e2235\" />\n          <stop offset=\"100%\" stop-color=\"#070D16\" />\n        </radialGradient>\n        <pattern id=\"ax-lat-lon-grid\" width=\"55.5\" height=\"55.5\" patternUnits=\"userSpaceOnUse\">\n          <path d=\"M 55.5 0 L 0 0 0 55.5\" fill=\"none\" stroke=\"rgba(34,168,168,0.06)\" stroke-width=\"0.5\" />\n        </pattern>\n      </defs>\n\n      <!-- Ocean Background & Lat-Lon Grid -->\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-ocean-grad)\" />\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-lat-lon-grid)\" />\n\n      <!-- World Landmasses (Stylized Vector Continents) -->\n      <!-- North America -->\n      <path d=\"M 78,90 Q 105,72 148,78 Q 170,82 185,92 Q 205,80 235,80 Q 258,80 268,90 Q 282,102 278,118 Q 274,132 262,143 Q 278,142 285,152 Q 290,162 282,172 Q 272,182 258,185 Q 248,192 240,202 Q 230,212 222,208 Q 210,215 200,225 Q 190,238 178,246 Q 164,252 158,242 Q 148,230 150,210 Q 152,192 140,178 Q 122,162 105,148 Q 85,132 78,115 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Greenland -->\n      <path d=\"M 300,60 Q 330,50 355,58 Q 370,65 365,80 Q 355,92 335,96 Q 310,95 298,83 Q 292,74 300,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <!-- South America -->\n      <path d=\"M 232,255 Q 255,248 285,252 Q 312,258 330,278 Q 345,300 352,330 Q 360,365 352,398 Q 340,428 318,440 Q 295,448 272,440 Q 250,428 240,400 Q 228,368 232,335 Q 236,305 228,278 Q 226,265 232,255 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Europe -->\n      <path d=\"M 435,92 Q 458,82 482,84 Q 502,86 518,94 Q 532,86 548,90 Q 558,96 553,108 Q 545,118 532,122 Q 518,128 508,138 Q 495,142 478,143 Q 460,142 448,134 Q 435,125 432,112 Q 430,102 435,92 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Scandinavia / UK -->\n      <path d=\"M 482,60 Q 495,52 508,56 Q 518,62 514,74 Q 508,84 496,88 Q 485,87 480,78 Q 476,68 482,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <path d=\"M 442,100 Q 450,95 458,100 Q 462,108 456,114 Q 448,116 442,110 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Africa -->\n      <path d=\"M 455,152 Q 482,144 515,150 Q 545,158 562,175 Q 582,195 585,220 Q 592,252 580,292 Q 565,332 548,362 Q 528,390 505,395 Q 480,393 460,368 Q 442,340 440,305 Q 438,268 445,238 Q 452,208 450,182 Q 448,164 455,152 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Middle East -->\n      <path d=\"M 568,178 Q 592,172 620,180 Q 648,192 658,215 Q 650,230 635,232 Q 615,228 595,222 Q 578,215 568,200 Q 562,190 568,178 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- South Asia / India / Bay of Bengal -->\n      <path d=\"M 665,162 Q 690,155 708,162 Q 722,170 725,188 Q 720,210 708,228 Q 695,245 680,248 Q 668,242 660,228 Q 652,210 654,190 Q 656,172 665,162 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Northern Asia / Russia / China -->\n      <path d=\"M 560,98 Q 635,85 720,88 Q 800,90 870,100 Q 920,110 940,128 Q 918,138 880,140 Q 830,135 780,128 Q 730,122 680,118 Q 635,115 590,120 Q 568,122 560,112 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.75\" />\n      <!-- East & Southeast Asia -->\n      <path d=\"M 745,128 Q 800,120 848,132 Q 880,145 895,168 Q 900,188 892,202 Q 875,215 852,220 Q 825,222 802,218 Q 778,212 760,202 Q 742,190 738,172 Q 735,152 745,128 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Southeast Asia Islands -->\n      <path d=\"M 775,225 Q 785,235 782,252 Q 778,265 768,268 Q 758,262 755,248 Q 753,235 760,228 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.75\" />\n      <path d=\"M 870,118 Q 880,112 890,116 Q 896,122 892,130 Q 886,136 876,132 Q 868,126 870,118 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Australia -->\n      <path d=\"M 800,328 Q 835,315 868,322 Q 895,335 900,358 Q 898,385 878,398 Q 852,405 825,398 Q 800,385 792,360 Q 787,338 800,328 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.8\" />\n\n      <!-- Strategic Maritime Chokepoint Labels -->\n      <g fill=\"rgba(244,240,235,0.22)\" font-size=\"7.5\" font-family=\"'Barlow Condensed', sans-serif\" letter-spacing=\"1.5\" text-anchor=\"middle\">\n        <text x=\"564\" y=\"218\">SUEZ</text>\n        <text x=\"644\" y=\"248\">HORMUZ</text>\n        <text x=\"768\" y=\"296\">MALACCA</text>\n        <text x=\"455\" y=\"168\">GIBRALTAR</text>\n        <text x=\"268\" y=\"220\">PANAMA</text>\n        <text x=\"725\" y=\"245\">BAY OF BENGAL</text>\n      </g>\n\n      <!-- Dynamic Route Corridors Layer -->\n      <g id=\"axela-routes-layer\"></g>\n\n      <!-- Interactive Global Hub Nodes Layer -->\n      <g id=\"axela-nodes-layer\"></g>\n    </svg>\n\n    <!-- Legend -->\n    <div class=\"axela-map-legend\">\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #E5A93C;\"></span> Crude &amp; Sourcing</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #1ABC9C;\"></span> Refined &amp; Distribution</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #38BDF8;\"></span> LNG &amp; Gas</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #1ABC9C;\"></span> Bulk Commodities</div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function() {\n  const HUB_DATA = {\n    chattogram: {\n      id: \"chattogram\", cx: 728, cy: 222, color: \"#1ABC9C\",\n      type: \"Primary South Asian Gateway \u00b7 Bangladesh\",\n      name: \"Chattogram & Matarbari Deep Sea Port\",\n      desc: \"Axela Global's commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.\"\n    },\n    fujairah: {\n      id: \"fujairah\", cx: 640, cy: 230, color: \"#E5A93C\",\n      type: \"Crude Export & Bunkering Hub \u00b7 Middle East\",\n      name: \"Ras Tanura & Fujairah Terminal\",\n      desc: \"Core Arabian Gulf procurement and offshore blending terminal handling heavy sour, Arab Light, and marine fuel bunkering directly feeding Asian and European demand.\"\n    },\n    rotterdam: {\n      id: \"rotterdam\", cx: 477, cy: 140, color: \"#1ABC9C\",\n      type: \"European Refining & Distribution \u00b7 Netherlands\",\n      name: \"Rotterdam ARA Hub\",\n      desc: \"Europe's largest refining and inland waterway distribution node. Central discharge point for Atlantic Basin arbitrage cargoes, ultra-low sulfur diesel, and chemical feedstocks.\"\n    },\n    us_gulf: {\n      id: \"us_gulf\", cx: 220, cy: 205, color: \"#1ABC9C\",\n      type: \"North American Liquidity Desk \u00b7 Houston / New Orleans\",\n      name: \"US Gulf Coast Energy Corridor\",\n      desc: \"Primary origination hub for WTI crude, LNG export terminals (Sabine Pass / Corpus Christi), and strategic refined products bound for transatlantic corridors.\"\n    },\n    singapore: {\n      id: \"singapore\", cx: 788, cy: 278, color: \"#E5A93C\",\n      type: \"Asian Pricing & Bunkering Node \u00b7 Straits\",\n      name: \"Singapore Straits Trading Hub\",\n      desc: \"The nerve center of Asian physical cargo arbitrage, fuel oil price discovery, and regional transshipment across Southeast and East Asia.\"\n    },\n    west_africa: {\n      id: \"west_africa\", cx: 472, cy: 302, color: \"#1ABC9C\",\n      type: \"Atlantic Sweet Crude Basin \u00b7 Nigeria / Angola\",\n      name: \"West Africa Marine Terminals\",\n      desc: \"Major offshore lifting origin for high-yield sweet grades (Bonny Light, Qua Iboe) feeding European refinery grids and Asian spot tenders.\"\n    },\n    suez: {\n      id: \"suez\", cx: 565, cy: 203, color: \"#E5A93C\",\n      type: \"Strategic Chokepoint & Regional Desk \u00b7 Egypt\",\n      name: \"Suez Maritime Control & Cairo Desk\",\n      desc: \"Critical transit coordination desk ensuring scheduled passage, canal bunkering, and real-time risk hedging through the Suez-Red Sea maritime corridor.\"\n    },\n    qatar: {\n      id: \"qatar\", cx: 635, cy: 222, color: \"#38BDF8\",\n      type: \"LNG Export Superhub \u00b7 Arabian Gulf\",\n      name: \"Ras Laffan LNG Terminal\",\n      desc: \"Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe.\"\n    },\n    tokyo: {\n      id: \"tokyo\", cx: 880, cy: 155, color: \"#1ABC9C\",\n      type: \"Far East Energy & Industrial Terminal \u00b7 Japan\",\n      name: \"Tokyo Bay Commercial Gateway\",\n      desc: \"Key East Asian destination terminal receiving clean distillates, LNG imports, and specialty chemical shipments.\"\n    },\n    melbourne: {\n      id: \"melbourne\", cx: 855, cy: 370, color: \"#E5A93C\",\n      type: \"Asia-Pacific Minerals & Bulk Hub \u00b7 Australia\",\n      name: \"Port Hedland & Pacific Sourcing Desk\",\n      desc: \"Strategic origination point for bulk industrial minerals, iron ore, clinker, and agricultural grain flows supporting Asian infrastructure.\"\n    }\n  };\n\n  const ROUTES_BY_TAB = {\n    crude: [\n      { id: \"c1\", d: \"M 640 230 Q 720 310 788 278\", color: \"#E5A93C\", dur: 14 },\n      { id: \"c2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#E5A93C\", dur: 12 },\n      { id: \"c3\", d: \"M 640 230 Q 600 280 565 203 Q 525 170 477 140\", color: \"#1ABC9C\", dur: 18 },\n      { id: \"c4\", d: \"M 472 302 Q 380 255 220 205\", color: \"#E5A93C\", dur: 16 },\n      { id: \"c5\", d: \"M 220 205 Q 348 148 477 140\", color: \"#1ABC9C\", dur: 15 },\n      { id: \"c6\", d: \"M 640 230 Q 565 290 472 302\", color: \"#E5A93C\", dur: 14 }\n    ],\n    lng: [\n      { id: \"l1\", d: \"M 635 222 Q 560 270 467 138\", color: \"#38BDF8\", dur: 17 },\n      { id: \"l2\", d: \"M 220 205 Q 342 162 477 140\", color: \"#38BDF8\", dur: 14 },\n      { id: \"l3\", d: \"M 635 222 Q 680 230 728 222\", color: \"#38BDF8\", dur: 10 },\n      { id: \"l4\", d: \"M 635 222 Q 720 255 788 278\", color: \"#38BDF8\", dur: 13 },\n      { id: \"l5\", d: \"M 788 278 Q 840 210 880 155\", color: \"#38BDF8\", dur: 12 }\n    ],\n    bulk: [\n      { id: \"b1\", d: \"M 855 370 Q 800 300 728 222\", color: \"#E5A93C\", dur: 15 },\n      { id: \"b2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#1ABC9C\", dur: 12 },\n      { id: \"b3\", d: \"M 477 140 Q 560 220 728 222\", color: \"#E5A93C\", dur: 16 },\n      { id: \"b4\", d: \"M 855 370 Q 820 310 788 278\", color: \"#E5A93C\", dur: 13 }\n    ],\n    offices: [\n      { id: \"o1\", d: \"M 728 222 Q 685 226 640 230\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o2\", d: \"M 640 230 Q 560 180 477 140\", color: \"#1ABC9C\", dur: 12 },\n      { id: \"o3\", d: \"M 728 222 Q 755 250 788 278\", color: \"#1ABC9C\", dur: 10 },\n      { id: \"o4\", d: \"M 477 140 Q 348 160 220 205\", color: \"#1ABC9C\", dur: 14 }\n    ]\n  };\n\n  const HUBS_BY_TAB = {\n    crude: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\", \"west_africa\", \"suez\"],\n    lng: [\"chattogram\", \"qatar\", \"rotterdam\", \"us_gulf\", \"singapore\", \"tokyo\"],\n    bulk: [\"chattogram\", \"fujairah\", \"rotterdam\", \"melbourne\", \"singapore\"],\n    offices: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\"]\n  };\n\n  let currentTab = 'crude';\n\n  function renderAxelaMap() {\n    const routesLayer = document.getElementById('axela-routes-layer');\n    const nodesLayer = document.getElementById('axela-nodes-layer');\n    if (!routesLayer || !nodesLayer) return;\n\n    routesLayer.innerHTML = '';\n    nodesLayer.innerHTML = '';\n\n    const routes = ROUTES_BY_TAB[currentTab] || [];\n    const hubIds = HUBS_BY_TAB[currentTab] || [];\n\n    // Draw Routes\n    routes.forEach(r => {\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"filter\", \"url(#ax-route-glow)\");\n\n      // Background track\n      const pathBg = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathBg.setAttribute(\"d\", r.d);\n      pathBg.setAttribute(\"fill\", \"none\");\n      pathBg.setAttribute(\"stroke\", r.color);\n      pathBg.setAttribute(\"stroke-width\", \"1\");\n      pathBg.setAttribute(\"opacity\", \"0.2\");\n\n      // Glow line\n      const pathMain = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathMain.setAttribute(\"d\", r.d);\n      pathMain.setAttribute(\"fill\", \"none\");\n      pathMain.setAttribute(\"stroke\", r.color);\n      pathMain.setAttribute(\"stroke-width\", \"2\");\n      pathMain.setAttribute(\"stroke-linecap\", \"round\");\n      pathMain.setAttribute(\"opacity\", \"0.85\");\n\n      // Dashed overlay\n      const pathDash = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathDash.setAttribute(\"d\", r.d);\n      pathDash.setAttribute(\"fill\", \"none\");\n      pathDash.setAttribute(\"stroke\", r.color);\n      pathDash.setAttribute(\"stroke-width\", \"1\");\n      pathDash.setAttribute(\"stroke-dasharray\", \"3 9\");\n      pathDash.setAttribute(\"opacity\", \"0.35\");\n\n      // Animated vessel dot\n      const vessel = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      vessel.setAttribute(\"r\", \"3.5\");\n      vessel.setAttribute(\"fill\", r.color);\n      vessel.setAttribute(\"style\", \"filter: drop-shadow(0 0 4px \" + r.color + \"); animation: vessel-blink 2s ease-in-out infinite;\");\n\n      const anim = document.createElementNS(\"http://www.w3.org/2000/svg\", \"animateMotion\");\n      anim.setAttribute(\"dur\", r.dur + \"s\");\n      anim.setAttribute(\"repeatCount\", \"indefinite\");\n      anim.setAttribute(\"path\", r.d);\n      vessel.appendChild(anim);\n\n      g.appendChild(pathBg);\n      g.appendChild(pathMain);\n      g.appendChild(pathDash);\n      g.appendChild(vessel);\n      routesLayer.appendChild(g);\n    });\n\n    // Draw Nodes\n    hubIds.forEach(id => {\n      const hub = HUB_DATA[id];\n      if (!hub) return;\n\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"class\", \"interactive-node\");\n      g.setAttribute(\"data-hub\", id);\n\n      // Pulse Ring 1\n      const p1 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p1.setAttribute(\"cx\", hub.cx);\n      p1.setAttribute(\"cy\", hub.cy);\n      p1.setAttribute(\"r\", \"10\");\n      p1.setAttribute(\"fill\", \"none\");\n      p1.setAttribute(\"stroke\", hub.color);\n      p1.setAttribute(\"stroke-width\", \"0.9\");\n      p1.setAttribute(\"opacity\", \"0\");\n      p1.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Pulse Ring 2\n      const p2 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p2.setAttribute(\"cx\", hub.cx);\n      p2.setAttribute(\"cy\", hub.cy);\n      p2.setAttribute(\"r\", \"10\");\n      p2.setAttribute(\"fill\", \"none\");\n      p2.setAttribute(\"stroke\", hub.color);\n      p2.setAttribute(\"stroke-width\", \"0.9\");\n      p2.setAttribute(\"opacity\", \"0\");\n      p2.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out 0.8s infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Outer halo\n      const halo = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      halo.setAttribute(\"cx\", hub.cx);\n      halo.setAttribute(\"cy\", hub.cy);\n      halo.setAttribute(\"r\", \"6\");\n      halo.setAttribute(\"fill\", hub.color);\n      halo.setAttribute(\"opacity\", \"0.2\");\n\n      // Center glowing circle\n      const center = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      center.setAttribute(\"cx\", hub.cx);\n      center.setAttribute(\"cy\", hub.cy);\n      center.setAttribute(\"r\", \"3.8\");\n      center.setAttribute(\"fill\", hub.color);\n      center.setAttribute(\"filter\", \"url(#ax-node-glow)\");\n\n      // Micro core\n      const core = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      core.setAttribute(\"cx\", hub.cx);\n      core.setAttribute(\"cy\", hub.cy);\n      core.setAttribute(\"r\", \"1.6\");\n      core.setAttribute(\"fill\", \"#FFFFFF\");\n\n      // Transparent click hit target\n      const hit = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      hit.setAttribute(\"cx\", hub.cx);\n      hit.setAttribute(\"cy\", hub.cy);\n      hit.setAttribute(\"r\", \"16\");\n      hit.setAttribute(\"fill\", \"transparent\");\n\n      g.appendChild(p1);\n      g.appendChild(p2);\n      g.appendChild(halo);\n      g.appendChild(center);\n      g.appendChild(core);\n      g.appendChild(hit);\n\n      nodesLayer.appendChild(g);\n    });\n  }\n\n  function initMap() {\n    const tabs = document.querySelectorAll('.axela-route-tab-btn');\n    tabs.forEach(btn => {\n      btn.addEventListener('click', function() {\n        tabs.forEach(b => b.classList.remove('active'));\n        btn.classList.add('active');\n        currentTab = btn.getAttribute('data-tab');\n        renderAxelaMap();\n      });\n    });\n    renderAxelaMap();\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', initMap);\n  } else {\n    initMap();\n  }\n})();\n</script>\n"
+              "html": "\n<div class=\"axela-routes-interactive-wrapper\">\n  <style>\n    @keyframes pulse-ring {\n      0%   { r: 4;  opacity: 0.8; }\n      100% { r: 24; opacity: 0; }\n    }\n    @keyframes vessel-blink {\n      0%, 100% { opacity: 1; }\n      50%      { opacity: 0.35; }\n    }\n    .axela-routes-interactive-wrapper {\n      position: relative;\n      width: 100%;\n      margin: 0 auto;\n    }\n    .axela-routes-bar {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n      flex-wrap: wrap;\n      gap: 16px;\n    }\n    .axela-routes-tabs {\n      display: flex;\n      gap: 8px;\n      flex-wrap: wrap;\n    }\n    .axela-route-tab-btn {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      padding: 8px 18px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 13px;\n      font-weight: 600;\n      letter-spacing: 0.10em;\n      text-transform: uppercase;\n      background: rgba(255, 255, 255, 0.03);\n      border: 1px solid rgba(255, 255, 255, 0.12);\n      color: #94A3B8;\n      cursor: pointer;\n      border-radius: 2px;\n      transition: all 0.25s ease;\n    }\n    .axela-route-tab-btn:hover {\n      border-color: rgba(255, 255, 255, 0.3);\n      color: #FFFFFF;\n      background: rgba(255, 255, 255, 0.06);\n    }\n    .axela-route-tab-btn.active {\n      background: rgba(218, 66, 60, 0.22);\n      border-color: #DA423C;\n      color: #FFFFFF;\n      box-shadow: 0 2px 14px rgba(218, 66, 60, 0.35);\n    }\n    .axela-map-canvas-box {\n      position: relative;\n      width: 100%;\n      aspect-ratio: 2 / 1;\n      background: #09131E;\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      border-radius: 4px;\n      overflow: hidden;\n      box-shadow: 0 20px 50px rgba(0,0,0,0.5);\n    }\n    .axela-map-svg {\n      width: 100%;\n      height: 100%;\n      display: block;\n    }\n    .axela-map-badge {\n      position: absolute;\n      top: 14px;\n      left: 14px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(212, 175, 55, 0.35);\n      padding: 6px 12px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 10.5px;\n      letter-spacing: 0.16em;\n      text-transform: uppercase;\n      color: #D4AF37;\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-badge-dot {\n      width: 6px;\n      height: 6px;\n      border-radius: 50%;\n      background: #DA423C;\n      box-shadow: 0 0 8px #DA423C;\n    }\n    .axela-map-legend {\n      position: absolute;\n      bottom: 14px;\n      left: 14px;\n      display: flex;\n      flex-wrap: wrap;\n      gap: 12px;\n      background: rgba(9, 19, 30, 0.88);\n      border: 1px solid rgba(255, 255, 255, 0.08);\n      padding: 8px 14px;\n      backdrop-filter: blur(8px);\n      border-radius: 2px;\n      z-index: 5;\n    }\n    .axela-legend-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-family: 'Barlow Condensed', sans-serif;\n      font-size: 11px;\n      letter-spacing: 0.12em;\n      text-transform: uppercase;\n      color: #94A3B8;\n    }\n    .axela-legend-dot {\n      width: 7px;\n      height: 7px;\n      border-radius: 50%;\n      flex-shrink: 0;\n    }\n    .interactive-node {\n      cursor: pointer;\n      pointer-events: all;\n    }\n    @media (max-width: 768px) {\n      .axela-map-canvas-box {\n        aspect-ratio: 16 / 10;\n      }\n      .axela-map-legend { display: none; }\n    }\n  </style>\n\n  <div class=\"axela-routes-bar\">\n    <div class=\"axela-routes-tabs\" id=\"axela-routes-tabs\">\n      <button class=\"axela-route-tab-btn active\" data-tab=\"crude\">\n        <i class=\"fas fa-oil-can\" style=\"font-size: 12px;\"></i> Crude &amp; Petroleum Corridors\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"lng\">\n        <i class=\"fas fa-fire-flame-simple\" style=\"font-size: 12px;\"></i> LNG &amp; Gas\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"bulk\">\n        <i class=\"fas fa-wheat-awn\" style=\"font-size: 12px;\"></i> Bulk Fertilizers &amp; Agri\n      </button>\n      <button class=\"axela-route-tab-btn\" data-tab=\"offices\">\n        <i class=\"fas fa-building\" style=\"font-size: 12px;\"></i> Global Trade Desks\n      </button>\n    </div>\n  </div>\n\n  <div class=\"axela-map-canvas-box\" id=\"axela-map-box\">\n    <div class=\"axela-map-badge\">\n      <span class=\"axela-badge-dot\"></span>\n      Live Vessel &amp; Trade Routing Simulation\n    </div>\n\n\n\n    <svg class=\"axela-map-svg\" viewBox=\"0 0 1000 500\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <filter id=\"ax-node-glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\">\n          <feGaussianBlur stdDeviation=\"2.5\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <filter id=\"ax-route-glow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n          <feGaussianBlur stdDeviation=\"1.8\" result=\"blur\" />\n          <feMerge>\n            <feMergeNode in=\"blur\" />\n            <feMergeNode in=\"SourceGraphic\" />\n          </feMerge>\n        </filter>\n        <radialGradient id=\"ax-ocean-grad\" cx=\"50%\" cy=\"50%\" r=\"70%\">\n          <stop offset=\"0%\" stop-color=\"#0e2235\" />\n          <stop offset=\"100%\" stop-color=\"#070D16\" />\n        </radialGradient>\n        <pattern id=\"ax-lat-lon-grid\" width=\"55.5\" height=\"55.5\" patternUnits=\"userSpaceOnUse\">\n          <path d=\"M 55.5 0 L 0 0 0 55.5\" fill=\"none\" stroke=\"rgba(34,168,168,0.06)\" stroke-width=\"0.5\" />\n        </pattern>\n      </defs>\n\n      <!-- Ocean Background & Lat-Lon Grid -->\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-ocean-grad)\" />\n      <rect width=\"1000\" height=\"500\" fill=\"url(#ax-lat-lon-grid)\" />\n\n      <!-- World Landmasses (Stylized Vector Continents) -->\n      <!-- North America -->\n      <path d=\"M 78,90 Q 105,72 148,78 Q 170,82 185,92 Q 205,80 235,80 Q 258,80 268,90 Q 282,102 278,118 Q 274,132 262,143 Q 278,142 285,152 Q 290,162 282,172 Q 272,182 258,185 Q 248,192 240,202 Q 230,212 222,208 Q 210,215 200,225 Q 190,238 178,246 Q 164,252 158,242 Q 148,230 150,210 Q 152,192 140,178 Q 122,162 105,148 Q 85,132 78,115 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Greenland -->\n      <path d=\"M 300,60 Q 330,50 355,58 Q 370,65 365,80 Q 355,92 335,96 Q 310,95 298,83 Q 292,74 300,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <!-- South America -->\n      <path d=\"M 232,255 Q 255,248 285,252 Q 312,258 330,278 Q 345,300 352,330 Q 360,365 352,398 Q 340,428 318,440 Q 295,448 272,440 Q 250,428 240,400 Q 228,368 232,335 Q 236,305 228,278 Q 226,265 232,255 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Europe -->\n      <path d=\"M 435,92 Q 458,82 482,84 Q 502,86 518,94 Q 532,86 548,90 Q 558,96 553,108 Q 545,118 532,122 Q 518,128 508,138 Q 495,142 478,143 Q 460,142 448,134 Q 435,125 432,112 Q 430,102 435,92 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Scandinavia / UK -->\n      <path d=\"M 482,60 Q 495,52 508,56 Q 518,62 514,74 Q 508,84 496,88 Q 485,87 480,78 Q 476,68 482,60 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.7\" />\n      <path d=\"M 442,100 Q 450,95 458,100 Q 462,108 456,114 Q 448,116 442,110 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Africa -->\n      <path d=\"M 455,152 Q 482,144 515,150 Q 545,158 562,175 Q 582,195 585,220 Q 592,252 580,292 Q 565,332 548,362 Q 528,390 505,395 Q 480,393 460,368 Q 442,340 440,305 Q 438,268 445,238 Q 452,208 450,182 Q 448,164 455,152 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.8\" opacity=\"0.9\" />\n      <!-- Middle East -->\n      <path d=\"M 568,178 Q 592,172 620,180 Q 648,192 658,215 Q 650,230 635,232 Q 615,228 595,222 Q 578,215 568,200 Q 562,190 568,178 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- South Asia / India / Bay of Bengal -->\n      <path d=\"M 665,162 Q 690,155 708,162 Q 722,170 725,188 Q 720,210 708,228 Q 695,245 680,248 Q 668,242 660,228 Q 652,210 654,190 Q 656,172 665,162 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Northern Asia / Russia / China -->\n      <path d=\"M 560,98 Q 635,85 720,88 Q 800,90 870,100 Q 920,110 940,128 Q 918,138 880,140 Q 830,135 780,128 Q 730,122 680,118 Q 635,115 590,120 Q 568,122 560,112 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.75\" />\n      <!-- East & Southeast Asia -->\n      <path d=\"M 745,128 Q 800,120 848,132 Q 880,145 895,168 Q 900,188 892,202 Q 875,215 852,220 Q 825,222 802,218 Q 778,212 760,202 Q 742,190 738,172 Q 735,152 745,128 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.85\" />\n      <!-- Southeast Asia Islands -->\n      <path d=\"M 775,225 Q 785,235 782,252 Q 778,265 768,268 Q 758,262 755,248 Q 753,235 760,228 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.6\" opacity=\"0.75\" />\n      <path d=\"M 870,118 Q 880,112 890,116 Q 896,122 892,130 Q 886,136 876,132 Q 868,126 870,118 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.5\" opacity=\"0.7\" />\n      <!-- Australia -->\n      <path d=\"M 800,328 Q 835,315 868,322 Q 895,335 900,358 Q 898,385 878,398 Q 852,405 825,398 Q 800,385 792,360 Q 787,338 800,328 Z\" fill=\"#0d2235\" stroke=\"#1a5565\" stroke-width=\"0.7\" opacity=\"0.8\" />\n\n      <!-- Strategic Maritime Chokepoint Labels -->\n      <g fill=\"rgba(244,240,235,0.22)\" font-size=\"7.5\" font-family=\"'Barlow Condensed', sans-serif\" letter-spacing=\"1.5\" text-anchor=\"middle\">\n        <text x=\"564\" y=\"218\">SUEZ</text>\n        <text x=\"644\" y=\"248\">HORMUZ</text>\n        <text x=\"768\" y=\"296\">MALACCA</text>\n        <text x=\"455\" y=\"168\">GIBRALTAR</text>\n        <text x=\"268\" y=\"220\">PANAMA</text>\n        <text x=\"725\" y=\"245\">BAY OF BENGAL</text>\n      </g>\n\n      <!-- Dynamic Route Corridors Layer -->\n      <g id=\"axela-routes-layer\"></g>\n\n      <!-- Interactive Global Hub Nodes Layer -->\n      <g id=\"axela-nodes-layer\"></g>\n    </svg>\n\n    <!-- Legend -->\n    <div class=\"axela-map-legend\">\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #D4AF37;\"></span> Crude &amp; Sourcing</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #DA423C;\"></span> Refined &amp; Distribution</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #E5C07B;\"></span> LNG &amp; Gas</div>\n      <div class=\"axela-legend-item\"><span class=\"axela-legend-dot\" style=\"background: #DA423C;\"></span> Bulk Commodities</div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function() {\n  const HUB_DATA = {\n    chattogram: {\n      id: \"chattogram\", cx: 728, cy: 222, color: \"#DA423C\",\n      type: \"Primary South Asian Gateway \u00b7 Bangladesh\",\n      name: \"Chattogram & Matarbari Deep Sea Port\",\n      desc: \"Axela Global's commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks.\"\n    },\n    fujairah: {\n      id: \"fujairah\", cx: 640, cy: 230, color: \"#D4AF37\",\n      type: \"Crude Export & Bunkering Hub \u00b7 Middle East\",\n      name: \"Ras Tanura & Fujairah Terminal\",\n      desc: \"Core Arabian Gulf procurement and offshore blending terminal handling heavy sour, Arab Light, and marine fuel bunkering directly feeding Asian and European demand.\"\n    },\n    rotterdam: {\n      id: \"rotterdam\", cx: 477, cy: 140, color: \"#DA423C\",\n      type: \"European Refining & Distribution \u00b7 Netherlands\",\n      name: \"Rotterdam ARA Hub\",\n      desc: \"Europe's largest refining and inland waterway distribution node. Central discharge point for Atlantic Basin arbitrage cargoes, ultra-low sulfur diesel, and chemical feedstocks.\"\n    },\n    us_gulf: {\n      id: \"us_gulf\", cx: 220, cy: 205, color: \"#D4AF37\",\n      type: \"North American Liquidity Desk \u00b7 Houston / New Orleans\",\n      name: \"US Gulf Coast Energy Corridor\",\n      desc: \"Primary origination hub for WTI crude, LNG export terminals (Sabine Pass / Corpus Christi), and strategic refined products bound for transatlantic corridors.\"\n    },\n    singapore: {\n      id: \"singapore\", cx: 788, cy: 278, color: \"#DA423C\",\n      type: \"Asian Pricing & Bunkering Node \u00b7 Straits\",\n      name: \"Singapore Straits Trading Hub\",\n      desc: \"The nerve center of Asian physical cargo arbitrage, fuel oil price discovery, and regional transshipment across Southeast and East Asia.\"\n    },\n    west_africa: {\n      id: \"west_africa\", cx: 472, cy: 302, color: \"#D4AF37\",\n      type: \"Atlantic Sweet Crude Basin \u00b7 Nigeria / Angola\",\n      name: \"West Africa Marine Terminals\",\n      desc: \"Major offshore lifting origin for high-yield sweet grades (Bonny Light, Qua Iboe) feeding European refinery grids and Asian spot tenders.\"\n    },\n    suez: {\n      id: \"suez\", cx: 565, cy: 203, color: \"#DA423C\",\n      type: \"Strategic Chokepoint & Regional Desk \u00b7 Egypt\",\n      name: \"Suez Maritime Control & Cairo Desk\",\n      desc: \"Critical transit coordination desk ensuring scheduled passage, canal bunkering, and real-time risk hedging through the Suez-Red Sea maritime corridor.\"\n    },\n    qatar: {\n      id: \"qatar\", cx: 635, cy: 222, color: \"#E5C07B\",\n      type: \"LNG Export Superhub \u00b7 Arabian Gulf\",\n      name: \"Ras Laffan LNG Terminal\",\n      desc: \"Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe.\"\n    },\n    tokyo: {\n      id: \"tokyo\", cx: 880, cy: 155, color: \"#DA423C\",\n      type: \"Far East Energy & Industrial Terminal \u00b7 Japan\",\n      name: \"Tokyo Bay Commercial Gateway\",\n      desc: \"Key East Asian destination terminal receiving clean distillates, LNG imports, and specialty chemical shipments.\"\n    },\n    melbourne: {\n      id: \"melbourne\", cx: 855, cy: 370, color: \"#D4AF37\",\n      type: \"Asia-Pacific Minerals & Bulk Hub \u00b7 Australia\",\n      name: \"Port Hedland & Pacific Sourcing Desk\",\n      desc: \"Strategic origination point for bulk industrial minerals, iron ore, clinker, and agricultural grain flows supporting Asian infrastructure.\"\n    }\n  };\n\n  const ROUTES_BY_TAB = {\n    crude: [\n      { id: \"c1\", d: \"M 640 230 Q 720 310 788 278\", color: \"#D4AF37\", dur: 14 },\n      { id: \"c2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#D4AF37\", dur: 12 },\n      { id: \"c3\", d: \"M 640 230 Q 600 280 565 203 Q 525 170 477 140\", color: \"#DA423C\", dur: 18 },\n      { id: \"c4\", d: \"M 472 302 Q 380 255 220 205\", color: \"#D4AF37\", dur: 16 },\n      { id: \"c5\", d: \"M 220 205 Q 348 148 477 140\", color: \"#DA423C\", dur: 15 },\n      { id: \"c6\", d: \"M 640 230 Q 565 290 472 302\", color: \"#D4AF37\", dur: 14 }\n    ],\n    lng: [\n      { id: \"l1\", d: \"M 635 222 Q 560 270 467 138\", color: \"#E5C07B\", dur: 17 },\n      { id: \"l2\", d: \"M 220 205 Q 342 162 477 140\", color: \"#E5C07B\", dur: 14 },\n      { id: \"l3\", d: \"M 635 222 Q 680 230 728 222\", color: \"#E5C07B\", dur: 10 },\n      { id: \"l4\", d: \"M 635 222 Q 720 255 788 278\", color: \"#E5C07B\", dur: 13 },\n      { id: \"l5\", d: \"M 788 278 Q 840 210 880 155\", color: \"#E5C07B\", dur: 12 }\n    ],\n    bulk: [\n      { id: \"b1\", d: \"M 855 370 Q 800 300 728 222\", color: \"#D4AF37\", dur: 15 },\n      { id: \"b2\", d: \"M 640 230 Q 685 240 728 222\", color: \"#DA423C\", dur: 12 },\n      { id: \"b3\", d: \"M 477 140 Q 560 220 728 222\", color: \"#D4AF37\", dur: 16 },\n      { id: \"b4\", d: \"M 855 370 Q 820 310 788 278\", color: \"#D4AF37\", dur: 13 }\n    ],\n    offices: [\n      { id: \"o1\", d: \"M 728 222 Q 685 226 640 230\", color: \"#DA423C\", dur: 10 },\n      { id: \"o2\", d: \"M 640 230 Q 560 180 477 140\", color: \"#DA423C\", dur: 12 },\n      { id: \"o3\", d: \"M 728 222 Q 755 250 788 278\", color: \"#DA423C\", dur: 10 },\n      { id: \"o4\", d: \"M 477 140 Q 348 160 220 205\", color: \"#DA423C\", dur: 14 }\n    ]\n  };\n\n  const HUBS_BY_TAB = {\n    crude: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\", \"west_africa\", \"suez\"],\n    lng: [\"chattogram\", \"qatar\", \"rotterdam\", \"us_gulf\", \"singapore\", \"tokyo\"],\n    bulk: [\"chattogram\", \"fujairah\", \"rotterdam\", \"melbourne\", \"singapore\"],\n    offices: [\"chattogram\", \"fujairah\", \"rotterdam\", \"us_gulf\", \"singapore\"]\n  };\n\n  let currentTab = 'crude';\n\n  function renderAxelaMap() {\n    const routesLayer = document.getElementById('axela-routes-layer');\n    const nodesLayer = document.getElementById('axela-nodes-layer');\n    if (!routesLayer || !nodesLayer) return;\n\n    routesLayer.innerHTML = '';\n    nodesLayer.innerHTML = '';\n\n    const routes = ROUTES_BY_TAB[currentTab] || [];\n    const hubIds = HUBS_BY_TAB[currentTab] || [];\n\n    // Draw Routes\n    routes.forEach(r => {\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"filter\", \"url(#ax-route-glow)\");\n\n      // Background track\n      const pathBg = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathBg.setAttribute(\"d\", r.d);\n      pathBg.setAttribute(\"fill\", \"none\");\n      pathBg.setAttribute(\"stroke\", r.color);\n      pathBg.setAttribute(\"stroke-width\", \"1\");\n      pathBg.setAttribute(\"opacity\", \"0.2\");\n\n      // Glow line\n      const pathMain = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathMain.setAttribute(\"d\", r.d);\n      pathMain.setAttribute(\"fill\", \"none\");\n      pathMain.setAttribute(\"stroke\", r.color);\n      pathMain.setAttribute(\"stroke-width\", \"2\");\n      pathMain.setAttribute(\"stroke-linecap\", \"round\");\n      pathMain.setAttribute(\"opacity\", \"0.85\");\n\n      // Dashed overlay\n      const pathDash = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n      pathDash.setAttribute(\"d\", r.d);\n      pathDash.setAttribute(\"fill\", \"none\");\n      pathDash.setAttribute(\"stroke\", r.color);\n      pathDash.setAttribute(\"stroke-width\", \"1\");\n      pathDash.setAttribute(\"stroke-dasharray\", \"3 9\");\n      pathDash.setAttribute(\"opacity\", \"0.35\");\n\n      // Animated vessel dot\n      const vessel = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      vessel.setAttribute(\"r\", \"3.5\");\n      vessel.setAttribute(\"fill\", r.color);\n      vessel.setAttribute(\"style\", \"filter: drop-shadow(0 0 4px \" + r.color + \"); animation: vessel-blink 2s ease-in-out infinite;\");\n\n      const anim = document.createElementNS(\"http://www.w3.org/2000/svg\", \"animateMotion\");\n      anim.setAttribute(\"dur\", r.dur + \"s\");\n      anim.setAttribute(\"repeatCount\", \"indefinite\");\n      anim.setAttribute(\"path\", r.d);\n      vessel.appendChild(anim);\n\n      g.appendChild(pathBg);\n      g.appendChild(pathMain);\n      g.appendChild(pathDash);\n      g.appendChild(vessel);\n      routesLayer.appendChild(g);\n    });\n\n    // Draw Nodes\n    hubIds.forEach(id => {\n      const hub = HUB_DATA[id];\n      if (!hub) return;\n\n      const g = document.createElementNS(\"http://www.w3.org/2000/svg\", \"g\");\n      g.setAttribute(\"class\", \"interactive-node\");\n      g.setAttribute(\"data-hub\", id);\n\n      // Pulse Ring 1\n      const p1 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p1.setAttribute(\"cx\", hub.cx);\n      p1.setAttribute(\"cy\", hub.cy);\n      p1.setAttribute(\"r\", \"10\");\n      p1.setAttribute(\"fill\", \"none\");\n      p1.setAttribute(\"stroke\", hub.color);\n      p1.setAttribute(\"stroke-width\", \"0.9\");\n      p1.setAttribute(\"opacity\", \"0\");\n      p1.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Pulse Ring 2\n      const p2 = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      p2.setAttribute(\"cx\", hub.cx);\n      p2.setAttribute(\"cy\", hub.cy);\n      p2.setAttribute(\"r\", \"10\");\n      p2.setAttribute(\"fill\", \"none\");\n      p2.setAttribute(\"stroke\", hub.color);\n      p2.setAttribute(\"stroke-width\", \"0.9\");\n      p2.setAttribute(\"opacity\", \"0\");\n      p2.setAttribute(\"style\", \"animation: pulse-ring 2.4s ease-out 0.8s infinite; transform-origin: \" + hub.cx + \"px \" + hub.cy + \"px;\");\n\n      // Outer halo\n      const halo = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      halo.setAttribute(\"cx\", hub.cx);\n      halo.setAttribute(\"cy\", hub.cy);\n      halo.setAttribute(\"r\", \"6\");\n      halo.setAttribute(\"fill\", hub.color);\n      halo.setAttribute(\"opacity\", \"0.2\");\n\n      // Center glowing circle\n      const center = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      center.setAttribute(\"cx\", hub.cx);\n      center.setAttribute(\"cy\", hub.cy);\n      center.setAttribute(\"r\", \"3.8\");\n      center.setAttribute(\"fill\", hub.color);\n      center.setAttribute(\"filter\", \"url(#ax-node-glow)\");\n\n      // Micro core\n      const core = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      core.setAttribute(\"cx\", hub.cx);\n      core.setAttribute(\"cy\", hub.cy);\n      core.setAttribute(\"r\", \"1.6\");\n      core.setAttribute(\"fill\", \"#FFFFFF\");\n\n      // Transparent click hit target\n      const hit = document.createElementNS(\"http://www.w3.org/2000/svg\", \"circle\");\n      hit.setAttribute(\"cx\", hub.cx);\n      hit.setAttribute(\"cy\", hub.cy);\n      hit.setAttribute(\"r\", \"16\");\n      hit.setAttribute(\"fill\", \"transparent\");\n\n      g.appendChild(p1);\n      g.appendChild(p2);\n      g.appendChild(halo);\n      g.appendChild(center);\n      g.appendChild(core);\n      g.appendChild(hit);\n\n      nodesLayer.appendChild(g);\n    });\n  }\n\n  function initMap() {\n    const tabs = document.querySelectorAll('.axela-route-tab-btn');\n    tabs.forEach(btn => {\n      btn.addEventListener('click', function() {\n        tabs.forEach(b => b.classList.remove('active'));\n        btn.classList.add('active');\n        currentTab = btn.getAttribute('data-tab');\n        renderAxelaMap();\n      });\n    });\n    renderAxelaMap();\n  }\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', initMap);\n  } else {\n    initMap();\n  }\n})();\n</script>\n"
             },
             "elements": []
           }
@@ -2132,7 +2132,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_cf7e3808",
+                    "id": "hd_444f3d1f",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2144,7 +2144,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_6581195f",
+                    "id": "txt_b0d39e47",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2153,7 +2153,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_5e85a189",
+                    "id": "hd_e0b201c6",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2165,7 +2165,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_827406b7",
+                    "id": "txt_9d56509c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2193,8 +2193,8 @@
                     "widgetType": "image",
                     "settings": {
                       "image": {
-                        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp",
-                        "id": 86
+                        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/warehouse-logistics-investment.jpg",
+                        "id": 199
                       },
                       "image_size": "full",
                       "caption_source": "none",
@@ -2203,7 +2203,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_f2fa3be7",
+                    "id": "hd_798828c0",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2215,7 +2215,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_1d9df7d6",
+                    "id": "txt_ce05295c",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2328,7 +2328,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_2764f9cb",
+                    "id": "con_746ed3ac",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2340,7 +2340,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_73920353",
+                        "id": "hd_2becb902",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2352,7 +2352,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_0f2384a0",
+                        "id": "ico_1f9994bf",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2368,7 +2368,7 @@
                     ]
                   },
                   {
-                    "id": "hd_7ffb3326",
+                    "id": "hd_0f102e72",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2380,7 +2380,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_eae48098",
+                    "id": "txt_ba6765b0",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2403,7 +2403,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_c58a38cb",
+                    "id": "con_8aabd5af",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2415,7 +2415,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_31b815c5",
+                        "id": "hd_b101b177",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2427,7 +2427,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_e1bca2e9",
+                        "id": "ico_1266a171",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2443,7 +2443,7 @@
                     ]
                   },
                   {
-                    "id": "hd_c95e104e",
+                    "id": "hd_9db819bb",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2455,7 +2455,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_eb7ae0f3",
+                    "id": "txt_f92f48db",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2478,7 +2478,7 @@
                 },
                 "elements": [
                   {
-                    "id": "con_4ebea9b9",
+                    "id": "con_ae1e20f4",
                     "elType": "container",
                     "settings": {
                       "content_width": "full",
@@ -2490,7 +2490,7 @@
                     },
                     "elements": [
                       {
-                        "id": "hd_c215ab1a",
+                        "id": "hd_fb7024bc",
                         "elType": "widget",
                         "widgetType": "heading",
                         "settings": {
@@ -2502,7 +2502,7 @@
                         "elements": []
                       },
                       {
-                        "id": "ico_52f5c5aa",
+                        "id": "ico_48787207",
                         "elType": "widget",
                         "widgetType": "icon",
                         "settings": {
@@ -2518,7 +2518,7 @@
                     ]
                   },
                   {
-                    "id": "hd_0fc78b9e",
+                    "id": "hd_2011fe95",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2530,7 +2530,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_c69ead5a",
+                    "id": "txt_0d327e62",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2644,7 +2644,7 @@
                 },
                 "elements": [
                   {
-                    "id": "hd_172cc73d",
+                    "id": "hd_ab45382e",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2656,7 +2656,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_386583bb",
+                    "id": "txt_bea073f7",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2665,7 +2665,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_075476d2",
+                    "id": "hd_c3d73cc9",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2677,7 +2677,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_10ca1a0e",
+                    "id": "txt_3478ba51",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2686,7 +2686,7 @@
                     "elements": []
                   },
                   {
-                    "id": "hd_c7c46361",
+                    "id": "hd_f76a33bc",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2698,16 +2698,16 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_028d2d66",
+                    "id": "txt_b19d9e99",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
-                      "editor": "<p><a href='mailto:info@axelaglobal.com' style='color:#2DD4BF; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a></p>"
+                      "editor": "<p><a href='mailto:info@axelaglobal.com' style='color:#DA423C; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a></p>"
                     },
                     "elements": []
                   },
                   {
-                    "id": "hd_63145ffa",
+                    "id": "hd_9c029d25",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -2719,7 +2719,7 @@
                     "elements": []
                   },
                   {
-                    "id": "txt_a4c64171",
+                    "id": "txt_b0c7b762",
                     "elType": "widget",
                     "widgetType": "text-editor",
                     "settings": {
@@ -2856,7 +2856,7 @@
                         "library": "fa-solid"
                       },
                       "button_icon_align": "right",
-                      "_css_classes": "axela-native-pro-form axela-btn-teal"
+                      "_css_classes": "axela-native-pro-form axela-btn-red"
                     },
                     "elements": []
                   }

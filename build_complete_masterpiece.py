@@ -203,7 +203,7 @@ def native_form(eid=None):
             "library": "fa-solid"
         },
         "button_icon_align": "right",
-        "_css_classes": "axela-native-pro-form axela-btn-teal"
+        "_css_classes": "axela-native-pro-form axela-btn-red"
     }
     return {
         "id": eid or uid('form'),
@@ -297,10 +297,10 @@ def generate_interactive_routes_html():
       background: rgba(255, 255, 255, 0.06);
     }
     .axela-route-tab-btn.active {
-      background: rgba(139, 38, 53, 0.22);
-      border-color: #8B2635;
+      background: rgba(218, 66, 60, 0.22);
+      border-color: #DA423C;
       color: #FFFFFF;
-      box-shadow: 0 2px 14px rgba(139, 38, 53, 0.35);
+      box-shadow: 0 2px 14px rgba(218, 66, 60, 0.35);
     }
     .axela-map-canvas-box {
       position: relative;
@@ -322,13 +322,13 @@ def generate_interactive_routes_html():
       top: 14px;
       left: 14px;
       background: rgba(9, 19, 30, 0.88);
-      border: 1px solid rgba(229, 169, 60, 0.35);
+      border: 1px solid rgba(212, 175, 55, 0.35);
       padding: 6px 12px;
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 10.5px;
       letter-spacing: 0.16em;
       text-transform: uppercase;
-      color: #E5A93C;
+      color: #D4AF37;
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -340,8 +340,8 @@ def generate_interactive_routes_html():
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: #E5A93C;
-      box-shadow: 0 0 8px #E5A93C;
+      background: #DA423C;
+      box-shadow: 0 0 8px #DA423C;
     }
     .axela-map-legend {
       position: absolute;
@@ -486,10 +486,10 @@ def generate_interactive_routes_html():
 
     <!-- Legend -->
     <div class="axela-map-legend">
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #E5A93C;"></span> Crude &amp; Sourcing</div>
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #1ABC9C;"></span> Refined &amp; Distribution</div>
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #38BDF8;"></span> LNG &amp; Gas</div>
-      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #1ABC9C;"></span> Bulk Commodities</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #D4AF37;"></span> Crude &amp; Sourcing</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #DA423C;"></span> Refined &amp; Distribution</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #E5C07B;"></span> LNG &amp; Gas</div>
+      <div class="axela-legend-item"><span class="axela-legend-dot" style="background: #DA423C;"></span> Bulk Commodities</div>
     </div>
   </div>
 </div>
@@ -498,61 +498,61 @@ def generate_interactive_routes_html():
 (function() {
   const HUB_DATA = {
     chattogram: {
-      id: "chattogram", cx: 728, cy: 222, color: "#1ABC9C",
+      id: "chattogram", cx: 728, cy: 222, color: "#DA423C",
       type: "Primary South Asian Gateway · Bangladesh",
       name: "Chattogram & Matarbari Deep Sea Port",
       desc: "Axela Global's commercial and maritime anchor in the Bay of Bengal, coordinating high-volume physical discharge of petroleum, bulk fertilizers, LNG, and industrial feedstocks."
     },
     fujairah: {
-      id: "fujairah", cx: 640, cy: 230, color: "#E5A93C",
+      id: "fujairah", cx: 640, cy: 230, color: "#D4AF37",
       type: "Crude Export & Bunkering Hub · Middle East",
       name: "Ras Tanura & Fujairah Terminal",
       desc: "Core Arabian Gulf procurement and offshore blending terminal handling heavy sour, Arab Light, and marine fuel bunkering directly feeding Asian and European demand."
     },
     rotterdam: {
-      id: "rotterdam", cx: 477, cy: 140, color: "#1ABC9C",
+      id: "rotterdam", cx: 477, cy: 140, color: "#DA423C",
       type: "European Refining & Distribution · Netherlands",
       name: "Rotterdam ARA Hub",
       desc: "Europe's largest refining and inland waterway distribution node. Central discharge point for Atlantic Basin arbitrage cargoes, ultra-low sulfur diesel, and chemical feedstocks."
     },
     us_gulf: {
-      id: "us_gulf", cx: 220, cy: 205, color: "#1ABC9C",
+      id: "us_gulf", cx: 220, cy: 205, color: "#D4AF37",
       type: "North American Liquidity Desk · Houston / New Orleans",
       name: "US Gulf Coast Energy Corridor",
       desc: "Primary origination hub for WTI crude, LNG export terminals (Sabine Pass / Corpus Christi), and strategic refined products bound for transatlantic corridors."
     },
     singapore: {
-      id: "singapore", cx: 788, cy: 278, color: "#E5A93C",
+      id: "singapore", cx: 788, cy: 278, color: "#DA423C",
       type: "Asian Pricing & Bunkering Node · Straits",
       name: "Singapore Straits Trading Hub",
       desc: "The nerve center of Asian physical cargo arbitrage, fuel oil price discovery, and regional transshipment across Southeast and East Asia."
     },
     west_africa: {
-      id: "west_africa", cx: 472, cy: 302, color: "#1ABC9C",
+      id: "west_africa", cx: 472, cy: 302, color: "#D4AF37",
       type: "Atlantic Sweet Crude Basin · Nigeria / Angola",
       name: "West Africa Marine Terminals",
       desc: "Major offshore lifting origin for high-yield sweet grades (Bonny Light, Qua Iboe) feeding European refinery grids and Asian spot tenders."
     },
     suez: {
-      id: "suez", cx: 565, cy: 203, color: "#E5A93C",
+      id: "suez", cx: 565, cy: 203, color: "#DA423C",
       type: "Strategic Chokepoint & Regional Desk · Egypt",
       name: "Suez Maritime Control & Cairo Desk",
       desc: "Critical transit coordination desk ensuring scheduled passage, canal bunkering, and real-time risk hedging through the Suez-Red Sea maritime corridor."
     },
     qatar: {
-      id: "qatar", cx: 635, cy: 222, color: "#38BDF8",
+      id: "qatar", cx: 635, cy: 222, color: "#E5C07B",
       type: "LNG Export Superhub · Arabian Gulf",
       name: "Ras Laffan LNG Terminal",
       desc: "Global epicenter of liquefied natural gas production, facilitating multi-year term agreements and flexible spot cargo supply to Bangladesh, India, and Europe."
     },
     tokyo: {
-      id: "tokyo", cx: 880, cy: 155, color: "#1ABC9C",
+      id: "tokyo", cx: 880, cy: 155, color: "#DA423C",
       type: "Far East Energy & Industrial Terminal · Japan",
       name: "Tokyo Bay Commercial Gateway",
       desc: "Key East Asian destination terminal receiving clean distillates, LNG imports, and specialty chemical shipments."
     },
     melbourne: {
-      id: "melbourne", cx: 855, cy: 370, color: "#E5A93C",
+      id: "melbourne", cx: 855, cy: 370, color: "#D4AF37",
       type: "Asia-Pacific Minerals & Bulk Hub · Australia",
       name: "Port Hedland & Pacific Sourcing Desk",
       desc: "Strategic origination point for bulk industrial minerals, iron ore, clinker, and agricultural grain flows supporting Asian infrastructure."
@@ -561,31 +561,31 @@ def generate_interactive_routes_html():
 
   const ROUTES_BY_TAB = {
     crude: [
-      { id: "c1", d: "M 640 230 Q 720 310 788 278", color: "#E5A93C", dur: 14 },
-      { id: "c2", d: "M 640 230 Q 685 240 728 222", color: "#E5A93C", dur: 12 },
-      { id: "c3", d: "M 640 230 Q 600 280 565 203 Q 525 170 477 140", color: "#1ABC9C", dur: 18 },
-      { id: "c4", d: "M 472 302 Q 380 255 220 205", color: "#E5A93C", dur: 16 },
-      { id: "c5", d: "M 220 205 Q 348 148 477 140", color: "#1ABC9C", dur: 15 },
-      { id: "c6", d: "M 640 230 Q 565 290 472 302", color: "#E5A93C", dur: 14 }
+      { id: "c1", d: "M 640 230 Q 720 310 788 278", color: "#D4AF37", dur: 14 },
+      { id: "c2", d: "M 640 230 Q 685 240 728 222", color: "#D4AF37", dur: 12 },
+      { id: "c3", d: "M 640 230 Q 600 280 565 203 Q 525 170 477 140", color: "#DA423C", dur: 18 },
+      { id: "c4", d: "M 472 302 Q 380 255 220 205", color: "#D4AF37", dur: 16 },
+      { id: "c5", d: "M 220 205 Q 348 148 477 140", color: "#DA423C", dur: 15 },
+      { id: "c6", d: "M 640 230 Q 565 290 472 302", color: "#D4AF37", dur: 14 }
     ],
     lng: [
-      { id: "l1", d: "M 635 222 Q 560 270 467 138", color: "#38BDF8", dur: 17 },
-      { id: "l2", d: "M 220 205 Q 342 162 477 140", color: "#38BDF8", dur: 14 },
-      { id: "l3", d: "M 635 222 Q 680 230 728 222", color: "#38BDF8", dur: 10 },
-      { id: "l4", d: "M 635 222 Q 720 255 788 278", color: "#38BDF8", dur: 13 },
-      { id: "l5", d: "M 788 278 Q 840 210 880 155", color: "#38BDF8", dur: 12 }
+      { id: "l1", d: "M 635 222 Q 560 270 467 138", color: "#E5C07B", dur: 17 },
+      { id: "l2", d: "M 220 205 Q 342 162 477 140", color: "#E5C07B", dur: 14 },
+      { id: "l3", d: "M 635 222 Q 680 230 728 222", color: "#E5C07B", dur: 10 },
+      { id: "l4", d: "M 635 222 Q 720 255 788 278", color: "#E5C07B", dur: 13 },
+      { id: "l5", d: "M 788 278 Q 840 210 880 155", color: "#E5C07B", dur: 12 }
     ],
     bulk: [
-      { id: "b1", d: "M 855 370 Q 800 300 728 222", color: "#E5A93C", dur: 15 },
-      { id: "b2", d: "M 640 230 Q 685 240 728 222", color: "#1ABC9C", dur: 12 },
-      { id: "b3", d: "M 477 140 Q 560 220 728 222", color: "#E5A93C", dur: 16 },
-      { id: "b4", d: "M 855 370 Q 820 310 788 278", color: "#E5A93C", dur: 13 }
+      { id: "b1", d: "M 855 370 Q 800 300 728 222", color: "#D4AF37", dur: 15 },
+      { id: "b2", d: "M 640 230 Q 685 240 728 222", color: "#DA423C", dur: 12 },
+      { id: "b3", d: "M 477 140 Q 560 220 728 222", color: "#D4AF37", dur: 16 },
+      { id: "b4", d: "M 855 370 Q 820 310 788 278", color: "#D4AF37", dur: 13 }
     ],
     offices: [
-      { id: "o1", d: "M 728 222 Q 685 226 640 230", color: "#1ABC9C", dur: 10 },
-      { id: "o2", d: "M 640 230 Q 560 180 477 140", color: "#1ABC9C", dur: 12 },
-      { id: "o3", d: "M 728 222 Q 755 250 788 278", color: "#1ABC9C", dur: 10 },
-      { id: "o4", d: "M 477 140 Q 348 160 220 205", color: "#1ABC9C", dur: 14 }
+      { id: "o1", d: "M 728 222 Q 685 226 640 230", color: "#DA423C", dur: 10 },
+      { id: "o2", d: "M 640 230 Q 560 180 477 140", color: "#DA423C", dur: 12 },
+      { id: "o3", d: "M 728 222 Q 755 250 788 278", color: "#DA423C", dur: 10 },
+      { id: "o4", d: "M 477 140 Q 348 160 220 205", color: "#DA423C", dur: 14 }
     ]
   };
 
@@ -753,148 +753,7 @@ def generate_interactive_routes_html():
 </script>
 """
 
-def generate_contact_form_html():
-    return """
-<div class="axela-contact-form-wrapper">
-  <style>
-    .axela-contact-form-wrapper {
-      background: #0B1320;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 36px 32px;
-      border-radius: 4px;
-      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
-    }
-    .axela-form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      margin-bottom: 16px;
-    }
-    .axela-form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      margin-bottom: 16px;
-    }
-    .axela-form-label {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 10.5px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: #2DD4BF;
-      font-weight: 700;
-    }
-    .axela-form-input,
-    .axela-form-select,
-    .axela-form-textarea {
-      width: 100%;
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      color: #FFFFFF;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-size: 13.5px;
-      padding: 11px 14px;
-      border-radius: 2px;
-      outline: none;
-      transition: all 0.25s ease;
-      box-sizing: border-box;
-    }
-    .axela-form-select option {
-      background: #0B1320;
-      color: #FFFFFF;
-    }
-    .axela-form-input:focus,
-    .axela-form-select:focus,
-    .axela-form-textarea:focus {
-      border-color: #2DD4BF;
-      background: rgba(255, 255, 255, 0.07);
-      box-shadow: 0 0 12px rgba(45, 212, 191, 0.2);
-    }
-    .axela-form-textarea {
-      min-height: 90px;
-      resize: vertical;
-    }
-    .axela-form-submit-btn {
-      width: 100%;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      background: #168B8D;
-      border: 1px solid rgba(45, 212, 191, 0.4);
-      color: #FFFFFF;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 13px 24px;
-      border-radius: 2px;
-      cursor: pointer;
-      transition: all 0.25s ease;
-      box-shadow: 0 4px 18px rgba(22, 139, 141, 0.35);
-    }
-    .axela-form-submit-btn:hover {
-      background: #1ABC9C;
-      color: #FFFFFF;
-      box-shadow: 0 6px 24px rgba(26, 188, 156, 0.5);
-      transform: translateY(-1px);
-    }
-    @media (max-width: 600px) {
-      .axela-form-row {
-        grid-template-columns: 1fr;
-        gap: 0;
-      }
-      .axela-contact-form-wrapper {
-        padding: 24px 18px;
-      }
-    }
-  </style>
-
-  <form id="axela-trade-enquiry-form" onsubmit="event.preventDefault(); alert('Trade enquiry submitted. Our trading desk will contact you within 24 business hours.');">
-    <div class="axela-form-row">
-      <div class="axela-form-group">
-        <label class="axela-form-label">Full Name &amp; Title</label>
-        <input type="text" class="axela-form-input" placeholder="e.g. Johnathan Doe, Principal" required />
-      </div>
-      <div class="axela-form-group">
-        <label class="axela-form-label">Corporate Email</label>
-        <input type="email" class="axela-form-input" placeholder="desk@company.com" required />
-      </div>
-    </div>
-
-    <div class="axela-form-row">
-      <div class="axela-form-group">
-        <label class="axela-form-label">Commodity / Trading Division</label>
-        <select class="axela-form-select" required>
-          <option value="" disabled selected>Select Sourcing Division</option>
-          <option value="energy">Energy &amp; Petroleum Products</option>
-          <option value="petrochem">Petrochemical Feedstocks</option>
-          <option value="fertilizer">Fertilizers &amp; Agrochemicals</option>
-          <option value="chemicals">Industrial &amp; Specialty Chemicals</option>
-          <option value="agri">Agricultural Commodities</option>
-          <option value="metals">Metals, Minerals &amp; Industrial Products</option>
-          <option value="advisory">Corporate Advisory &amp; Investment</option>
-        </select>
-      </div>
-      <div class="axela-form-group">
-        <label class="axela-form-label">Target Volume / Delivery Incoterm</label>
-        <input type="text" class="axela-form-input" placeholder="e.g. 50,000 MT / CIF Chattogram" />
-      </div>
-    </div>
-
-    <div class="axela-form-group">
-      <label class="axela-form-label">Commercial Specifications &amp; Inquiry Scope</label>
-      <textarea class="axela-form-textarea" placeholder="Detail specific grade specifications, required delivery timeline, and counterpart terms..."></textarea>
-    </div>
-
-    <button type="submit" class="axela-form-submit-btn">
-      <span>Submit Trade Enquiry</span>
-      <i class="fas fa-arrow-right"></i>
-    </button>
-  </form>
-</div>
-"""
+# Note: Contact form is rendered via Elementor Pro native_form() widget in Section 8
 
 def build_homepage():
     json_path = r'c:\xampp\htdocs\axela-local\elementor-templates\homepage-template.json'
@@ -936,7 +795,7 @@ def build_homepage():
         "Submit a Trade Enquiry",
         link="#contact",
         icon_class="fas fa-arrow-right",
-        custom_css_class="axela-hero-btn axela-btn-teal",
+        custom_css_class="axela-hero-btn axela-btn-red",
         eid="hero_btn_trade"
     )
     btn_supply = native_button(
@@ -1471,9 +1330,9 @@ def build_homepage():
     )
 
     invest_banner = native_image(
-        url="https://axelaglobal.com/wp-content/uploads/2026/10/port-terminal-infrastructure.webp",
-        img_id=86,
-        alt="Strategic Port Infrastructure and Investment Opportunities",
+        url="https://axelaglobal.com/wp-content/uploads/2026/10/warehouse-logistics-investment.jpg",
+        img_id=199,
+        alt="Warehouse & Distribution Logistics and Strategic Investment Opportunities",
         custom_css_class="axela-invest-banner-img",
         eid="inv_banner_img"
     )
@@ -1626,7 +1485,7 @@ def build_homepage():
     desk_p_2 = native_text("<a href='tel:+8809658511309' style='color:#E2E8F0; text-decoration:none;'>+88 096585 11309</a>")
 
     desk_h4_3 = native_heading("GENERAL TRADE INQUIRIES", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_3 = native_text("<a href='mailto:info@axelaglobal.com' style='color:#2DD4BF; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a>")
+    desk_p_3 = native_text("<a href='mailto:info@axelaglobal.com' style='color:#DA423C; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a>")
 
     desk_h4_4 = native_heading("OFFICIAL WEBSITE", tag="h4", custom_css_class="contact-hub-tag")
     desk_p_4 = native_text("<a href='https://axelaglobal.com' style='color:#94A3B8; text-decoration:none;'>axelaglobal.com</a>")

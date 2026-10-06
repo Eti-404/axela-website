@@ -77,7 +77,7 @@ def update_footer():
       transition: color 0.2s ease;
     }
     .axela-footer-nav a:hover {
-      color: #5EEAD4;
+      color: #DA423C;
     }
     .axela-footer-divider {
       border: 0;
@@ -106,7 +106,7 @@ def update_footer():
       transition: color 0.2s ease;
     }
     .axela-footer-bottom-links a:hover {
-      color: #E2E8F0;
+      color: #D4AF37;
     }
     @media (max-width: 768px) {
       .axela-footer-top {
@@ -129,7 +129,7 @@ def update_footer():
     <div class="axela-footer-top">
       <div class="axela-footer-brand">
         <a href="#home" style="display:inline-block;">
-          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/axela-logo-dark.webp" alt="AXELA LTD." class="axela-footer-logo" style="max-height: 32px !important; width: auto !important; max-width: 160px !important; display: block;" />
+          <img src="https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png" alt="AXELA Limited" class="axela-footer-logo" style="max-height: 34px !important; width: auto !important; max-width: 170px !important; display: block;" />
         </a>
       </div>
 

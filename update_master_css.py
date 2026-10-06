@@ -82,7 +82,7 @@ h1, h2,
   margin: 0 0 6px 0 !important;
 }
 
-/* Eyebrows System - Inter All-Caps Soft Cyan (#5EEAD4) */
+/* Eyebrows System - Barlow Condensed All-Caps Standard Gold (#D4AF37) */
 .axela-section-eyebrow,
 .axela-section-eyebrow .elementor-heading-title {
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
@@ -90,7 +90,7 @@ h1, h2,
   font-weight: 700 !important;
   letter-spacing: 2.2px !important;
   text-transform: uppercase !important;
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
   margin-bottom: 4px !important;
   display: inline-block !important;
 }
@@ -117,7 +117,7 @@ h1, h2,
    ============================================================================= */
 .axela-top-ticker-outer {
   background: rgba(6, 14, 22, 0.98) !important;
-  border-bottom: 1px solid rgba(26, 107, 107, 0.25) !important;
+  border-bottom: 1px solid rgba(218, 66, 60, 0.25) !important;
   width: 100% !important;
   height: 28px !important;
   min-height: 28px !important;
@@ -154,14 +154,14 @@ h1, h2,
   gap: 6px !important;
   height: 28px !important;
   padding: 0 10px !important;
-  background: rgba(26, 107, 107, 0.18) !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.3) !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  border-right: 1px solid rgba(218, 66, 60, 0.3) !important;
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 9px !important;
   font-weight: 700 !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
-  color: #22A8A8 !important;
+  color: #DA423C !important;
   white-space: nowrap !important;
   flex-shrink: 0 !important;
 }
@@ -170,8 +170,8 @@ h1, h2,
   width: 5px !important;
   height: 5px !important;
   border-radius: 50% !important;
-  background: #22A8A8 !important;
-  box-shadow: 0 0 8px #22A8A8 !important;
+  background: #DA423C !important;
+  box-shadow: 0 0 8px #DA423C !important;
   display: inline-block !important;
 }
 
@@ -196,7 +196,7 @@ h1, h2,
   gap: 5px !important;
   padding: 0 14px !important;
   height: 28px !important;
-  border-right: 1px solid rgba(26, 107, 107, 0.14) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 .ticker-src {
@@ -441,7 +441,7 @@ header {
 }
 
 .axela-native-nav .elementor-nav-menu--main .elementor-item::after {
-  background-color: #14B8A6 !important;
+  background-color: #DA423C !important;
   height: 2px !important;
 }
 
@@ -449,14 +449,15 @@ header {
   flex-shrink: 0 !important;
 }
 
-/* Header Trade Enquiry CTA Button - Elegant Deep Teal Accent (#0F766E) */
-.axela-native-hdr-btn .elementor-button {
+/* Header Trade Enquiry CTA Button - Signature Reddish Accent (#DA423C) */
+.axela-native-hdr-btn .elementor-button,
+.axela-btn-red .elementor-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 8px !important;
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
   color: #FFFFFF !important;
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
   font-size: 11px !important;
@@ -465,20 +466,23 @@ header {
   text-transform: uppercase !important;
   padding: 8px 18px !important;
   border-radius: 3px !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.axela-native-hdr-btn .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
+.axela-native-hdr-btn .elementor-button:hover,
+.axela-btn-red .elementor-button:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
   color: #FFFFFF !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
 .axela-native-hdr-btn .elementor-button svg,
-.axela-native-hdr-btn .elementor-button i {
+.axela-native-hdr-btn .elementor-button i,
+.axela-btn-red .elementor-button svg,
+.axela-btn-red .elementor-button i {
   fill: #FFFFFF !important;
   color: #FFFFFF !important;
 }
@@ -577,7 +581,7 @@ header {
   font-weight: 600 !important;
   letter-spacing: 2.5px !important;
   text-transform: uppercase !important;
-  color: #5EEAD4 !important;
+  color: #D4AF37 !important;
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif !important;
   font-size: 11.5px !important;
   letter-spacing: 0.16em !important;
@@ -664,41 +668,45 @@ header {
   white-space: nowrap !important;
 }
 
-/* 1. Elegant Deep Teal Accent (#0F766E / #115E59) */
+/* 1. Signature Reddish Accent (#DA423C) */
 .elementor-element-hero_btn_trade .elementor-button,
-.axela-btn-teal .elementor-button,
+.axela-btn-red .elementor-button,
+.axela-btn-primary .elementor-button,
 .axela-btn-burgundy .elementor-button {
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
 }
 
 .elementor-element-hero_btn_trade .elementor-button:hover,
-.axela-btn-teal .elementor-button:hover,
+.axela-btn-red .elementor-button:hover,
+.axela-btn-primary .elementor-button:hover,
 .axela-btn-burgundy .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
 .elementor-element-hero_btn_trade .elementor-button svg,
 .elementor-element-hero_btn_trade .elementor-button i,
-.axela-btn-teal .elementor-button svg,
-.axela-btn-teal .elementor-button i,
+.axela-btn-red .elementor-button svg,
+.axela-btn-red .elementor-button i,
+.axela-btn-primary .elementor-button svg,
+.axela-btn-primary .elementor-button i,
 .axela-btn-burgundy .elementor-button svg,
 .axela-btn-burgundy .elementor-button i {
   fill: #FFFFFF !important;
   color: #FFFFFF !important;
 }
 
-/* 2. Glassmorphic Secondary Outline Button */
+/* 2. Glassmorphic Secondary Outline Button with Gold Border */
 .elementor-element-hero_btn_supply .elementor-button,
 .axela-btn-ghost .elementor-button {
   background: rgba(255, 255, 255, 0.04) !important;
   color: #E2E8F0 !important;
-  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
@@ -706,10 +714,10 @@ header {
 
 .elementor-element-hero_btn_supply .elementor-button:hover,
 .axela-btn-ghost .elementor-button:hover {
-  background: rgba(255, 255, 255, 0.09) !important;
-  border-color: rgba(255, 255, 255, 0.35) !important;
+  background: rgba(218, 66, 60, 0.12) !important;
+  border-color: #DA423C !important;
   color: #FFFFFF !important;
-  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 16px rgba(218, 66, 60, 0.25) !important;
 }
 
 /* 3. Subtle Premium Gold Accent - Borderless Clean Text Link (Annotation 6B) */
@@ -843,8 +851,8 @@ header {
 [class*="elementor-element-svc_card_"]:hover,
 .axela-service-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .service-card-head {
@@ -861,7 +869,7 @@ header {
   font-size: 11px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
-  color: #64748B !important;
+  color: #D4AF37 !important;
 }
 
 .service-card-icon-sleek,
@@ -872,17 +880,19 @@ header {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: rgba(26, 188, 156, 0.1) !important;
-  border: 1px solid rgba(26, 188, 156, 0.25) !important;
-  color: #2DD4BF !important;
+  background: rgba(218, 66, 60, 0.12) !important;
+  border: 1px solid rgba(218, 66, 60, 0.30) !important;
+  color: #DA423C !important;
   font-size: 12px !important;
   transition: all 0.25s ease !important;
 }
 
 .elementor-element-services_grid_con > .e-con:hover .service-card-icon-sleek .elementor-icon,
 .axela-service-compact-card:hover .service-card-icon-sleek .elementor-icon {
-  background: #1ABC9C !important;
+  background: #DA423C !important;
   color: #FFFFFF !important;
+  border-color: #DA423C !important;
+  box-shadow: 0 0 12px rgba(218, 66, 60, 0.5) !important;
   transform: scale(1.05) !important;
 }
 
@@ -997,8 +1007,8 @@ header {
 [class*="elementor-element-cat_card_"]:hover,
 .axela-category-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 /* Product Category Cards: Left align icon and title with tight gap (Annotation 4) */
@@ -1036,10 +1046,15 @@ header {
 
 .category-icon-inline .elementor-icon {
   font-size: 14px !important;
-  color: #2DD4BF !important;
+  color: #DA423C !important;
   display: inline-flex !important;
   margin: 0 !important;
   padding: 0 !important;
+  transition: color 0.25s ease !important;
+}
+
+.axela-category-compact-card:hover .category-icon-inline .elementor-icon {
+  color: #D4AF37 !important;
 }
 
 .category-card-title-sleek,
@@ -1116,8 +1131,8 @@ header {
 .elementor-element-stages_grid_con > .e-con:hover,
 .axela-stage-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .stage-card-step,
@@ -1126,7 +1141,7 @@ header {
   font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.14em !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 /* Stage icons: ALL GOLD (Annotation 3) */
@@ -1212,11 +1227,22 @@ header {
 }
 
 .axela-invest-banner-img img {
-  border-radius: 3px !important;
-  max-height: 240px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+  max-height: 250px !important;
+  aspect-ratio: 16 / 10 !important;
   object-fit: cover !important;
   width: 100% !important;
   display: block !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.axela-invest-banner-img:hover img,
+.axela-invest-col-right:hover .axela-invest-banner-img img {
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .axela-ethics-compact-grid,
@@ -1242,8 +1268,8 @@ header {
 .elementor-element-ethics_grid_con > .e-con:hover,
 .axela-ethics-compact-card:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(94, 234, 212, 0.25) !important;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(94, 234, 212, 0.12) !important;
+  border-color: rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), 0 0 20px rgba(218, 66, 60, 0.15) !important;
 }
 
 .ethics-card-tag,
@@ -1252,7 +1278,7 @@ header {
   font-size: 10.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.16em !important;
-  color: #2DD4BF !important;
+  color: #D4AF37 !important;
 }
 
 .ethics-card-title,
@@ -1267,7 +1293,7 @@ header {
 .ethics-icon-sleek,
 .ethics-icon-sleek .elementor-icon {
   font-size: 13px !important;
-  color: #2DD4BF !important;
+  color: #DA423C !important;
   width: 24px !important;
   height: 24px !important;
   display: inline-flex !important;
@@ -1423,8 +1449,8 @@ header {
 .axela-contact-form-right select:focus,
 .axela-contact-form-right textarea:focus {
   background: rgba(10, 16, 26, 0.95) !important;
-  border-color: rgba(220, 100, 115, 0.45) !important;
-  box-shadow: 0 0 0 2px rgba(139, 38, 53, 0.2) !important;
+  border-color: rgba(218, 66, 60, 0.60) !important;
+  box-shadow: 0 0 0 2px rgba(218, 66, 60, 0.25) !important;
   outline: none !important;
 }
 
@@ -1441,8 +1467,9 @@ header {
 }
 
 .axela-native-pro-form .elementor-button,
-.axela-contact-form-right .elementor-button {
-  background: linear-gradient(135deg, #0F766E 0%, #115E59 100%) !important;
+.axela-contact-form-right .elementor-button,
+.axela-btn-red .elementor-button {
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
   font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 13.5px !important;
@@ -1451,7 +1478,7 @@ header {
   text-transform: uppercase !important;
   padding: 13px 26px !important;
   border-radius: 4px !important;
-  border: 1px solid rgba(45, 212, 191, 0.40) !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
   cursor: pointer !important;
   width: 100% !important;
   display: inline-flex !important;
@@ -1459,15 +1486,16 @@ header {
   justify-content: center !important;
   gap: 10px !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  box-shadow: 0 4px 18px rgba(15, 118, 110, 0.35) !important;
+  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
 }
 
 .axela-native-pro-form .elementor-button:hover,
-.axela-contact-form-right .elementor-button:hover {
-  background: linear-gradient(135deg, #14B8A6 0%, #0F766E 100%) !important;
-  border-color: rgba(94, 234, 212, 0.65) !important;
+.axela-contact-form-right .elementor-button:hover,
+.axela-btn-red .elementor-button:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  border-color: rgba(218, 66, 60, 0.80) !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 24px rgba(20, 184, 166, 0.45) !important;
+  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
@@ -1483,9 +1511,49 @@ header {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
 }
 .elementor-message.elementor-message-success {
-  background: rgba(15, 118, 110, 0.25) !important;
-  border: 1px solid #14B8A6 !important;
-  color: #5EEAD4 !important;
+  background: rgba(218, 66, 60, 0.15) !important;
+  border: 1px solid #D4AF37 !important;
+  color: #FFFFFF !important;
+}
+.elementor-message.elementor-message-danger,
+.elementor-message.elementor-message-error {
+  background: rgba(225, 29, 72, 0.22) !important;
+  border: 1px solid #F43F5E !important;
+  color: #FDA4AF !important;
+}
+
+/* =============================================================================
+   BOTTOM-TO-TOP SCROLL BUTTON: SIGNATURE REDDISH #DA423C & HOVER GLOW
+   ============================================================================= */
+#ast-scroll-top,
+.ast-scroll-top,
+.ast-scroll-to-top,
+#scroll-to-top,
+.back-to-top {
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(218, 66, 60, 0.50) !important;
+  box-shadow: 0 4px 14px rgba(218, 66, 60, 0.35) !important;
+  border-radius: 4px !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+#ast-scroll-top:hover,
+.ast-scroll-top:hover,
+.ast-scroll-to-top:hover,
+#scroll-to-top:hover,
+.back-to-top:hover {
+  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  box-shadow: 0 0 18px rgba(218, 66, 60, 0.65) !important;
+  transform: translateY(-2px) !important;
+}
+
+#ast-scroll-top .ast-icon,
+.ast-scroll-top .ast-icon,
+.ast-scroll-top i,
+.ast-scroll-top svg {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
 }
 .elementor-message.elementor-message-danger,
 .elementor-message.elementor-message-error {
