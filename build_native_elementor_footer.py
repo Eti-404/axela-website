@@ -50,9 +50,9 @@ def build_native_footer():
             "text_color_hover": "#DA423C",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {"unit": "px", "size": 13},
-            "typography_font_weight": "500",
-            "space_between": {"unit": "px", "size": 12}
+            "typography_font_size": {"unit": "px", "size": 12.5},
+            "typography_font_weight": "450",
+            "space_between": {"unit": "px", "size": 10}
         },
         "elements": []
     }
@@ -89,9 +89,9 @@ def build_native_footer():
             "text_color_hover": "#DA423C",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {"unit": "px", "size": 13},
-            "typography_font_weight": "500",
-            "space_between": {"unit": "px", "size": 12}
+            "typography_font_size": {"unit": "px", "size": 12.5},
+            "typography_font_weight": "450",
+            "space_between": {"unit": "px", "size": 10}
         },
         "elements": []
     }
@@ -128,9 +128,9 @@ def build_native_footer():
             "text_color_hover": "#DA423C",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {"unit": "px", "size": 13},
-            "typography_font_weight": "500",
-            "space_between": {"unit": "px", "size": 12}
+            "typography_font_size": {"unit": "px", "size": 12.5},
+            "typography_font_weight": "450",
+            "space_between": {"unit": "px", "size": 10}
         },
         "elements": []
     }
@@ -157,13 +157,14 @@ def build_native_footer():
                 "border_color": "rgba(255, 255, 255, 0.08)",
                 "padding": {
                     "unit": "px",
-                    "top": "56",
+                    "top": "34",
                     "right": "24",
-                    "bottom": "34",
+                    "bottom": "20",
                     "left": "24",
                     "isLinked": False
                 },
-                "_css_classes": "axela-footer-slim-root"
+                "_css_classes": "axela-footer-slim-root",
+                "css_classes": "axela-footer-slim-root"
             },
             "elements": [
                 {
@@ -175,8 +176,9 @@ def build_native_footer():
                         "content_width": "boxed",
                         "boxed_width": {"unit": "px", "size": 1400},
                         "flex_direction": "column",
-                        "gap": {"unit": "px", "column": 0, "row": 34},
-                        "_css_classes": "axela-footer-inner"
+                        "gap": {"unit": "px", "column": 0, "row": 20},
+                        "_css_classes": "axela-footer-inner",
+                        "css_classes": "axela-footer-inner"
                     },
                     "elements": [
                         # Top Row Container (Brand Column + Nav Column)
@@ -189,24 +191,30 @@ def build_native_footer():
                                 "flex_direction": "row",
                                 "flex_direction_mobile": "column",
                                 "flex_justify_content": "space-between",
-                                "flex_align_items": "flex-start",
+                                "flex_align_items": "center",
+                                "flex_align_items_mobile": "flex-start",
                                 "flex_wrap": "wrap",
-                                "gap": {"unit": "px", "column": 40, "row": 24},
-                                "_css_classes": "axela-footer-top"
+                                "gap": {"unit": "px", "column": 36, "row": 20},
+                                "_css_classes": "axela-footer-top",
+                                "css_classes": "axela-footer-top"
                             },
                             "elements": [
-                                # Brand Column
+                                # Brand Column (Side-by-Side: Logo + Core Services Text)
                                 {
                                     "id": "axela_footer_brand_col",
                                     "elType": "container",
                                     "isInner": True,
                                     "settings": {
-                                        "_title": "Brand & Core Services Column",
-                                        "flex_direction": "column",
-                                        "gap": {"unit": "px", "column": 0, "row": 14},
-                                        "width": {"unit": "px", "size": 380},
+                                        "_title": "Brand & Core Services (Side-by-Side)",
+                                        "flex_direction": "row",
+                                        "flex_direction_mobile": "column",
+                                        "flex_align_items": "center",
+                                        "flex_align_items_mobile": "flex-start",
+                                        "gap": {"unit": "px", "column": 24, "row": 12},
+                                        "width": {"unit": "px", "size": 650},
                                         "width_mobile": {"unit": "%", "size": 100},
-                                        "_css_classes": "axela-footer-brand"
+                                        "_css_classes": "axela-footer-brand",
+                                        "css_classes": "axela-footer-brand"
                                     },
                                     "elements": [
                                         # Logo Image Widget
@@ -224,13 +232,14 @@ def build_native_footer():
                                                 "link_to": "custom",
                                                 "link": {"url": "#home", "is_external": "", "nofollow": ""},
                                                 "align": "left",
-                                                "width": {"unit": "px", "size": 180},
-                                                "image_custom_dimension": {"width": 180, "height": 40},
-                                                "_css_classes": "axela-footer-logo-wrap"
+                                                "width": {"unit": "px", "size": 140},
+                                                "image_custom_dimension": {"width": 140, "height": 38},
+                                                "_css_classes": "axela-footer-logo-wrap",
+                                                "css_classes": "axela-footer-logo-wrap"
                                             },
                                             "elements": []
                                         },
-                                        # Core Services Heading Widget
+                                        # Core Services Heading Widget (Side-by-Side, Refined Slim Typography)
                                         {
                                             "id": "axela_footer_services_widget",
                                             "elType": "widget",
@@ -242,12 +251,13 @@ def build_native_footer():
                                                 "title_color": "#94A3B8",
                                                 "typography_typography": "custom",
                                                 "typography_font_family": "Plus Jakarta Sans",
-                                                "typography_font_size": {"unit": "px", "size": 11},
-                                                "typography_font_weight": "500",
+                                                "typography_font_size": {"unit": "px", "size": 10},
+                                                "typography_font_weight": "450",
                                                 "typography_letter_spacing": {"unit": "em", "size": 0.08},
-                                                "typography_line_height": {"unit": "em", "size": 1.6},
+                                                "typography_line_height": {"unit": "em", "size": 1.5},
                                                 "typography_text_transform": "uppercase",
-                                                "_css_classes": "axela-footer-services-text"
+                                                "_css_classes": "axela-footer-services-text",
+                                                "css_classes": "axela-footer-services-text"
                                             },
                                             "elements": []
                                         }
@@ -262,8 +272,9 @@ def build_native_footer():
                                         "_title": "Footer Navigation Links (3 Columns)",
                                         "flex_direction": "row",
                                         "flex_justify_content": "flex-end",
-                                        "gap": {"unit": "px", "column": 36, "row": 12},
-                                        "_css_classes": "axela-footer-nav-wrap"
+                                        "gap": {"unit": "px", "column": 32, "row": 10},
+                                        "_css_classes": "axela-footer-nav-wrap",
+                                        "css_classes": "axela-footer-nav-wrap"
                                     },
                                     "elements": [
                                         nav_col_1,
@@ -273,7 +284,7 @@ def build_native_footer():
                                 }
                             ]
                         },
-                        # Divider Line Widget
+                        # Divider Line Widget (Compact 14px bottom margin)
                         {
                             "id": "axela_footer_divider_widget",
                             "elType": "widget",
@@ -292,7 +303,8 @@ def build_native_footer():
                                     "left": "0",
                                     "isLinked": True
                                 },
-                                "_css_classes": "axela-footer-divider"
+                                "_css_classes": "axela-footer-divider",
+                                "css_classes": "axela-footer-divider"
                             },
                             "elements": []
                         },

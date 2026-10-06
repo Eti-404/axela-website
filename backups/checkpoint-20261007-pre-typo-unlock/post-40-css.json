@@ -1,0 +1,19 @@
+{
+    "ID": 40,
+    "post_title": "astra",
+    "post_name": "astra",
+    "post_status": "publish",
+    "post_type": "custom_css",
+    "post_date": "2026-10-03 18:38:43",
+    "post_modified": "2026-10-07 02:38:08",
+    "post_author": "1",
+    "post_excerpt": "",
+    "post_content": "@import url('https:\/\/fonts.googleapis.com\/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap'); html, body, #page, .site, .site-content, .ast-container, #primary, #main, .entry-content, .ast-plain-container, .elementor-section-wrap, .elementor, .elementor-page-28, .elementor-kit-7 { background-color: #060B13 !important; background: #060B13 !important; background-i\n[truncated \u2014 use --fields=post_content for full content]",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "post_mime_type": "",
+    "guid": "https:\/\/axelaglobal.com\/astra\/",
+    "comment_count": "0"
+}
