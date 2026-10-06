@@ -46,12 +46,21 @@ def update_footer():
     .axela-footer-brand {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 8px;
     }
     .axela-footer-logo {
       height: 32px;
       width: auto;
       display: block;
+    }
+    .axela-footer-services-text {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #94A3B8;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      line-height: 1.5;
     }
     .axela-footer-tagline {
       font-size: 11px;
@@ -131,6 +140,7 @@ def update_footer():
         <a href="#home" style="display:inline-block;">
           <img src="https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png" alt="AXELA Limited" class="axela-footer-logo" style="max-height: 34px !important; width: auto !important; max-width: 170px !important; display: block;" />
         </a>
+        <div class="axela-footer-services-text">ENERGY • COMMODITIES • TRADING • SUPPLY • PROJECT DEVELOPMENT • INVESTMENT ADVISORY</div>
       </div>
 
       <ul class="axela-footer-nav">

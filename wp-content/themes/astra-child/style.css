@@ -4943,6 +4943,22 @@ header {
   margin-bottom: 28px !important;
 }
 
+.axela-footer-brand {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.axela-footer-services-text {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: #94A3B8 !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  line-height: 1.5 !important;
+}
+
 .axela-footer-divider {
   border: 0 !important;
   height: 1px !important;
