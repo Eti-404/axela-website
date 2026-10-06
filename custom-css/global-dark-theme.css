@@ -710,13 +710,15 @@ header {
   left: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background: linear-gradient(135deg, rgba(7, 11, 18, 0.90) 0%, rgba(7, 11, 18, 0.70) 50%, rgba(7, 11, 18, 0.85) 100%) !important;
+  background: rgba(6, 11, 19, 0.65) !important;
   z-index: 1 !important;
   pointer-events: none !important;
 }
 
 .axela-hero-content-wrap,
 .elementor-element-axela_hero_content {
+  position: relative !important;
+  z-index: 2 !important;
   max-width: 1400px !important;
   width: 100% !important;
   margin: 0 auto !important;

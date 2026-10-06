@@ -25,19 +25,13 @@
         "isLinked": false
       },
       "background_background": "video",
-      "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-video.mp4",
+      "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/lv_0_20261006163733.mp4",
       "background_video_fallback": {
-        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-poster.webp",
-        "id": 31
+        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/axela-hero-poster-20261006.jpg",
+        "id": 217
       },
-      "background_overlay_background": "gradient",
-      "background_overlay_color": "rgba(7, 11, 17, 0.94)",
-      "background_overlay_color_b": "rgba(7, 11, 17, 0.70)",
-      "background_overlay_gradient_type": "linear",
-      "background_overlay_gradient_angle": {
-        "unit": "deg",
-        "size": 135
-      },
+      "background_overlay_background": "classic",
+      "background_overlay_color": "rgba(6, 11, 19, 0.65)",
       "background_overlay_opacity": {
         "unit": "px",
         "size": 1

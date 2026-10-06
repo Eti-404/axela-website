@@ -875,18 +875,15 @@ def build_homepage():
             "align_items": "center",
             "padding": {"unit": "px", "top": "90", "right": "0", "bottom": "60", "left": "0", "isLinked": False},
             "background_background": "video",
-            "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-hero.mp4",
+            "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/lv_0_20261006163733.mp4",
             "background_play_on_mobile": "yes",
             "background_play_once": "",
             "background_video_fallback": {
-                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/cargo-vessel-poster.webp",
-                "id": 142
+                "url": "https://axelaglobal.com/wp-content/uploads/2026/10/axela-hero-poster-20261006.jpg",
+                "id": 217
             },
-            "background_overlay_background": "gradient",
-            "background_overlay_color": "rgba(7, 11, 17, 0.90)",
-            "background_overlay_color_b": "rgba(7, 11, 17, 0.65)",
-            "background_overlay_gradient_type": "linear",
-            "background_overlay_gradient_angle": {"unit": "deg", "size": 135},
+            "background_overlay_background": "classic",
+            "background_overlay_color": "rgba(6, 11, 19, 0.65)",
             "background_overlay_opacity": {"unit": "px", "size": 1},
             "html_tag": "section",
             "_css_id": "home",
@@ -1622,7 +1619,7 @@ def build_homepage():
         "title": "AXELA LTD. — Trading • Supply • Advisory",
         "status": "publish",
         "page_template": "elementor_header_footer",
-        "data": save_data
+        "data": new_sections
     }
     req_page = urllib.request.Request(
         f"{BASE_URL}/wp-json/wpvibe/v1/elementor/save-page",
