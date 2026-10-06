@@ -177,6 +177,18 @@ h1, h2,
   color: #FFFFFF;
 }
 
+h1, h2, h3, h4,
+.elementor-heading-title,
+.axela-hero-title,
+.axela-hero-title .elementor-heading-title,
+.axela-section-title,
+.axela-section-title .elementor-heading-title {
+  max-width: 100% !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  white-space: normal !important;
+}
+
 .axela-section-title,
 .axela-section-title .elementor-heading-title {
   font-size: 40px;
@@ -797,6 +809,11 @@ header {
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin: 0 0 16px 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
 }
 
 .axela-hero-intro,
@@ -2095,8 +2112,10 @@ header {
   .axela-hero-title .elementor-heading-title,
   .elementor-element-hero_h1_hd .elementor-heading-title,
   h1 {
-    font-size: clamp(28px, 6.5vw, 32px);
+    font-size: clamp(26px, 6.5vw, 32px);
     line-height: 1.18;
+    max-width: 100% !important;
+    word-break: normal !important;
   }
 
   .axela-section-title,
@@ -2104,6 +2123,8 @@ header {
   h2 {
     font-size: clamp(22px, 5vw, 24px);
     line-height: 1.25;
+    max-width: 100% !important;
+    word-break: normal !important;
   }
 
   .axela-prod-banner-text .axela-section-title,
