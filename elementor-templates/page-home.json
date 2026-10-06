@@ -1,0 +1,291 @@
+[
+  {
+    "id": "axela_hero_root",
+    "elType": "container",
+    "isInner": false,
+    "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+        "unit": "px",
+        "size": 1200
+      },
+      "min_height": {
+        "unit": "vh",
+        "size": 92
+      },
+      "flex_direction": "column",
+      "justify_content": "center",
+      "align_items": "flex-start",
+      "padding": {
+        "unit": "px",
+        "top": "140",
+        "right": "30",
+        "bottom": "110",
+        "left": "30",
+        "isLinked": false
+      },
+      "background_background": "video",
+      "background_video_link": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-video.mp4",
+      "background_video_fallback": {
+        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/hero-poster.webp",
+        "id": 31
+      },
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "rgba(7, 11, 17, 0.94)",
+      "background_overlay_color_b": "rgba(7, 11, 17, 0.70)",
+      "background_overlay_gradient_type": "linear",
+      "background_overlay_gradient_angle": {
+        "unit": "deg",
+        "size": 135
+      },
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 1
+      },
+      "html_tag": "section",
+      "_css_id": "home",
+      "_css_classes": "axela-hero-section"
+    },
+    "elements": [
+      {
+        "id": "axela_hero_content",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "max_width": {
+            "unit": "px",
+            "size": 960
+          },
+          "flex_direction": "column",
+          "align_items": "flex-start",
+          "gap": {
+            "unit": "px",
+            "column": "0",
+            "row": "22",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "hero_badge_widget",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"display:inline-flex; align-items:center; gap:10px; padding:6px 18px; border-radius:100px; background:rgba(229,46,46,0.12); border:1px solid rgba(229,46,46,0.3); font-size:12px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:#FFFFFF;\"><span style=\"width:7px; height:7px; border-radius:50%; background:#E52E2E; box-shadow:0 0 8px #E52E2E;\"></span>Trading \u2022 Supply \u2022 Commercial Brokerage \u2022 Investment &amp; Advisory</div>"
+            }
+          },
+          {
+            "id": "hero_h1_widget",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Connecting Trade, Supply and Investment Opportunities",
+              "header_size": "h1",
+              "title_color": "#FFFFFF",
+              "typography_typography": "custom",
+              "typography_font_family": "Cormorant Garamond",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 62
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 48
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_font_weight": "600",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.15
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -0.5
+              }
+            }
+          },
+          {
+            "id": "hero_intro_widget",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"font-size:18px; line-height:1.75; color:#E2E8F0; margin:0; font-weight:400;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. We connect buyers, suppliers, project owners and prospective investors to support product sourcing, supply requirements, tender opportunities and investment proposals.</p>",
+              "text_color": "#E2E8F0",
+              "typography_typography": "custom",
+              "typography_font_family": "Plus Jakarta Sans",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.75
+              }
+            }
+          },
+          {
+            "id": "hero_support_widget",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"font-size:15px; line-height:1.65; color:#94A3B8; margin:0; border-left:2px solid #E52E2E; padding-left:16px;\">From commodity sourcing and commercial coordination to investment opportunity origination and corporate advisory, we help clients assess requirements, engage relevant counterparties and progress business opportunities.</p>",
+              "text_color": "#94A3B8",
+              "typography_typography": "custom",
+              "typography_font_family": "Plus Jakarta Sans",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              }
+            }
+          },
+          {
+            "id": "hero_buttons_wrap",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "flex_direction": "row",
+              "flex_wrap": "wrap",
+              "gap": {
+                "unit": "px",
+                "column": "14",
+                "row": "14",
+                "isLinked": false
+              },
+              "margin": {
+                "unit": "px",
+                "top": "12",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [
+              {
+                "id": "btn_trade_enquiry",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": {
+                  "text": "Submit a Trade Enquiry",
+                  "link": {
+                    "url": "#enquiry",
+                    "is_external": false,
+                    "nofollow": false
+                  },
+                  "size": "md",
+                  "button_text_color": "#FFFFFF",
+                  "background_color": "#E52E2E",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "100",
+                    "bottom": "100",
+                    "left": "100",
+                    "isLinked": true
+                  },
+                  "typography_font_family": "Plus Jakarta Sans",
+                  "typography_font_weight": "600",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  }
+                }
+              },
+              {
+                "id": "btn_supply_req",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": {
+                  "text": "Discuss a Supply Requirement",
+                  "link": {
+                    "url": "#services",
+                    "is_external": false,
+                    "nofollow": false
+                  },
+                  "size": "md",
+                  "button_text_color": "#FFFFFF",
+                  "background_color": "rgba(255, 255, 255, 0.08)",
+                  "border_border": "solid",
+                  "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "1",
+                    "bottom": "1",
+                    "left": "1",
+                    "isLinked": true
+                  },
+                  "border_color": "rgba(255, 255, 255, 0.22)",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "100",
+                    "bottom": "100",
+                    "left": "100",
+                    "isLinked": true
+                  },
+                  "typography_font_family": "Plus Jakarta Sans",
+                  "typography_font_weight": "500",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  }
+                }
+              },
+              {
+                "id": "btn_invest_opp",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": {
+                  "text": "Explore Investment Opportunities",
+                  "link": {
+                    "url": "#investment",
+                    "is_external": false,
+                    "nofollow": false
+                  },
+                  "size": "md",
+                  "button_text_color": "#F59E0B",
+                  "background_color": "rgba(245, 158, 11, 0.1)",
+                  "border_border": "solid",
+                  "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "1",
+                    "bottom": "1",
+                    "left": "1",
+                    "isLinked": true
+                  },
+                  "border_color": "rgba(245, 158, 11, 0.35)",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "100",
+                    "bottom": "100",
+                    "left": "100",
+                    "isLinked": true
+                  },
+                  "typography_font_family": "Plus Jakarta Sans",
+                  "typography_font_weight": "500",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
