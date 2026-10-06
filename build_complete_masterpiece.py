@@ -228,7 +228,7 @@ def native_form(eid=None):
         "elements": []
     }
 
-def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None, padding=None, bg_color="#040911"):
+def native_container(elements=None, direction='column', wrap='nowrap', justify='flex-start', align='stretch', content_width='full', custom_css_class='', custom_id='', eid=None, padding=None, bg_color="#060B13"):
     settings = {
         "content_width": content_width,
         "flex_direction": direction,

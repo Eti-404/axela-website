@@ -43,20 +43,19 @@ header {
   width: 100% !important;
 }
 
-/* 2. Top Ticker: 28px Slim Height matching petrotraders.com */
-.axela-top-ticker-outer {
-  background: rgba(6, 14, 22, 0.98) !important;
-  border-bottom: 1px solid rgba(218, 66, 60, 0.25) !important;
-  width: 100% !important;
-  height: 28px !important;
-  min-height: 28px !important;
-  max-height: 28px !important;
-  position: relative !important;
-  z-index: 100000 !important;
-  display: flex !important;
-  align-items: center !important;
+/* 2. Top Ticker: Completely Hidden */
+.axela-top-ticker-outer,
+#axela-top-ticker-outer,
+.elementor-element-hdr_top_ticker_con {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  visibility: hidden !important;
   overflow: hidden !important;
-  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
 .axela-top-bar-inner {
@@ -368,7 +367,7 @@ header {
   }
   .axela-native-nav .elementor-nav-menu--dropdown {
     position: fixed !important;
-    top: 80px !important;
+    top: 52px !important;
     left: 0 !important;
     right: 0 !important;
     width: 100vw !important;
@@ -711,7 +710,7 @@ header {
             "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True},
             "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True},
             "background_background": "classic",
-            "background_color": "#040911",
+            "background_color": "#060B13",
             "position": "sticky",
             "z_index": 99999,
             "_css_classes": "axela-sticky-header"
@@ -722,7 +721,6 @@ header {
     }
 
     new_header_data = [
-        ticker_container,
         main_nav_container
     ]
 

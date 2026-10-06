@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-/* 100% Full Width Zero White Margins & Bulletproof Dark Luxury Foundation */
+/* 100% Full Width Zero White Margins & Solid Minimal Deep Navy-Charcoal Foundation (#060B13) */
 html,
 body,
 #page,
@@ -22,8 +22,9 @@ body,
 .elementor,
 .elementor-page-28,
 .elementor-kit-7 {
-  background-color: #040911 !important;
-  background: #040911 !important;
+  background-color: #060B13 !important;
+  background: #060B13 !important;
+  background-image: none !important;
   color: #94A3B8 !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -33,7 +34,36 @@ body,
   overflow-x: hidden !important;
 }
 
-/* Universal Section Spacing & Menu Scroll Margin Offset */
+/* Hide Live Markets Top Ticker Completely (No Top Gap) */
+.axela-top-ticker-outer,
+#axela-top-ticker-outer,
+.elementor-element-hdr_top_ticker_con {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  visibility: hidden !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Header Sticky at Exact Top (0px Gap) */
+header.elementor-location-header,
+header,
+.axela-sticky-header,
+.elementor-element-hdr_container_main {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 999999 !important;
+  width: 100% !important;
+  background: #060B13 !important;
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Universal Section Spacing & Menu Scroll Margin Offset (Clean 60px Offset below 52px Sticky Header) */
 #about, #services, #products, #approach, #network, #routes, #investment, #ethics, #contact,
 .axela-section,
 .axela-services-section,
@@ -46,7 +76,7 @@ body,
 .axela-about-section {
   padding-top: 105px !important;
   padding-bottom: 105px !important;
-  scroll-margin-top: 90px !important;
+  scroll-margin-top: 60px !important;
   position: relative !important;
   width: 100% !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
@@ -66,20 +96,42 @@ body,
   .axela-about-section {
     padding-top: 60px !important;
     padding-bottom: 60px !important;
-    scroll-margin-top: 70px !important;
+    scroll-margin-top: 60px !important;
   }
 }
 
-/* Background Themes - Deep Luxury Navy-Charcoal Gradients (#040911 to #081325) */
-#hero, .elementor-element-hero_container { background: #040911 !important; }
-#about, .elementor-element-sec_about, .axela-about-section { background: linear-gradient(180deg, #040911 0%, #061122 100%) !important; }
-#services, .elementor-element-sec_services, .axela-services-section { background: radial-gradient(ellipse at 50% 0%, #0c1c33 0%, #060e1d 55%, #040911 100%) !important; }
-#products, .elementor-element-sec_products, .axela-products-section { background: linear-gradient(180deg, #040911 0%, #071326 50%, #050b16 100%) !important; }
-#approach, .elementor-element-sec_approach, .axela-approach-section { background: radial-gradient(ellipse at 50% 30%, #0e203a 0%, #071020 60%, #040911 100%) !important; }
-#network, #routes, .elementor-element-sec_network, .axela-network-section { background: linear-gradient(180deg, #040911 0%, #08162c 50%, #050b16 100%) !important; }
-#investment, .elementor-element-sec_invest, .axela-invest-section { background: linear-gradient(180deg, #050b16 0%, #0a1830 50%, #060e1d 100%) !important; }
-#ethics, .elementor-element-sec_ethics, .axela-ethics-section { background: linear-gradient(180deg, #060e1d 0%, #081427 100%) !important; }
-#contact, .elementor-element-sec_contact, .axela-contact-section { background: radial-gradient(ellipse at 60% 20%, #0d1e38 0%, #050c18 60%, #03070d 100%) !important; }
+/* Background Themes - Solid Deep Luxury Navy-Charcoal (#060B13) - ZERO GRADIENTS */
+#hero, .elementor-element-hero_container,
+#about, .elementor-element-sec_about, .axela-about-section,
+#services, .elementor-element-sec_services, .axela-services-section,
+#products, .elementor-element-sec_products, .axela-products-section,
+#approach, .elementor-element-sec_approach, .axela-approach-section,
+#network, #routes, .elementor-element-sec_network, .axela-network-section,
+#investment, .elementor-element-sec_invest, .axela-invest-section,
+#ethics, .elementor-element-sec_ethics, .axela-ethics-section,
+#contact, .elementor-element-sec_contact, .axela-contact-section {
+  background-color: #060B13 !important;
+  background: #060B13 !important;
+  background-image: none !important;
+}
+
+/* Transparent Header & Inner Boxed Wrappers (Zero Black Background Blocks Behind Headings) */
+.axela-section-header,
+.elementor-element-svc_head_con,
+.elementor-element-services_inner_wrap,
+.elementor-element-about_inner_wrap,
+.elementor-element-products_inner_wrap,
+.elementor-element-approach_inner_wrap,
+.elementor-element-routes_inner_wrap,
+.elementor-element-invest_inner_wrap,
+.elementor-element-ethics_inner_wrap,
+.elementor-element-contact_inner_wrap {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
 
 /* Boxed Container 1400px Standard */
 .axela-container-boxed,
@@ -473,10 +525,11 @@ header {
     width: 100% !important;
   }
   .axela-top-ticker-outer {
-    height: 28px !important;
-    min-height: 28px !important;
-    max-height: 28px !important;
-    width: 100% !important;
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    visibility: hidden !important;
     overflow: hidden !important;
   }
   .axela-sticky-header,
@@ -523,7 +576,7 @@ header {
   }
   .axela-native-nav .elementor-nav-menu--dropdown {
     position: fixed !important;
-    top: 80px !important;
+    top: 52px !important;
     left: 0 !important;
     right: 0 !important;
     width: 100vw !important;
@@ -955,8 +1008,9 @@ header {
   max-width: calc(25% - 12px) !important;
   width: calc(25% - 12px) !important;
   box-sizing: border-box !important;
-  background: rgba(13, 25, 44, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(16, 29, 50, 0.45) !important;
+  background-color: rgba(16, 29, 50, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 16px 18px 16px !important;
@@ -1001,7 +1055,7 @@ header {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: rgba(212, 175, 55, 0.12) !important;
+  background: rgba(22, 40, 68, 0.55) !important;
   border: 1px solid rgba(212, 175, 55, 0.30) !important;
   color: #D4AF37 !important;
   font-size: 12px !important;
@@ -1010,7 +1064,7 @@ header {
 
 .elementor-element-services_grid_con > .e-con:hover .service-card-icon-sleek .elementor-icon,
 .axela-service-compact-card:hover .service-card-icon-sleek .elementor-icon {
-  background: #DA423C !important;
+  background: rgba(22, 40, 68, 0.55) !important;
   color: #FFFFFF !important;
   border-color: #DA423C !important;
   box-shadow: 0 0 12px rgba(218, 66, 60, 0.5) !important;
@@ -1048,7 +1102,7 @@ header {
   border-radius: 6px !important;
   overflow: hidden !important;
   margin-bottom: 24px !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5) !important;
   box-sizing: border-box !important;
   display: flex !important;
@@ -1065,10 +1119,10 @@ header {
   inset: 0 !important;
   background: linear-gradient(
     to right,
-    #040911 0%,
-    #040911 38%,
-    rgba(4, 9, 17, 0.85) 50%,
-    rgba(4, 9, 17, 0.45) 68%,
+    #060B13 0%,
+    #060B13 38%,
+    rgba(6, 11, 19, 0.85) 50%,
+    rgba(6, 11, 19, 0.45) 68%,
     transparent 100%
   ) !important;
   z-index: 1 !important;
@@ -1120,8 +1174,9 @@ header {
   flex: 0 0 calc(33.333% - 11px) !important;
   max-width: calc(33.333% - 11px) !important;
   box-sizing: border-box !important;
-  background: rgba(13, 25, 44, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(16, 29, 50, 0.45) !important;
+  background-color: rgba(16, 29, 50, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 16px !important;
@@ -1244,8 +1299,9 @@ header {
 .elementor-element-stages_grid_con > .e-con,
 .axela-stage-compact-card {
   flex: 1 1 0 !important;
-  background: rgba(13, 25, 44, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(16, 29, 50, 0.45) !important;
+  background-color: rgba(16, 29, 50, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 14px !important;
@@ -1355,7 +1411,7 @@ header {
 
 .axela-invest-banner-img img {
   border-radius: 8px !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
   max-height: 250px !important;
   aspect-ratio: 16 / 10 !important;
@@ -1382,8 +1438,9 @@ header {
 .elementor-element-ethics_grid_con > .e-con,
 .axela-ethics-compact-card {
   flex: 1 1 calc(33.333% - 11px) !important;
-  background: rgba(13, 25, 44, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(16, 29, 50, 0.45) !important;
+  background-color: rgba(16, 29, 50, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 20px 18px !important;
@@ -1485,8 +1542,9 @@ header {
 /* Elementor Pro Native Form Styling & Dark Glass Fields */
 .axela-native-pro-form,
 .axela-contact-form-right .elementor-form {
-  background: rgba(13, 25, 44, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(16, 29, 50, 0.45) !important;
+  background-color: rgba(16, 29, 50, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
   border-radius: 6px !important;
   padding: 24px 22px !important;
   backdrop-filter: blur(16px) !important;
