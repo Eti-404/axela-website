@@ -4610,6 +4610,226 @@ header {
 }
 
 /* =============================================================================
+   AXELA FLUENT FORMS — LUXURY DARK BOX CONTAINER & SLIM SLICK STYLING
+   ============================================================================= */
+.axela-contact-form-right,
+.axela-contact-box-container,
+.fluentform_wrapper_3 {
+  background: rgba(8, 14, 24, 0.78) !important;
+  background-color: rgba(8, 14, 24, 0.78) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+  border-radius: 8px !important;
+  padding: 32px 28px !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+@media (max-width: 767px) {
+  .axela-contact-form-right,
+  .axela-contact-box-container,
+  .fluentform_wrapper_3 {
+    padding: 22px 16px !important;
+    border-radius: 6px !important;
+  }
+}
+
+.axela-contact-form-right .fluentform,
+.axela-contact-form-right .frm-fluent-form,
+.fluentform.axela-fluent-form-wrap {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.fluentform form.frm-fluent-form,
+.fluentform fieldset {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  border: none !important;
+}
+
+.fluentform .ff-form-group,
+.fluentform .ff-el-group {
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.fluentform .ff-col-6 {
+  width: calc(50% - 7px) !important;
+  flex: 0 0 calc(50% - 7px) !important;
+  max-width: calc(50% - 7px) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
+
+.fluentform .ff-col-12 {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 767px) {
+  .fluentform .ff-col-6 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+.fluentform .ff-el-input--label label,
+.fluentform .ff-el-form-top label,
+.fluentform label.ff-el-form-check-label {
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: #94A3B8 !important;
+  margin-bottom: 5px !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.fluentform .ff-el-input--label label span,
+.fluentform .ff-el-form-top label span {
+  color: #DA423C !important;
+  margin-left: 2px !important;
+}
+
+.fluentform input.ff-el-form-control,
+.fluentform select.ff-el-form-control,
+.fluentform .axela-ff-input,
+.fluentform .axela-ff-select {
+  height: 38px !important;
+  min-height: 38px !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  font-size: 12.5px !important;
+  line-height: 38px !important;
+  padding: 0 12px !important;
+  background: rgba(5, 9, 15, 0.85) !important;
+  background-color: rgba(5, 9, 15, 0.85) !important;
+  color: #F1F5F9 !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fluentform textarea.ff-el-form-control,
+.fluentform .axela-ff-textarea {
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  font-size: 12.5px !important;
+  line-height: 1.5 !important;
+  padding: 10px 12px !important;
+  background: rgba(5, 9, 15, 0.85) !important;
+  background-color: rgba(5, 9, 15, 0.85) !important;
+  color: #F1F5F9 !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  resize: vertical !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fluentform input.ff-el-form-control:focus,
+.fluentform select.ff-el-form-control:focus,
+.fluentform textarea.ff-el-form-control:focus,
+.fluentform .axela-ff-input:focus,
+.fluentform .axela-ff-select:focus,
+.fluentform .axela-ff-textarea:focus {
+  background: rgba(8, 14, 24, 0.95) !important;
+  border-color: rgba(218, 66, 60, 0.65) !important;
+  box-shadow: 0 0 0 2px rgba(218, 66, 60, 0.20) !important;
+  outline: none !important;
+}
+
+.fluentform input::placeholder,
+.fluentform textarea::placeholder {
+  color: #475569 !important;
+  font-size: 12px !important;
+  letter-spacing: 0.01em !important;
+}
+
+.fluentform select option {
+  background: #0B132B !important;
+  color: #F1F5F9 !important;
+  padding: 8px 12px !important;
+}
+
+.fluentform .ff-btn-submit,
+.fluentform button[type="submit"],
+.fluentform .axela-ff-submit {
+  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  color: #FFFFFF !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  padding: 0 24px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  border-radius: 3px !important;
+  border: 1px solid rgba(218, 66, 60, 0.5) !important;
+  cursor: pointer !important;
+  width: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 16px rgba(218, 66, 60, 0.35) !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  margin-top: 4px !important;
+}
+
+.fluentform .ff-btn-submit:hover,
+.fluentform button[type="submit"]:hover,
+.fluentform .axela-ff-submit:hover {
+  background: linear-gradient(135deg, #EF4444 0%, #DA423C 100%) !important;
+  border-color: rgba(218, 66, 60, 0.8) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 22px rgba(218, 66, 60, 0.45) !important;
+  color: #FFFFFF !important;
+}
+
+.fluentform .ff-message-success {
+  background: rgba(16, 185, 129, 0.12) !important;
+  border: 1px solid rgba(16, 185, 129, 0.35) !important;
+  color: #6EE7B7 !important;
+  border-radius: 6px !important;
+  padding: 14px 18px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  margin-top: 14px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.fluentform .error,
+.fluentform .text-danger,
+.fluentform .ff-errors-in-stack {
+  color: #F87171 !important;
+  font-size: 11px !important;
+  margin-top: 4px !important;
+}
+
+/* =============================================================================
    BOTTOM-TO-TOP SCROLL BUTTON: SIGNATURE REDDISH #DA423C & HOVER GLOW
    ============================================================================= */
 #ast-scroll-top,

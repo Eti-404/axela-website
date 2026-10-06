@@ -94,7 +94,22 @@ def native_image(url, img_id=0, alt="", custom_css_class='', eid=None):
         "elements": []
     }
 
+def native_shortcode(shortcode_text, custom_css_class='', eid=None):
+    settings = {
+        "shortcode": shortcode_text
+    }
+    if custom_css_class:
+        settings["_css_classes"] = custom_css_class
+    return {
+        "id": eid or uid('sc'),
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "settings": settings,
+        "elements": []
+    }
+
 def native_form(eid=None):
+
     settings = {
         "form_name": "AXELA Trade & Project Enquiry Form",
         "form_fields": [
@@ -1536,14 +1551,14 @@ def build_homepage():
         eid="contact_hub_left"
     )
 
-    # Right Elementor Pro Native Form Widget (Direct Email to info@axelaglobal.com)
-    contact_form_widget = native_form(eid="axela_contact_form")
+    # Right Privacy-Friendly Fluent Form 3 (Zero IP Tracking, SMTP Notifications)
+    contact_form_widget = native_shortcode('[fluentform id="3"]', custom_css_class="axela-fluentform-widget", eid="axela_contact_form")
 
     contact_form_con = native_container(
         elements=[contact_form_widget],
         direction="column",
         content_width="full",
-        custom_css_class="axela-contact-form-right",
+        custom_css_class="axela-contact-form-right axela-contact-box-container",
         eid="contact_form_right"
     )
 
