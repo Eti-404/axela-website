@@ -236,7 +236,9 @@ header {
   max-width: 1400px !important;
   width: 100% !important;
   margin: 0 auto !important;
-  padding: 6px 24px !important;
+  padding: 4px 24px !important;
+  min-height: 48px !important;
+  height: 48px !important;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
@@ -253,8 +255,8 @@ header {
 
 .elementor-element-axela_hdr_logo img,
 .axela-native-logo img {
-  height: 42px !important;
-  max-height: 42px !important;
+  height: 34px !important;
+  max-height: 34px !important;
   width: auto !important;
   display: block !important;
 }
@@ -268,7 +270,7 @@ header {
   flex-direction: row !important;
   align-items: center !important;
   justify-content: flex-end !important;
-  gap: 22px !important;
+  gap: 18px !important;
 }
 
 .elementor-element-axela_hdr_nav,
@@ -308,38 +310,48 @@ header {
 .elementor-element-axela_hdr_btn .elementor-button,
 .axela-native-hdr-btn .elementor-button {
   font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif;
-  font-size: 10.5px !important;
+  font-size: 9.5px !important;
   font-weight: 700 !important;
-  letter-spacing: 1.2px !important;
+  letter-spacing: 0.10em !important;
   text-transform: uppercase !important;
-  padding: 7px 16px !important;
+  padding: 5px 12px !important;
+  height: 28px !important;
+  line-height: 1 !important;
+  border-radius: 2px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 2px 10px rgba(218, 66, 60, 0.3) !important;
 }
 
-@media (max-width: 767px) {
-  .axela-top-ticker-outer {
-    height: 28px !important;
-    min-height: 28px !important;
-    max-height: 28px !important;
-    overflow: hidden !important;
-  }
+.elementor-element-axela_hdr_btn .elementor-button svg,
+.axela-native-hdr-btn .elementor-button svg,
+.elementor-element-axela_hdr_btn .elementor-button i,
+.axela-native-hdr-btn .elementor-button i {
+  font-size: 9px !important;
+  width: 9px !important;
+  height: 9px !important;
+}
+
+@media (max-width: 1024px) {
   .axela-sticky-header,
   .elementor-element-hdr_container_main {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
-    height: 52px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    height: 48px !important;
     padding: 0 !important;
     z-index: 999999 !important;
   }
   .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
   .axela-navbar-inner {
     padding: 0 16px !important;
-    height: 52px !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: nowrap !important;
@@ -348,19 +360,12 @@ header {
   }
   .elementor-element-axela_hdr_logo img,
   .axela-native-logo img {
-    height: 32px !important;
-    max-height: 32px !important;
+    height: 30px !important;
+    max-height: 30px !important;
     width: auto !important;
   }
-  .elementor-element-axela_hdr_btn,
-  .axela-native-hdr-btn {
+  .axela-native-nav .elementor-nav-menu--main {
     display: none !important;
-  }
-  .elementor-element-hdr_nav_btn_group,
-  .axela-hdr-nav-btn-group {
-    gap: 0 !important;
-    flex-wrap: nowrap !important;
-    margin-left: auto !important;
   }
   .axela-native-nav .elementor-menu-toggle {
     display: flex !important;
@@ -371,11 +376,11 @@ header {
     color: #FFFFFF !important;
     background: transparent !important;
     border: none !important;
-    font-size: 24px !important;
+    font-size: 22px !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown {
     position: fixed !important;
-    top: 52px !important;
+    top: 48px !important;
     left: 0 !important;
     right: 0 !important;
     width: 100vw !important;
@@ -391,6 +396,13 @@ header {
     font-size: 14px !important;
     padding: 12px 24px !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-element-axela_hdr_btn,
+  .axela-native-hdr-btn {
+    display: none !important;
   }
 }
 </style>
@@ -699,7 +711,8 @@ header {
             "flex_wrap": "nowrap",
             "justify_content": "space-between",
             "align_items": "center",
-            "padding": {"unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": False},
+            "padding": {"unit": "px", "top": "4", "right": "24", "bottom": "4", "left": "24", "isLinked": False},
+            "min_height": {"unit": "px", "size": 48},
             "_css_classes": "axela-navbar-inner"
         },
         "elements": [

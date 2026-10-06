@@ -80,7 +80,7 @@ header,
 .axela-about-section {
   padding-top: 105px !important;
   padding-bottom: 105px !important;
-  scroll-margin-top: 75px !important;
+  scroll-margin-top: 55px !important;
   position: relative !important;
   width: 100% !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
@@ -419,7 +419,9 @@ header {
   max-width: 1400px !important;
   width: 100% !important;
   margin: 0 auto !important;
-  padding: 8px 24px !important;
+  padding: 4px 24px !important;
+  min-height: 48px !important;
+  height: 48px !important;
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
@@ -436,8 +438,8 @@ header {
 
 .elementor-element-axela_hdr_logo img,
 .axela-native-logo img {
-  height: 42px !important;
-  max-height: 42px !important;
+  height: 34px !important;
+  max-height: 34px !important;
   width: auto !important;
   display: block !important;
   transition: opacity 0.2s ease !important;
@@ -455,7 +457,7 @@ header {
   flex-direction: row !important;
   align-items: center !important;
   justify-content: flex-end !important;
-  gap: 22px !important;
+  gap: 18px !important;
   margin-left: auto !important;
 }
 
@@ -483,6 +485,39 @@ header {
 }
 
 @media (max-width: 1024px) {
+  header.elementor-location-header,
+  header,
+  .axela-sticky-header,
+  .elementor-element-hdr_container_main {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    height: 48px !important;
+    z-index: 999999 !important;
+    background: #060B13 !important;
+  }
+  .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
+  .axela-navbar-inner {
+    padding: 0 16px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .elementor-element-axela_hdr_logo img,
+  .axela-native-logo img {
+    height: 30px !important;
+    max-height: 30px !important;
+    width: auto !important;
+  }
   .axela-native-nav .elementor-nav-menu--main {
     display: none !important;
   }
@@ -503,17 +538,24 @@ header {
     font-size: 22px !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown {
+    position: fixed !important;
+    top: 48px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
     background: #060e1a !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-radius: 4px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.85) !important;
-    padding: 12px 0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 2px solid #DA423C !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.95) !important;
+    z-index: 9999999 !important;
+    padding: 8px 0 !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown a {
     color: #CBD5E1 !important;
     font-size: 13.5px !important;
     letter-spacing: 0.5px !important;
-    padding: 10px 20px !important;
+    padding: 11px 20px !important;
   }
   .axela-native-nav .elementor-nav-menu--dropdown a:hover,
   .axela-native-nav .elementor-nav-menu--dropdown a.elementor-item-active {
@@ -524,13 +566,6 @@ header {
 
 /* Mobile Header Slim Optimization (< 768px) */
 @media (max-width: 767px) {
-  header.elementor-location-header,
-  header {
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 999999 !important;
-    width: 100% !important;
-  }
   .axela-top-ticker-outer {
     display: none !important;
     height: 0 !important;
@@ -538,36 +573,6 @@ header {
     max-height: 0 !important;
     visibility: hidden !important;
     overflow: hidden !important;
-  }
-  .axela-sticky-header,
-  .elementor-element-hdr_container_main {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
-    height: 52px !important;
-    padding: 0 !important;
-    z-index: 999999 !important;
-  }
-  .elementor-element-hdr_inner_con.e-con-boxed > .e-con-inner,
-  .axela-navbar-inner {
-    padding: 0 16px !important;
-    height: 52px !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-  }
-  .elementor-element-axela_hdr_logo img,
-  .axela-native-logo img {
-    height: 32px !important;
-    max-height: 32px !important;
-    width: auto !important;
   }
   .elementor-element-axela_hdr_btn,
   .axela-native-hdr-btn {
@@ -578,32 +583,6 @@ header {
     gap: 0 !important;
     flex-wrap: nowrap !important;
     margin-left: auto !important;
-  }
-  .axela-native-nav .elementor-menu-toggle {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    padding: 6px !important;
-    margin: 0 !important;
-  }
-  .axela-native-nav .elementor-nav-menu--dropdown {
-    position: fixed !important;
-    top: 52px !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100vw !important;
-    max-width: 100vw !important;
-    background: #060e1a !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-bottom: 2px solid #DA423C !important;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.95) !important;
-    z-index: 9999999 !important;
-  }
-  .axela-native-nav .elementor-nav-menu--dropdown a {
-    color: #E2E8F0 !important;
-    font-size: 14px !important;
-    padding: 12px 24px !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
   }
 }
 
@@ -635,42 +614,46 @@ header {
   flex-shrink: 0 !important;
 }
 
-/* Header Trade Enquiry CTA Button - Signature Reddish Accent (#DA423C) */
+/* Header Trade Enquiry CTA Button - Ultra-Slim & Compact */
 .axela-native-hdr-btn .elementor-button,
-.axela-btn-red .elementor-button {
+.elementor-element-axela_hdr_btn .elementor-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
+  gap: 6px !important;
   background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   color: #FFFFFF !important;
-  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 11px !important;
+  font-size: 9.5px !important;
   font-weight: 700 !important;
   letter-spacing: 0.10em !important;
   text-transform: uppercase !important;
-  padding: 8px 18px !important;
-  border-radius: 3px !important;
-  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
+  padding: 5px 12px !important;
+  height: 28px !important;
+  line-height: 1 !important;
+  border-radius: 2px !important;
+  box-shadow: 0 2px 10px rgba(218, 66, 60, 0.3) !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 .axela-native-hdr-btn .elementor-button:hover,
-.axela-btn-red .elementor-button:hover {
+.elementor-element-axela_hdr_btn .elementor-button:hover {
   background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
   color: #FFFFFF !important;
   border-color: rgba(218, 66, 60, 0.80) !important;
-  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
+  box-shadow: 0 4px 14px rgba(218, 66, 60, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
 .axela-native-hdr-btn .elementor-button svg,
 .axela-native-hdr-btn .elementor-button i,
-.axela-btn-red .elementor-button svg,
-.axela-btn-red .elementor-button i {
+.elementor-element-axela_hdr_btn .elementor-button svg,
+.elementor-element-axela_hdr_btn .elementor-button i {
   fill: #FFFFFF !important;
   color: #FFFFFF !important;
+  font-size: 9px !important;
+  width: 9px !important;
+  height: 9px !important;
 }
 
 /* =============================================================================
@@ -715,16 +698,38 @@ header {
   transform: translate(-50%, -50%) !important;
 }
 
+/* Hero Video Blend Effect - Premium Left-to-Right Fade (Reference Standard) */
 .elementor-element-axela_hero_root > .elementor-background-overlay,
-.axela-hero-section > .elementor-background-overlay {
+.axela-hero-section > .elementor-background-overlay,
+.axela-hero-section::before {
+  content: "" !important;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background: rgba(6, 11, 19, 0.65) !important;
+  background: linear-gradient(90deg, 
+    #060B13 0%, 
+    rgba(6, 11, 19, 0.96) 28%, 
+    rgba(6, 11, 19, 0.85) 45%, 
+    rgba(6, 11, 19, 0.52) 72%, 
+    rgba(6, 11, 19, 0.28) 100%
+  ) !important;
   z-index: 1 !important;
   pointer-events: none !important;
+}
+
+@media (max-width: 991px) {
+  .elementor-element-axela_hero_root > .elementor-background-overlay,
+  .axela-hero-section > .elementor-background-overlay,
+  .axela-hero-section::before {
+    background: linear-gradient(180deg, 
+      #060B13 0%, 
+      rgba(6, 11, 19, 0.94) 40%, 
+      rgba(6, 11, 19, 0.70) 75%, 
+      rgba(6, 11, 19, 0.45) 100%
+    ) !important;
+  }
 }
 
 .axela-hero-content-wrap,
@@ -839,21 +844,35 @@ header {
 }
 
 .axela-hero-btn .elementor-button,
+.axela-hero-btn-compact .elementor-button,
 .elementor-element-hero_btn_con .elementor-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
-  padding: 11px 20px !important;
-  border-radius: 3px !important;
+  gap: 7px !important;
+  padding: 7px 15px !important;
+  height: 33px !important;
+  box-sizing: border-box !important;
+  border-radius: 2px !important;
   /* font-family: 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 12px !important;
+  font-size: 11px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.10em !important;
+  letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
   transition: all 0.25s ease !important;
   text-decoration: none !important;
   white-space: nowrap !important;
+  width: auto !important;
+  max-width: max-content !important;
+}
+
+.axela-hero-btn .elementor-button svg,
+.axela-hero-btn .elementor-button i,
+.elementor-element-hero_btn_con .elementor-button svg,
+.elementor-element-hero_btn_con .elementor-button i {
+  font-size: 9.5px !important;
+  width: 9.5px !important;
+  height: 9.5px !important;
 }
 
 /* 1. Signature Reddish Accent (#DA423C) */
@@ -929,16 +948,17 @@ header {
   border-width: 0 !important;
   box-shadow: none !important;
   outline: none !important;
-  padding: 10px 14px 10px 0 !important;
+  padding: 7px 10px 7px 0 !important;
   text-decoration: none !important;
   /* font-family: 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 12px !important;
+  font-size: 11px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.10em !important;
+  letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
   display: inline-flex !important;
   align-items: center !important;
-  gap: 8px !important;
+  height: 33px !important;
+  gap: 7px !important;
   transition: all 0.25s ease !important;
 }
 
@@ -1553,17 +1573,29 @@ header {
   margin: 0 !important;
 }
 
-/* Elementor Pro Native Form Styling & Dark Glass Fields */
+.axela-contact-hub-left a[href^="mailto:"],
+.axela-contact-hub-left p a[href^="mailto:info@axelaglobal.com"] {
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.25) !important;
+  text-decoration: none !important;
+}
+
+/* Elementor Pro Native Form Styling - Frameless Dark Integration (No Bulky Outer Box/Border) */
 .axela-native-pro-form,
-.axela-contact-form-right .elementor-form {
-  background: rgba(16, 29, 50, 0.45) !important;
-  background-color: rgba(16, 29, 50, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
-  border-radius: 6px !important;
-  padding: 24px 22px !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+.axela-contact-form-right,
+.axela-contact-form-right .elementor-form,
+.elementor-element-contact_form_right,
+.elementor-element-contact_form_right .elementor-form,
+.elementor-widget-form .elementor-form {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  padding: 0 !important;
 }
 
 .axela-native-pro-form .elementor-form-fields-wrapper {
@@ -1665,36 +1697,39 @@ header {
   color: #E2E8F0 !important;
 }
 
+/* Compact Submit Button */
 .axela-native-pro-form .elementor-button,
 .axela-contact-form-right .elementor-button,
-.axela-btn-red .elementor-button {
+.axela-btn-compact-submit .elementor-button {
   background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
   color: #FFFFFF !important;
   /* font-family: 'Barlow Condensed', sans-serif ; */
-  font-size: 13.5px !important;
+  font-size: 11px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.16em !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  padding: 13px 26px !important;
-  border-radius: 4px !important;
+  padding: 8px 22px !important;
+  height: 36px !important;
+  border-radius: 2px !important;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   cursor: pointer !important;
-  width: 100% !important;
+  width: auto !important;
+  max-width: 240px !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 10px !important;
+  gap: 8px !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
+  box-shadow: 0 4px 14px rgba(218, 66, 60, 0.35) !important;
 }
 
 .axela-native-pro-form .elementor-button:hover,
 .axela-contact-form-right .elementor-button:hover,
-.axela-btn-red .elementor-button:hover {
+.axela-btn-compact-submit .elementor-button:hover {
   background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
   border-color: rgba(218, 66, 60, 0.80) !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 20px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF !important;
 }
 
@@ -1891,7 +1926,7 @@ header {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
-    gap: 12px !important;
+    gap: 8px !important;
   }
 
   .elementor-element-hero_btn_con .elementor-widget-button,
@@ -1905,15 +1940,18 @@ header {
   .elementor-element-hero_btn_con .elementor-button,
   .axela-hero-btn,
   .axela-hero-btn .elementor-button,
+  .axela-hero-btn-compact .elementor-button,
   .elementor-element-hero_btn_invest,
   .elementor-element-hero_btn_invest .elementor-button {
     width: 100% !important;
+    max-width: 280px !important;
     display: flex !important;
     text-align: center !important;
     justify-content: center !important;
     align-items: center !important;
-    padding: 12px 18px !important;
-    font-size: 11.5px !important;
+    padding: 8px 14px !important;
+    height: 34px !important;
+    font-size: 10.5px !important;
     box-sizing: border-box !important;
   }
 

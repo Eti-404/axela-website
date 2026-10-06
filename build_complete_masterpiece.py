@@ -212,13 +212,13 @@ def native_form(eid=None):
         "email_reply_to_field": "email_phone",
         "email_content": "[all-fields]",
         "button_text": "SUBMIT TRADE ENQUIRY",
-        "button_width": "100",
+        "button_width": "auto",
         "selected_button_icon": {
             "value": "fas fa-arrow-right",
             "library": "fa-solid"
         },
         "button_icon_align": "right",
-        "_css_classes": "axela-native-pro-form axela-btn-red"
+        "_css_classes": "axela-native-pro-form axela-btn-red axela-btn-compact-submit"
     }
     return {
         "id": eid or uid('form'),
@@ -818,21 +818,21 @@ def build_homepage():
         "Submit a Trade Enquiry",
         link="#contact",
         icon_class="fas fa-arrow-right",
-        custom_css_class="axela-hero-btn axela-btn-red",
+        custom_css_class="axela-hero-btn axela-btn-red axela-hero-btn-compact",
         eid="hero_btn_trade"
     )
     btn_supply = native_button(
         "Discuss a Supply Requirement",
         link="#services",
         icon_class="fas fa-arrow-right",
-        custom_css_class="axela-hero-btn axela-btn-ghost",
+        custom_css_class="axela-hero-btn axela-btn-ghost axela-hero-btn-compact",
         eid="hero_btn_supply"
     )
     btn_invest = native_button(
         "Explore Investment Opportunities",
         link="#investment",
         icon_class="fas fa-arrow-right",
-        custom_css_class="axela-hero-btn axela-btn-gold-link",
+        custom_css_class="axela-hero-btn axela-btn-gold-link axela-hero-btn-compact",
         eid="hero_btn_invest"
     )
     hero_btn_row = native_container(
@@ -884,7 +884,7 @@ def build_homepage():
                 "id": 217
             },
             "background_overlay_background": "classic",
-            "background_overlay_color": "rgba(6, 11, 19, 0.65)",
+            "background_overlay_color": "rgba(6, 11, 19, 0.75)",
             "background_overlay_opacity": {"unit": "px", "size": 1},
             "html_tag": "section",
             "_css_id": "home",
@@ -1523,7 +1523,7 @@ def build_homepage():
     desk_p_2 = native_text("<a href='tel:+8809658511309' style='color:#E2E8F0; text-decoration:none;'>+88 096585 11309</a>")
 
     desk_h4_3 = native_heading("GENERAL TRADE INQUIRIES", tag="h4", custom_css_class="contact-hub-tag")
-    desk_p_3 = native_text("<a href='mailto:info@axelaglobal.com' style='color:#DA423C; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a>")
+    desk_p_3 = native_text("<a href='mailto:info@axelaglobal.com' style='color:#FFFFFF !important; text-decoration:none; font-weight:600;'>info@axelaglobal.com</a>")
 
     desk_h4_4 = native_heading("OFFICIAL WEBSITE", tag="h4", custom_css_class="contact-hub-tag")
     desk_p_4 = native_text("<a href='https://axelaglobal.com' style='color:#94A3B8; text-decoration:none;'>axelaglobal.com</a>")
