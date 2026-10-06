@@ -80,6 +80,7 @@ desktop.ini
 !/assets/
 !/custom-css/
 !/elementor-templates/
+!/backups/
 
 # 9. Python Artifacts & Temporary Test Dumps
 __pycache__/
@@ -90,7 +91,22 @@ snap_*.py
 inspect_*.py
 extract_*.py
 fetch_*.py
-check_nav.py
+check_*.py
+verify_*.py
+clean_*.py
+select_*.py
+describe_*.py
+search_*.py
+download_*.py
+create_snippet.py
+debug_save_page.py
+get_post6.py
+list_routes.py
+read_transcript_step.py
+save_form3_notification.py
+update_form3_general.py
+update_privacy_settings.py
+fluentform_src/
 upload_hero_media.py
 /*.png
 /*.jpg
