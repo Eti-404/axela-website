@@ -200,15 +200,9 @@ h1, h2, h3, h4,
   margin: 0 0 6px 0 !important;
 }
 
-/* Eyebrows System - Barlow Condensed All-Caps Standard Gold (#D4AF37) */
+/* Eyebrows System - Native Elementor Visual Control */
 .axela-section-eyebrow,
 .axela-section-eyebrow .elementor-heading-title {
-  /* font-family: 'Barlow Condensed', 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: 2.2px;
-  text-transform: uppercase !important;
-  color: #D4AF37;
   margin-bottom: 4px !important;
   display: inline-block !important;
 }
@@ -1509,12 +1503,6 @@ header {
 .invest-pillars-eyebrow .elementor-heading-title,
 .invest-notice-eyebrow,
 .invest-notice-eyebrow .elementor-heading-title {
-  /* font-family: 'Barlow Condensed', sans-serif ; */
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase !important;
-  color: #E5A93C;
   margin-top: 12px !important;
   display: block !important;
 }
