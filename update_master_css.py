@@ -191,7 +191,6 @@ h1, h2, h3, h4,
 
 .axela-section-title,
 .axela-section-title .elementor-heading-title {
-  font-size: 40px;
   line-height: 1.18;
   letter-spacing: -0.02em;
   margin: 0 0 6px 0 !important;
@@ -276,7 +275,7 @@ h1, h2, h3, h4,
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase !important;
-  color: #DA423C;
+  color: #FF3131;
   white-space: nowrap !important;
   flex-shrink: 0 !important;
 }
@@ -285,8 +284,8 @@ h1, h2, h3, h4,
   width: 5px !important;
   height: 5px !important;
   border-radius: 50% !important;
-  background: #DA423C !important;
-  box-shadow: 0 0 8px #DA423C !important;
+  background: #FF3131 !important;
+  box-shadow: 0 0 8px #FF3131 !important;
   display: inline-block !important;
 }
 
@@ -562,7 +561,7 @@ header {
     max-width: 100vw !important;
     background: #060e1a !important;
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-bottom: 2px solid #DA423C !important;
+    border-bottom: 2px solid #FF3131 !important;
     box-shadow: 0 20px 40px rgba(0,0,0,0.95) !important;
     z-index: 9999999 !important;
     padding: 8px 0 !important;
@@ -622,7 +621,7 @@ header {
 }
 
 .axela-native-nav .elementor-nav-menu--main .elementor-item::after {
-  background-color: #DA423C !important;
+  background-color: #FF3131 !important;
   height: 2px !important;
 }
 
@@ -637,7 +636,7 @@ header {
   align-items: center !important;
   justify-content: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background: linear-gradient(135deg, #FF3131 0%, #D92626 100%) !important;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   color: #FFFFFF;
   font-size: 9.5px;
@@ -654,7 +653,7 @@ header {
 
 .axela-native-hdr-btn .elementor-button:hover,
 .elementor-element-axela_hdr_btn .elementor-button:hover {
-  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  background: linear-gradient(135deg, #FF4D4D 0%, #FF3131 100%) !important;
   color: #FFFFFF;
   border-color: rgba(218, 66, 60, 0.80) !important;
   box-shadow: 0 4px 14px rgba(218, 66, 60, 0.45) !important;
@@ -786,7 +785,7 @@ header {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
-  font-size: 11px;
+  font-size: 13.5px;
   font-weight: 600;
   letter-spacing: 2.5px;
   text-transform: uppercase !important;
@@ -896,12 +895,12 @@ header {
   height: 9.5px !important;
 }
 
-/* 1. Signature Reddish Accent (#DA423C) */
+/* 1. Signature Reddish Accent (#FF3131) */
 .elementor-element-hero_btn_trade .elementor-button,
 .axela-btn-red .elementor-button,
 .axela-btn-primary .elementor-button,
 .axela-btn-burgundy .elementor-button {
-  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background: linear-gradient(135deg, #FF3131 0%, #D92626 100%) !important;
   color: #FFFFFF;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   box-shadow: 0 4px 18px rgba(218, 66, 60, 0.35) !important;
@@ -911,7 +910,7 @@ header {
 .axela-btn-red .elementor-button:hover,
 .axela-btn-primary .elementor-button:hover,
 .axela-btn-burgundy .elementor-button:hover {
-  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  background: linear-gradient(135deg, #FF4D4D 0%, #FF3131 100%) !important;
   border-color: rgba(218, 66, 60, 0.80) !important;
   box-shadow: 0 6px 24px rgba(218, 66, 60, 0.45) !important;
   color: #FFFFFF;
@@ -943,7 +942,7 @@ header {
 .elementor-element-hero_btn_supply .elementor-button:hover,
 .axela-btn-ghost .elementor-button:hover {
   background: rgba(218, 66, 60, 0.12) !important;
-  border-color: #DA423C !important;
+  border-color: #FF3131 !important;
   color: #FFFFFF;
   box-shadow: 0 4px 16px rgba(218, 66, 60, 0.25) !important;
 }
@@ -1065,7 +1064,7 @@ header {
   box-sizing: border-box !important;
   background: rgba(16, 29, 50, 0.45) !important;
   background-color: rgba(16, 29, 50, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 16px 18px 16px !important;
@@ -1121,7 +1120,7 @@ header {
 .axela-service-compact-card:hover .service-card-icon-sleek .elementor-icon {
   background: rgba(22, 40, 68, 0.55) !important;
   color: #FFFFFF;
-  border-color: #DA423C;
+  border-color: #FF3131;
   box-shadow: 0 0 12px rgba(218, 66, 60, 0.5) !important;
   transform: scale(1.05) !important;
 }
@@ -1157,8 +1156,8 @@ header {
   border-radius: 6px !important;
   overflow: hidden !important;
   margin-bottom: 24px !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5) !important;
+  border: none !important;
+  box-shadow: none !important;
   box-sizing: border-box !important;
   display: flex !important;
   align-items: center !important;
@@ -1231,7 +1230,7 @@ header {
   box-sizing: border-box !important;
   background: rgba(16, 29, 50, 0.45) !important;
   background-color: rgba(16, 29, 50, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 16px !important;
@@ -1356,7 +1355,7 @@ header {
   flex: 1 1 0 !important;
   background: rgba(16, 29, 50, 0.45) !important;
   background-color: rgba(16, 29, 50, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 18px 14px !important;
@@ -1466,7 +1465,7 @@ header {
 
 .axela-invest-banner-img img {
   border-radius: 8px !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
   max-height: 250px !important;
   aspect-ratio: 16 / 10 !important;
@@ -1495,7 +1494,7 @@ header {
   flex: 1 1 calc(33.333% - 11px) !important;
   background: rgba(16, 29, 50, 0.45) !important;
   background-color: rgba(16, 29, 50, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
   padding: 20px 18px !important;
@@ -1722,7 +1721,7 @@ header {
 .axela-native-pro-form .elementor-button,
 .axela-contact-form-right .elementor-button,
 .axela-btn-compact-submit .elementor-button {
-  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background: linear-gradient(135deg, #FF3131 0%, #D92626 100%) !important;
   color: #FFFFFF;
   /* font-family: 'Barlow Condensed', sans-serif ; */
   font-size: 11px;
@@ -1747,7 +1746,7 @@ header {
 .axela-native-pro-form .elementor-button:hover,
 .axela-contact-form-right .elementor-button:hover,
 .axela-btn-compact-submit .elementor-button:hover {
-  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  background: linear-gradient(135deg, #FF4D4D 0%, #FF3131 100%) !important;
   border-color: rgba(218, 66, 60, 0.80) !important;
   transform: translateY(-1px) !important;
   box-shadow: 0 6px 20px rgba(218, 66, 60, 0.45) !important;
@@ -1876,7 +1875,7 @@ header {
 
 .fluentform .ff-el-input--label label span,
 .fluentform .ff-el-form-top label span {
-  color: #DA423C;
+  color: #FF3131;
   margin-left: 2px !important;
 }
 
@@ -1945,7 +1944,7 @@ header {
 .fluentform .ff-btn-submit,
 .fluentform button[type="submit"],
 .fluentform .axela-ff-submit {
-  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background: linear-gradient(135deg, #FF3131 0%, #D92626 100%) !important;
   color: #FFFFFF;
   font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
   font-size: 11px;
@@ -1970,7 +1969,7 @@ header {
 .fluentform .ff-btn-submit:hover,
 .fluentform button[type="submit"]:hover,
 .fluentform .axela-ff-submit:hover {
-  background: linear-gradient(135deg, #EF4444 0%, #DA423C 100%) !important;
+  background: linear-gradient(135deg, #EF4444 0%, #FF3131 100%) !important;
   border-color: rgba(218, 66, 60, 0.8) !important;
   transform: translateY(-1px) !important;
   box-shadow: 0 6px 22px rgba(218, 66, 60, 0.45) !important;
@@ -1998,14 +1997,14 @@ header {
 }
 
 /* =============================================================================
-   BOTTOM-TO-TOP SCROLL BUTTON: SIGNATURE REDDISH #DA423C & HOVER GLOW
+   BOTTOM-TO-TOP SCROLL BUTTON: SIGNATURE REDDISH #FF3131 & HOVER GLOW
    ============================================================================= */
 #ast-scroll-top,
 .ast-scroll-top,
 .ast-scroll-to-top,
 #scroll-to-top,
 .back-to-top {
-  background: linear-gradient(135deg, #DA423C 0%, #B8322D 100%) !important;
+  background: linear-gradient(135deg, #FF3131 0%, #D92626 100%) !important;
   color: #FFFFFF;
   border: 1px solid rgba(218, 66, 60, 0.50) !important;
   box-shadow: 0 4px 14px rgba(218, 66, 60, 0.35) !important;
@@ -2018,7 +2017,7 @@ header {
 .ast-scroll-to-top:hover,
 #scroll-to-top:hover,
 .back-to-top:hover {
-  background: linear-gradient(135deg, #E8504A 0%, #DA423C 100%) !important;
+  background: linear-gradient(135deg, #FF4D4D 0%, #FF3131 100%) !important;
   box-shadow: 0 0 18px rgba(218, 66, 60, 0.65) !important;
   transform: translateY(-2px) !important;
 }
@@ -2451,7 +2450,7 @@ header {
 
 .axela-footer-nav-wrap .elementor-icon-list-item:hover .elementor-icon-list-text,
 .axela-footer-nav-wrap .elementor-icon-list-item a:hover .elementor-icon-list-text {
-  color: #DA423C;
+  color: #FF3131;
 }
 
 .axela-footer-divider {
