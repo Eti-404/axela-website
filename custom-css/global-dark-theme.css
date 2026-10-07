@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
 /* 100% Full Width Zero White Margins & Solid Minimal Deep Navy-Charcoal Foundation (#060B13) */
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #page,
@@ -988,39 +992,48 @@ header {
   box-shadow: 0 4px 16px rgba(218, 66, 60, 0.25) !important;
 }
 
-/* 3. Subtle Premium Gold Accent - Borderless Clean Text Link (Annotation 6B) */
-.elementor-element-hero_btn_invest,
-.elementor-element-hero_btn_invest .elementor-button,
-.elementor-element-hero_btn_invest .elementor-widget-container,
-.axela-btn-gold-link,
-.axela-btn-gold-link .elementor-button,
-.axela-btn-gold,
-.axela-btn-gold .elementor-button,
-.hero_btn_invest,
-.hero_btn_invest .elementor-button,
-.hero-btn-explore,
-.hero-btn-explore .elementor-button,
-.axela-btn-gold-outline,
-.axela-btn-gold-outline .elementor-button {
-  background: transparent !important;
-  background-color: transparent !important;
-  color: #E5A93C;
+/* 3. Subtle Premium Gold Accent - Standard Harmonized Pill Button */
+.elementor-element-hero_btn_invest {
+  padding: 0 !important;
+  margin: 0 !important;
   border: none !important;
-  border-width: 0 !important;
+  background: transparent !important;
+  display: inline-block !important;
+}
+
+.elementor-element-hero_btn_invest .elementor-widget-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.elementor-element-hero_btn_invest .elementor-button,
+.axela-btn-gold-link .elementor-button,
+.axela-btn-gold .elementor-button,
+.hero_btn_invest .elementor-button,
+.hero-btn-explore .elementor-button,
+.axela-btn-gold-outline .elementor-button {
+  background: rgba(229, 169, 60, 0.06) !important;
+  background-color: rgba(229, 169, 60, 0.06) !important;
+  color: #E5A93C !important;
+  border: 1px solid rgba(229, 169, 60, 0.45) !important;
+  border-radius: 2px !important;
   box-shadow: none !important;
   outline: none !important;
-  padding: 7px 10px 7px 0 !important;
+  padding: 7px 15px !important;
   text-decoration: none !important;
-  /* font-family: 'Plus Jakarta Sans', sans-serif ; */
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase !important;
   display: inline-flex !important;
   align-items: center !important;
+  justify-content: center !important;
   height: 33px !important;
   gap: 7px !important;
   transition: all 0.25s ease !important;
+  box-sizing: border-box !important;
 }
 
 .elementor-element-hero_btn_invest:hover,
@@ -1035,13 +1048,12 @@ header {
 .hero-btn-explore .elementor-button:hover,
 .axela-btn-gold-outline:hover,
 .axela-btn-gold-outline .elementor-button:hover {
-  background: transparent !important;
-  background-color: transparent !important;
-  border: none !important;
-  border-width: 0 !important;
-  box-shadow: none !important;
-  color: #F5C564;
-  transform: translateX(4px) !important;
+  background: rgba(229, 169, 60, 0.18) !important;
+  background-color: rgba(229, 169, 60, 0.18) !important;
+  border-color: #E5A93C !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(229, 169, 60, 0.25) !important;
+  transform: translateY(-1px) !important;
   text-decoration: none !important;
 }
 
@@ -2229,8 +2241,11 @@ header {
   .axela-hero-btn-row {
     display: flex !important;
     flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     width: 100% !important;
     gap: 8px !important;
+    margin: 12px auto 0 auto !important;
   }
 
   .elementor-element-hero_btn_con .elementor-widget-button,
@@ -2238,7 +2253,9 @@ header {
   .elementor-element-hero_btn_supply,
   .elementor-element-hero_btn_invest {
     width: 100% !important;
-    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .elementor-element-hero_btn_con .elementor-button,
@@ -2248,15 +2265,16 @@ header {
   .elementor-element-hero_btn_invest,
   .elementor-element-hero_btn_invest .elementor-button {
     width: 100% !important;
-    max-width: 280px !important;
+    max-width: 290px !important;
     display: flex !important;
     text-align: center !important;
     justify-content: center !important;
     align-items: center !important;
     padding: 8px 14px !important;
-    height: 34px !important;
+    height: 35px !important;
     font-size: 10.5px;
     box-sizing: border-box !important;
+    margin: 0 auto !important;
   }
 
   /* 4. Fluid Single-Column Vertical Stack for Services, Products, Working Approach, Ethics */
@@ -2629,4 +2647,46 @@ header {
     order: 2 !important;
     font-size: 11px !important;
   }
+}
+
+/* =============================================================================
+   PREMIUM SMOOTH SCROLL & ENTRANCE ANIMATIONS (PETROTRADERS STYLE)
+   ============================================================================= */
+@keyframes axelaFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes axelaFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 0.95s;
+  animation-fill-mode: both;
+}
+
+.e-con.elementor-invisible {
+  visibility: visible !important;
+}
+
+.animated.fadeInUp {
+  animation-name: axelaFadeInUp;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animated.fadeIn {
+  animation-name: axelaFadeIn;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
 }
