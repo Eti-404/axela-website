@@ -47,7 +47,7 @@ def build_native_footer():
             ],
             "icon_align": "left",
             "text_color": "#94A3B8",
-            "text_color_hover": "#DA423C",
+            "text_color_hover": "#FF3131",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
             "typography_font_size": {"unit": "px", "size": 12.5},
@@ -86,7 +86,7 @@ def build_native_footer():
             ],
             "icon_align": "left",
             "text_color": "#94A3B8",
-            "text_color_hover": "#DA423C",
+            "text_color_hover": "#FF3131",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
             "typography_font_size": {"unit": "px", "size": 12.5},
@@ -125,7 +125,7 @@ def build_native_footer():
             ],
             "icon_align": "left",
             "text_color": "#94A3B8",
-            "text_color_hover": "#DA423C",
+            "text_color_hover": "#FF3131",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
             "typography_font_size": {"unit": "px", "size": 12.5},
@@ -181,20 +181,20 @@ def build_native_footer():
                         "css_classes": "axela-footer-inner"
                     },
                     "elements": [
-                        # Top Row Container (Brand Column + Nav Column)
+                        # Top Row Container (Brand Column + Nav Column stacked vertically, left-aligned)
                         {
                             "id": "axela_footer_top_row",
                             "elType": "container",
                             "isInner": True,
                             "settings": {
                                 "_title": "Footer Top Row (Brand & Nav)",
-                                "flex_direction": "row",
+                                "flex_direction": "column",
                                 "flex_direction_mobile": "column",
-                                "flex_justify_content": "space-between",
-                                "flex_align_items": "center",
+                                "flex_justify_content": "flex-start",
+                                "flex_align_items": "flex-start",
                                 "flex_align_items_mobile": "flex-start",
                                 "flex_wrap": "wrap",
-                                "gap": {"unit": "px", "column": 36, "row": 20},
+                                "gap": {"unit": "px", "column": 0, "row": 22},
                                 "_css_classes": "axela-footer-top",
                                 "css_classes": "axela-footer-top"
                             },
@@ -211,7 +211,7 @@ def build_native_footer():
                                         "flex_align_items": "center",
                                         "flex_align_items_mobile": "flex-start",
                                         "gap": {"unit": "px", "column": 24, "row": 12},
-                                        "width": {"unit": "px", "size": 650},
+                                        "width": {"unit": "%", "size": 100},
                                         "width_mobile": {"unit": "%", "size": 100},
                                         "_css_classes": "axela-footer-brand",
                                         "css_classes": "axela-footer-brand"
@@ -263,7 +263,7 @@ def build_native_footer():
                                         }
                                     ]
                                 },
-                                # Navigation Links 3-column Flex Container
+                                # Navigation Links 3-column Flex Container (Positioned directly beneath quote line, left-aligned)
                                 {
                                     "id": "axela_footer_nav_container",
                                     "elType": "container",
@@ -271,8 +271,8 @@ def build_native_footer():
                                     "settings": {
                                         "_title": "Footer Navigation Links (3 Columns)",
                                         "flex_direction": "row",
-                                        "flex_justify_content": "flex-end",
-                                        "gap": {"unit": "px", "column": 32, "row": 10},
+                                        "flex_justify_content": "flex-start",
+                                        "gap": {"unit": "px", "column": 48, "row": 12},
                                         "_css_classes": "axela-footer-nav-wrap",
                                         "css_classes": "axela-footer-nav-wrap"
                                     },

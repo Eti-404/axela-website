@@ -3346,6 +3346,11 @@ header {
     align-items: center !important;
     gap: 20px !important;
   }
+  /* Hide mobile trade button from desktop horizontal menu bar */
+  .axela-native-nav .elementor-nav-menu--main .mobile-menu-trade-btn,
+  .axela-native-nav .elementor-nav-menu--main li.menu-item-268 {
+    display: none !important;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -3381,6 +3386,11 @@ header {
     height: 30px !important;
     max-height: 30px !important;
     width: auto !important;
+  }
+  /* On mobile header top bar, keep only Logo and Hamburger Toggle */
+  .elementor-element-axela_hdr_btn,
+  .axela-native-hdr-btn {
+    display: none !important;
   }
   .axela-native-nav .elementor-nav-menu--main {
     display: none !important;
@@ -3426,6 +3436,42 @@ header {
     background: rgba(218, 66, 60, 0.25) !important;
     color: #FFFFFF;
   }
+
+  /* Trade Enquiry CTA Button at bottom of Mobile Hamburger Menu */
+  .axela-native-nav .elementor-nav-menu--dropdown .mobile-menu-trade-btn,
+  .axela-native-nav .elementor-nav-menu--dropdown li.menu-item-268 {
+    display: block !important;
+    list-style: none !important;
+    margin: 14px 20px 10px 20px !important;
+    padding: 0 !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown .mobile-menu-trade-btn a,
+  .axela-native-nav .elementor-nav-menu--dropdown li.menu-item-268 a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #FF3131 !important;
+    color: #FFFFFF !important;
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding: 11px 18px !important;
+    border-radius: 4px !important;
+    box-shadow: 0 4px 14px rgba(255, 49, 49, 0.4) !important;
+    transition: all 0.25s ease !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .axela-native-nav .elementor-nav-menu--dropdown .mobile-menu-trade-btn a:hover,
+  .axela-native-nav .elementor-nav-menu--dropdown li.menu-item-268 a:hover {
+    background: #E02828 !important;
+    color: #FFFFFF !important;
+    transform: translateY(-1px) !important;
+  }
 }
 
 /* Mobile Header Slim Optimization (< 768px) */
@@ -3437,23 +3483,6 @@ header {
     max-height: 0 !important;
     visibility: hidden !important;
     overflow: hidden !important;
-  }
-  .elementor-element-axela_hdr_btn,
-  .axela-native-hdr-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    order: -1 !important;
-    margin-right: 8px !important;
-  }
-  .elementor-element-axela_hdr_btn .elementor-button,
-  .axela-native-hdr-btn .elementor-button {
-    padding: 5px 11px !important;
-    font-size: 9.5px !important;
-    letter-spacing: 0.08em !important;
-    border-radius: 4px !important;
-    min-height: 28px !important;
-    height: 28px !important;
-    background: #FF3131 !important;
   }
   .elementor-element-hdr_nav_btn_group,
   .axela-hdr-nav-btn-group {
@@ -5265,11 +5294,12 @@ header {
 
 .axela-footer-top {
   display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
-  gap: 36px !important;
-  margin-bottom: 20px !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 22px !important;
+  margin-bottom: 24px !important;
+  width: 100% !important;
 }
 
 .axela-footer-brand {
@@ -5277,7 +5307,8 @@ header {
   flex-direction: row !important;
   align-items: center !important;
   gap: 24px !important;
-  max-width: 650px !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .axela-footer-logo-wrap img,
@@ -5301,16 +5332,28 @@ header {
   color: #94A3B8;
   font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
   line-height: 1.5;
-  max-width: 440px;
+  max-width: 100%;
   margin: 0;
   text-align: left;
 }
 
-.axela-footer-nav-wrap {
+.axela-footer-nav-wrap,
+.axela-footer-nav-wrap > .e-con-inner {
   display: flex !important;
   flex-direction: row !important;
-  gap: 32px !important;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 48px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.axela-footer-nav-wrap .elementor-widget-icon-list {
+  margin: 0 !important;
+  text-align: left !important;
 }
 
 .axela-footer-nav-wrap .elementor-icon-list-icon,
@@ -5322,6 +5365,8 @@ header {
 .axela-footer-nav-wrap .elementor-icon-list-item a {
   padding: 0 !important;
   margin: 0 !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
 }
 
 .axela-footer-nav-wrap .elementor-icon-list-text {
@@ -5330,6 +5375,7 @@ header {
   font-weight: 450;
   font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
   transition: color 0.2s ease;
+  text-align: left !important;
 }
 
 .axela-footer-nav-wrap .elementor-icon-list-item:hover .elementor-icon-list-text,
@@ -5390,7 +5436,7 @@ header {
   .axela-footer-top {
     flex-direction: column !important;
     align-items: flex-start !important;
-    gap: 20px !important;
+    gap: 18px !important;
   }
   .axela-footer-brand {
     flex-direction: column !important;
@@ -5401,22 +5447,19 @@ header {
   .axela-footer-services-text,
   .axela-footer-services-text .elementor-heading-title {
     max-width: 100%;
-    font-size: 10px;
-    line-height: 1.5;
-  }
-  .axela-footer-nav-wrap {
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 14px 24px !important;
-    width: 100% !important;
-    justify-content: flex-start !important;
-  }
-  .axela-footer-services-text,
-  .axela-footer-services-text .elementor-heading-title {
-    max-width: 100%;
     font-size: 8.5px;
     letter-spacing: 0.1em;
     line-height: 1.5;
+    text-align: left !important;
+  }
+  .axela-footer-nav-wrap,
+  .axela-footer-nav-wrap > .e-con-inner {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 14px 32px !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
   }
   .axela-footer-nav-wrap .elementor-icon-list-text {
     font-size: 11.5px;
