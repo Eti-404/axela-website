@@ -3440,11 +3440,27 @@ header {
   }
   .elementor-element-axela_hdr_btn,
   .axela-native-hdr-btn {
-    display: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    order: -1 !important;
+    margin-right: 8px !important;
+  }
+  .elementor-element-axela_hdr_btn .elementor-button,
+  .axela-native-hdr-btn .elementor-button {
+    padding: 5px 11px !important;
+    font-size: 9.5px !important;
+    letter-spacing: 0.08em !important;
+    border-radius: 4px !important;
+    min-height: 28px !important;
+    height: 28px !important;
+    background: #FF3131 !important;
   }
   .elementor-element-hdr_nav_btn_group,
   .axela-hdr-nav-btn-group {
-    gap: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
     flex-wrap: nowrap !important;
     margin-left: auto !important;
   }
@@ -3668,9 +3684,9 @@ header {
 .axela-hero-intro p,
 .elementor-element-hero_intro_txt p {
   /* font-family: 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 15.5px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.65;
   color: #CBD5E1;
   margin: 0 0 14px 0 !important;
   max-width: 880px !important;
@@ -3876,8 +3892,8 @@ header {
    ============================================================================= */
 .axela-lead-text p {
   /* font-family: 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 16px;
-  line-height: 1.75;
+  font-size: 15px;
+  line-height: 1.7;
   color: #E2E8F0;
   margin-bottom: 12px !important;
   max-width: 920px !important;
@@ -3885,8 +3901,8 @@ header {
 
 .axela-sub-text p {
   /* font-family: 'Plus Jakarta Sans', sans-serif ; */
-  font-size: 14.5px;
-  line-height: 1.68;
+  font-size: 13.5px;
+  line-height: 1.65;
   color: #94A3B8;
   margin-bottom: 0 !important;
   max-width: 920px !important;
@@ -4022,11 +4038,10 @@ header {
   inset: 0 !important;
   background: linear-gradient(
     to right,
-    rgba(6, 11, 19, 0.88) 0%,
-    rgba(6, 11, 19, 0.78) 32%,
-    rgba(6, 11, 19, 0.40) 55%,
-    rgba(6, 11, 19, 0.10) 75%,
-    transparent 100%
+    rgba(4, 7, 13, 0.95) 0%,
+    rgba(4, 7, 13, 0.90) 45%,
+    rgba(4, 7, 13, 0.65) 75%,
+    rgba(4, 7, 13, 0.35) 100%
   ) !important;
   z-index: 1 !important;
   pointer-events: none !important;
@@ -4955,12 +4970,32 @@ header {
     max-width: 100vw !important;
   }
 
+  /* Mobile About Us text scaling (-1 size) */
+  .axela-lead-text p {
+    font-size: 13.5px !important;
+    line-height: 1.65 !important;
+  }
+  .axela-sub-text p {
+    font-size: 12.5px !important;
+    line-height: 1.6 !important;
+  }
+  .axela-hero-intro p,
+  .elementor-element-hero_intro_txt p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+  }
+  .axela-hero-support p,
+  .elementor-element-hero_support_txt p {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+  }
+
   /* 2. Fluid Typography Scale Down (Hero H1: 28-32px, Section H2: 22-24px) */
   .axela-hero-title,
   .axela-hero-title .elementor-heading-title,
   .elementor-element-hero_h1_hd .elementor-heading-title,
   h1 {
-    font-size: clamp(26px, 6.5vw, 32px);
+    font-size: clamp(29px, 7.5vw, 34px);
     line-height: 1.18;
     max-width: 100% !important;
     word-break: normal !important;
@@ -5376,9 +5411,32 @@ header {
     width: 100% !important;
     justify-content: flex-start !important;
   }
+  .axela-footer-services-text,
+  .axela-footer-services-text .elementor-heading-title {
+    max-width: 100%;
+    font-size: 8.5px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+  }
+  .axela-footer-nav-wrap .elementor-icon-list-text {
+    font-size: 11.5px;
+    text-align: left !important;
+  }
+  .axela-footer-nav-wrap .elementor-icon-list-item {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
   .axela-footer-bottom {
+    display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
-    gap: 12px !important;
+    gap: 10px !important;
+  }
+  .axela-footer-bottom-links {
+    order: 1 !important;
+  }
+  .axela-footer-copy {
+    order: 2 !important;
+    font-size: 11px !important;
   }
 }
