@@ -1,1 +1,503 @@
-﻿[{"id":"ftr_container_root","elType":"container","settings":{"content_width":"full","flex_direction":"column","align_items":"center","background_background":"classic","background_color":"#05080E","border_border":"solid","border_width":{"unit":"px","top":"1","right":"0","bottom":"0","left":"0","isLinked":false},"border_color":"rgba(255, 255, 255, 0.08)","padding":{"unit":"px","top":"60","right":"0","bottom":"30","left":"0","isLinked":false},"_css_classes":"axela-footer-section"},"elements":[{"id":"ftr_content_wrap","elType":"container","settings":{"content_width":"boxed","boxed_width":{"unit":"px","size":1280},"width":{"unit":"%","size":100},"max_width":{"unit":"px","size":1280},"flex_direction":"row","justify_content":"space-between","align_items":"flex-start","flex_wrap":"wrap","gap":{"unit":"px","column":"30","row":"30","isLinked":false},"padding":{"unit":"px","top":"0","right":"30","bottom":"40","left":"30","isLinked":false}},"elements":[{"id":"ftr_col_brand","elType":"container","settings":{"width":{"unit":"%","size":38},"flex_direction":"column","gap":{"unit":"px","column":"0","row":"16","isLinked":false}},"elements":[{"id":"ftr_logo","elType":"widget","settings":{"image":{"url":"https:\/\/axelaglobal.com\/wp-content\/uploads\/2026\/10\/axela-logo-dark.webp","id":19},"image_size":"full","width":{"unit":"px","size":170}},"elements":[],"widgetType":"image"},{"id":"ftr_desc","elType":"widget","settings":{"editor":"<p style=\"color:#94A3B8; font-size:14px; line-height:1.7; margin:0;\">AXELA LTD. is a Bangladesh-focused trading, indenting, commercial brokerage and business advisory company. Connecting buyers, suppliers and investors across international energy, commodities and corporate advisory markets.<\/p>"},"elements":[],"widgetType":"text-editor"}],"isInner":true},{"id":"ftr_col_links","elType":"container","settings":{"width":{"unit":"%","size":28},"flex_direction":"column","gap":{"unit":"px","column":"0","row":"14","isLinked":false}},"elements":[{"id":"ftr_links_title","elType":"widget","settings":{"title":"Navigation","header_size":"h4","title_color":"#FFFFFF","typography_typography":"custom","typography_font_size":{"unit":"px","size":16},"typography_font_weight":"600"},"elements":[],"widgetType":"heading"},{"id":"ftr_nav_widget","elType":"widget","settings":{"html":"\n<ul style=\"list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;\">\n  <li><a href=\"#home\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Home<\/a><\/li>\n  <li><a href=\"#about\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">About AXELA<\/a><\/li>\n  <li><a href=\"#services\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Our Services<\/a><\/li>\n  <li><a href=\"#products\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Trading Categories<\/a><\/li>\n  <li><a href=\"#approach\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Our Approach<\/a><\/li>\n  <li><a href=\"#investment\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Investment Opportunities<\/a><\/li>\n  <li><a href=\"#ethics\" style=\"color:#94A3B8; text-decoration:none; font-size:13px; transition:color 0.2s;\">Ethics & Compliance<\/a><\/li>\n<\/ul>\n"},"elements":[],"widgetType":"html"}],"isInner":true},{"id":"ftr_col_contact","elType":"container","settings":{"width":{"unit":"%","size":26},"flex_direction":"column","gap":{"unit":"px","column":"0","row":"14","isLinked":false}},"elements":[{"id":"ftr_contact_title","elType":"widget","settings":{"title":"Trade Desk","header_size":"h4","title_color":"#FFFFFF","typography_typography":"custom","typography_font_size":{"unit":"px","size":16},"typography_font_weight":"600"},"elements":[],"widgetType":"heading"},{"id":"ftr_contact_text","elType":"widget","settings":{"editor":"<p style=\"color:#94A3B8; font-size:13px; line-height:1.7; margin:0;\">For product supply enquiries, tender opportunities, commercial mandates, investment proposals or advisory requirements, contact our corporate desk.<\/p>"},"elements":[],"widgetType":"text-editor"},{"id":"ftr_btn","elType":"widget","settings":{"text":"Contact Trade Desk","link":{"url":"#contact","is_external":false,"nofollow":false},"size":"sm","button_text_color":"#FFFFFF","background_color":"#E52E2E","border_radius":{"unit":"px","top":"100","right":"100","bottom":"100","left":"100","isLinked":true}},"elements":[],"widgetType":"button"}],"isInner":true}],"isInner":true},{"id":"ftr_bottom_bar","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":100},"justify_content":"center","align_items":"center","border_border":"solid","border_width":{"unit":"px","top":"1","right":"0","bottom":"0","left":"0","isLinked":false},"border_color":"rgba(255, 255, 255, 0.08)","padding":{"unit":"px","top":"22","right":"30","bottom":"10","left":"30","isLinked":false}},"elements":[{"id":"ftr_copyright_widget","elType":"widget","settings":{"html":"<div style=\"text-align:center; font-size:13px; color:#64748B; font-family:'Plus Jakarta Sans', sans-serif;\">Copyright \u00a9 TravelZ 2026 All Right Reserved | Digital Growth Partner: E-GUIDER<\/div>"},"elements":[],"widgetType":"html"}],"isInner":true}],"isInner":false}]
+[
+  {
+    "id": "axela_footer_root_container",
+    "elType": "container",
+    "settings": {
+      "_title": "Global Footer Root Container",
+      "content_width": "full",
+      "background_background": "classic",
+      "background_color": "#04070D",
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "rgba(255, 255, 255, 0.08)",
+      "padding": {
+        "unit": "px",
+        "top": "34",
+        "right": "24",
+        "bottom": "20",
+        "left": "24",
+        "isLinked": false
+      },
+      "_css_classes": "axela-footer-slim-root",
+      "css_classes": "axela-footer-slim-root"
+    },
+    "elements": [
+      {
+        "id": "axela_footer_inner_container",
+        "elType": "container",
+        "settings": {
+          "_title": "Footer Content Wrapper (1400px)",
+          "boxed_width": {
+            "unit": "px",
+            "size": 1400
+          },
+          "flex_direction": "column",
+          "gap": {
+            "unit": "px",
+            "column": 0,
+            "row": 20
+          },
+          "_css_classes": "axela-footer-inner",
+          "css_classes": "axela-footer-inner"
+        },
+        "elements": [
+          {
+            "id": "axela_footer_top_row",
+            "elType": "container",
+            "settings": {
+              "_title": "Footer Top Row (Brand & Nav)",
+              "flex_direction": "column",
+              "flex_direction_mobile": "column",
+              "flex_justify_content": "flex-start",
+              "flex_align_items": "flex-start",
+              "flex_align_items_mobile": "flex-start",
+              "flex_wrap": "wrap",
+              "gap": {
+                "unit": "px",
+                "column": 0,
+                "row": 22
+              },
+              "_css_classes": "axela-footer-top",
+              "css_classes": "axela-footer-top"
+            },
+            "elements": [
+              {
+                "id": "axela_footer_brand_col",
+                "elType": "container",
+                "settings": {
+                  "_title": "Brand & Core Services (Side-by-Side)",
+                  "flex_direction": "row",
+                  "flex_direction_mobile": "column",
+                  "flex_align_items": "center",
+                  "flex_align_items_mobile": "flex-start",
+                  "gap": {
+                    "unit": "px",
+                    "column": 24,
+                    "row": 12
+                  },
+                  "width": {
+                    "unit": "%",
+                    "size": 100
+                  },
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  },
+                  "_css_classes": "axela-footer-brand",
+                  "css_classes": "axela-footer-brand"
+                },
+                "elements": [
+                  {
+                    "id": "axela_footer_logo_widget",
+                    "elType": "widget",
+                    "settings": {
+                      "_title": "AXELA Logo (Clickable)",
+                      "image": {
+                        "url": "https://axelaglobal.com/wp-content/uploads/2026/10/cropped-Axela-Limited-Transparent-Logo.png",
+                        "id": 48
+                      },
+                      "image_size": "full",
+                      "link_to": "custom",
+                      "link": {
+                        "url": "#home",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "align": "left",
+                      "width": {
+                        "unit": "px",
+                        "size": 140
+                      },
+                      "image_custom_dimension": {
+                        "width": 140,
+                        "height": 38
+                      },
+                      "_css_classes": "axela-footer-logo-wrap",
+                      "css_classes": "axela-footer-logo-wrap"
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                  },
+                  {
+                    "id": "axela_footer_services_widget",
+                    "elType": "widget",
+                    "settings": {
+                      "_title": "Core Services Text",
+                      "title": "ENERGY • COMMODITIES • TRADING • SUPPLY • PROJECT DEVELOPMENT • INVESTMENT ADVISORY",
+                      "header_size": "div",
+                      "title_color": "#94A3B8",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Plus Jakarta Sans",
+                      "typography_font_size": {
+                        "unit": "px",
+                        "size": 10
+                      },
+                      "typography_font_weight": "450",
+                      "typography_letter_spacing": {
+                        "unit": "em",
+                        "size": 0.08
+                      },
+                      "typography_line_height": {
+                        "unit": "em",
+                        "size": 1.5
+                      },
+                      "typography_text_transform": "uppercase",
+                      "_css_classes": "axela-footer-services-text",
+                      "css_classes": "axela-footer-services-text"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                  }
+                ],
+                "isInner": true
+              },
+              {
+                "id": "axela_footer_nav_container",
+                "elType": "container",
+                "settings": {
+                  "_title": "Footer Navigation Links (3 Columns)",
+                  "flex_direction": "row",
+                  "flex_justify_content": "flex-start",
+                  "gap": {
+                    "unit": "px",
+                    "column": 48,
+                    "row": 12
+                  },
+                  "_css_classes": "axela-footer-nav-wrap",
+                  "css_classes": "axela-footer-nav-wrap"
+                },
+                "elements": [
+                  {
+                    "id": "axela_footer_nav_list_1",
+                    "elType": "widget",
+                    "settings": {
+                      "_title": "Navigation Links (1-3)",
+                      "icon_list": [
+                        {
+                          "_id": "nav_link_home",
+                          "text": "Home",
+                          "link": {
+                            "url": "#home",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_about",
+                          "text": "About Us",
+                          "link": {
+                            "url": "#about",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_services",
+                          "text": "Services",
+                          "link": {
+                            "url": "#services",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        }
+                      ],
+                      "icon_align": "left",
+                      "text_color": "#94A3B8",
+                      "text_color_hover": "#FF3131",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Plus Jakarta Sans",
+                      "typography_font_size": {
+                        "unit": "px",
+                        "size": 12.5
+                      },
+                      "typography_font_weight": "450",
+                      "space_between": {
+                        "unit": "px",
+                        "size": 10
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "icon-list"
+                  },
+                  {
+                    "id": "axela_footer_nav_list_2",
+                    "elType": "widget",
+                    "settings": {
+                      "_title": "Navigation Links (4-6)",
+                      "icon_list": [
+                        {
+                          "_id": "nav_link_products",
+                          "text": "Products",
+                          "link": {
+                            "url": "#products",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_approach",
+                          "text": "Approach",
+                          "link": {
+                            "url": "#approach",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_routes",
+                          "text": "Routes",
+                          "link": {
+                            "url": "#network",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        }
+                      ],
+                      "icon_align": "left",
+                      "text_color": "#94A3B8",
+                      "text_color_hover": "#FF3131",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Plus Jakarta Sans",
+                      "typography_font_size": {
+                        "unit": "px",
+                        "size": 12.5
+                      },
+                      "typography_font_weight": "450",
+                      "space_between": {
+                        "unit": "px",
+                        "size": 10
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "icon-list"
+                  },
+                  {
+                    "id": "axela_footer_nav_list_3",
+                    "elType": "widget",
+                    "settings": {
+                      "_title": "Navigation Links (7-9)",
+                      "icon_list": [
+                        {
+                          "_id": "nav_link_investment",
+                          "text": "Investment",
+                          "link": {
+                            "url": "#investment",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_ethics",
+                          "text": "Ethics",
+                          "link": {
+                            "url": "#ethics",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        },
+                        {
+                          "_id": "nav_link_contact",
+                          "text": "Contact",
+                          "link": {
+                            "url": "#contact",
+                            "is_external": "",
+                            "nofollow": ""
+                          },
+                          "selected_icon": {
+                            "value": "",
+                            "library": ""
+                          }
+                        }
+                      ],
+                      "icon_align": "left",
+                      "text_color": "#94A3B8",
+                      "text_color_hover": "#FF3131",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Plus Jakarta Sans",
+                      "typography_font_size": {
+                        "unit": "px",
+                        "size": 12.5
+                      },
+                      "typography_font_weight": "450",
+                      "space_between": {
+                        "unit": "px",
+                        "size": 10
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "icon-list"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "axela_footer_divider_widget",
+            "elType": "widget",
+            "settings": {
+              "_title": "Footer Horizontal Divider",
+              "weight": {
+                "unit": "px",
+                "size": 1
+              },
+              "color": "rgba(255, 255, 255, 0.18)",
+              "gap": {
+                "unit": "px",
+                "size": 0
+              },
+              "margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "_css_classes": "axela-footer-divider",
+              "css_classes": "axela-footer-divider",
+              "text": "Divider"
+            },
+            "elements": [],
+            "widgetType": "divider"
+          },
+          {
+            "id": "axela_footer_bottom_row",
+            "elType": "container",
+            "settings": {
+              "_title": "Footer Bottom Row (Copyright & Legal)",
+              "flex_direction": "row",
+              "flex_direction_mobile": "column",
+              "flex_justify_content": "space-between",
+              "flex_align_items": "center",
+              "flex_align_items_mobile": "flex-start",
+              "gap": {
+                "unit": "px",
+                "column": 16,
+                "row": 12
+              },
+              "_css_classes": "axela-footer-bottom"
+            },
+            "elements": [
+              {
+                "id": "axela_footer_copyright_widget",
+                "elType": "widget",
+                "settings": {
+                  "_title": "Copyright & Partner Notice",
+                  "title": "© 2026 AXELA LTD. All rights reserved .",
+                  "header_size": "div",
+                  "title_color": "#94A3B8",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Plus Jakarta Sans",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 12
+                  },
+                  "typography_font_weight": "400",
+                  "_css_classes": "axela-footer-copy"
+                },
+                "elements": [],
+                "widgetType": "heading"
+              },
+              {
+                "id": "axela_footer_legal_widget",
+                "elType": "widget",
+                "settings": {
+                  "_title": "Privacy & Terms Links",
+                  "view": "inline",
+                  "space_between": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "text_color": "#64748B",
+                  "text_color_hover": "#D4AF37",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Plus Jakarta Sans",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 12
+                  },
+                  "typography_font_weight": "400",
+                  "icon_list": [
+                    {
+                      "_id": "legal_privacy",
+                      "text": "Privacy & Compliance",
+                      "link": {
+                        "url": "#ethics",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "selected_icon": {
+                        "value": "",
+                        "library": ""
+                      }
+                    },
+                    {
+                      "_id": "legal_terms",
+                      "text": "Terms of Trade",
+                      "link": {
+                        "url": "#approach",
+                        "is_external": "",
+                        "nofollow": ""
+                      },
+                      "selected_icon": {
+                        "value": "",
+                        "library": ""
+                      }
+                    }
+                  ],
+                  "_css_classes": "axela-footer-bottom-links"
+                },
+                "elements": [],
+                "widgetType": "icon-list"
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  }
+]
