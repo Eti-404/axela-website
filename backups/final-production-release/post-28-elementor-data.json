@@ -346,7 +346,7 @@
             "id": "abt_eye",
             "elType": "widget",
             "settings": {
-              "title": "01 / ABOUT US",
+              "title": "ABOUT US",
               "header_size": "span",
               "align": "left",
               "_css_classes": "axela-section-eyebrow",
@@ -519,7 +519,7 @@
                 "id": "svc_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "02 / CORE CAPABILITIES",
+                  "title": "CORE CAPABILITIES",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
@@ -648,7 +648,7 @@
                         "elType": "widget",
                         "settings": {
                           "selected_icon": {
-                            "value": "fas fa-gas-pump",
+                            "value": "fas fa-ship",
                             "library": "fa-solid"
                           },
                           "primary_color": "#D4AF37",
@@ -1427,7 +1427,7 @@
                     "id": "prod_eye",
                     "elType": "widget",
                     "settings": {
-                      "title": "03 / COMMODITY SCOPE",
+                      "title": "COMMODITY SCOPE",
                       "header_size": "span",
                       "align": "left",
                       "_css_classes": "axela-section-eyebrow",
@@ -2027,7 +2027,7 @@
                 "id": "appr_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "04 / DISCIPLINED EXECUTION",
+                  "title": "DISCIPLINED EXECUTION",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
@@ -2631,7 +2631,7 @@
                 "id": "net_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "05 / GLOBAL TRADE ROUTES & MARITIME CORRIDORS",
+                  "title": "GLOBAL TRADE ROUTES & MARITIME CORRIDORS",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
@@ -2773,7 +2773,7 @@
                 "id": "inv_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "06 / CAPITAL & ORIGINATION",
+                  "title": "CAPITAL & ORIGINATION",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
@@ -3049,7 +3049,7 @@
                 "id": "eth_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "07 / GOVERNANCE & INTEGRITY",
+                  "title": "GOVERNANCE & INTEGRITY",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
@@ -3469,7 +3469,7 @@
                 "id": "cnt_eye",
                 "elType": "widget",
                 "settings": {
-                  "title": "08 / GLOBAL TRADING DESK & CONTACT",
+                  "title": "GLOBAL TRADING DESK & CONTACT",
                   "header_size": "span",
                   "align": "left",
                   "_css_classes": "axela-section-eyebrow",
